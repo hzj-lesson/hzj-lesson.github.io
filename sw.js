@@ -1,13 +1,13 @@
 /* 教师备课助手 · Service Worker
  * 策略：安装时预缓存核心壳；运行时缓存优先 + 后台更新（stale-while-revalidate）
+ * 版本号：每次发布内容/代码升级时 +1，激活后通知页面"发现新版本"
  */
-const CACHE = 'wb-lesson-v1'
-const CORE = ['/', '/manifest.webmanifest', '/favicon.svg']
+const CACHE = 'wb-lesson-v2'
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE)
-      .then((cache) => cache.addAll(CORE))
+      .then((cache) => cache.addAll(['/', '/manifest.webmanifest', '/favicon.svg']))
       .then(() => self.skipWaiting()),
   )
 })
@@ -16,7 +16,13 @@ self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys()
       .then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))))
-      .then(() => self.clients.claim()),
+      .then(() => self.clients.claim())
+      .then(() => {
+        // 通知所有页面：新版本已就绪，可提示用户刷新
+        return self.clients.matchAll({ type: 'window' }).then((clients) => {
+          clients.forEach((client) => client.postMessage({ type: 'WB_UPDATE' }))
+        })
+      }),
   )
 })
 
