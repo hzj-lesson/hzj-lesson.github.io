@@ -7,21 +7,45 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="manifest" href="/manifest.webmanifest" />
     <meta name="theme-color" content="#1e40af" />
-    <meta name="description" content="教案知识库 · 517 章全学段全学科备课资源：备课方案、课堂讲义、课后作业、课后反馈" />
+    <meta name="description" content="教案知识库 · 覆盖小学/初中/高中全学段全学科：备课方案、课堂讲义、课后作业、课后反馈" />
     <meta name="author" content="hzj" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <link rel="apple-touch-icon" href="/icons/icon-192.png" />
-    <script type="module" crossorigin src="/assets/index-BdBDnofy.js"></script>
+    <style>
+      /* 首屏骨架屏（React 挂载后自动替换） */
+      .skeleton { background: #f1f5f9; border-radius: 12px; position: relative; overflow: hidden; }
+      .skeleton::after { content: ''; position: absolute; inset: 0; transform: translateX(-100%);
+        background: linear-gradient(90deg, transparent, rgba(255,255,255,.6), transparent); animation: sk-shine 1.4s infinite; }
+      @keyframes sk-shine { 100% { transform: translateX(100%); } }
+      .sk-topbar { height: 56px; margin-bottom: 16px; }
+      .sk-hero { height: 110px; margin-bottom: 16px; }
+      .sk-filter { height: 40px; margin-bottom: 12px; }
+      .sk-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px; }
+      .sk-card { height: 120px; }
+      html.dark .skeleton { background: #1e293b; }
+      html.dark .skeleton::after { background: linear-gradient(90deg, transparent, rgba(255,255,255,.08), transparent); }
+    </style>
+    <script type="module" crossorigin src="/assets/index-BYRTThS7.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/react-vendor-Ds7D3P6J.js">
-    <link rel="modulepreload" crossorigin href="/assets/lesson-data-bB472ill.js">
-    <link rel="modulepreload" crossorigin href="/assets/katex-BMTrKmI6.js">
-    <link rel="modulepreload" crossorigin href="/assets/wb-lib-ZGU8UHBw.js">
-    <link rel="stylesheet" crossorigin href="/assets/katex-BYZTj3zW.css">
+    <link rel="modulepreload" crossorigin href="/assets/katex-Dc8nsIP1.js">
+    <link rel="modulepreload" crossorigin href="/assets/wb-lib-NcePX5fh.js">
+    <link rel="stylesheet" crossorigin href="/assets/wb-lib-Bd69fli6.css">
     <link rel="stylesheet" crossorigin href="/assets/index-o37QJRvG.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div style="max-width: 1060px; margin: 0 auto; padding: 12px 16px;">
+        <div class="skeleton sk-topbar"></div>
+        <div class="skeleton sk-hero"></div>
+        <div class="skeleton sk-filter"></div>
+        <div class="skeleton sk-filter"></div>
+        <div class="sk-grid">
+          <div class="skeleton sk-card"></div><div class="skeleton sk-card"></div><div class="skeleton sk-card"></div>
+          <div class="skeleton sk-card"></div><div class="skeleton sk-card"></div><div class="skeleton sk-card"></div>
+        </div>
+      </div>
+    </div>
     <script>
       // 注册 Service Worker（https / localhost 环境生效）
       if ('serviceWorker' in navigator) {

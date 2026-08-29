@@ -4,7 +4,7 @@
  *   静态资源（带 hash 的 assets）→ cache-first + 后台更新（hash 不可变，缓存命中率高）
  * 版本号：每次发布内容/代码升级时 +1，激活后通知页面"发现新版本"
  */
-const CACHE = 'wb-lesson-v3'
+const CACHE = 'wb-lesson-v4'
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -18,6 +18,15 @@ self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys()
       .then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))))
+      .then(() => caches.open(CACHE))
+      .then((cache) => cache.keys().then((ks) => {
+        const MAX = 120
+        if (ks.length > MAX) {
+          const drop = ks.slice(0, ks.length - MAX)
+          return Promise.all(drop.map((k) => cache.delete(k)))
+        }
+        return null
+      }))
       .then(() => self.clients.claim())
       .then(() => {
         // 通知所有页面：新版本已就绪，可提示用户刷新
@@ -47,17 +56,17 @@ self.addEventListener('fetch', (event) => {
     return
   }
 
-  // 静态资源：缓存优先 + 后台更新
+  // 静态资源：缓存优先（命中即返回，不重复拉网络）；未命中 fetch 并缓存
   event.respondWith(
     caches.match(req).then((cached) => {
-      const fetchPromise = fetch(req).then((res) => {
+      if (cached) return cached
+      return fetch(req).then((res) => {
         if (res && res.status === 200) {
           const copy = res.clone()
           caches.open(CACHE).then((cache) => cache.put(req, copy))
         }
         return res
-      }).catch(() => cached)
-      return cached || fetchPromise
+      })
     }),
   )
 })
