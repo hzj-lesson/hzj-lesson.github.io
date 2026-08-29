@@ -4963,49 +4963,94 @@ C. 同学们和李晓明大吵一架，谁也不理谁。
 **给家长的建议**
 1. 饭桌上和孩子聊聊"最近哪件小事让你觉得生活挺美好"，帮孩子积累真实素材，鼓励他说出细节。
 2. 孩子写完习作后，请他读给您听，您只需问"这件事具体是怎样的？"帮助他把概括的句子说具体，再誊写修改。`}],t=[{subject:"英语",stage:"小学",grade:"一年级",chapter:"Hello!（问候语）",备课方案:`**教学目标**
-1. 学习问候语：Hello, Hi, Good morning, Good afternoon
-2. 学习自我介绍：My name is ...
-3. 学习用英语打招呼
+1. 能听懂、会说问候语 Hello! 和 Hi!，知道它们都表示"你好"，能主动和老师、同学、家人打招呼。
+2. 能听懂、会说告别语 Goodbye! 和 Bye!，知道它们都表示"再见"，能在离开时正确使用。
+3. 能听懂、会说问答句 How are you?（你好吗？）和答句 I’m fine, thank you.（我很好，谢谢你。），并能用 Fine, thank you. 简短应答。
+4. 能听懂、会说 Good morning. Good afternoon. Good evening. Good night. 四个时段问候语，理解"早上、下午、晚上、夜里"的对应关系，乐于用英语问候他人，敢于开口，养成礼貌待人的好习惯。
 
-**重点**：日常问候
-**课时**：2 课时`,课堂讲义:{核心知识点:`**核心句型**
-- Hello! / Hi! 你好！
-- Good morning. 早上好（上午用）
-- Good afternoon. 下午好
-- Goodbye. / Bye. 再见
-- I'm ... 我是...
-- What's your name? 你叫什么名字？
-- My name is ... 我叫...
+**教学重点**：能听懂、会说 Hello! / Hi! / Goodbye! / Bye!，能用 How are you? 问候并用 I’m fine, thank you. 应答。
+**教学难点**：区分 Good morning. / Good afternoon. / Good evening. / Good night. 四个时段问候语，并在正确时段使用。
+**教学方法**：情景教学法、TPR 全身反应法、游戏教学法、儿歌教学法。
+**教学准备**：单词卡片（Hello、Hi、Goodbye、Morning 等）、动物头饰、时钟图、PPT 课件、奖励小贴纸。
+**课时安排**：2 课时（第 1 课时：Hello! Hi! 与 How are you? 问答；第 2 课时：时段问候语与情景表演）。`,课堂讲义:{核心知识点:`**一、见面问好：Hello! 和 Hi!**
+见面打招呼时，我们可以说 Hello! 或 Hi!，两个词都表示"你好！"。
+- Hello! 读作"哈-喽"，语气正式一些，见到老师、长辈时用它最礼貌。
+- Hi! 读作"嗨"，语气更轻松、亲切，见到好朋友、小伙伴时常用它。
+- 用法小窍门：不管早上还是晚上，见面都可以说 Hello! 或 Hi!，它们是"万能问候语"。
+- 拼读提示：Hello 拼写为 H-e-l-l-o，共 5 个字母，两个 l 手拉手，不要漏掉哦。
 
-**发音要点**
-- Hello /həˈləʊ/
-- morning /ˈmɔːnɪŋ/
-- afternoon /ˌɑːftəˈnuːn/`,重点难点解析:`**重点**：问候语场景运用
-- 早上见面：Good morning
-- 下午见面：Good afternoon
-- 离别：Goodbye
+**二、告别再见：Goodbye! 和 Bye!**
+分别的时候，我们可以说 Goodbye!（再见！）或 Bye!（拜拜！）。Goodbye 正式一些，Bye 更简短亲切。别人对你说 Goodbye! 时，你要微笑回应 Goodbye! 或 Bye!。
 
-**难点**：英语思维习惯`,典型例题精讲:`**例 1**：早上见到老师说什么？
-Good morning, Mr./Ms. ...
+**三、关心问候：How are you?**
+问别人"你好吗？"用 How are you?，读作"好-啊-油"（how 表示"怎么样"，are you 是"你"）。听到这句问候，我们要回答：
+- I’m fine, thank you. 我很好，谢谢你。（读作"爱姆-范-三克-油"，I’m 是 I am 的缩写）
+- 也可以简单回答 Fine, thank you. 很好，谢谢你。
+- 想反问对方"你呢？"可以说 And you?（你呢？）。完整对话：A: How are you? B: I’m fine, thank you. And you? A: I’m fine, too. 我也很好。
 
-**例 2**：自我介绍
-Hello, my name is Tom. I'm I'm from China.`},课后作业:[{difficulty:"基础",title:"朗读",questions:[{q:"朗读问候语",a:`请大声朗读以下问候语，注意发音清晰、语调自然：
-- Hello! / Hi! 你好！
-- Good morning. 早上好（上午见面用）
-- Good afternoon. 下午好（下午见面用）
-- Goodbye. / Bye. 再见
+**四、时段问候语（重点表格）**
 
-练习小贴士：每天早晨用 Good morning 向爸爸妈妈问好，晚上睡觉前说 Good night，多多开口，声音响亮。`}]},{difficulty:"中等",title:"对话",questions:[{q:"两人一组表演问候",a:`请两人一组，边说边配上挥手、微笑的动作表演：
-A: Good morning, Lily!
-B: Good morning, Tom!
-A: How are you?
-B: I'm fine, thank you. And you?
-A: I'm fine, too. Goodbye!
-B: Bye!
-（演完一轮后互换角色，再演一遍，看谁说得又准又大方。）`}]},{difficulty:"难",title:"运用",questions:[{q:"英文介绍自己（3 句）",a:`Hello, my name is Lily. I am a student. I like singing.
-（参考翻译：你好，我叫莉莉。我是一名学生。我喜欢唱歌。）
+| 英语问候语 | 读音提示 | 中文意思 | 使用时段 |
+|---|---|---|---|
+| Good morning. | 古德-莫宁 | 早上好 | 起床到中午 12 点前 |
+| Good afternoon. | 古德-阿福特努恩 | 下午好 | 中午 12 点到下午 6 点左右 |
+| Good evening. | 古德-伊夫宁 | 晚上好 | 傍晚 6 点到睡觉前 |
+| Good night. | 古德-奈特 | 晚安 | 临睡前，和亲人道别时 |
 
-小提示：把 Lily 换成自己的名字，singing 换成自己喜欢的活动，再大声说一遍。`}]}],课后反馈:"创设英语环境，课后多说多练。"},{subject:"英语",stage:"小学",grade:"一年级",chapter:"Colors（颜色）",备课方案:`**教学目标**
+观察发现：morning 是"早上"，afternoon 是"下午"，evening 是"晚上"，night 是"夜里"。前面都加上 Good，就变成了礼貌的问候语。特别记住：Good night. 只用在睡觉前说"晚安"，说完就真的要睡觉啦。
+
+**五、TPR 小游戏：问候拍手歌**
+边拍手边念：Hello, hello, how are you? 你好你好，你好吗？I’m fine, I’m fine, thank you. 我很好，我很好，谢谢你。Goodbye, goodbye, see you! 再见，再见，后会有期！读到 hello 时挥挥手，读到 thank you 时鞠个躬，读到 goodbye 时摇摇手，动作加上声音，记得又快又牢。`,重点难点解析:`**重点一：读准 Hello 和 Hi，会区分使用**
+例题：早上到学校见到老师，该说 Hello! 还是 Hi!？这两个词有什么区别？
+分析：Hello 和 Hi 都能问好，但语气不同。见到老师、长辈用 Hello 更礼貌，见到同学朋友用 Hi 更亲切。
+解答：可以说 Hello, Miss Li!（李老师，您好！）用 Hello 更合适。
+小结：Hello 正式有礼貌，Hi 轻松又亲切，两个词见面都能用。
+
+**难点一：How are you? 的应答**
+例题：好朋友问你 How are you?，你该怎么回答？说 I’m fine, thank you. 还可以加上什么？
+分析：How are you? 是在关心你的近况，回答要先说自己很好，再道谢，这样更有礼貌。
+解答：回答 I’m fine, thank you. 还可以反问 And you?（你呢？）让对话继续下去。
+小结：别人问你好不好，先回答 I’m fine, thank you.，再问 And you?，一来一回真礼貌。
+
+**难点二：四个时段问候语怎么区分**
+例题：晚上 8 点，妈妈带你去阿姨家做客，进门时应该说 Good morning. 还是 Good evening.？
+分析：区分时段看时间：早上说 morning，下午说 afternoon，傍晚和晚上说 evening，睡前说 night。晚上 8 点属于 evening。
+解答：应该说 Good evening, Auntie!（阿姨，晚上好！）
+小结：记时间线：起床说 morning，午饭后天黑前说 afternoon，天黑后说 evening，睡觉前说 night。`,典型例题精讲:`**例题一（基础）：听一听，选一选**
+题目：早上到学校，你对老师说"早上好"，下面哪句说得对？A. Good night. B. Good morning. C. Good afternoon.
+分析：早上问好用 morning；night 是临睡前说的；afternoon 是下午说的。现在是早上，所以选 morning。
+解答：选 B. Good morning.
+方法小结：看时间选问候语，早上是 morning，下午是 afternoon，晚上是 evening，睡前是 night。
+
+**例题二（提高）：给对话排排序**
+题目：把下面几句话排成通顺的对话。（ ）Goodbye, Lily!（ ）Hi, Tom!（ ）Bye, Tom!（ ）Hello, Lily! How are you?（ ）I’m fine, thank you.
+分析：先见面问好，再关心问候，最后告别。Hello/Hi 在前，How are you 在中间，Goodbye/Bye 在最后。
+解答：正确顺序是：Hello, Lily! How are you? → I’m fine, thank you. → Goodbye, Lily! → Bye, Tom!
+方法小结：见人说"你好"，关心问"你好吗"，告别说"再见"，顺序别搞反。
+
+**例题三（综合）：情景对话表演**
+题目：周末的早晨，你在公园里碰到老师。请写出你和老师见面、问好、告别的三段小对话。
+分析：早上见面先说 Good morning，再互相问 How are you，最后告别说 Goodbye。
+解答：You: Good morning, Miss Li!（李老师，早上好！）Teacher: Good morning! How are you? You: I’m fine, thank you. And you? Teacher: I’m fine, too. You: Goodbye, Miss Li! Teacher: Goodbye!
+方法小结：问候完整三步走——先打招招呼，再问你好吗，最后说再见。`},课后作业:[{difficulty:"基础",title:"听读卡：认读问候词",questions:[{q:"跟读单词并读给家长听：hello、hi、goodbye、bye、morning、afternoon、evening、night。",a:'正确读出即可。hello 读"哈喽"，hi 读"嗨"，goodbye 读"古德拜"，bye 读"拜"，morning 读"莫宁"，afternoon 读"阿福特努恩"，evening 读"伊夫宁"，night 读"奈特"。'},{q:"听家长读，把听到的单词圈出来：家长说 hello，请你在 hello、hi、bye 中圈出。",a:"家长说 hello 时应圈出 hello。听音认词练习，注意 h 开头、两个 l 的词就是 hello。"},{q:'下面哪个词表示"再见"？A. hello B. goodbye C. hi。',a:"选 B。goodbye 表示再见，hello 和 hi 都是问好。"}]},{difficulty:"中等",title:"连一连：问候语找朋友",questions:[{q:"连一连：早上见面——A. Good night.；下午见面——B. Good morning.；睡前道别——C. Good afternoon.；晚上见面——D. Good evening.",a:"早上见面连 B. Good morning.；下午见面连 C. Good afternoon.；晚上见面连 D. Good evening.；睡前道别连 A. Good night."},{q:"选词填空：早上好是 Good（ ）。备选：afternoon、morning、evening。",a:'早上好是 Good morning。morning 是"早上"，afternoon 是"下午"，evening 是"晚上"。'},{q:"判断对错：别人对你说 How are you?，你可以回答 I’m fine, thank you.（ ）。",a:'对。I’m fine, thank you. 是 How are you? 的标准应答，意思是"我很好，谢谢你"。'}]},{difficulty:"难",title:"情景对话：我来问候你",questions:[{q:"完成对话：A: Hello! How are you? B: ______, thank you. 请你把 B 的回答补全。",a:'填 I’m fine 或 Fine。How are you? 问"你好吗"，回答 I’m fine, thank you. 或 Fine, thank you.'},{q:"上午 10 点在公园遇到邻居王奶奶，你该说什么？请写出一句英文问候。",a:"可以说 Good morning!（早上好！）上午 10 点属于 morning 时段，用 Good morning 问候。"},{q:"给下面的对话排序，组成一段通顺的问候对话：（ ）And you?（ ）Hello, Amy!（ ）I’m fine, thank you.（ ）How are you?",a:"正确顺序：Hello, Amy! → How are you? → I’m fine, thank you. → And you? 先问好，再问候，回答后反问对方。"}]},{difficulty:"综合",title:"小语篇与角色表演",questions:[{q:"读一读下面的小语篇，并说一说中文意思：Good morning, boys and girls. I’m Miss Wang. Hello! How are you?",a:'译文：早上好，孩子们。我是王老师。你好！你们好吗？boys and girls 指"孩子们"，Miss Wang 是"王老师"（对未婚女老师的称呼）。'},{q:'读句子判断对错："I’m fine, thank you." 表示"我很好，谢谢你"。（ ）"Good night." 表示"早上好"。（ ）',a:'第一句对，I’m fine, thank you. 就是我很好，谢谢你；第二句错，Good night. 是"晚安"，早上好是 Good morning.'},{q:"和爸爸妈妈演一演：早上起床时互相说 Good morning，出门时说 Goodbye，晚上睡觉前说 Good night。",a:"表演要点：早上说 Good morning，离开时说 Goodbye，睡前说 Good night。把问候语用进每天的生活，坚持一周，会说得越来越流利。"}]}],课后反馈:`**学生常见错误**
+1. Hello 和 Hi 混用不分场合：对老师长辈也喊 Hi，不够礼貌，要引导孩子根据对象选择正式或亲切的表达。
+2. How are you? 的回答不完整：只说 Fine，漏掉 thank you，或者答成 I’m fine, and you? 就结束，不会继续说 And you? 反问。
+3. Good night 用错时间：早上到校说 Good night，把"晚安"当"早上好"用，要反复强调 night 是夜里睡觉前说的。
+4. 拼读走音：把 hello 读成"哈楼"、morning 读成"莫尼"，元音和尾音读不准，需要跟着录音反复跟读。
+
+**教学改进建议**
+1. 坚持课前 2 分钟问候热身：每节课开头用 Hello! How are you? 和全班打招呼，把问候语变成习惯。
+2. 用时钟图教时段问候语：把早上、下午、晚上、夜里的时钟画出来，指着图说对应问候语，形象好记。
+3. 多开展角色表演：让孩子戴上头饰扮演老师、同学、小动物，在演一演中说问候语，开口更自然。
+
+**分层辅导建议**
+- 基础层：只练 Hello! Hi! 和 Goodbye!，反复跟读模仿，先敢于开口。
+- 提高层：练 How are you? 完整问答，加上 And you? 反问，能完成两句对话。
+- 拓展层：挑战四个时段问候语，尝试用 I’m fine, too. 等句子自由对话。
+
+**给家长的建议**
+1. 早上送孩子出门时说 Good morning!，晚上睡前说 Good night!，把英语问候带进家庭生活。
+2. 每天让孩子用英语和你说一句问候语，说错了不要批评，鼓励他大胆开口最重要。`},{subject:"英语",stage:"小学",grade:"一年级",chapter:"Colors（颜色）",备课方案:`**教学目标**
 1. 能听懂、会说、认读颜色单词 red、yellow、blue、green、black、white，拓展认识 orange、brown、pink。
 2. 能运用句型 What colour is it? 提问，并用 It's red. 等正确回答，做到问答连贯。
 3. 能把颜色词与生活物品搭配表达，如 The apple is red.，学会用英语描述身边的色彩。
@@ -5507,126 +5552,311 @@ I have two cars. 我有两辆小汽车。
 **给家长的建议**
 1. 在家玩"摸部位"游戏：家长说 Touch your nose.，孩子摸鼻子并说 This is my nose.，亲子互动中巩固。
 2. 借刷牙、洗手等生活场景提醒孩子用英语说 Brush your teeth. / Wash your hands.，把卫生健康习惯和英语一起养成。`},{subject:"英语",stage:"小学",grade:"三年级",chapter:"Food and Drinks（食物饮料）",备课方案:`**教学目标**
-1. 掌握 cake、milk、juice 等食物饮料词汇。
-2. 掌握「I'd like...」点餐句型。
-3. 能在模拟点餐情境中交流。
+1. 能听懂、会说食物和饮料类单词：rice、bread、water、milk、egg、fish、cake、juice，并能看图认读、拼读单词。
+2. 能运用句型 I’d like...（我想要……）表达自己想吃的食物和想喝的饮料，如 I’d like some rice.
+3. 能听懂、会说 Would you like...?（你想要……吗？）并用 Yes, please. / No, thanks. 应答，学会礼貌地请别人用餐。
+4. 了解中西方饮食文化的一点差异（如西方人早餐吃面包喝牛奶），愿意与他人分享食物，养成不挑食、珍惜粮食的好习惯。
 
-**教学重点**：食物词汇与「I'd like...」句型。
-**教学难点**：some/any 的区分。
-**教学方法**：情境模拟、角色扮演、游戏。
-**课时安排**：2 课时`,课堂讲义:{核心知识点:`**词汇**
-- cake, bread, egg, milk, juice, water, tea, hamburger, hot dog, chicken, rice, noodles, fish, vegetables
-- hungry 饿，thirsty 渴，sweet 甜
+**教学重点**：掌握 8 个食物饮料单词的音、形、义，会用 I’d like... 表达需求。
+**教学难点**：正确发出 milk、juice 等词的读音，区分可数名词与不可数名词的简单用法（a cake 与 some water）。
+**教学方法**：情景教学法、游戏教学法、任务型教学法、TPR 教学法。
+**教学准备**：食物图片卡、玩具食物、餐厅情景图、PPT 课件、餐盘卡片、角色头饰。
+**课时安排**：2 课时（第 1 课时：食物饮料单词与 I’d like...；第 2 课时：Would you like...? 点餐对话与文化拓展）。`,课堂讲义:{核心知识点:`**一、食物单词大盘点（配图片认读）**
+我们每天都要吃饭，先来认识最常见的食物单词：
+- rice 米饭（读作"瑞斯"），一天三顿都离不开它。
+- bread 面包（读作"布瑞德"），早餐常吃的松软食物。
+- egg 鸡蛋（读作"艾格"），煮鸡蛋、煎鸡蛋都好吃。
+- fish 鱼（读作"费什"），水里游的，蒸着吃最鲜。
+- cake 蛋糕（读作"凯克"），生日时最爱吃的甜点。
+- water 水（读作"沃特儿"），无色无味，人人都要喝。
+- milk 牛奶（读作"米尔克"），白色的，喝了长高高。
+- juice 果汁（读作"朱斯"），用水果榨出来的甜饮料。
+拼读小窍门：bread 里有 b-r-e-a-d，ea 一起读"诶"；fish 的 sh 读"什"，water 的 er 读"儿"。
 
-**句型**
-I'm hungry. / I'm thirsty.
-I'd like a hamburger, please.
-Have you got any...? 你有...吗？
-Yes, we have. / No, we haven't.`,重点难点解析:`**难点**：some/any 的区分
-- 肯定句：some
-- 否定/疑问：any`,典型例题精讲:`**例**：点餐对话
-A: Can I help you?
-B: I'd like a hamburger and a juice, please.`},课后作业:[{difficulty:"基础",title:"认读",questions:[{q:"认读食物词",a:`请认读并记住以下食物饮料词：
-- cake 蛋糕，bread 面包，egg 鸡蛋，milk 牛奶，juice 果汁
-- water 水，tea 茶，hamburger 汉堡包，hot dog 热狗，chicken 鸡肉
-- rice 米饭，noodles 面条，fish 鱼，vegetables 蔬菜
+**二、可数还是不可数？**
+英语里食物分两类：
+- 可数名词：一个两个数得清的，如 an egg（一个鸡蛋）、a cake（一块蛋糕），两个以上加 s，如 eggs、cakes。
+- 不可数名词：没法一个一个数的，如 rice、bread、water、milk、juice，前面不能加 a/an，要说"一些"就用 some，如 some rice（一些米饭）、some water（一些水）。
+记忆口诀：一个一个是"可数"，一堆一堆是"不可数"，rice 米饭数不清，some 来帮忙。
 
-练习小贴士：做食物单词卡片，正面写英文、背面写中文，和爸爸妈妈玩"翻卡抢答"，还可以在吃饭时说出桌上的食物。`}]},{difficulty:"中等",title:"造句",questions:[{q:"I'd like ___",a:`- I'd like some milk. 我想喝点牛奶。
-- I'd like an apple. 我想要一个苹果。
-- I'd like to go swimming. 我想去游泳。
+| 单词 | 释义 | 类别 | 用法举例 |
+|---|---|---|---|
+| rice | 米饭 | 不可数 | some rice |
+| bread | 面包 | 不可数 | some bread |
+| water | 水 | 不可数 | some water |
+| milk | 牛奶 | 不可数 | some milk |
+| juice | 果汁 | 不可数 | some juice |
+| egg | 鸡蛋 | 可数 | an egg、two eggs |
+| cake | 蛋糕 | 可数 | a cake、two cakes |
+| fish | 鱼 | 可数/不可数 | a fish、some fish |
 
-小提示：I'd like 是 I would like 的缩写，后面可以接食物名词，也可以接 to do，例如 I'd like to eat noodles. 我想吃面条。`}]},{difficulty:"难",title:"对话",questions:[{q:"两人表演点餐",a:`一人当服务员，一人当顾客，表演点餐：
-Waiter: Can I help you? 您需要点什么？
-Child: I'd like a hamburger, please. 请给我一个汉堡包。
-Waiter: Anything else? 还要别的吗？
-Child: Yes, I'd like a glass of juice. 是的，我想要一杯果汁。
-Waiter: Here you are. 给您。
-Child: Thank you! 谢谢！
-（说完互换角色再演一遍。）`}]}],课后反馈:"模拟餐厅真实场景。"},{subject:"英语",stage:"小学",grade:"四年级",chapter:"Hobbies（兴趣爱好）",备课方案:`**教学目标**
-1. 掌握 sing、dance、swim 等爱好相关动词。
-2. 掌握现在进行时「be + V-ing」的用法。
-3. 会用英语谈论爱好和正在做的事。
+**三、点餐句型：I’d like...**
+肚子饿了想吃东西，用 I’d like... 来表达，意思是"我想要……"。I’d 是 I would 的缩写。例如：
+- I’d like some rice, please. 我想要一些米饭。
+- I’d like some milk. 我想要一些牛奶。
+- I’d like an egg and a cake. 我想要一个鸡蛋和一块蛋糕。
+请别人吃食物，问 Would you like...?（你想要……吗？），肯定回答 Yes, please.，否定回答 No, thanks.。
 
-**教学重点**：现在进行时的构成与运用。
-**教学难点**：V-ing 的变化规则。
-**教学方法**：图片描述、动作演示、对话。
-**课时安排**：2 课时`,课堂讲义:{核心知识点:`**词汇**
-sing, dance, paint, play football, read books, watch TV, swim, cook
+**四、情景对话：去餐厅点餐**
+A: Can I help you?（需要我帮忙吗？/您要点什么？）
+B: I’d like some rice and fish, please.（我想要一些米饭和鱼。）
+A: Would you like some water?（你想要一些水吗？）
+B: No, thanks. I’d like some juice.（不，谢谢。我想要一些果汁。）
 
-**句型**
-- What do you like? 你喜欢什么？
+**五、儿歌记忆：食物歌**
+边拍手边唱：Rice, rice, 香香的米饭；Bread, bread, 软软的面包；Milk, milk, 白白的牛奶；Juice, juice, 甜甜的果汁。唱到哪个词就举起对应的图片，又唱又认记得牢。`,重点难点解析:`**重点一：正确认读并拼写食物单词**
+例题：下面哪个单词是"牛奶"？A. milk B. bread C. fish，并拼出它的字母。
+分析：milk 表示牛奶，bread 是面包，fish 是鱼。牛奶的拼写是 m-i-l-k。
+解答：选 A，milk，拼写是 m-i-l-k。
+小结：认单词要"音形义"一起记：读准音、看清形、记住义，组内用卡片多认几遍。
+
+**难点一：区分可数名词和不可数名词**
+例题：下面哪个说法是对的？A. a rice B. an egg C. a water，并说说理由。
+分析：rice 是不可数名词，不能加 a；egg 是可数名词，an 用在元音开头的单词前；water 是不可数名词，不能加 a。
+解答：选 B. an egg 正确。a rice 和 a water 都错了，要说 some rice、some water。
+小结：数得清用 a/an 加单数（an egg），数不清用 some（some rice、some water）。
+
+**难点二：用 I’d like... 表达需求**
+例题：你想喝一杯果汁，怎么说？用 I’d like 造句。
+分析：果汁是不可数名词，表达"一些果汁"用 some juice；想喝用 I’d like。
+解答：I’d like some juice, please. 我想要一些果汁。
+小结：I’d like 后面接想要的食物或饮料，可数单数用 a/an，不可数用 some，句末加 please 更有礼貌。`,典型例题精讲:`**例题一（基础）：看图选词**
+题目：图片上画着一杯白白的、能长高个的饮料，选出对应的单词。A. water B. milk C. juice
+分析：白白的饮料是牛奶，milk 是牛奶；water 是水，juice 是果汁。
+解答：选 B. milk。牛奶是白色的，喝牛奶长高高。
+方法小结：看图选词先看清图片内容，再回忆单词的意思，把图和词对上号。
+
+**例题二（提高）：完成点餐对话**
+题目：服务员问你 Would you like some bread?，你不想吃面包，该怎么礼貌地回答？
+分析：拒绝别人的好意要礼貌，用 No, thanks.，意思是"不，谢谢"。如果接受就用 Yes, please.
+解答：回答 No, thanks.（不，谢谢。）还可以接着说 I’d like some rice, please. 表达自己真正想要的。
+方法小结：Yes, please. 是接受，No, thanks. 是婉拒，点餐时用 I’d like... 说清楚自己想要的。
+
+**例题三（综合）：餐厅点餐表演**
+题目：小明去餐厅，想要一些米饭、鱼和一杯果汁。请写出他的点餐用语，并写出服务员可能的询问。
+分析：点餐用 I’d like...，食物和饮料要加上 some 或 a/an；服务员常用 Would you like...? 询问。
+解答：Xiao Ming: I’d like some rice and fish, please.（我想要一些米饭和鱼。）Waiter: Would you like some water?（你想要一些水吗？）Xiao Ming: No, thanks. I’d like some juice, please.（不，谢谢。我想要一些果汁。）
+方法小结：点餐三步：I’d like 说出想要的，Would you like 询问对方，Yes please / No thanks 礼貌应答。`},课后作业:[{difficulty:"基础",title:"听读卡：认读食物单词",questions:[{q:"跟读单词并读给家长听：rice、bread、egg、fish、cake、water、milk、juice。",a:'正确读出即可。rice 读"瑞斯"，bread 读"布瑞德"，egg 读"艾格"，fish 读"费什"，cake 读"凯克"，water 读"沃特儿"，milk 读"米尔克"，juice 读"朱斯"。'},{q:"听家长说单词，把听到的单词抄写一遍：家长说 milk，你写 milk；家长说 cake，你写 cake。",a:"milk 的拼写是 m-i-l-k，cake 的拼写是 c-a-k-e。听写后再对照卡片检查一遍。"},{q:"看图选词：图片上是黄色鸡蛋，选 A. rice B. egg C. water。",a:"选 B. egg。鸡蛋是 egg，rice 是米饭，water 是水。"}]},{difficulty:"中等",title:"连一连与选词填空",questions:[{q:"把英文和中文连起来：milk——米饭；rice——面包；bread——牛奶；fish——鱼。",a:"milk 连牛奶，rice 连米饭，bread 连面包，fish 连鱼。注意 bread 是面包，不是米饭。"},{q:"选词填空：I’d like some （ ），please.（想喝白白的牛奶）。备选：water、milk、juice。",a:"填 milk。牛奶是白色的，用 I’d like some milk, please. 我想要一些牛奶。"},{q:"判断正误并改正：I’d like an milk.（ ）",a:"错。milk 是不可数名词，不能加 an，应改为 I’d like some milk."}]},{difficulty:"难",title:"情景对话：我来点餐",questions:[{q:"完成对话：A: Would you like some water? B: Yes, ______.",a:'填 please. 接受对方的邀请用 Yes, please.，意思是"好的，谢谢"。'},{q:"早上你想吃一个鸡蛋和一杯牛奶，用英语怎么说？",a:"I’d like an egg and some milk, please. egg 是可数名词，一个鸡蛋用 an egg；milk 是不可数名词，一些牛奶用 some milk。"},{q:"给点餐对话排序：（ ）I’d like some rice, please.（ ）Would you like some fish?（ ）Yes, please.（ ）Can I help you?",a:"正确顺序：Can I help you? → I’d like some rice, please. → Would you like some fish? → Yes, please. 先询问，再点餐，再推荐，最后应答。"}]},{difficulty:"综合",title:"小语篇与情景运用",questions:[{q:"读小语篇并回答问题：I’m Lily. I’d like some rice and fish. I’d like some milk, too. What would Lily like?",a:'Lily would like some rice, fish and milk. 莉莉想要一些米饭、鱼和牛奶。too 表示"也"。'},{q:'读一读，判断对错："I’d like some water." 表示"我想要一些水"。（ ）"Would you like some cake?" 表示"你想要一些蛋糕吗？"（ ）',a:"两句都对。第一句 I’d like some water. 是我想喝些水；第二句 Would you like some cake? 是询问对方是否想要蛋糕。"},{q:"和家长演一演餐厅点餐：你当服务员，用 Would you like...? 询问，让家长用 Yes, please. 或 No, thanks. 回答，再交换角色。",a:"表演要点：服务员说 Would you like some...?，对方接受说 Yes, please.，拒绝说 No, thanks.。把课文中的食物单词都轮着问一遍，越练越熟。"}]}],课后反馈:`**学生常见错误**
+1. 可数不可数混淆：把 a rice、a water 挂嘴边，不会在不可数名词前用 some，需要反复归类对比。
+2. 读音不标准：milk 读成"米克"，juice 读成"聚斯"，water 的尾音读不准，影响听辨和记忆。
+3. I’d like 后面直接跟句子：说出 I’d like I want 这样的中式表达，要强调 I’d like 后直接接食物饮料名词。
+4. 应答不分情况：别人问 Would you like...? 时，接受不会说 Yes, please.，拒绝说成 No, please.。
+
+**教学改进建议**
+1. 多做实物与图片配对游戏：把单词卡片和食物图片打乱，让学生快速配对，音形义一起过关。
+2. 设置"餐厅点餐"情景角：摆上玩具食物，让学生轮流当服务员和顾客，在真实对话中练句型。
+3. 编制分类表：把食物分成可数、不可数两类，贴在教室墙上，随时纠正 a rice 之类的错误。
+
+**分层辅导建议**
+- 基础层：重点认读 8 个单词，借助图片和录音反复跟读，先做到看得懂、读得出。
+- 提高层：练 I’d like... 和 Would you like...? 的完整问答，能完成一段点餐小对话。
+- 拓展层：创编点餐对话，加入中西方早餐文化知识，如西方人早餐吃 bread and milk。
+
+**给家长的建议**
+1. 吃饭时用英语问孩子：What would you like?（你想吃什么？），让孩子用 I’d like... 回答，边吃边学。
+2. 带孩子去超市时，指着商品说英文单词：rice、bread、milk、juice，让英语走进日常生活。`},{subject:"英语",stage:"小学",grade:"四年级",chapter:"Hobbies（兴趣爱好）",备课方案:`**教学目标**
+1. 能听懂、会说兴趣爱好类单词和词组：singing、dancing、reading、drawing、swimming、running、playing basketball、fishing，并能看图认读。
+2. 能运用句型 I like...（我喜欢……）表达自己的爱好，如 I like singing.
+3. 能听懂、会说 What’s your hobby?（你的爱好是什么？）并用 My hobby is... 或 I like... 回答，能询问同伴的爱好。
+4. 了解健康的爱好能丰富生活、有益身心，乐于和同伴交流自己的兴趣爱好，培养积极向上的生活态度。
+
+**教学重点**：掌握 8 个爱好类单词词组，会用 I like... 和 My hobby is... 表达自己的爱好。
+**教学难点**：正确运用动词的 ing 形式（singing、dancing、swimming 等），能区分"爱好"与"正在做某事"。
+**教学方法**：情景教学法、TPR 教学法、游戏教学法、调查采访法。
+**教学准备**：爱好动作图卡、调查表、运动器材图片、PPT 课件、小奖章贴纸。
+**课时安排**：2 课时（第 1 课时：爱好单词与 I like...；第 2 课时：What’s your hobby? 采访调查与综合运用）。`,课堂讲义:{核心知识点:`**一、爱好单词乐园**
+每个人都有自己的爱好（hobby），看看下面的爱好你会不会说：
+- singing 唱歌（读作"星因"），sing 是"唱"，加 ing 表示"唱歌这个活动"。
+- dancing 跳舞（读作"丹星"），dance 去 e 加 ing 变 dancing。
+- reading 阅读（读作"瑞丁"），read 是"读"，加 ing 变 reading，爱读书的孩子最棒。
+- drawing 画画（读作"德若英"），draw 是"画"，加 ing 变 drawing。
+- swimming 游泳（读作"斯威明"），swim 双写 m 加 ing 变 swimming。
+- running 跑步（读作"软宁"），run 双写 n 加 ing 变 running。
+- playing basketball 打篮球（读作"普雷因-巴斯凯特波"），play 加 ing，basketball 是"篮球"。
+- fishing 钓鱼（读作"费星"），fish 是"鱼"，加 ing 变 fishing，钓鱼是安静的爱好。
+
+**二、动词加 ing 的三种变化**
+动词变 ing 有规律，记住三条：
+- 直接加 ing：sing→singing、read→reading、draw→drawing、play→playing、fish→fishing。
+- 去 e 加 ing：dance→dancing（去掉不发音的 e）。
+- 双写末尾字母加 ing：swim→swimming、run→running（辅音加元音加辅音，双写最后一个辅音字母）。
+
+| 变化规则 | 例子 |
+|---|---|
+| 直接加 ing | sing→singing、read→reading、draw→drawing |
+| 去 e 加 ing | dance→dancing |
+| 双写末字母加 ing | swim→swimming、run→running |
+
+记忆口诀：一般直接加 ing，结尾有 e 去掉加，双写只给 swim 和 run，特殊情况记心间。
+
+**三、表达爱好：I like...**
+告诉别人你喜欢什么，用 I like...，意思是"我喜欢……"，后面接爱好（动词 ing 形式）：
 - I like singing. 我喜欢唱歌。
-- What are you doing? 你在做什么？
-- I am reading. 我正在读书。
+- I like reading and drawing. 我喜欢阅读和画画。
+- I like playing basketball. 我喜欢打篮球。
+注意：I like 后面接的是"活动"，要用动词的 ing 形式，不能直接说 I like sing。
 
-**语法**
-现在进行时：be (am/is/are) + V-ing
-- I am running.
-- He is singing.
-- They are playing.`,重点难点解析:`**重点**：现在进行时用法
-- 表示正在发生的动作
-- 时间状语：now, at the moment
+**四、询问爱好：What’s your hobby?**
+想了解朋友的爱好，问 What’s your hobby?（你的爱好是什么？）回答可以用：
+- My hobby is singing. 我的爱好是唱歌。
+- I like fishing. 我喜欢钓鱼。
+- 也可以反问 And you?（你呢？）把对话继续下去。
 
-**难点**：V-ing 的变化
-- 一般加 ing：go→going
-- 去 e 加 ing：make→making
-- 双写加 ing：run→running`,典型例题精讲:`**例**：描述正在做的事
-Look! She is dancing.
-The boy is playing football.`},课后作业:[{difficulty:"基础",title:"认读",questions:[{q:"认读动词和 V-ing",a:`请认读以下动词及其 V-ing 形式：
-- sing→singing 唱歌，dance→dancing 跳舞，paint→painting 画画
-- read→reading 读书，swim→swimming 游泳，run→running 跑步
-- cook→cooking 做饭，play football→playing football 踢足球
+**五、小调查：采访你的同桌**
+用 What’s your hobby? 采访同桌，把对方的爱好用 I like... 记下来，再向全班汇报：
+Report: Mike’s hobby is swimming. He likes swimming. 迈克的爱好是游泳，他喜欢游泳。
+采访句式：What’s your hobby? What do you like? I like...。人人当小记者，开口又动脑。`,重点难点解析:`**重点一：动词 ing 形式的变化规律**
+例题：把 dance、run、read 变成 ing 形式，并说明变化规则。
+分析：dance 结尾有不发音的 e，去 e 加 ing；run 是辅音加元音加辅音，双写 n 加 ing；read 直接加 ing。
+解答：dance→dancing，run→running，read→reading。
+小结：变 ing 记三招：直接加、去 e 加、双写加。swim 双写 m、run 双写 n 要特别记住。
 
-变化小口诀：一般直接加 ing；以不发音 e 结尾的去 e 加 ing（make→making）；重读闭音节双写尾字母再加 ing（run→running）。`}]},{difficulty:"中等",title:"造句",questions:[{q:"I am ___ now",a:`- I am reading a book now. 我现在正在读书。
-- I am singing a song now. 我现在正在唱歌。
-- I am playing football now. 我现在正在踢足球。
+**难点一：I like 后接 ing 形式**
+例题：有人说 I like sing，这句话对吗？应该怎么说？
+分析：like 表示"喜欢"，后面接的是活动名称，动词要变成 ing 形式（动名词），不能说原形。
+解答：不对。应说 I like singing. 我喜欢唱歌。
+小结：I like 加 ing，活动名词在后头；singing、dancing、reading 都是这样。
 
-小提示：now 表示"现在正在做"，要用 be + 动词 ing；如果是"他正在做"就说 He is doing。`}]},{difficulty:"难",title:"对话",questions:[{q:"询问并回答爱好",a:`A: What do you like? 你喜欢什么？
-B: I like singing. 我喜欢唱歌。
-A: What are you doing now? 你现在在做什么？
-B: I am singing now. 我正在唱歌。
+**难点二：My hobby is 与 I like 的替换**
+例题：用 My hobby is 改写 I like drawing.（我喜欢画画。）
+分析：My hobby is 后接"爱好"，和 I like 意思相同，可以互相替换。
+解答：My hobby is drawing. 我的爱好是画画。
+小结：两种说法都能表达爱好：I like 加 ing 更日常，My hobby is 加 ing 更正式，都会用才是真掌握。`,典型例题精讲:`**例题一（基础）：看图说爱好**
+题目：图片上小朋友在唱歌，用英语说出他的爱好。
+分析：唱歌是 singing，表达"我喜欢唱歌"用 I like singing。
+解答：He likes singing. 他喜欢唱歌。或 I like singing. 我喜欢唱歌。
+方法小结：看图说爱好，先把动作对应的 ing 词说出来，再套进 I like 句型。
 
-小提示：可以把 singing 换成自己真正的爱好，如 I like reading books. 我喜欢读书。`}]}],课后反馈:"多做对话练习。"},{subject:"英语",stage:"小学",grade:"四年级",chapter:"Weather（天气与季节）",备课方案:`**教学目标**
-1. 掌握 sunny、rainy、cloudy 等天气词汇。
-2. 掌握询问天气的句型。
-3. 能用英语描述天气和季节。
+**例题二（提高）：完成问答**
+题目：A: What’s your hobby? B: ______.（我的爱好是跳舞）请补全回答。
+分析：问爱好用 What’s your hobby?，回答用 My hobby is 加 ing 形式。
+解答：My hobby is dancing. 我的爱好是跳舞。
+方法小结：问句 hobby 答句 hobby，My hobby is 后接跳舞 dancing，注意 dance 去 e 加 ing。
 
-**教学重点**：天气词汇与句型。
-**教学难点**：季节与活动搭配。
-**教学方法**：天气预报播报、图片、对话。
-**课时安排**：2 课时`,课堂讲义:{核心知识点:`**词汇**
-- sunny 晴朗，cloudy 多云, rainy 下雨, snowy 下雪, windy 多风, foggy 多雾
-- spring 春，summer 夏，autumn 秋，winter 冬
+**例题三（综合）：采访汇报**
+题目：小调查：Mike 喜欢打篮球和游泳，Amy 喜欢画画和读书。请用英语写一段采访汇报。
+分析：表达爱好可用 I like... 或 My hobby is...，多个爱好用 and 连接；汇报用 He/She likes...
+解答：Mike: My hobby is playing basketball. I like swimming, too. Amy: I like drawing and reading. Report: Mike likes playing basketball and swimming. Amy likes drawing and reading.
+方法小结：采访别人问 What’s your hobby?，汇报别人用 He/She likes 加 ing 形式，两个爱好用 and 连接。`},课后作业:[{difficulty:"基础",title:"听读卡：认读爱好单词",questions:[{q:"跟读单词并读给家长听：singing、dancing、reading、drawing、swimming、running、fishing、playing basketball。",a:'正确读出即可。singing 读"星因"，dancing 读"丹星"，reading 读"瑞丁"，drawing 读"德若英"，swimming 读"斯威明"，running 读"软宁"，fishing 读"费星"。'},{q:"听家长说单词，做对应的动作：家长说 swimming，你比划游泳动作；家长说 reading，你比划看书动作。",a:"swimming 比划游泳动作，reading 比划看书动作，dancing 比划跳舞动作。TPR 听音做动作，加深印象。"},{q:"看图选词：图片上小朋友在跑步，选 A. singing B. running C. reading。",a:"选 B. running。跑步是 running，singing 是唱歌，reading 是阅读。"}]},{difficulty:"中等",title:"连一连：爱好找朋友",questions:[{q:"连一连：singing——跳舞；dancing——唱歌；reading——画画；drawing——阅读。",a:"singing 连唱歌，dancing 连跳舞，reading 连阅读，drawing 连画画。"},{q:"选词填空：I like （ ）.（我喜欢游泳）。备选：swimming、swim、swims。",a:"填 swimming。I like 后接动词 ing 形式，swim 双写 m 加 ing 是 swimming。"},{q:"判断正误并改正：My hobby is dance.（ ）",a:"错。My hobby is 后要接 ing 形式，应改为 My hobby is dancing. 我的爱好是跳舞。"}]},{difficulty:"难",title:"情景对话：爱好大采访",questions:[{q:"完成对话：A: What’s your hobby? B: I like ______.（画画）请补全 B 的回答。",a:"填 drawing。I like 后接动词 ing 形式，画画的 ing 是 drawing，所以回答 I like drawing."},{q:"用英语介绍你的两个爱好：我喜欢唱歌和跳舞。",a:"I like singing and dancing. 两个爱好用 and 连接，singing 唱歌、dancing 跳舞都要用 ing 形式。"},{q:"给采访对话排序：（ ）My hobby is fishing.（ ）And you?（ ）What’s your hobby?（ ）I like running.",a:"正确顺序：What’s your hobby? → My hobby is fishing. → And you? → I like running. 先问，再答，反问，再回答。"}]},{difficulty:"综合",title:"小语篇与爱好表达",questions:[{q:"读小语篇并回答问题：I’m Tom. I like reading and drawing. My brother likes playing basketball. What’s Tom’s hobby?",a:"Tom’s hobby is reading and drawing. 汤姆的爱好是阅读和画画。brother 是哥哥或弟弟，likes playing basketball 喜欢打篮球。"},{q:'读一读，判断对错："I like singing." 表示"我喜欢唱歌"。（ ）"My hobby is run." 表示"我的爱好是跑步"。（ ）',a:"第一句对，I like singing. 是我喜欢唱歌；第二句错，run 要改成 ing 形式 running，正确句子是 My hobby is running."},{q:'做一张"我的爱好"小卡片：写一句 My hobby is...，画上相应的画，再读给家人听。',a:'示例：My hobby is reading. 或 My hobby is swimming. 卡片要图文并茂，读的时候注意 ing 的发音，如 reading 的"瑞丁"、swimming 的"斯威明"。'}]}],课后反馈:`**学生常见错误**
+1. ing 形式乱变：把 swimming 写成 swiming、running 写成 runing，忘记双写末尾字母，要反复操练。
+2. I like 后接原形：说出 I like sing、I like read，不会在 like 后用 ing 形式，需要强调"like 加 ing"。
+3. My hobby is 与 I like 混搭：说出 My hobby is like reading 这样的错误句子，hobby is 后直接接爱好即可。
+4. 单词音形对不上：dancing 和 drawing 读音相似易混，要多做听音选词、看图说词的练习。
 
-**句型**
-What's the weather like today? 今天天气怎样？
-It's sunny and warm. 天气晴朗温暖。
-Which season do you like best? 你最喜欢哪个季节？
-I like autumn best. 我最喜欢秋天。
+**教学改进建议**
+1. 用"动作接龙"游戏练 ing：学生边说 I like running 边做动作，下一个学生接龙，边说边演记得牢。
+2. 开展"班级爱好调查"：让每个学生采访三位同学，用 What’s your hobby? 收集爱好，再汇报，练问答又练交流。
+3. 把动词变化规则做成口诀卡贴在黑板角："直接加、去 e 加、双写加"，随时对照纠错。
 
-**语法**
-一般现在时：
-- I like spring.
-- He likes summer.
-- Do you like winter? Yes, I do.`,重点难点解析:`**难点**：季节与活动搭配
-- spring: fly kites
-- summer: swim
-- autumn: pick apples
-- winter: make a snowman`,典型例题精讲:`**例**：描述天气
-Today is sunny. It's warm.
-I can see the sun.`},课后作业:[{difficulty:"基础",title:"认读",questions:[{q:"认读天气词",a:`请认读并记住以下天气词：
-- sunny 晴朗的，cloudy 多云的，rainy 下雨的，snowy 下雪的
-- windy 多风的，foggy 多雾的
+**分层辅导建议**
+- 基础层：只认读 8 个爱好单词，借助动作图卡反复跟读，能听懂、会指认。
+- 提高层：练 I like... 和 What’s your hobby? 的完整问答，能说清自己的爱好。
+- 拓展层：写一段"我的爱好"小语篇，用上 He/She likes... 介绍他人，尝试采访汇报。
 
-再记住四个季节：spring 春天，summer 夏天，autumn 秋天，winter 冬天。
-练习小贴士：看窗外天气说出对应的单词，当"小小气象播报员"，把 Today is sunny. 说给家人听。`}]},{difficulty:"中等",title:"造句",questions:[{q:"It's ___ today",a:`- It's sunny today. 今天天气晴朗。
-- It's rainy today. 今天下雨。
-- It'scloudy and windy today. 今天多云有风。
+**给家长的建议**
+1. 和孩子互相用英语介绍自己的爱好：I like reading. What’s your hobby?，亲子互动练口语。
+2. 鼓励孩子发展有益身心的爱好，如读书、画画、运动，并用英语说出它们的名称。`},{subject:"英语",stage:"小学",grade:"四年级",chapter:"Weather（天气与季节）",备课方案:`**教学目标**
+1. 能听懂、会说天气类单词：sunny、rainy、windy、cloudy、snowy、hot、cold、warm、cool，并能看图快速认读。
+2. 能听懂、会说季节类单词：spring、summer、autumn、winter，能描述不同季节的天气特点。
+3. 能运用句型 What’s the weather like?（天气怎么样？）询问天气，并用 It’s sunny and hot. 等句子描述天气。
+4. 能看懂天气预报，用英语谈论天气和季节，体会天气变化与生活、穿衣的联系，学会根据天气增减衣物、保护自己。
 
-还可以这样问答：What's the weather like today? 今天天气怎么样？—— It's snowy. 下雪了。`}]},{difficulty:"难",title:"综合",questions:[{q:"用 3 句话描述今天的天气",a:`Today is sunny and warm. The sun is in the sky. I can fly a kite with my friends.
-（参考翻译：今天晴朗又温暖。太阳挂在天上。我可以和朋友一起放风筝。）
+**教学重点**：掌握天气与季节单词，会用 What’s the weather like? 询问并用 It’s... 描述天气。
+**教学难点**：正确发音 rainy、windy、cloudy 等词尾 y 的读音，区分 weather 与 season 的不同。
+**教学方法**：情景教学法、TPR 教学法、游戏教学法、任务型教学法。
+**教学准备**：天气符号卡片、季节图片、中国地图、天气预报视频片段、PPT 课件。
+**课时安排**：2 课时（第 1 课时：天气单词与 What’s the weather like?；第 2 课时：季节与天气综合运用）。`,课堂讲义:{核心知识点:`**一、天气符号与单词**
+每天的天气都不一样，我们来看天气预报里的天气符号：
+- sunny 晴朗的（读作"撒尼"），太阳当空照。sun 是"太阳"，后面加 ny，表示"晴天的"。
+- rainy 下雨的（读作"瑞尼"），雨点往下掉。rain 是"雨"，加 y 变"下雨的"。
+- windy 有风的（读作"温迪"），风儿呼呼吹。wind 是"风"，加 y 变"刮风的"。
+- cloudy 多云的（读作"克劳迪"），云朵遮住天。cloud 是"云"，加 y 变"多云的"。
+- snowy 下雪的（读作"斯诺伊"），雪花飘啊飘。snow 是"雪"，加 y 变"下雪的"。
+观察发现：许多表示"天气的"单词，都是在名词后加 y 变来的：sun→sunny、rain→rainy、wind→windy、cloud→cloudy、snow→snowy。记住"名词加 y，天气形容词"这个规律，单词记得又快又牢。
 
-小提示：先说出天气，再说看到什么，最后说自己想做的事。`}]}],课后反馈:"每日用英语播报天气。"},{subject:"英语",stage:"小学",grade:"五年级",chapter:"Months and Seasons（月份季节）",备课方案:`**教学目标**
+**二、冷热感受词**
+除了晴雨风雪，天气还有冷热之分：
+- hot 热的，夏天中午最热。
+- warm 温暖的，春天不冷不热最舒服。
+- cool 凉爽的，秋天早上凉飕飕。
+- cold 寒冷的，冬天冻得手通红。
+记忆口诀：hot 热来 cold 冷，warm 暖来 cool 凉，春 warm 夏 hot 秋 cool 冬 cold。
+
+**三、询问天气：What’s the weather like?**
+想知道天气怎么样，问 What’s the weather like?（天气怎么样？），回答用 It’s... 加天气词：
+- What’s the weather like? 天气怎么样？
+- It’s sunny. 天气晴朗。
+- It’s rainy and cool. 下雨且凉爽。
+- It’s hot. 天气很热。
+weather 读作"威德儿"，是"天气"的意思，like 在这里不表示"喜欢"，而是"怎么样"。
+
+| 天气词 | 中文 | 天气词 | 中文 |
+|---|---|---|---|
+| sunny | 晴朗的 | hot | 热的 |
+| rainy | 下雨的 | warm | 温暖的 |
+| windy | 刮风的 | cool | 凉爽的 |
+| cloudy | 多云的 | cold | 寒冷的 |
+| snowy | 下雪的 | weather | 天气 |
+
+**四、四季大转盘**
+一年有四个季节（season），它们各有各的天气：
+- spring 春天（读作"斯普瑞"），warm，花儿开，可以放风筝。
+- summer 夏天（读作"萨么儿"），hot，太阳大，可以游泳吃西瓜。
+- autumn 秋天（读作"奥特姆"），cool，树叶黄，丰收的季节。
+- winter 冬天（读作"温特儿"），cold，雪花飘，可以堆雪人。
+
+**五、TPR 游戏：天气变变变**
+老师说 sunny，学生就张开双臂做太阳；说 rainy，就双手抖动做下雨；说 windy，就身体摇摆做刮风；说 snowy，就双手慢慢落下做飘雪。边做动作边喊单词，全身都参与，记得特别牢。`,重点难点解析:`**重点一：认识"名词加 y 变天气词"**
+例题：sun 是"太阳"，那"晴朗的"怎么说？根据规律猜一猜 cloudy 是哪个词变的？
+分析：sun 加 y 变成 sunny（晴朗的）。cloud 是"云"，加 y 变 cloudy，表示"多云的"。
+解答：晴朗的是 sunny；cloudy 由 cloud 变来，表示多云的。
+小结：sun→sunny、rain→rainy、wind→windy、cloud→cloudy、snow→snowy，名词加 y 变成天气形容词。
+
+**难点一：正确使用 What’s the weather like?**
+例题：你想问妈妈"今天天气怎么样"，用英语怎么说？听到回答 It’s rainy. 又是什么意思？
+分析：问天气用固定句型 What’s the weather like?；答句用 It’s 加天气词。
+解答：问：What’s the weather like?（天气怎么样？）答：It’s rainy.（下雨了。）注意答句开头用 It’s，指代天气。
+小结：问天气一公式：What’s the weather like? 答天气一公式：It’s 加天气词。
+
+**难点二：区分四个季节的天气特点**
+例题：现在是冬天，下着大雪，外面很冷。请用两个英语单词描述天气。
+分析：冬天常下雪，下雪用 snowy；天气很冷用 cold。描述天气先说天气词再说感受词。
+解答：It’s snowy and cold. 下雪且寒冷。
+小结：描述一个季节的天气，把"天气现象"和"冷热感受"连起来说，如 spring 是 warm，summer 是 hot，autumn 是 cool，winter 是 cold。`,典型例题精讲:`**例题一（基础）：看图说天气**
+题目：窗外太阳高照，天空没有云，地上热得冒烟。用英语说出这是什么天气。
+分析：太阳高照是 sunny（晴朗的）；很热用 hot。
+解答：It’s sunny and hot. 天气晴朗而炎热。
+方法小结：看图说天气先找太阳、雨、雪等符号，再用 It’s 加天气词描述。
+
+**例题二（提高）：根据问答写天气**
+题目：A: What’s the weather like in Beijing? B: ______. 已知北京下着雨，请补全 B 的回答。
+分析：答句用 It’s 加天气词，下雨是 rainy。
+解答：It’s rainy. 或 It’s rainy in Beijing. 北京在下雨。
+方法小结：in 加地点表示"在某个地方"，问某地天气用 What’s the weather like in...?
+
+**例题三（综合）：四季天气综合运用**
+题目：假设你是天气预报员，请用英语播报：春天温暖，夏天炎热，秋天凉爽，冬天寒冷有雪。
+分析：四个季节对应的天气：spring warm、summer hot、autumn cool、winter cold and snowy。用 It’s... 句式逐个播报。
+解答：In spring, it’s warm. 春天温暖。In summer, it’s hot. 夏天炎热。In autumn, it’s cool. 秋天凉爽。In winter, it’s cold and snowy. 冬天寒冷多雪。
+方法小结：播报天气注意"季节加天气"的搭配：季节用 in spring/summer/autumn/winter，天气用 It’s 加天气词。`},课后作业:[{difficulty:"基础",title:"听读卡：认读天气单词",questions:[{q:"跟读单词并读给家长听：sunny、rainy、windy、cloudy、snowy、hot、cold、warm、cool。",a:'正确读出即可。sunny 读"撒尼"，rainy 读"瑞尼"，windy 读"温迪"，cloudy 读"克劳迪"，snowy 读"斯诺伊"，hot 读"哈特"，cold 读"扣的"，warm 读"沃姆"，cool 读"库尔"。'},{q:"听家长说单词，指出对应的天气符号：家长说 rainy，你指出雨伞图；家长说 sunny，你指出太阳图。",a:"rainy 对应雨伞图，sunny 对应太阳图，snowy 对应雪花图，windy 对应风图。听音指符号，练习听辨。"},{q:"看图选词：图片上画着太阳，选 A. rainy B. sunny C. windy。",a:"选 B. sunny。太阳当空照是 sunny，rainy 是下雨，windy 是刮风。"}]},{difficulty:"中等",title:"连一连：天气单词找中文",questions:[{q:"连一连：sunny——下雪的；rainy——晴朗的；snowy——下雨的；windy——刮风的。",a:"sunny 连晴朗的，rainy 连下雨的，snowy 连下雪的，windy 连刮风的。"},{q:"选词填空：It’s （ ）and cold in winter.（冬天又冷又有雪）。备选：snowy、sunny、cool。",a:"填 snowy。冬天常下雪，It’s snowy and cold. sunny 是晴朗，cool 是凉爽，都不符合冬天。"},{q:"完成句子：What’s the weather （ ）?（天气怎么样？）备选：like、likes、liking。",a:"填 like。固定句型 What’s the weather like? 中 like 是固定搭配，不加 s 也不变 ing。"}]},{difficulty:"难",title:"情景对话：天气播报员",questions:[{q:"完成对话：A: What’s the weather like today? B: It’s ______.（刮风）请补全 B 的回答。",a:"填 windy。It’s windy. 今天刮风。问天气用 What’s the weather like?，答句用 It’s 加天气词。"},{q:"描述天气：今天下着大雨，还有点冷。用英语怎么说？",a:"It’s rainy and cold. 下雨且寒冷。描述天气可以把现象和感受连起来：rainy 下雨，cold 寒冷。"},{q:"根据季节写天气：现在是春天，天气温暖。用英语写两个句子（先写季节，再写天气）。",a:"It’s spring. It’s warm. 春天到了，天气温暖。季节前用 in spring，描述天气用 It’s warm. 春天是温暖的。"}]},{difficulty:"综合",title:"小语篇与天气运用",questions:[{q:"读小语篇并判断对错：It’s winter. It’s cold and snowy. We can make a snowman.（ ）冬天又冷又下雪，可以堆雪人。",a:"对。winter 是冬天，cold and snowy 又冷又下雪，make a snowman 是堆雪人，冬天正适合。"},{q:"读天气预报小语篇，回答提问：It’s sunny and warm in Beijing. It’s rainy in Shanghai. What’s the weather like in Beijing?",a:"It’s sunny and warm in Beijing. 北京天气晴朗而温暖。in Beijing 在北京，sunny and warm 晴朗温暖。"},{q:"看课表说天气：星期一 sunny，星期二 rainy，星期三 windy。请分别用英语说出这三天的天气。",a:"Monday: It’s sunny. 星期一晴朗。Tuesday: It’s rainy. 星期二下雨。Wednesday: It’s windy. 星期三刮风。描述一天的天气用 It’s 加天气词。"}]}],课后反馈:`**学生常见错误**
+1. sunny 和 rainy 的音易混：两个词都含"尼"音，听辨时反应不过来，要多做听音指图的练习。
+2. weather 与 season 概念混淆：把"天气"当"季节"，说 spring 时用 weather 描述，要说清 weather 是每天的天气，season 是一年的季节。
+3. What’s the weather like? 丢三落四：漏掉 like 说成 What’s the weather?，或答句忘了用 It’s 开头。
+4. 名词加 y 的规律不会迁移：学完 sunny 不会推出 cloudy、snowy，要引导学生发现规律。
+
+**教学改进建议**
+1. 每天上课前做"天气热身"：让学生看窗外用英语汇报天气，坚持一周，天气单词脱口而出。
+2. 制作天气翻翻板：把 9 个天气词做成可翻动的卡片，随机翻一张学生立刻说英语，训练反应速度。
+3. 开展"小小气象员"活动：每天安排一名学生用英语播报当天天气，把课堂和生活连起来。
+
+**分层辅导建议**
+- 基础层：只认读 9 个天气单词，借助天气符号图反复指认，能听懂、会跟读。
+- 提高层：练 What’s the weather like? 的完整问答，能说出 It’s sunny and hot. 这类复合描述。
+- 拓展层：挑战四季天气综合表达，尝试用 in spring it’s warm 等句型写小语篇。
+
+**给家长的建议**
+1. 每天出门前用英语问孩子：What’s the weather like today?（今天天气怎么样？），让孩子用英语回答。
+2. 和孩子一起看天气预报，试着用英语说出其中的天气词，如 sunny、rainy、windy。`},{subject:"英语",stage:"小学",grade:"五年级",chapter:"Months and Seasons（月份季节）",备课方案:`**教学目标**
 1. 能听懂、会说、认读 12 个月份单词 January～December，知道常用的月份缩写形式（Jan.、Feb. 等），理解月份首字母必须大写。
 2. 能正确认读并拼写四个季节单词 spring、summer、autumn、winter，会用 It’s warm/hot/cool/cold in... 描述季节天气特征，并能说出各季节的典型活动。
 3. 能用 Which season do you like? 询问喜好，用 I like summer. Because I can swim. 表达喜好并说明理由；能用 My birthday is in June. 介绍自己的生日月份。
@@ -5732,175 +5962,525 @@ I can see the sun.`},课后作业:[{difficulty:"基础",title:"认读",questions
 **给家长的建议**
 1. 家里挂一本英文年历，每天问一句 What month is it?，让孩子大声说出月份并注意大写。
 2. 换季时和孩子聊一聊 My favourite season...，鼓励孩子用 Because 说理由，既练英语又学会观察自然。`},{subject:"英语",stage:"小学",grade:"五年级",chapter:"Travel Plans（旅行计划）",备课方案:`**教学目标**
-1. 掌握 travel、beach、mountain 等旅行词汇。
-2. 掌握一般将来时「will + 动词原形」。
-3. 会用英语谈论旅行计划。
+1. 能听懂、会说交通工具类词汇：by plane、by train、by bus、by car、on foot、by ship，并能根据情景正确选择。
+2. 能听懂、会说旅行相关词汇：trip、hotel、ticket、map、visit、go to，了解一次旅行需要准备的物品。
+3. 能运用句型 I’m going to...（我打算……）和 Where are you going?（你打算去哪里？）、How are you going there?（你怎么去那里？）谈论旅行计划。
+4. 能制定并口头介绍自己的旅行计划，感受旅行的乐趣，学会提前规划、礼貌询问，培养做事有计划的习惯。
 
-**教学重点**：一般将来时的构成与运用。
-**教学难点**：will 后接动词原形。
-**教学方法**：情境模拟、对话、写作。
-**课时安排**：2 课时`,课堂讲义:{核心知识点:`**词汇**
-travel, plan, vacation, holiday, beach, mountain, plane, train
+**教学重点**：掌握交通方式表达 by plane / by train 等，会用 I’m going to... 谈论计划。
+**教学难点**：正确使用 be going to 句型表示"打算做某事"，区分 Where 与 How 的问句。
+**教学方法**：情景教学法、任务型教学法、游戏教学法、合作学习法。
+**教学准备**：交通工具图片、中国地图、旅游景点图、旅行计划表、PPT 课件。
+**课时安排**：2 课时（第 1 课时：交通方式与 I’m going to...；第 2 课时：制定旅行计划并介绍）。`,课堂讲义:{核心知识点:`**一、交通方式大集合**
+出行选择交通方式，英语用 by 加交通工具表示"乘坐……"：
+- by plane 乘飞机（读作"拜-普雷恩"），最快，跨城旅行首选。
+- by train 乘火车（读作"拜-翠恩"），又快又稳，还能看风景。
+- by bus 乘公交车（读作"拜-巴斯"），便宜方便。
+- by car 乘小汽车（读作"拜-卡"），一家人出行自由。
+- by ship 乘轮船（读作"拜-希普"），慢悠悠，适合看海景。
+- on foot 步行（读作"昂-福特"），不坐车，走路去，最环保。
+记忆规律：by 加交通工具表示"乘……"，只有"步行"特别，用 on foot，不用 by foot。
+拼读提示：plane 的 pl 读"普"，train 的 tr 读"翠"，car 的 ar 读"阿"，ship 的 sh 读"希"。
 
-**句型**
-Where will you go? 你将去哪里？
-I will go to Beijing. 我将去北京。
-What will you do? 你将做什么？
-I will visit the Great Wall. 我将参观长城。
+**二、旅行常用词**
+- trip 旅行（读作"翠普"），have a trip 去旅行。
+- hotel 旅馆、酒店（读作"侯特尔"），旅行时住的地方。
+- ticket 票（读作"提克特"），坐车坐飞机都要票。
+- map 地图（读作"麦普"），找不到路就看它。
+- visit 参观、拜访（读作"维基特"），visit the Great Wall 参观长城。
+- go to... 去……，go to Beijing 去北京。
 
-**语法**
-一般将来时：will + 动词原形
-- I will go.
-- Will you come? Yes, I will.
-- They won't come.`,重点难点解析:`**重点**：will 后跟动词原形
+**三、谈论计划：be going to 句型**
+英语里表示"打算做某事"，用 be going to 加动词原形。be 要根据主语变化：I am / He is / They are。
+- I’m going to visit Beijing. 我打算去北京游玩。（I’m 是 I am 的缩写）
+- We’re going to take a trip. 我们打算去旅行。
+- She’s going to buy a ticket. 她打算买票。
+注意：be going to 后面要接动词原形，不能加 ing，也不能加 to do。
 
-**难点**：与 be going to 的区分（初级阶段可只学 will）`,典型例题精讲:`**例**：表达计划
-I will go to Shanghaifor vacation.
-I will visit my grandparents.`},课后作业:[{difficulty:"基础",title:"认读",questions:[{q:"认读词汇",a:`请认读并记住以下旅行词汇：
-- travel 旅行，plan 计划，vacation 假期，holiday 假日
-- beach 海滩，mountain 高山，plane 飞机，train 火车
+**四、询问计划的两个问句**
+问别人"打算去哪里"用 Where are you going?（你打算去哪里？）
+问"怎么去"用 How are you going there?（你怎么去那里？）
+完整对话：
+A: Where are you going? 你打算去哪里？
+B: I’m going to Shanghai. 我打算去上海。
+A: How are you going there? 你怎么去那里？
+B: I’m going there by train. 我打算坐火车去。
 
-练习小贴士：大声读并拼一拼每个单词，如 t-r-a-v-e-l travel；再想想假期你想去哪里，用这些词试着说一说。`}]},{difficulty:"中等",title:"造句",questions:[{q:"I will ___",a:`- I will go to Beijing. 我将去北京。
-- I will visit the Great Wall. 我将去参观长城。
-- I will go by train. 我将坐火车去。
+| 问句 | 中文 | 回答要点 |
+|---|---|---|
+| Where are you going? | 你打算去哪里？ | 回答地点：I’m going to Shanghai. |
+| How are you going there? | 你怎么去那里？ | 回答交通方式：by train / by plane |
+| What are you going to do? | 你打算做什么？ | 回答活动：I’m going to visit... |
 
-小提示：will 后面必须接动词原形，不能加 s，也不能加 ing，例如 I will swim. 我将去游泳。`}]},{difficulty:"难",title:"写作",questions:[{q:"写一段旅行计划（5 句）",a:`I will have a trip this summer vacation. I will go to Beijing with my parents. I will visit the Great Wall and the Palace Museum. I will take many photos. I will have a good time.
-（参考翻译：这个暑假我将去旅行。我会和爸爸妈妈一起去北京。我要参观长城和故宫。我要拍很多照片。我会玩得很开心。）`}]}],课后反馈:"结合寒假计划练习。"},{subject:"英语",stage:"小学",grade:"六年级",chapter:"School Life（学校生活）",备课方案:`**教学目标**
-1. 掌握 subject、library、playground 等学校相关词汇。
-2. 会用英语谈论学校和课程。
-3. 初步了解现在完成时。
+**五、制定旅行计划（任务活动）**
+四人小组用英语制定一份"周末旅行计划"：去哪里（Where）、怎么去（How）、干什么（What）。每人轮流说：
+I’m going to Hangzhou. I’m going there by train. I’m going to visit the West Lake. 我打算去杭州，坐火车去，游览西湖。
+把计划写进表格，小组代表上台介绍，比一比哪组计划最合理。`,重点难点解析:`**重点一：by 加交通工具的正确表达**
+例题：Tom 打算坐飞机去北京，应该怎么说"坐飞机"？
+分析：乘坐交通工具用 by 加交通工具名词，"飞机"是 plane，固定搭配 by plane。
+解答：Tom is going to Beijing by plane. 汤姆打算乘飞机去北京。
+小结：by plane、by train、by bus、by car、by ship 都是 by 加交通工具；只有步行用 on foot，要单独记住。
 
-**教学重点**：学校话题词汇与句型。
-**教学难点**：现在完成时与一般过去时的区分。
-**教学方法**：情境描述、对话、写作。
-**课时安排**：2 课时`,课堂讲义:{核心知识点:`**词汇**
-subject, lesson, library, playground, classroom, P.E., music, science
+**难点一：be going to 后接动词原形**
+例题：下面哪句是对的？A. I’m going to visit Beijing. B. I’m going to visiting Beijing.
+分析：be going to 是"打算"结构，后面必须接动词原形。visit 已经是原形，visiting 是 ing 形式不能接在 to 后面。
+解答：选 A. I’m going to visit Beijing. 我打算去北京游玩。
+小结：be going to 加动词原形，三个部分缺一不可，to 后面永远接原形。
 
-**句型**
-What subjects do you have? 你有哪些科目？
-I have Chinese, math, English...
-What do you like best? 你最喜欢什么？
-I like P.E. best.
+**难点二：Where 和 How 问句的区分**
+例题：想知道朋友怎么去上海，该问哪句？A. Where are you going? B. How are you going there?
+分析：Where 问"哪里"，回答地点；How 问"怎么"，回答交通方式。问"怎么去"要用 How。
+解答：选 B. How are you going there? 你怎么去那里？
+小结：Where 问地点答地点，How 问方式答方式，看清问题再回答。`,典型例题精讲:`**例题一（基础）：看图说交通方式**
+题目：图片上画着一架大飞机，说出去上海应该"怎么去"。
+分析：交通方式用 by 加交通工具，飞机是 plane，乘飞机是 by plane。
+解答：I’m going to Shanghai by plane. 我打算乘飞机去上海。
+方法小结：看图片认交通工具，套用 by 加交通工具的结构，说清怎么去。
 
-**语法**
-现在完成时（初步）：have/has + 过去分词
-- I have learned English for 3 years.
-- He has finished his homework.`,重点难点解析:"**难点**：现在完成时与一般过去时的区分",典型例题精讲:`**例**：描述学校生活
-My school is big. I have many friends.
-I like science best. I want to be a scientist.`},课后作业:[{difficulty:"基础",title:"认读",questions:[{q:"认读学校相关词",a:`请认读并记住以下学校相关词：
-- subject 科目，lesson 课，classroom 教室，playground 操场
-- library 图书馆，science 科学，music 音乐，P.E. 体育
+**例题二（提高）：完成对话**
+题目：A: Where are you going? B: ______.（我打算去海南）请补全回答。
+分析：问"打算去哪里"用 Where are you going?，回答用 I’m going to 加地点。
+解答：I’m going to Hainan. 我打算去海南。
+方法小结：问句是 Where 就答地点，用 I’m going to 加地名，Hainan 是海南。
 
-练习小贴士：用单词卡片读一读、拼一拼，再试着说说自己今天上了哪些课：I have Chinese and math today.`}]},{difficulty:"中等",title:"造句",questions:[{q:"I have ___",a:`- I have many friends at school. 我在学校有很多朋友。
-- I have five lessons today. 我今天有五节课。
-- I have a big classroom. 我们的教室很大。
+**例题三（综合）：介绍你的旅行计划**
+题目：暑假你打算去西安，坐火车去，参观兵马俑。请用三句话介绍你的旅行计划。
+分析：旅行计划包含三要素：去哪里（Where）、怎么去（How）、干什么（What），分别用 I’m going to 和 by 表达。
+解答：I’m going to Xi’an. I’m going there by train. I’m going to visit the Terracotta Warriors. 我打算去西安，坐火车去，参观兵马俑。
+方法小结：介绍旅行计划三步走：I’m going to 加地点，by 加交通方式，I’m going to 加活动。`},课后作业:[{difficulty:"基础",title:"听读卡：认读交通与旅行词汇",questions:[{q:"跟读单词并读给家长听：by plane、by train、by bus、by car、on foot、trip、hotel、ticket、map。",a:'正确读出即可。by plane 读"拜普雷恩"，by train 读"拜翠恩"，on foot 读"昂福特"，trip 读"翠普"，hotel 读"侯特尔"，ticket 读"提克特"，map 读"麦普"。'},{q:"听家长说英文，指出对应的图片：家长说 by train，你指出火车图；家长说 by plane，你指出飞机图。",a:"by train 对应火车图，by plane 对应飞机图，by bus 对应公交车图。听音指图，练习听辨。"},{q:"看图选词：图片上一个人背着包在走路，选 A. by car B. on foot C. by bus。",a:"选 B. on foot。步行是 on foot，乘小汽车是 by car，乘公交车是 by bus。"}]},{difficulty:"中等",title:"连一连：交通方式找朋友",questions:[{q:"连一连：by plane——步行；by train——乘飞机；on foot——乘火车；by bus——乘公交车。",a:"by plane 连乘飞机，by train 连乘火车，on foot 连步行，by bus 连乘公交车。"},{q:"选词填空：I’m going to Beijing （ ）.（坐火车）。备选：by train、on foot、by plane。",a:"填 by train。坐火车用 by train，on foot 是步行，by plane 是乘飞机。"},{q:"判断正误并改正：She is going to taking a trip.（ ）",a:"错。be going to 后接动词原形，taking 应改为 take。正确句子：She is going to take a trip."}]},{difficulty:"难",title:"情景对话：旅行计划问答",questions:[{q:"完成对话：A: ______ are you going? B: I’m going to Guangzhou.",a:'填 Where。问"打算去哪里"用 Where are you going?，回答地点用 I’m going to 加地名。'},{q:"你的朋友要去成都，你想知道他怎么去，怎么用英语问？",a:"How are you going there? 你怎么去那里？询问交通方式用 How 提问，回答用 by 加交通工具。"},{q:"给对话排序：（ ）How are you going there?（ ）I’m going to Shanghai.（ ）Where are you going?（ ）I’m going there by ship.",a:"正确顺序：Where are you going? → I’m going to Shanghai. → How are you going there? → I’m going there by ship. 先问地点，再答地点，再问方式，再答方式。"}]},{difficulty:"综合",title:"小语篇与旅行计划写作",questions:[{q:"读小语篇并回答问题：I’m going to take a trip. I’m going to Beijing. I’m going there by plane. I’m going to visit the Great Wall. Where is he going?",a:"He is going to Beijing. 他打算去北京。take a trip 是去旅行，the Great Wall 是长城。"},{q:'读一读，判断对错："I’m going to visit the Great Wall." 表示"我打算参观长城"。（ ）"We go there by foot." 表示"我们步行去那里"。（ ）',a:"第一句对，I’m going to visit the Great Wall. 是我打算参观长城；第二句错，步行要说 on foot，不能 by foot，正确句子是 We go there on foot."},{q:"制定你的周末旅行计划，写三句话：去哪里、怎么去、做什么。",a:"示例：I’m going to Hangzhou. I’m going there by train. I’m going to visit the West Lake. 计划要包含 Where、How、What 三要素，注意 be going to 后接动词原形。"}]}],课后反馈:`**学生常见错误**
+1. by 与 on 混用：把"步行"说成 by foot，忘了固定搭配是 on foot，需要反复对比强调。
+2. be going to 后接原形掌握不好：说出 I’m going to visiting 这样的句子，to 后面还带着 ing，要重点纠错。
+3. Where 与 How 问句混淆：问"怎么去"用 Where，问"去哪里"用 How，答非所问，要操练问答配对。
+4. 交通工具名词记不牢：train 和 plane 音近易混，bus 和 car 图片易混，要多看图多听音。
 
-小提示：表达"已经做过"用 have + 过去分词，如 I have finished my homework. 我已经做完作业了。`}]},{difficulty:"难",title:"写作",questions:[{q:"写一篇 My School（50 词）",a:`My school is big and beautiful. There are many classrooms and a big playground. I have Chinese, math and English every day. I like science best, because it is interesting. I often read books in the library. My teachers are very kind. I love my school.
-（参考翻译：我的学校又大又漂亮。有很多教室和一个大操场。我每天上语文、数学和英语课。我最喜欢科学，因为它很有趣。我经常在图书馆看书。老师们都很和蔼。我爱我的学校。）`}]}],课后反馈:"鼓励学生用英语描述学校。"},{subject:"英语",stage:"小学",grade:"六年级",chapter:"Healthy Life（健康生活）",备课方案:`**教学目标**
-1. 掌握 healthy、exercise、habit 等健康相关词汇。
-2. 掌握「should / had better」等劝告句型。
-3. 树立健康生活意识，能用英语提建议。
+**教学改进建议**
+1. 用"交通方式竞猜"游戏：老师表演开车、坐飞机等动作，学生猜 by car、by plane，边演边学。
+2. 提供旅行计划表模板：让学生按 Where、How、What 三栏填写，结构清晰，避免漏要素。
+3. 举行"最佳旅行计划"发布会：小组合作制定计划并上台介绍，用真实任务驱动语言运用。
 
-**教学重点**：健康词汇与劝告句型。
-**教学难点**：情态动词后接动词原形。
-**教学方法**：情境讨论、对话、写作。
-**课时安排**：2 课时`,课堂讲义:{核心知识点:`**词汇**
-healthy, exercise, sleep, drink, fruit, vegetable, habit, keep
+**分层辅导建议**
+- 基础层：只认读交通方式与旅行词汇，借助图片指认，会读 by plane、by train 等短语。
+- 提高层：练 be going to 句型与 Where/How 问答，能完成两轮完整对话。
+- 拓展层：写一篇 40 词左右的旅行计划小短文，介绍地点、方式与活动。
 
-**句型**
-You should... 你应该...
-You'd better... 你最好...
-Don't... 不要...
+**给家长的建议**
+1. 计划家庭出游时，用英语和孩子商量：Where are you going? How are you going there?，现学现用。
+2. 出行时指认交通工具，让孩子说出 by plane、by train、by bus 等，把课本词带进真实生活。`},{subject:"英语",stage:"小学",grade:"六年级",chapter:"School Life（学校生活）",备课方案:`**教学目标**
+1. 能听懂、会说主要学科类单词：Chinese、English、maths、music、art、PE、science，并能用 What subjects do you like? 询问和回答喜欢的学科。
+2. 能听懂、会说学校场所类词汇：classroom、library、playground、teacher、student，能用 There is/are... 描述学校设施。
+3. 能运用句型 We have... on...（我们在……有……课）描述课程安排，能谈论每天上什么课。
+4. 感受丰富多彩的学校生活，热爱学习、尊敬老师、爱护校园，能用英语介绍自己的学校和课程表。
 
-**语法**
-- should/shouldn't 后接动词原形
-- had better 后接动词原形`,重点难点解析:"**难点**：情态动词后动词原形",典型例题精讲:`**例**：提建议
-You should drink more water.
-You shouldn't eat too much candy.
-You'd better go to bed early.`},课后作业:[{difficulty:"基础",title:"认读",questions:[{q:"认读健康词汇",a:`请认读并记住以下健康词汇：
-- healthy 健康的，exercise 锻炼，sleep 睡觉，drink 喝
-- fruit 水果，vegetable 蔬菜，habit 习惯，keep 保持
+**教学重点**：掌握学科与学校场所词汇，会用 What subjects...? 和 There is/are... 描述学校生活。
+**教学难点**：正确使用 There is/are 的"就近原则"，区分 We have... 与 There is/are... 的用法。
+**教学方法**：情景教学法、任务型教学法、游戏教学法、直观教学法。
+**教学准备**：课程表、学科图片、学校平面图、单词卡片、PPT 课件。
+**课时安排**：2 课时（第 1 课时：学科单词与 What subjects...?；第 2 课时：学校场所与 There is/are 综合运用）。`,课堂讲义:{核心知识点:`**一、课程表上的学科**
+翻开课程表，看看每天要上哪些课：
+- Chinese 语文（读作"猜尼斯"），读课文、写汉字。
+- English 英语（读作"英格利什"），说英语、唱英文歌。
+- maths 数学（读作"麦斯"），算算术、解难题。
+- music 音乐（读作"缪吉克"），唱歌、欣赏乐曲。
+- art 美术（读作"阿特"），画画、做手工。
+- PE 体育（读作"皮衣"），跑步、做操、玩游戏。
+- science 科学（读作"赛恩斯"），做实验、探自然。
+记忆小窍门：学科单词首字母大写，如 Monday 有 English、maths、Chinese；Chinese、English、PE 这些"语言和科目"，第一个字母要大写。
 
-练习小贴士：大声读并拼写单词，如 h-e-a-l-t-h-y healthy；再想想自己有哪些健康好习惯，用英语说一说，如 I drink water every day.`}]},{difficulty:"中等",title:"造句",questions:[{q:"You should ___",a:`- You should drink more water. 你应该多喝水。
-- You should exercise every day. 你应该每天锻炼。
-- You should go to bed early. 你应该早睡。
+**二、问喜欢的学科：What subjects do you like?**
+subjects 是"学科"的复数形式，问"你喜欢什么学科"用 What subjects do you like? 回答用 I like 加学科：
+A: What subjects do you like? 你喜欢什么学科？
+B: I like English and music. 我喜欢英语和音乐。
+C: I like PE best. 我最喜欢体育。
+表达"最喜欢"可以说 like... best，如 I like maths best. 我最喜欢数学。
 
-小提示：should 后面接动词原形；否定说法用 shouldn't，如 You shouldn't eat too much candy. 你不应该吃太多糖。`}]},{difficulty:"难",title:"写作",questions:[{q:"写健康建议 5 句",a:`You should eat more fruit and vegetables. You should drink enough water every day. You should exercise for thirty minutes a day. You'd better go to bed early. You shouldn't stay up late or eat too much candy.
-（参考翻译：你应该多吃水果和蔬菜。你应该每天喝足够的水。你应该每天锻炼三十分钟。你最好早点睡觉。你不应该熬夜或吃太多糖。）`}]}],课后反馈:"结合实际健康话题。"}],a=[{subject:"数学",stage:"小学",grade:"一年级",chapter:"1-5 的认识和加减法",备课方案:`**教学目标**
-1. 认识 1-5 各数，会读、写、会数
-2. 理解 1-5 的顺序，会比较大小
-3. 掌握 5 以内加减法的含义，能正确计算
+**三、描述课程安排：We have... on...**
+说"我们星期几上什么课"用 We have... on...：
+- We have Chinese on Monday. 我们星期一上语文课。
+- We have PE on Friday. 我们星期五上体育课。
+- We have six lessons a day. 我们一天上六节课。
+注意：星期几前用介词 on，如 on Monday（在星期一）、on Tuesday（在星期二）。
 
-**教学重点**：5 以内加减法的计算
-**教学难点**：加减法意义的理解（增加用加、减少用减）
-**教学方法**：实物演示、情境图、操作学具
-**课时安排**：2 课时`,课堂讲义:{核心知识点:`**一、1-5 的认识**
-- 数字 1 像铅笔细又长，2 像鸭子水中游，3 像耳朵听声音，4 像小旗迎风飘，5 像秤钩来卖菜
-- 数的顺序：1<2<3<4<5
-- 5 以内的组成：
-  - 5 = 1+4 = 4+1 = 2+3 = 3+2 = 5+0
-  - 4 = 1+3 = 3+1 = 2+2 = 4+0
-  - 3 = 1+2 = 2+1 = 3+0
+| 句型 | 意思 | 用法 |
+|---|---|---|
+| We have... on... | 我们在……有……课 | on 加星期几 |
+| What subjects do you like? | 你喜欢什么学科？ | 询问喜欢 |
+| I like... best | 我最喜欢…… | 表达最爱 |
 
-**二、加法的含义**
-把两部分合起来，求一共是多少，用加法计算。
-加号「+」，读作「加」；等号「=」，读作「等于」。
-如：左手 2 个苹果，右手 3 个苹果，一共几个？2+3=5
+**四、校园场所：There is/are 描述**
+我们的学校有教室、图书馆、操场……用 There is/are...（有……）来描述：
+- There is a library in our school. 我们学校有一个图书馆。
+- There are many classrooms. 有很多教室。
+- classroom 教室（读作"克拉斯入姆"），我们上课的地方。
+- library 图书馆（读作"来布瑞"），借书看书的地方。
+- playground 操场（读作"普雷格朗德"），跑步做操的地方。
+- teacher 老师（读作"提彻"），教书育人的人。
+- student 学生（读作"斯丢登特"），在教室里学习的人。
+注意：There is 后面接单数名词（a library），There are 后面接复数名词（many classrooms），"看后面的名词定 is 还是 are"。
 
-**三、减法的含义**
-从总数里去掉一部分，求剩下多少，用减法计算。
-减号「-」，读作「减」。
-如：5 个苹果，吃了 2 个，还剩几个？5-2=3`,重点难点解析:`**重点**：5 以内加减法的口算
-- 加法：1+1=2, 1+2=3, 1+3=4, 1+4=5, 2+1=3, 2+2=4, 2+3=5, 3+1=4, 3+2=5, 4+1=5
-- 减法：5-1=4, 5-2=3, 5-3=2, 5-4=1, 4-1=3, 4-2=2, 4-3=1, 3-1=2, 3-2=1, 2-1=1
+**五、小游戏：校园寻宝**
+老师说 The classroom has a blackboard. The library has many books. 学生根据句子在地图上快速找到对应场所，并说出英语单词。比一比谁找得快，把 classroom、library、playground 记进心里。`,重点难点解析:`**重点一：学科单词的认读与运用**
+例题：你最喜欢数学课，用英语怎么说"我最喜欢数学"？
+分析：学科单词用 maths，表达"最喜欢"用 like... best。
+解答：I like maths best. 我最喜欢数学。
+小结：学科单词要会读会拼会认：Chinese、English、maths、music、art、PE、science，用 I like... best 表达最喜欢。
 
-**难点**：区分「合起来」与「去掉」
-- 图中两个集合「合并」→ 加法
-- 图中一个集合「拿走/划掉」→ 减法
-- 关键看问题：「一共多少」用加，「还剩多少」用减`,典型例题精讲:`**例 1**：小明有 3 颗糖，妈妈又给他 2 颗，小明现在有几颗糖？
-分析：「又给」表示合起来，用加法
-解：3 + 2 = 5（颗）
+**难点一：We have... on... 描述课程**
+例题：星期五有体育课，怎么用英语表达？
+分析：描述"某天上什么课"用 We have... on...，体育是 PE，星期五是 Friday。
+解答：We have PE on Friday. 我们星期五上体育课。
+小结：We have 加学科，on 加星期几，on Friday 表示在星期五，星期几前都要加 on。
 
-**例 2**：树上有 5 只小鸟，飞走了 2 只，还剩几只？
-分析：「飞走」表示去掉，用减法
-解：5 - 2 = 3（只）`},课后作业:[{difficulty:"基础",title:"看图列式",questions:[{q:"🍎🍎 + 🍎🍎🍎 = ?",a:"2+3=5"},{q:"🐟🐟🐟🐟🐟 - 🐟🐟 = ?",a:"5-2=3"},{q:"3+1=?",a:"4"}]},{difficulty:"中等",title:"应用题",questions:[{q:"桌上有 4 个盘子，又端来 1 个，现在有几个？",a:"4+1=5（个）"},{q:"小明有 5 块巧克力，吃了 2 块，还剩几块？",a:"5-2=3（块）"}]},{difficulty:"难",title:"看图列式计算",questions:[{q:"左边 2 只鸭子，右边 3 只，合起来几只？",a:"2+3=5（只）"},{q:"原来有 4 个气球，飞走 1 个，又飞走 2 个，剩几个？",a:"4-1-2=1（个）"}]},{difficulty:"综合",title:"思考题",questions:[{q:"在□里填上合适的数：□+2=5",a:"3"},{q:"把 5 个苹果分给两个小朋友，有几种分法？",a:"5 种：(1,4)(2,3)(3,2)(4,1)(5,0)"}]}],课后反馈:"本节课学生对 5 以内加减法掌握良好。大部分学生能根据图意正确列式。建议课后加强「数的组成」练习，为后续进位加法打好基础。学有余力的学生可尝试 5 以内的连加连减。"},{subject:"数学",stage:"小学",grade:"一年级",chapter:"6-10 的认识和加减法",备课方案:`**教学目标**
-1. 认识 6-10 各数，掌握数的顺序、大小、组成
-2. 熟练计算 10 以内加减法
-3. 理解「0」的意义
+**难点二：There is 与 There are 的选择**
+例题：下面哪句对？A. There is many books in the library. B. There are many books in the library.
+分析：There is 接单数，There are 接复数。books 是复数，所以要用 are。
+解答：选 B. There are many books in the library. 图书馆里有很多书。
+小结：看 There be 后面的名词：单数用 is，复数用 are，这就是"就近原则"。`,典型例题精讲:`**例题一（基础）：看图说学科**
+题目：图片上老师在黑板上写汉字，学生读课文。这是什么课？
+分析：读课文、写汉字是语文课，语文是 Chinese。
+解答：It’s a Chinese lesson. 这是一节语文课。
+方法小结：看图认学科，抓住课堂活动特点：写汉字是 Chinese，做算术是 maths，画画是 art。
 
-**重点**：10 以内加减法
-**难点**：凑十法、破十法
-**课时**：3 课时`,课堂讲义:{核心知识点:`**一、6-10 的认识**
-- 6 像哨子嘟嘟响，7 像锄头能耕地，8 像麻花拧一起，9 像勺子能吃饭，10 像油条加鸡蛋
-- 顺序：6<7<8<9<10
-- 10 的组成（重点）：
-  - 10 = 1+9 = 2+8 = 3+7 = 4+6 = 5+5
-  - 凑十法：把小数拆开凑大数
+**例题二（提高）：完成课程表对话**
+题目：A: What subjects do you like? B: I like ______ and ______.（喜欢英语和音乐）请补全回答。
+分析：问喜欢的学科用 What subjects do you like?，回答用 I like 加学科，两个学科用 and 连接。
+解答：I like English and music. 我喜欢英语和音乐。
+方法小结：回答"喜欢的学科"，I like 后接学科名词，多个学科用 and 连接。
 
-**二、10 以内加减法**
-- 加法：6+4=10, 7+3=10, 8+2=10, 9+1=10
-- 减法：10-6=4, 10-7=3, 10-8=2, 10-9=1
-- 看图列式：合起来用加，去掉用减
+**例题三（综合）：介绍我的学校**
+题目：请用 There is/are 写两句话介绍你们的操场和图书馆。
+分析：介绍学校设施用 There be 句型，操场、图书馆前用 a 表示"一个"，注意名词单复数决定 is 还是 are。
+解答：There is a big playground in our school. There is a library, too. 我们学校有一个大操场，还有一个图书馆。
+方法小结：介绍学校用 There is a... 加地点，注意单数名词前用 a，There is 后面不跟复数。`},课后作业:[{difficulty:"基础",title:"听读卡：认读学科与场所单词",questions:[{q:"跟读单词并读给家长听：Chinese、English、maths、music、art、PE、science、classroom、library、playground。",a:'正确读出即可。Chinese 读"猜尼斯"，English 读"英格利什"，maths 读"麦斯"，music 读"缪吉克"，art 读"阿特"，PE 读"皮衣"，science 读"赛恩斯"，library 读"来布瑞"。'},{q:"听家长说学科名，说出对应的中文：家长说 PE，你说体育；家长说 music，你说音乐。",a:"PE 是体育，music 是音乐，maths 是数学，art 是美术。听音说中文，练习听辨。"},{q:"看图选词：图片上老师在黑板上写算式，选 A. maths B. art C. music。",a:"选 A. maths。写算式算算术是数学课，art 是美术，music 是音乐。"}]},{difficulty:"中等",title:"连一连：学科与场所找朋友",questions:[{q:"连一连：Chinese——音乐；English——语文；music——英语；PE——体育。",a:"Chinese 连语文，English 连英语，music 连音乐，PE 连体育。"},{q:"选词填空：We have （ ）on Monday.（星期一上数学课）。备选：maths、music、art。",a:"填 maths。数学是 maths，We have maths on Monday. 我们星期一上数学课。"},{q:"判断正误并改正：There is many classrooms in our school.（ ）",a:"错。classrooms 是复数，要用 There are。正确句子：There are many classrooms in our school."}]},{difficulty:"难",title:"情景对话：我的课程表",questions:[{q:"完成对话：A: What subjects do you like? B: ______.（我最喜欢英语）请补全回答。",a:'填 I like English best. 表达"最喜欢英语"用 I like English best. best 表示"最"。'},{q:"你的同桌问你星期五上什么课，你说星期五上美术课和音乐课，用英语怎么说？",a:"We have art and music on Friday. 我们星期五上美术课和音乐课。We have... on... 加学科和星期几，两个学科用 and 连接。"},{q:"给对话排序：（ ）I like PE best.（ ）What subjects do you like?（ ）I like English and maths.（ ）What about you?",a:"正确顺序：What subjects do you like? → I like English and maths. → What about you? → I like PE best. 先问，先答，反问，再答。"}]},{difficulty:"综合",title:"小语篇与学校介绍",questions:[{q:"读小语篇并回答问题：We have Chinese, maths and English on Monday. I like English best. There is a big library in our school. What subject does the writer like best?",a:"The writer likes English best. 作者最喜欢英语。on Monday 在星期一，There is a big library 有一个大图书馆。"},{q:'读一读，判断对错："We have PE on Friday." 表示"我们星期五上体育课"。（ ）"There is a playground in our school." 表示"我们学校没有操场"。（ ）',a:'第一句对，We have PE on Friday. 是我们星期五上体育课；第二句错，There is a playground... 表示"有一个操场"，不是说没有。'},{q:"用英语介绍你们学校的教室和图书馆，写两个 There be 句子。",a:"示例：There are many classrooms in our school. There is a library in our school. 教室是复数用 There are，图书馆是单数用 There is，注意 be 动词与名词单复数一致。"}]}],课后反馈:`**学生常见错误**
+1. 学科单词首字母大小写不分：Monday、English 首字母没大写，影响书写规范，要强调专有名词大写。
+2. on 加星期几掌握不牢：说成 We have music in Friday，in 和 on 混淆，星期几前固定用 on。
+3. There is 与 There are 不分：There is many books 挂在嘴边，不看清后面名词的单复数。
+4. PE 和 art 读音、拼写易混：art 读"阿特"，PE 是缩写要大写，两词常写反读反。
 
-**三、0 的意义**
-0 表示一个也没有，比 1 还小。
-如：盘子里原来 3 个苹果，都吃光了，剩 0 个，3-3=0
-0 加任何数还得原数。`,重点难点解析:`**重点**：10 以内加减法的口算
-- 要领：「凑十法」是关键——看到 9、8、7 加几时，先想（9+1=10, 8+2=10）
-- 「破十法」用于减法：10 减几，把 10 破成 10 和 0
+**教学改进建议**
+1. 用真实课程表教学：把班级课表投影出来，让学生用 We have... on... 逐天描述，贴近生活。
+2. 开展"校园小导游"活动：带学生参观学校，用 There is/are 介绍教室、图书馆、操场，边走边说。
+3. 设置"学科竞猜"游戏：老师表演学科特点动作，学生猜学科单词，活跃课堂又巩固词汇。
 
-**难点**：图文应用题的审题
-- 第一步：找出已知条件和问题
-- 第二步：判断用加法还是减法
-- 第三步：列式计算`,典型例题精讲:`**例 1**：凑十法算 9+4
-分析：9+1=10，把 4 拆成 1 和 3，9+1=10，10+3=13
-解：9+4=13
-口诀：看大数，拆小数，先凑十，再加余
+**分层辅导建议**
+- 基础层：认读学科与场所单词，借助图片指认，会读会认即可。
+- 提高层：练 What subjects do you like? 与 We have... on... 句型，能完成对话。
+- 拓展层：写 40 词左右的"我的学校"小短文，综合运用学科与场所词汇。
 
-**例 2**：破十法算 13-5
-分析：13 分成 10 和 3，先用 10-5=5，再用 5+3=8
-解：13-5=8
-口诀：十几减 9，几减1；十几减8，几加2；十几减7，几加3……`},课后作业:[{difficulty:"基础",title:"口算",questions:[{q:"6+4=?",a:"10"},{q:"7+2=?",a:"9"},{q:"8-3=?",a:"5"},{q:"10-4=?",a:"6"}]},{difficulty:"中等",title:"应用题",questions:[{q:"树上有 8 只鸟，又飞来 2 只，现在几只？",a:"8+2=10（只）"},{q:"有 9 朵花，送给小明 3 朵，剩几朵？",a:"9-3=6（朵）"}]},{difficulty:"难",title:"凑十法/破十法",questions:[{q:"8+5=？用凑十法算",a:"8+2=10, 10+3=13"},{q:"12-7=？用破十法算",a:"12=10+2, 10-7=3, 3+2=5"}]},{difficulty:"综合",title:"拓展",questions:[{q:"在□填数使等式成立：□+6=10",a:"4"},{q:"比 6 多 3 的数是？比 10 少 4 的数是？",a:"9, 6"}]}],课后反馈:"学生对 10 以内加减法基本掌握。少数学生在凑十法/破十法上仍需加强练习。后续要过渡到 20 以内进位加法。"},{subject:"数学",stage:"小学",grade:"一年级",chapter:"20 以内的进位加法",备课方案:`**教学目标**
+**给家长的建议**
+1. 每天放学问孩子：What subjects do you have today?（今天上什么课？），让孩子用英语报课表。
+2. 带孩子看看家里的书和文具，指着说 English、maths、art，把学科单词融入家庭场景。`},{subject:"英语",stage:"小学",grade:"六年级",chapter:"Healthy Life（健康生活）",备课方案:`**教学目标**
+1. 能听懂、会说健康生活类词汇：healthy、healthy food、fruit、vegetable、exercise、junk food、sleep、habit，并能看图认读。
+2. 能运用 should 句型（You should... / You shouldn’t...）提出健康建议，表达"应该做什么、不应该做什么"。
+3. 能用 I think... 和 You’d better... 等句型简单谈论健康生活方式，如早睡早起、多吃蔬果、多运动。
+4. 了解健康的生活方式包括合理饮食、规律作息、坚持锻炼，愿意把健康习惯落实到行动中，做健康小卫士。
+
+**教学重点**：掌握健康生活词汇，会用 should / shouldn’t 提出建议。
+**教学难点**：正确使用 should 与 shouldn’t 表达建议，区分 healthy（健康的）与 health（健康）。
+**教学方法**：情景教学法、任务型教学法、游戏教学法、讨论交流法。
+**教学准备**：食物分类图、作息时间表、健康建议卡、PPT 课件、小医生头饰。
+**课时安排**：2 课时（第 1 课时：健康词汇与 should 句型；第 2 课时：健康生活方式讨论与建议卡制作）。`,课堂讲义:{核心知识点:`**一、健康词汇加油站**
+健康（health）是我们最宝贵的财富，来认识健康生活的关键词：
+- healthy 健康的（读作"海欧西"），healthy food 健康的食物。
+- fruit 水果（读作"夫鲁特"），apple、banana 都是水果。
+- vegetable 蔬菜（读作"维基特波"），carrot、tomato 都是蔬菜。
+- exercise 锻炼（读作"艾克瑟塞子"），do exercise 做运动。
+- junk food 垃圾食品（读作"江克-夫德"），汉堡、薯条吃多了不健康。
+- sleep 睡觉（读作"斯利普"），go to sleep 去睡觉。
+- habit 习惯（读作"哈比特"），good habits 好习惯。
+拼读提示：vegetable 比较长，可以拆着记：ve-ge-ta-ble 四个音节，像爬山一样一节一节读。
+
+**二、什么是健康生活？**
+健康生活三大法宝：
+- 第一，吃健康食物：多吃 fruit（水果）和 vegetable（蔬菜），少吃 junk food（垃圾食品）。
+- 第二，坚持锻炼：每天 do exercise（做运动），跑跑步、跳跳绳，身体棒棒。
+- 第三，规律作息：早睡早起，保证睡眠 sleep，不熬夜。
+记忆口诀：水果蔬菜天天有，垃圾食品少碰头；每天运动出出汗，早睡早起好习惯。
+
+**三、提建议：should 句型**
+告诉别人"应该做什么"用 should，意思是"应该"；"不应该做什么"用 shouldn’t（should not 的缩写）：
+- You should eat more fruit and vegetables. 你应该多吃水果和蔬菜。
+- You should do exercise every day. 你应该每天锻炼身体。
+- You shouldn’t eat too much junk food. 你不应该吃太多垃圾食品。
+- You shouldn’t go to bed too late. 你不应该睡得太晚。
+注意：should 和 shouldn’t 后面都接动词原形，不管主语是 I、you 还是 he、she，should 都不变，如 He should sleep early. 他应该早点睡。
+
+| 句型 | 中文 | 例句 |
+|---|---|---|
+| You should... | 你应该…… | You should drink water. |
+| You shouldn’t... | 你不应该…… | You shouldn’t stay up late. |
+| You’d better... | 你最好…… | You’d better get up early. |
+
+**四、健康问答小对话**
+A: I’m too fat. I don’t feel well. 我太胖了，感觉不舒服。
+B: You should do exercise every day. 你应该每天锻炼。
+A: I like junk food very much. 我很喜欢垃圾食品。
+B: You shouldn’t eat too much junk food. Eat more vegetables, please. 你不应该吃太多垃圾食品，请多吃蔬菜。
+
+**五、小医生角色扮演（TPR 游戏）**
+一名学生扮演小医生，其他学生扮生病或不舒服的人。小医生用 You should... / You shouldn’t... 给建议：
+Doctor: You look tired. You should go to bed early. 你看起来很累，应该早睡。
+Patient: OK, thank you, doctor. 好的，谢谢医生。
+建议卡：把全班建议收集起来，做成"健康生活小贴士"贴在教室里。`,重点难点解析:`**重点一：should 与 shouldn’t 的用法**
+例题：朋友天天吃薯条汉堡，你该建议他怎么做？用 should 或 shouldn’t 说两句话。
+分析：垃圾食品吃太多不健康，可以说"应该少吃"和"不应该吃太多"。should 后接动词原形。
+解答：You should eat less junk food. 你应该少吃垃圾食品。You shouldn’t eat too much junk food. 你不应该吃太多垃圾食品。
+小结：should 表示应该，shouldn’t 表示不应该，后面都接动词原形；提建议先想清楚"应该做什么"和"不应该做什么"。
+
+**难点一：healthy 与 health 的区分**
+例题：下面哪句对？A. We should eat health food. B. We should eat healthy food.
+分析：health 是名词"健康"，healthy 是形容词"健康的"。修饰名词 food 要用形容词 healthy。
+解答：选 B. We should eat healthy food. 我们应该吃健康的食物。
+小结：health 是名词，healthy 是形容词，"健康的食物"是 healthy food，词性不能搞混。
+
+**难点二：You’d better 与 should 的替换**
+例题：朋友经常熬夜，除了用 should 建议，还可以用什么表达"最好早睡"？
+分析：表达建议还可以用 You’d better 加动词原形，You’d better 是 You had better 的缩写，语气更委婉。
+解答：You’d better go to bed early. 你最好早点睡。
+小结：提建议有三宝：should、shouldn’t、You’d better，后面都接动词原形，语气由强到弱依次是 should 最强、You’d better 最委婉。`,典型例题精讲:`**例题一（基础）：看图说健康食物**
+题目：图片上有苹果、香蕉和胡萝卜，它们属于哪一类食物？用英语说出两个词。
+分析：苹果、香蕉是 fruit（水果），胡萝卜是 vegetable（蔬菜），它们都是 healthy food（健康食物）。
+解答：They are fruit and vegetables. They are healthy food. 它们是水果和蔬菜，是健康的食物。
+方法小结：苹果、香蕉叫 fruit，胡萝卜、西红柿叫 vegetable，多吃它们身体好。
+
+**例题二（提高）：给建议**
+题目：Mike 每天熬夜看电视，第二天上课没精神。请用 shouldn’t 给他两条建议。
+分析：熬夜是坏习惯，可以用 shouldn’t 指出不该做什么，注意接动词原形。
+解答：You shouldn’t watch TV too late. You shouldn’t stay up late. 你不应该看电视到太晚，不应该熬夜。
+方法小结：给别人提"不要做"的建议用 shouldn’t 加动词原形，stay up late 是熬夜的意思。
+
+**例题三（综合）：健康小医生**
+题目：你的朋友 Tom 只吃汉堡薯条，从不运动。请用 should 和 shouldn’t 各写一句，给他三条健康建议。
+分析：健康生活要多吃健康食物、多运动、少垃圾食品。建议分三类：应该做什么、不应该做什么。
+解答：You should eat more fruit and vegetables. 你应该多吃水果蔬菜。You should do exercise every day. 你应该每天锻炼。You shouldn’t eat too much junk food. 你不应该吃太多垃圾食品。
+方法小结：给健康建议先分类：吃（healthy food）、动（exercise）、睡（sleep），再用 should / shouldn’t 表达。`},课后作业:[{difficulty:"基础",title:"听读卡：认读健康生活词汇",questions:[{q:"跟读单词并读给家长听：healthy、fruit、vegetable、exercise、junk food、sleep、habit、health。",a:'正确读出即可。healthy 读"海欧西"，fruit 读"夫鲁特"，vegetable 读"维基特波"，exercise 读"艾克瑟塞子"，junk food 读"江克夫德"，sleep 读"斯利普"，habit 读"哈比特"。'},{q:"听家长说单词，说出是健康食物还是垃圾食品：家长说 fruit，你说健康；家长说 junk food，你说垃圾食品。",a:"fruit 是健康食物，junk food 是垃圾食品，vegetable 是健康食物。学会给食物分类。"},{q:"看图选词：图片上画着胡萝卜和西红柿，选 A. junk food B. vegetables C. candy。",a:"选 B. vegetables。胡萝卜、西红柿是蔬菜 vegetables，junk food 是垃圾食品。"}]},{difficulty:"中等",title:"连一连：建议句型找朋友",questions:[{q:"连一连：eat more fruit——多吃水果；do exercise——垃圾食品；junk food——锻炼；go to bed early——早睡。",a:"eat more fruit 连多吃水果，do exercise 连锻炼，junk food 连垃圾食品，go to bed early 连早睡。"},{q:"选词填空：You should eat more （ ）.（多吃蔬菜）。备选：vegetables、junk food、candy。",a:"填 vegetables。多吃蔬菜是 eat more vegetables，junk food 和 candy 都要少吃。"},{q:"判断正误并改正：He should eats more fruit.（ ）",a:"错。should 后接动词原形，eats 应改为 eat。正确句子：He should eat more fruit."}]},{difficulty:"难",title:"情景对话：健康小建议",questions:[{q:"完成对话：A: I feel tired every day. B: You should ______.（早点睡）请补全建议。",a:"填 go to bed early。You should 后接动词原形，早点睡是 go to bed early。"},{q:"朋友吃了太多汉堡薯条，用 shouldn’t 给他一条建议。",a:"You shouldn’t eat too much junk food. 你不应该吃太多垃圾食品。shouldn’t 后接动词原形 eat。"},{q:"给建议排序，组成一段通顺的对话：（ ）You should do exercise every day.（ ）I’m not healthy. I feel tired.（ ）OK, I’ll try. Thank you.",a:"正确顺序：I’m not healthy. I feel tired. → You should do exercise every day. → OK, I’ll try. Thank you. 先诉说不适，再给建议，最后道谢。"}]},{difficulty:"综合",title:"小语篇与健康习惯",questions:[{q:"读小语篇并回答问题：Tom should eat more fruit and vegetables. He should do exercise every day. He shouldn’t eat too much junk food. What shouldn’t Tom do?",a:"Tom shouldn’t eat too much junk food. 汤姆不应该吃太多垃圾食品。shouldn’t 表示不应该，后面的动作是 eat too much junk food。"},{q:'读一读，判断对错："You should drink more water." 表示"你应该多喝水"。（ ）"He shouldn’t go to bed late." 表示"他应该晚睡"。（ ）',a:'第一句对，You should drink more water. 是你应该多喝水；第二句错，He shouldn’t go to bed late. 是"他不应该晚睡"，shouldn’t 是否定。'},{q:"为自己写两条健康建议：一条用 should，一条用 shouldn’t，并把它贴在书桌上。",a:"示例：I should do exercise every day. 我应该每天锻炼。I shouldn’t eat too much junk food. 我不应该吃太多垃圾食品。把建议贴出来，提醒自己说到做到。"}]}],课后反馈:`**学生常见错误**
+1. should 后误加 to：说出 You should to sleep early，把 should 当成了 be going to 的结构，要强调 should 直接接动词原形。
+2. healthy 与 health 混用：把"健康的食物"说成 health food，healthy 是形容词修饰名词，要专项辨析。
+3. shouldn’t 发音不清：读成"社的"或者吞音，说不清否定意思，要多跟读模仿。
+4. 建议空泛没有针对性：提建议只会说 You should eat fruit，不会针对具体情况说少吃垃圾食品、早睡等。
+
+**教学改进建议**
+1. 开展"健康小诊所"活动：学生扮演医生和病人，用 should / shouldn’t 给出针对性建议，在角色扮演中练句型。
+2. 制作健康食物分类海报：把食物分成"多吃、少吃、不吃"三类贴图，让健康观念可视化。
+3. 将 should 与 shouldn’t 对比教学：把肯定句和否定句并排呈现，让学生观察差异，避免混用。
+
+**分层辅导建议**
+- 基础层：认读健康词汇，会给食物分类（健康/垃圾食品），会跟读 should 句型。
+- 提高层：用 should / shouldn’t 给具体建议，能完成两轮健康问答。
+- 拓展层：写一篇"我的健康生活"小短文，用上 should 和 shouldn’t 各两句。
+
+**给家长的建议**
+1. 和孩子一起制定健康作息表，用英语说 You should go to bed early.，把英语融入生活管理。
+2. 逛超市时让孩子给食物分类：fruit、vegetables、junk food，既学英语又树立健康饮食观。`}],a=[{subject:"数学",stage:"小学",grade:"一年级",chapter:"1-5 的认识和加减法",备课方案:`**教学目标**
+1. 会数、会认、会读、会写 1-5 各数，掌握 1-5 各数的顺序，能正确比较两个数的大小，会用 1-5 表示物体的个数和事物的顺序。
+2. 理解数的分与合，能熟练说出 5 以内各数的组成，如 5 可以分成 2 和 3，为学习加减法打基础。
+3. 理解加法的含义（把两部分合并起来）、减法的含义（从总数中去掉一部分），能正确口算 5 以内加减法。
+4. 能用加减法解决"一共有多少""还剩多少"等简单生活问题，体会数学就在身边，喜欢上数学课。
+
+**教学重点**：1-5 各数的认读写，5 以内加减法的口算。
+**教学难点**：理解加减法的含义，能正确看图说图意并列出算式。
+**教学方法**：情境教学法、动手操作法、儿歌记忆法、游戏练习法。
+**教学准备**：数字卡片、圆片、小棒、实物图片（水果、玩具）、课件、任务单。
+**课时安排**：3 课时（第 1 课时：1-5 的认识与大小比较；第 2 课时：分与合；第 3 课时：加减法含义与解决问题）。`,课堂讲义:{核心知识点:`**一、认识 1-5 各数**
+生活中处处有 1-5：1 个太阳，2 棵大树，3 只小鸟，4 朵花，5 个小朋友。数一数身边的东西，就能体会每个数的含义。
+写数儿歌：1 像铅笔细又长，2 像小鸭水中游，3 像耳朵听声音，4 像小旗迎风飘，5 像秤钩来买菜。
+数的顺序：1、2、3、4、5 从小到大，后面的数比前面的数多 1。4 的后面是 5，3 的前面是 2，和 3 相邻的两个数是 2 和 4。
+比较大小：5 比 3 多，写作 5 大于 3；1 比 4 少，写作 1 小于 4。比较两个数，数排得越靠后越大。
+
+**二、分与合（数的组成）**
+分与合就是：一个数可以分成两个数，两个数也可以合成一个数。它是加减法计算的"工具"。
+
+| 数 | 分与合 |
+|---|---|
+| 2 | 1 和 1 |
+| 3 | 1 和 2 |
+| 4 | 1 和 3、2 和 2 |
+| 5 | 1 和 4、2 和 3 |
+
+例如 5 个圆片分成两堆，可以分 1 和 4，也可以分 2 和 3；反过来 2 和 3 合起来是 5。掌握了"3 和 2 合起来是 5"，就能算出 3+2=5；掌握了"5 可以分成 3 和 2"，就能算出 5-3=2。
+
+**三、加法的含义与计算**
+加法的含义是"合并"：把两部分合在一起，求一共是多少，用加法。
+例：左边有 3 个气球，右边有 2 个气球，合起来是 3+2=5（个）。读作"3 加 2 等于 5"。
+计算方法：一是接着数，3+2 从 3 往后数 4、5，得 5；二是想组成，想"3 和 2 组成 5"，得 3+2=5。"想组成"是最快的方法。
+加号的作用就是"把两部分合起来"，看到"一共""合起来""总共"这类词，往往用加法。
+
+**四、减法的含义与计算**
+减法的含义是"去掉"：从总数里去掉一部分，求还剩多少，用减法。
+例：5 个苹果吃掉了 2 个，还剩 5-2=3（个）。读作"5 减 2 等于 3"。
+计算方法：一是倒着数，5-2 从 5 倒着数 4、3，得 3；二是想组成，想"5 可以分成 2 和 3"，得 5-2=3。
+减号的作用就是"去掉一部分"，看到"还剩""去掉""吃掉""飞走"这类词，往往用减法。
+
+**五、5 以内加减法口算表**
+1+1=2，1+2=3，2+2=4，1+3=4，2+3=5，3+2=5……减法：4-1=3，4-2=2，5-1=4，5-2=3，5-3=2，5-4=1。
+规律：加一个数，得数变大；减一个数，得数变小。口算要又对又快，熟练到不用掰手指。
+
+**易错提醒**
+1. 2 和 5 写反方向：2 的"头"在右上，5 的"肚子"在右下。
+2. 分与合记混，把 5 分成 2 和 4，分完不知怎么检验。
+3. 看图列式不看图意就乱写，该加用减、该减用加。
+4. 口算依赖掰手指，要逐步脱离手指，直接用"想组成"算。`,重点难点解析:`**重点一：1-5 各数的认读写与顺序**
+例题：按顺序填数：1、（ ）、3、（ ）、5；和 4 相邻的两个数是几和几？
+分析：顺着数 1、2、3、4、5，中间的 2 和 4 就是空要填的数；4 前面是 3、后面是 5。
+解答：填 2 和 4；和 4 相邻的两个数是 3 和 5。
+小结：数的顺序一个比一个多 1，相邻数相差 1，记住顺序就能正确比较大小。
+
+**难点一：分与合**
+例题：5 个圆片分成两堆，有几种分法？分别怎么分？
+分析：从 1 开始分：一堆 1 个另一堆 4 个；一堆 2 个另一堆 3 个；再往下就重复了。
+解答：两种分法：1 和 4、2 和 3（交换位置是同一种，如 4 和 1 与 1 和 4 相同）。
+小结：分与合要按顺序、不重不漏；分完可以再合起来检查，合起来等于原数就对了。
+
+**难点二：理解加减法的含义，看图列式**
+例题：图上有 3 只小猫在草地上，又来了 2 只小猫，一共有几只？该用加法还是减法？
+分析：关键看问题"一共有几只"，是把两部分合起来，用加法。
+解答：3+2=5（只），一共有 5 只小猫。
+小结：先看图说了什么，再看问的是什么。"合起来、一共"用加法；"去掉、还剩"用减法。`,典型例题精讲:`**例题一（基础）：数一数、写一写**
+题目：图上有 4 只蝴蝶，请写出这个数，并和 5 比一比大小。
+分析：一只一只地点着数，数到 4 就写 4；4 在 5 的前面，所以 4 小于 5。
+解答：写作 4；4 小于 5。
+方法小结：数数要手口一致不重复；比较大小可以看数的顺序，排在前面的小、排在后面的大。
+
+**例题二（提高）：分与合**
+题目：妈妈买了 5 个苹果，要装进两个盘子，可以怎么分？写出算式。
+分析：5 可以分成 1 和 4、2 和 3，分别对应两种装法。
+解答：一个盘子 1 个、另一个盘子 4 个；或者一个盘子 2 个、另一个盘子 3 个。
+方法小结：分的时候按顺序想，分成两组不同的分法，写出来再合回去检查。
+
+**例题三（综合）：看图列式解决问题**
+题目：盘子里有 4 个梨，吃掉 1 个，还剩几个？请列出算式并口答。
+分析：4 是总数，吃掉 1 个是去掉一部分，求还剩用减法。
+解答：4-1=3（个），还剩 3 个梨。
+方法小结：解决问题分三步：一看图说题意，二想用什么方法（去掉用减法），三列式计算并口答，别忘了写单位。`},课后作业:[{difficulty:"基础",title:"认读写 1-5",questions:[{q:"数一数，连一连：3 朵花——数字几？5 颗糖——数字几？",a:"3 朵花连数字 3，5 颗糖连数字 5。教师引导语：让孩子一个一个点着数，数到几就连几，养成手口一致的好习惯。"},{q:"按顺序写数：1、（ ）、3、（ ）、5。",a:'填 2 和 4。教师引导语：顺着数"1、2、3、4、5"，边数边看空在哪里，就知道该填几。'},{q:"比较大小，在○里填大于号、小于号或等号：3○5，4○4，2○1。",a:"3 小于 5；4 等于 4；2 大于 1。教师引导语：让两堆圆片比一比谁多谁少，多的那边数字大，用大于号尖尖指向小的数。"}]},{difficulty:"中等",title:"分与合",questions:[{q:"4 可以分成（ ）和（ ），也可以分成（ ）和（ ）。",a:"4 可以分成 1 和 3，也可以分成 2 和 2。教师引导语：让孩子分 4 个圆片，先分 1 个和 3 个，再分 2 个和 2 个。"},{q:"填一填：5 可以分成 2 和（ ）；3 和 1 合起来是（ ）。",a:'5 可以分成 2 和 3；3 和 1 合起来是 4。教师引导语：想"合起来"就用加法，想"分成"就把总数减掉已知部分。'},{q:"判断对错：5 可以分成 2 和 4。（ ）",a:"错，2 和 4 合起来是 6，不是 5。5 可以分成 2 和 3。教师引导语：分完一定要合回去检验，合起来不等于原数就说明分错了。"}]},{difficulty:"难",title:"5 以内加减法口算",questions:[{q:"口算并说思路：2+3、4+1、5-2、3-1、2+2、5-4。",a:'2+3=5，4+1=5，5-2=3，3-1=2，2+2=4，5-4=1。教师引导语：追问孩子"2+3 怎么想"，引导说出"想 2 和 3 组成 5"，熟练运用想组成口算。'},{q:"在括号里填上合适的数：3+（ ）=5，（ ）+2=4，5-（ ）=3。",a:"3+2=5，2+2=4，5-2=3。教师引导语：求加数想减法，3+（ ）=5 就想 5-3=2；求减数也把总数减掉结果。"},{q:"看图列式：图上有 4 只小鸡在吃米，跑走了 1 只，还剩几只？",a:'4-1=3（只），还剩 3 只小鸡。教师引导语：先看图说图意"一共有 4 只，跑走 1 只"，跑走就是去掉，用减法。'}]},{difficulty:"综合",title:"加减法含义与生活应用",questions:[{q:"小明有 2 辆玩具车，妈妈又买来 3 辆，小明一共有多少辆玩具车？",a:'2+3=5（辆），一共有 5 辆玩具车。教师引导语："又买来"就是把两部分合起来，用加法；口答别忘了单位"辆"。'},{q:"盘子里有 5 个香蕉，吃掉 3 个，还剩几个？",a:'5-3=2（个），还剩 2 个香蕉。教师引导语："吃掉"就是去掉，用减法；可以让孩子先摆 5 个圆片代替香蕉，拿掉 3 个再数一数。'},{q:"动手操作：用 5 个圆片摆一摆，摆成两堆，写出你分出的两组数，再说说它们合起来是多少。",a:'答案不唯一，如 2 和 3：2+3=5；或 1 和 4：1+4=5。教师引导语：先分后合，边操作边说"几和几合起来是 5"，把分与合和加法打通。'}]}],课后反馈:`**学生常见错误**
+1. 数字书写不规范：2 和 5 写反、3 和 5 混淆，笔顺不对导致字形走样。
+2. 分与合记不牢：把 5 分成 2 和 4，分完不会用"合回去"的方法检验。
+3. 加减法含义混淆：看到"还剩"用加法、看到"一共"用减法，因为没先看图说图意。
+4. 口算依赖掰手指，速度慢还容易数错，没有形成"想组成"的自动化。
+
+**教学改进建议**
+1. 用儿歌辅助书写："1 像铅笔 2 像鸭……"配合范写和描红，逐笔纠正错误笔顺。
+2. 分与合教学坚持"摆一摆、分一分、说一说、记一记"，先操作再抽象，多安排对子游戏。
+3. 加强看图说图意的训练：每幅图先让孩子完整说一遍"图上有几个什么，又来了几个什么，一共有几个"，说对再列式。
+4. 口算循序渐进：先借助圆片想组成，再脱离实物对口令，最后限时口算，逐步脱掉手指依赖。
+
+**分层辅导建议**
+- 基础层：重点练 1-5 认读写和分与合，全程借助实物操作，不急着算。
+- 提高层：口算 5 以内加减法，练习看图列式，要求速度与准确率并重。
+- 拓展层：把加减法与生活情境结合，尝试自编题目，发展表达能力。
+
+**给家长的建议**
+1. 饭前饭后让孩子数一数碗筷："1 只碗、2 只碗、3 只碗"，边说边用手指点。
+2. 玩"分糖果"游戏：拿 5 颗糖分给两个人，看有几种分法，分完问"合起来还是 5 颗吗"。
+3. 每天 3 分钟对口令："我说 2，你说几和几组成 5"，把分与合练成条件反射。`},{subject:"数学",stage:"小学",grade:"一年级",chapter:"6-10 的认识和加减法",备课方案:`**教学目标**
+1. 会正确地数、认、读、写 6-10 各数，掌握 6-10 各数的顺序，能按顺序数出数量在 6-10 之间的物体个数，会用这些数表示物体的个数。
+2. 借助小棒、圆片等学具理解 6-10 各数的组成，能不重不漏地说出一个数可以由哪两个数组成，如 8 可以由 1 和 7、2 和 6、3 和 5、4 和 4 组成。
+3. 理解加减法的含义，能正确、较熟练地口算 10 以内加减法，会运用"想组成""接着数"等方法说明计算过程。
+4. 能根据一幅图写出"一图四式"（两加两减），会借助括线图（大括号）分析数量关系，解决"求一共""求还剩"等实际问题，初步感受数学与生活的联系。
+
+**教学重点**：6-10 各数的认识与组成，10 以内加减法的口算。
+**教学难点**：理解数的组成；看懂括线图、大括号图并正确列式。
+**教学方法**：情境教学法、操作探究法、儿歌记忆法、游戏练习法。
+**教学准备**：数字卡片、小棒、圆片、磁贴、口算卡片、课件、任务单。
+**课时安排**：3 课时（第 1 课时：6-10 的认识与组成；第 2 课时：10 以内加减法口算；第 3 课时：一图四式与解决问题）。`,课堂讲义:{核心知识点:`**一、认识 6-10 各数**
+数一数就会发现：5 添上 1 是 6，6 添上 1 是 7，7 添上 1 是 8，8 添上 1 是 9，9 添上 1 是 10。生活里到处是这些数：一双手有 10 根手指，一盒鸡蛋有 10 个，树上先飞来 6 只鸟又飞来 4 只就有 10 只鸟。
+写数口诀帮助记忆：6 像哨子嘟嘟吹，7 像镰刀割青草，8 像葫芦藤上挂，9 像勺子能盛饭，10 像铅笔加鸡蛋。
+数的顺序：5、6、7、8、9、10 从小到大排列，后面一个数总比前面一个数多 1。与 8 相邻的两个数是 7 和 9；9 的前面是 8，后面是 10。数越大越靠右，数越小越靠左。
+
+**二、6-10 各数的组成**
+一个数可以分成两个较小的数，两个数也能合成一个数。分与合是学习加减法的"法宝"。
+
+| 数 | 可以分成几和几 |
+|---|---|
+| 6 | 1 和 5、2 和 4、3 和 3 |
+| 7 | 1 和 6、2 和 5、3 和 4 |
+| 8 | 1 和 7、2 和 6、3 和 5、4 和 4 |
+| 9 | 1 和 8、2 和 7、3 和 6、4 和 5 |
+| 10 | 1 和 9、2 和 8、3 和 7、4 和 6、5 和 5 |
+
+记忆窍门：从 1 开始按顺序找，写一半就停住，就不会重复也不会漏掉。例如 8 的组成：1 和 7、2 和 6、3 和 5、4 和 4，再往下 5 和 3 就和 3 和 5 重复了。理解了 8 的组成，算 8+2、8-3、3+5 就都有了根据。
+
+**三、10 以内加减法口算**
+加法的含义是"合并"：把两部分合起来，用加法。3 个红圆片和 5 个蓝圆片合起来是 3+5=8（个）。减法的含义是"去掉"：从总数里去掉一部分，用减法。8 个圆片去掉 3 个，还剩 8-3=5（个）。
+计算方法有两种：一是接着数，算 3+5 就从 3 往后数 4、5、6、7、8，得 8；二是想组成，想"3 和 5 组成 8"得 3+5=8，想"8 可以分成 3 和 5"得 8-3=5。"想组成"又快又准，是口算的推荐方法。
+
+| 加法 | 得数 | 减法 | 得数 |
+|---|---|---|---|
+| 6+3 | 9 | 9-3 | 6 |
+| 7+2 | 9 | 9-2 | 7 |
+| 4+5 | 9 | 9-5 | 4 |
+| 5+5 | 10 | 10-5 | 5 |
+| 8+1 | 9 | 8-6 | 2 |
+
+规律：一个加数不变，另一个加数增加 1，和也增加 1；被减数不变，减数增加 1，差反而减少 1。
+
+**四、一图四式**
+一幅图可以写出四个算式：两道加法、两道减法。例如左边有 4 个红圆、右边有 3 个蓝圆，一共 7 个圆：
+- 加法：4+3=7，3+4=7（交换加数位置，和不变）
+- 减法：7-4=3，7-3=4（总数减一部分得另一部分）
+一图四式告诉我们：加法与减法是一家，"求一共"用加法，"求一部分"用减法。
+
+**五、解决问题：括线图和问号**
+括线（大括号）把两部分圈起来，表示"合在一起一共是多少"。括线下面写着数，就表示总数；括线下面打问号，就是问"一共有多少"，用加法。
+如果总数已经知道（如括线下写 10），其中一部分写着 4，另一部分打问号，就是问"另一部分有多少"，用减法。
+例：鱼缸里有 6 条红鱼和 3 条黑鱼，大括号下打问号，列式 6+3=9（条）。
+例：盒子里一共有 10 支铅笔，盒外有 4 支，盒内打问号，列式 10-4=6（支）。
+
+**易错提醒**
+1. 写 6 和 9 方向分不清：6 的"圈"在下面，9 的"圈"在上面。
+2. 数的组成记不全，漏掉 8 可以分成 4 和 4 这一组。
+3. 一图四式只写两个算式，要按"两加两减"的规律写满四个。
+4. 括线图把求总数和求部分用混：记住"问总数用加法，问部分用减法"。`,重点难点解析:`**重点一：6-10 各数的读写与顺序**
+例题：7 的后面是几？和 9 相邻的两个数分别是几和几？
+分析：按 6、7、8、9、10 的顺序数，7 后面是 8；9 前面是 8，后面是 10。
+解答：7 的后面是 8；和 9 相邻的两个数是 8 和 10。
+小结：数数时一个比一个多 1，相邻的两个数相差 1，记住顺序就掌握了大小。
+
+**难点一：数的组成——8 由几和几组成**
+例题：8 可以由哪几组数组成？请不重不漏地写出来。
+分析：从 1 开始配：1 和 7；接着 2 和 6；接着 3 和 5；接着 4 和 4。再往下 5 和 3 与 3 和 5 重复，就不必再写了。
+解答：8 可以由 1 和 7、2 和 6、3 和 5、4 和 4 组成。
+小结：说组成时按从小到大的顺序找，写到两个数相等或即将重复时停住，就能不重不漏。
+
+**难点二：看图列式——括线图**
+例题：一幅图上有括线，括线下面写着 10，左边有 6 个圆，右边打问号，问右边有几个圆？
+分析：括线下面的 10 是总数，左边 6 个是其中的一部分，求另一部分用减法。
+解答：10-6=4（个），右边有 4 个圆。
+小结：看括线图先找"总数"和"已知部分"，再找"问号在哪里"：括线下打问号求一共用加法，括线下有总数求部分用减法。`,典型例题精讲:`**例题一（基础）：数一数、写一写**
+题目：图上有 7 朵花，请用数字写出来，并说说 7 的前面是几、后面是几。
+分析：用笔尖一个一个地点着数，不重复不漏数，数到几就写几。
+解答：写作 7；7 的前面是 6，后面是 8。
+方法小结：数数要按顺序、手口一致；写数要按笔顺，写规范。
+
+**例题二（提高）：一图四式**
+题目：左边有 5 个三角形，右边有 3 个三角形，请写出四个算式。
+分析：求一共用加法，两个加数可以交换位置；求部分用减法，被减数都是总数 8。
+解答：5+3=8，3+5=8，8-5=3，8-3=5。
+方法小结：一图四式先写"两加"再写"两减"，两减的被减数必须是总数，减数是两边的数量。
+
+**例题三（综合）：大括号解决问题**
+题目：停车场里一共有 9 辆车，开走了 4 辆（图中有大括号），还剩几辆？请列式并口答。
+分析：9 是总数，4 是开走的部分，求还剩多少（另一部分）用减法。
+解答：9-4=5（辆），还剩 5 辆。
+方法小结：读图先找总数，再找已知部分，最后看问号位置确定算法，列式后要口答"还剩 5 辆"。`},课后作业:[{difficulty:"基础",title:"认一认、写一写 6-10",questions:[{q:"数一数，填一填：图中有 8 个苹果，请写出这个数，并在下面画 8 个圆片表示。",a:"写作 8；画圆片时按顺序画 8 个。教师引导语：数的时候要一个一个点着数，数完再检查一遍，画圆片要一一对应。"},{q:"按顺序填数：5、6、（ ）、8、（ ）、10。",a:'填 7 和 9。教师引导语：顺着数一数"5、6、7、8、9、10"，每个数比前一个多 1，就知道空该填几。'},{q:"写一写：把 7、9、10 三个数在田字格里各写两遍，边写边说笔顺。",a:'7：横折横；9：从左上起笔先写"圈"再写竖；10 先写 1 再写 0。教师引导语：写 9 时注意"圈"在右上，写 10 时两个数字都要写规范，占田字格左右两格。'}]},{difficulty:"中等",title:"数的组成",questions:[{q:"填一填：7 可以分成（ ）和 2；9 由 5 和（ ）组成。",a:"7 可以分成 5 和 2；9 由 5 和 4 组成。教师引导语：让孩子先摆小棒再填空，摆出 7 根分成两堆，一堆 2 根，另一堆就是 5 根。"},{q:"8 可以分成几和几？请不重不漏地全部写出来。",a:"8 可以分成 1 和 7、2 和 6、3 和 5、4 和 4。教师引导语：按从小到大的顺序找，写到 4 和 4 就停，否则会重复。"},{q:"连一连：把 6 和它的组成连起来。6——（1 和 5、2 和 4、3 和 3）。",a:"6 与 1 和 5、2 和 4、3 和 3 三条线都连上。教师引导语：检查有没有漏掉哪一组，6 的组成一共有 3 组。"}]},{difficulty:"难",title:"10 以内加减法口算",questions:[{q:"口算并说思路：6+2、9-4、5+5、8-3、7+2、10-6。",a:'6+2=8，9-4=5，5+5=10，8-3=5，7+2=9，10-6=4。教师引导语：先让孩子用"想组成"口算，再追问"9-4 是怎么想的"，答出"9 可以分成 4 和 5"。'},{q:"在括号里填上合适的数：4+（ ）=9，7-（ ）=3，（ ）+5=8。",a:"4+5=9，7-4=3，3+5=8。教师引导语：求加数想减法，4+（ ）=9 就想 9-4=5；求减数也想减法，7-（ ）=3 就想 7-3=4。"},{q:"比一比，在○里填上大于号、小于号或等号：6+3○9，10-4○5，4+4○7。",a:"6+3=9，填等号；10-4=6，6 大于 5，填大于号；4+4=8，8 大于 7，填大于号。教师引导语：先把两边算出来再比较，不要只凭眼睛看。"}]},{difficulty:"综合",title:"一图四式与解决问题",questions:[{q:"看图写四式：左边有 6 个黄圆片，右边有 4 个红圆片。请写出两道加法算式和两道减法算式。",a:"6+4=10，4+6=10，10-6=4，10-4=6。教师引导语：先数清两边的数量，加法求一共，减法用总数减去其中一边。"},{q:"解决问题：妈妈买了 10 个苹果，吃掉了 3 个，还剩多少个？",a:"10-3=7（个），还剩 7 个苹果。教师引导语：10 是总数，吃掉 3 个是去掉的部分，求还剩用减法，别忘了写单位。"},{q:"公共汽车上原来有 8 人，到站下去 2 人，又上来 1 人，现在车上有多少人？（两步计算）",a:"先算 8-2=6（人），再算 6+1=7（人），现在车上有 7 人。教师引导语：分两步想，先算下去的，再算上来的，两步都要写算式，帮助孩子建立分步思考的习惯。"}]}],课后反馈:`**学生常见错误**
+1. 6 和 9 写反、认反，书写时不看笔顺，把 6 的圈写在上面。
+2. 数的组成记不全：漏掉 8 可以分成 4 和 4，或者写出 5 和 3 与 3 和 5 重复。
+3. 一图四式只写出两个算式，减法被减数写错，如把 8-3 写成 3-5。
+4. 括线图把加法和减法用反：括线下打问号时用减法，已知总数求部分时却用加法。
+
+**教学改进建议**
+1. 用儿歌和游戏巩固 6-10 的读写，如"数字找朋友""猜数游戏"，让认数变得有趣。
+2. 数的组成坚持"先摆再记"：让学生摆圆片或小棒，边摆边记录，把操作和书写结合起来。
+3. 一图四式先扶着写再独立写，反复强调"两加两减、减法被减数是总数"的规律。
+4. 括线图要多画多练，让学生指着图说出"哪是总数、哪是部分、问的是什么"，说清楚了再列式。
+
+**分层辅导建议**
+- 基础层：借助小棒和圆片操作，先过关 6-10 的认读写，再练数的组成，不急着口算。
+- 提高层：脱离实物直接口算 10 以内加减法，练习一图四式，提高速度和准确率。
+- 拓展层：解决两步计算的生活问题，鼓励自己编一道括线图题目考考同桌。
+
+**给家长的建议**
+1. 在家数餐具、分水果时多问"一共有几个""吃掉几个还剩几个"，把加减法放进生活。
+2. 和孩子玩"猜组成"游戏：你说"8"，孩子接"3 和 5"，你说"7"孩子接"4 和 3"，边玩边记。
+3. 每天坚持 5 分钟口算打卡，先求对再求快，发现错误让孩子把想法说一遍再订正。`},{subject:"数学",stage:"小学",grade:"一年级",chapter:"20 以内的进位加法",备课方案:`**教学目标**
 1. 理解"凑十法"的算理，能借助小棒操作说明 20 以内进位加法的计算过程。
 2. 正确、较熟练地口算 9 加几、8 加几、7 加几、6 加几等进位加法，会说凑十的思路。
 3. 能应用加法解决"求一共是多少"的实际问题，会口述计算思路并正确列式。
@@ -10364,4 +10944,4 @@ $29 - 24 = 5$，余数 5。
 
 **给家长的建议**
 1. 让孩子参与家庭节能：担任一周"节能监督员"，检查关灯、关机情况，培养责任意识。
-2. 购物、出行时和孩子讨论绿色选择，如自带购物袋、乘公交，把节约能源落实到生活细节。`}],s=[...n,...e,...t,...a,...i];export{s as PRIMARY_LESSONS};
+2. 购物、出行时和孩子讨论绿色选择，如自带购物袋、乘公交，把节约能源落实到生活细节。`}],o=[...n,...e,...t,...a,...i];export{o as PRIMARY_LESSONS};
