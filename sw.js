@@ -1,14 +1,15 @@
-/* 教师备课助手 · Service Worker v3
- * v3 修复：导航请求改为 network-first，避免新版发布后旧 HTML 引用已删资源导致白屏
- * 策略：核心壳预缓存；导航请求优先网络、失败回退缓存；静态资源缓存优先 + 后台更新
+/* 教师备课助手 · Service Worker
+ * 策略：
+ *   导航请求（HTML）→ network-first（始终优先拿最新页面，离线回退缓存）
+ *   静态资源（带 hash 的 assets）→ cache-first + 后台更新（hash 不可变，缓存命中率高）
+ * 版本号：每次发布内容/代码升级时 +1，激活后通知页面"发现新版本"
  */
 const CACHE = 'wb-lesson-v3'
-const CORE = ['/', '/manifest.webmanifest', '/favicon.svg']
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE)
-      .then((cache) => cache.addAll(CORE))
+      .then((cache) => cache.addAll(['/', '/manifest.webmanifest', '/favicon.svg']))
       .then(() => self.skipWaiting()),
   )
 })
@@ -18,28 +19,30 @@ self.addEventListener('activate', (event) => {
     caches.keys()
       .then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))))
       .then(() => self.clients.claim())
-      .then(() => self.clients.matchAll({ type: 'window' }).then((clients) => {
-        clients.forEach((client) => client.postMessage({ type: 'WB_UPDATE' }))
-      })),
+      .then(() => {
+        // 通知所有页面：新版本已就绪，可提示用户刷新
+        return self.clients.matchAll({ type: 'window' }).then((clients) => {
+          clients.forEach((client) => client.postMessage({ type: 'WB_UPDATE' }))
+        })
+      }),
   )
 })
 
 self.addEventListener('fetch', (event) => {
   const req = event.request
+  // 仅处理同源 GET（外部 CDN 字体等走网络）
   if (req.method !== 'GET' || !req.url.startsWith(self.location.origin)) return
 
-  // 导航请求（HTML）：网络优先，失败回退缓存 —— 防旧 HTML 白屏
+  // 导航请求（页面 HTML）：network-first，避免缓存旧 HTML 引用已删除的旧 assets 导致白屏
   if (req.mode === 'navigate') {
     event.respondWith(
-      fetch(req)
-        .then((res) => {
-          if (res && res.status === 200) {
-            const copy = res.clone()
-            caches.open(CACHE).then((cache) => cache.put(req, copy))
-          }
-          return res
-        })
-        .catch(() => caches.match(req).then((c) => c || caches.match('/'))),
+      fetch(req).then((res) => {
+        if (res && res.status === 200) {
+          const copy = res.clone()
+          caches.open(CACHE).then((cache) => cache.put(req, copy))
+        }
+        return res
+      }).catch(() => caches.match(req).then((c) => c || caches.match('/'))),
     )
     return
   }
