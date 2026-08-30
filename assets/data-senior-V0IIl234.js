@@ -1,4 +1,4 @@
-import{O as r,o as $}from"./lesson-data-C47C-y_T.js";import"./wb-lib-DhsMbxR8.js";import"./react-vendor-Ds7D3P6J.js";import"./katex-Dc8nsIP1.js";const i=[{subject:"语文",stage:"高中",grade:"高一",chapter:"古诗文：短歌行/归园田居",备课方案:`**教学目标**
+import{O as r,o as $}from"./lesson-data-D1W755B-.js";import"./open-class-a7koK_Qt.js";const i=[{subject:"语文",stage:"高中",grade:"高一",chapter:"古诗文：短歌行/归园田居",备课方案:`**教学目标**
 1. 反复诵读两首诗歌，读准字音，把握四言、五言诗的节奏与韵律，能熟练背诵并准确默写全诗。
 2. 理解《短歌行》中曹操「忧思难忘」的深层内涵，体会其求贤若渴、一统天下的雄心壮志。
 3. 理解《归园田居》中陶渊明厌恶官场、回归自然的情感，感受田园诗冲淡平和的意境之美。
@@ -17505,4 +17505,4 @@ D. 一般违约行为`,a:"B。产品质量责任适用无过错责任原则，�
 3. 结合高空抛物、个人信息保护热点命题训练。
 
 **分层辅导**
-学困生掌握基本概念与常见侵权情形；学优生训练案例分析题，学会定性、找依据、说责任、给建议。`}],n=e=>e.map(a=>{const t=r[$(a)];return t?{...a,openClass:t}:a}),y=[...n(i),...n(s),...n(o),...n(c),...n(l),...n(_),...n(f),...n(g),...n(h),...n(m),...n(d),...n(w),...n(u),...n(C)];export{y as SENIOR_LESSONS};
+学困生掌握基本概念与常见侵权情形；学优生训练案例分析题，学会定性、找依据、说责任、给建议。`}],n=e=>e.map(a=>{const t=r[$(a)];return t?{...a,openClass:t}:a}),H=[...n(i),...n(s),...n(o),...n(c),...n(l),...n(_),...n(f),...n(g),...n(h),...n(m),...n(d),...n(w),...n(u),...n(C)];export{H as SENIOR_LESSONS};

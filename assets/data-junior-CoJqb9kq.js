@@ -1,4 +1,4 @@
-import{O as n,o as e}from"./lesson-data-C47C-y_T.js";import"./wb-lib-DhsMbxR8.js";import"./react-vendor-Ds7D3P6J.js";import"./katex-Dc8nsIP1.js";const $=[{subject:"语文",stage:"初中",grade:"七年级",chapter:"古诗文：观沧海/闻王昌龄左迁龙标遥有此寄",备课方案:`**教学目标**
+import{O as n,o as e}from"./lesson-data-D1W755B-.js";import"./open-class-a7koK_Qt.js";const $=[{subject:"语文",stage:"初中",grade:"七年级",chapter:"古诗文：观沧海/闻王昌龄左迁龙标遥有此寄",备课方案:`**教学目标**
 1. 反复诵读，把握两首诗的基本内容与感情基调，能背诵并默写全文。
 2. 学习《观沧海》借景抒情、虚实结合的手法，感受曹操博大的胸襟与雄心壮志。
 3. 学习《闻王昌龄左迁龙标遥有此寄》托物寄情的手法，体会李白对友人的深切关怀。
@@ -16435,4 +16435,4 @@ A. has lived; living  B. lived; live  C. has lived; live  D. lives; living
 **常见错误**：used to 三种结构混淆；成长故事只有结论没有细节；not only 置于句首时忘记倒装；前后时态不一致。
 **教学改进建议**：用三栏对照表强化三种 used to 结构；用时间线写作法先列时间点再成文；范文精读仿写。
 **分层辅导**：学困生掌握 used to 基本用法，写出"过去 vs 现在"对比句；学优生要求事例具体、用倒装等高分句式。
-**给家长的建议**：和孩子一起回忆成长故事积累素材；鼓励用英语向家人介绍自己的变化。`}],t=i=>i.map(a=>{const r=n[e(a)];return r?{...a,openClass:r}:a}),x=[...t($),...t(s),...t(g),...t(o),...t(w),...t(l),...t(c),...t(S),...t(h),...t(u),...t(q),...t(f),...t(d)];export{x as JUNIOR_LESSONS};
+**给家长的建议**：和孩子一起回忆成长故事积累素材；鼓励用英语向家人介绍自己的变化。`}],t=i=>i.map(a=>{const r=n[e(a)];return r?{...a,openClass:r}:a}),_=[...t($),...t(s),...t(g),...t(o),...t(w),...t(l),...t(c),...t(S),...t(h),...t(u),...t(q),...t(f),...t(d)];export{_ as JUNIOR_LESSONS};

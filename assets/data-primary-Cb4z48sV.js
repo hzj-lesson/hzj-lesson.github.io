@@ -1,4 +1,4 @@
-import{O as i,o}from"./lesson-data-C47C-y_T.js";import"./wb-lib-DhsMbxR8.js";import"./react-vendor-Ds7D3P6J.js";import"./katex-Dc8nsIP1.js";const s=[{subject:"数学",stage:"小学",grade:"一年级",chapter:"认识人民币",备课方案:`**教学目标**
+import{O as i,o}from"./lesson-data-D1W755B-.js";import"./open-class-a7koK_Qt.js";const s=[{subject:"数学",stage:"小学",grade:"一年级",chapter:"认识人民币",备课方案:`**教学目标**
 1. 认识人民币的单位元、角、分，知道 1 元 = 10 角、1 角 = 10 分。
 2. 认识各种面值的人民币（纸币和硬币），能正确区分和说出面值。
 3. 会进行简单的元、角、分换算，能解决简单的购物付钱、找钱问题。
@@ -10944,4 +10944,4 @@ $29 - 24 = 5$，余数 5。
 
 **给家长的建议**
 1. 让孩子参与家庭节能：担任一周"节能监督员"，检查关灯、关机情况，培养责任意识。
-2. 购物、出行时和孩子讨论绿色选择，如自带购物袋、乘公交，把节约能源落实到生活细节。`}],n=a=>a.map(e=>{const t=i[o(e)];return t?{...e,openClass:t}:e}),g=[...n(s),...n(l),...n(u),...n(r),...n(h)];export{g as PRIMARY_LESSONS};
+2. 购物、出行时和孩子讨论绿色选择，如自带购物袋、乘公交，把节约能源落实到生活细节。`}],n=a=>a.map(e=>{const t=i[o(e)];return t?{...e,openClass:t}:e}),y=[...n(s),...n(l),...n(u),...n(r),...n(h)];export{y as PRIMARY_LESSONS};
