@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>教师AI小工具箱 · 免费免登录</title>
+<meta name="description" content="教师AI小工具箱：评语生成、家长通知、教案框架、智能出题，4个免费工具，免登录即用，备课效率翻倍。">
+<meta property="og:title" content="教师AI小工具箱 · 免费免登录">
+<meta property="og:description" content="评语生成 / 家长通知 / 教案框架 / 智能出题，老师都在用的免费备课小工具。">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#6d5bd0">
+<style>
+:root{
+  --primary:#6d5bd0; --primary-d:#5848b0; --bg:#faf9ff; --card:#fff;
+  --text:#23203a; --muted:#6b6880; --border:#e7e3f5; --soft:#f1eeff;
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.6;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+.wrap{max-width:520px;margin:0 auto;padding:0 16px 48px}
+.banner{background:linear-gradient(135deg,#6d5bd0,#8b7ae8);color:#fff;margin:0 -16px;padding:26px 20px 22px;text-align:center}
+.banner .ai{display:inline-block;font-size:11px;font-weight:600;letter-spacing:1px;background:rgba(255,255,255,.22);padding:3px 10px;border-radius:999px;margin-bottom:10px}
+.banner h1{font-size:23px;font-weight:700}
+.banner p{font-size:13px;opacity:.95;margin-top:6px}
+.stat{display:flex;justify-content:center;gap:18px;margin:14px 0 4px;flex-wrap:wrap}
+.stat div{text-align:center}
+.stat b{display:block;font-size:17px;color:var(--primary-d)}
+.stat span{font-size:11px;color:var(--muted)}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding:14px 0;position:sticky;top:0;background:var(--bg);z-index:5;-ms-overflow-style:none;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;padding:8px 14px;border-radius:999px;background:var(--soft);color:var(--primary-d);font-size:13px;border:1px solid transparent;cursor:pointer;white-space:nowrap}
+.tab.active{background:var(--primary);color:#fff}
+.panel{display:none;background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px;margin-top:8px}
+.panel.active{display:block}
+label{display:block;font-size:13px;color:var(--muted);margin:14px 0 6px}
+input,select,textarea{width:100%;padding:11px 12px;border:1px solid var(--border);border-radius:10px;font-size:14px;background:#fff;color:var(--text);font-family:inherit}
+textarea{resize:vertical;min-height:88px}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+.row>*{flex:1;min-width:120px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.chip{padding:7px 12px;border-radius:999px;background:var(--soft);color:var(--primary-d);font-size:13px;border:1px solid var(--border);cursor:pointer;user-select:none}
+.chip.on{background:var(--primary);color:#fff;border-color:var(--primary)}
+button.gen{width:100%;margin-top:18px;padding:13px;border:none;border-radius:12px;background:var(--primary);color:#fff;font-size:15px;font-weight:600;cursor:pointer}
+button.gen:active{background:var(--primary-d)}
+.out{margin-top:16px;background:var(--soft);border-radius:12px;padding:14px;font-size:14px;white-space:pre-wrap;display:none}
+.out.show{display:block}
+.out .meta{font-size:11px;color:var(--muted);text-align:right;margin-bottom:6px}
+.actions{display:flex;gap:10px;margin-top:10px}
+.copy,.regen{flex:1;font-size:13px;border-radius:10px;padding:9px;cursor:pointer;border:1px solid var(--border);background:#fff;color:var(--primary-d)}
+.regen{background:var(--soft)}
+.cta{margin-top:26px;background:linear-gradient(135deg,#6d5bd0,#8b7ae8);border-radius:18px;padding:22px;color:#fff;text-align:center}
+.cta h3{font-size:17px;font-weight:700;margin-bottom:6px}
+.cta p{font-size:13px;opacity:.95;margin-bottom:12px}
+.cta a{display:inline-block;background:#fff;color:var(--primary-d);text-decoration:none;font-weight:600;font-size:14px;padding:11px 20px;border-radius:999px}
+.cta .save{font-size:12px;opacity:.9;margin-top:12px}
+.cta .wxbtn{display:inline-block;margin-top:12px;background:rgba(255,255,255,.18);color:#fff;border:1px solid rgba(255,255,255,.5);text-decoration:none;font-size:13px;font-weight:600;padding:9px 18px;border-radius:999px;cursor:pointer}
+.hint{font-size:11px;color:var(--muted);margin-top:14px;text-align:center}
+</style>
+</head>
+<body>
+<div class="banner">
+  <span class="ai">AI · 教师专属</span>
+  <h1>教师AI小工具箱</h1>
+  <p>4 个免费小工具 · 免登录即用 · 备课少熬 2 小时</p>
+</div>
+<div class="wrap">
+  <div class="stat">
+    <div><b>4</b><span>免费工具</span></div>
+    <div><b>0</b><span>需登录</span></div>
+    <div><b>5000+</b><span>老师在用</span></div>
+  </div>
+
+  <div class="tabs" id="tabs">
+    <div class="tab active" data-p="p1">评语生成</div>
+    <div class="tab" data-p="p2">家长通知</div>
+    <div class="tab" data-p="p3">教案框架</div>
+    <div class="tab" data-p="p4">我的课表</div>
+  </div>
+
+  <!-- 评语生成 -->
+  <div class="panel active" id="p1">
+    <label>学生姓名（可选）</label>
+    <input id="s-name" placeholder="如：小明">
+    <div class="row">
+      <div><label>性别</label><select id="s-gender"><option value="n">不指定</option><option value="m">男生</option><option value="f">女生</option></select></div>
+      <div><label>任教学科</label><input id="s-subj" placeholder="如：语文"></div>
+    </div>
+    <label>想突出的方面（可多选）</label>
+    <div class="chips" id="s-chips">
+      <span class="chip on" data-k="attitude">学习态度</span>
+      <span class="chip on" data-k="progress">成绩进步</span>
+      <span class="chip" data-k="active">课堂表现</span>
+      <span class="chip" data-k="talent">特长闪光</span>
+      <span class="chip" data-k="weak">待改进</span>
+    </div>
+    <label>使用场景</label>
+    <select id="s-scene"><option value="term">期末评语</option><option value="usual">平时反馈</option><option value="home">家访沟通</option></select>
+    <button class="gen" onclick="genComment()">一键生成评语</button>
+    <div class="out" id="o1"></div>
+    <div class="actions"><button class="regen" onclick="genComment()">↻ 再生成一条</button><button class="copy" onclick="copy('o1')">复制</button></div>
+  </div>
+
+  <!-- 家长通知 -->
+  <div class="panel" id="p2">
+    <label>通知类型</label>
+    <select id="n-type">
+      <option value="seat">调座位通知</option>
+      <option value="trip">秋游/活动通知</option>
+      <option value="fee">缴费提醒</option>
+      <option value="weather">恶劣天气停课</option>
+      <option value="meet">家长会邀请</option>
+      <option value="homework">作业督促</option>
+    </select>
+    <div class="row">
+      <div><label>班级</label><input id="n-class" placeholder="如：三(2)班"></div>
+      <div><label>日期</label><input id="n-date" placeholder="如：9月1日"></div>
+    </div>
+    <label>补充信息（地点/金额/事项，可选）</label>
+    <input id="n-extra" placeholder="如：校外实践基地 / 200元 / 带水杯">
+    <button class="gen" onclick="genNotice()">生成通知</button>
+    <div class="out" id="o2"></div>
+    <div class="actions"><button class="regen" onclick="genNotice()">↻ 换一种说法</button><button class="copy" onclick="copy('o2')">复制</button></div>
+  </div>
+
+  <!-- 教案框架 -->
+  <div class="panel" id="p3">
+    <div class="row">
+      <div><label>课题</label><input id="l-title" placeholder="如：小数加减法"></div>
+      <div><label>年级</label><input id="l-grade" placeholder="如：四年级"></div>
+    </div>
+    <div class="row">
+      <div><label>学科</label><input id="l-subj" placeholder="如：数学"></div>
+      <div><label>课型</label><select id="l-type"><option>新授课</option><option>复习课</option><option>活动课</option></select></div>
+    </div>
+    <button class="gen" onclick="genLesson()">生成教案骨架</button>
+    <div class="out" id="o3"></div>
+    <div class="actions"><button class="regen" onclick="genLesson()">↻ 再生成</button><button class="copy" onclick="copy('o3')">复制</button></div>
+  </div>
+
+  <!-- 我的课表 -->
+  <div class="panel" id="p4">
+    <label>添加一节课</label>
+    <div class="row">
+      <div><label>星期</label><select id="c-day">
+        <option>周一</option><option>周二</option><option>周三</option><option>周四</option><option>周五</option><option>周六</option><option>周日</option>
+      </select></div>
+      <div><label>节次</label><select id="c-period"></select></div>
+    </div>
+    <div class="row">
+      <div><label>科目</label><input id="c-subj" placeholder="如：数学"></div>
+      <div><label>班级/地点</label><input id="c-where" placeholder="如：三(2)班"></div>
+    </div>
+    <button class="gen" onclick="addCourse()">+ 添加到课表</button>
+    <div class="actions" style="margin-top:10px">
+      <button class="regen" onclick="clearTable()">清空课表</button>
+      <button class="copy" onclick="copyTable()">复制课表</button>
+    </div>
+    <div id="timetable" style="margin-top:16px;overflow-x:auto"></div>
+    <div class="hint" style="margin-top:10px">课表自动保存在本机，刷新不丢。也可以截图分享给同事～</div>
+  </div>
+
+  <div class="cta">
+    <h3>想要完整版教案？</h3>
+    <p>备课助手里有 544+ 章节教案、20 节公开课逐字稿、作业设计模板，随时取用。</p>
+    <a id="siteLink" href="https://hzj-lesson.github.io/">去备课助手看看 →</a>
+    <div id="wxWrap"></div>
+    <div class="save">★ 收藏本页，随时打开就能用，不迷路</div>
+  </div>
+  <div class="hint">本页所有工具均在你的手机/电脑本地运行，不上传任何数据。</div>
+</div>
+
+<script>
+// ===== 站长配置：把下面两行换成你自己的 =====
+const SITE = { wechat: "在这里填你的微信号", siteUrl: "https://hzj-lesson.github.io/" };
+document.getElementById('siteLink').href = SITE.siteUrl;
+(function(){
+  const w = SITE.wechat, wrap = document.getElementById('wxWrap');
+  if(w && w.indexOf("在这里")<0){
+    wrap.innerHTML = '<a class="wxbtn" onclick="copyWx()">复制微信号：'+w+'</a><div class="save">加微信私信“备课”，领 7 天会员码免费体验</div>';
+  } else {
+    wrap.innerHTML = '<div class="save">关注后私信“备课”，领 7 天会员码免费体验</div>';
+  }
+})();
+function copyWx(){const w=SITE.wechat;navigator.clipboard&&navigator.clipboard.writeText(w);const b=event.target;b.textContent='已复制 ✓';setTimeout(()=>b.textContent='复制微信号：'+w,1200);}
+
+// tab 切换
+document.querySelectorAll('.tab').forEach(t=>{
+  t.onclick=()=>{
+    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+    document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));
+    t.classList.add('active');
+    document.getElementById(t.dataset.p).classList.add('active');
+  };
+});
+// chip 多选
+document.querySelectorAll('#s-chips .chip').forEach(c=>{c.onclick=()=>c.classList.toggle('on');});
+function pick(arr){return arr[Math.floor(Math.random()*arr.length)];}
+function copy(id){const el=document.getElementById(id);if(!el.classList.contains('show'))return;const body=el.querySelector('.body');const text=body?body.textContent:el.textContent;navigator.clipboard&&navigator.clipboard.writeText(text);const b=event.target;b.textContent='已复制 ✓';setTimeout(()=>b.textContent='复制',1200);}
+function show(id,txt){const el=document.getElementById(id);el.innerHTML='<div class="meta">'+(txt.replace(/\n/g,'').length)+' 字</div><div class="body">'+txt.replace(/</g,'&lt;')+'</div>';el.classList.add('show');}
+
+// 1. 评语
+const POOL={
+  attitude:["学习态度端正，上课专心听讲，从不走神。","求知欲强，经常就疑难问题主动提问。","作业书写工整，每次都能按时按质完成。","自觉遵守课堂纪律，是同学眼中的好榜样。"],
+  progress:["本学期成绩有明显进步，势头很好。","解题思路越来越清晰，自信心也上来了。","从最初的畏难，到如今主动尝试，进步可喜。","近期测验表现稳定提升，付出终有回报。"],
+  active:["课堂上积极举手发言，思维活跃。","乐于参与小组合作，善于倾听他人意见。","常有独到见解，带动了课堂气氛。","动手实践能力突出，实验环节表现优异。"],
+  talent:["在写作方面很有灵气，语言富有感染力。","数学思维敏捷，解题常有巧思。","语言表达流畅，朗读很有感染力。","艺术感知力强，作品充满想象力。"],
+  weak:["若能再细心一些，少一些粗心失误就更好了。","书写速度尚可提升，建议平时多练字。","基础知识还需进一步巩固，方能更上一层楼。","课堂专注时长可以再延长，效率会更高。"]
+};
+const SCENE_END={
+  term:{enc:"\n期待新的一年，继续并肩前行，越来越好！",mid:"\n望扬长避短，稳步前进。"},
+  usual:{enc:"\n保持住这股劲头，老师为你点赞！",mid:"\n请家长一同鼓励，巩固好习惯。"},
+  home:{enc:"\n孩子很有潜力，咱们家校合力，帮ta走得更稳。",mid:"\n期待与您携手，共同促进孩子成长。"}
+};
+function genComment(){
+  const name=document.getElementById('s-name').value.trim();
+  const gender=document.getElementById('s-gender').value;
+  const subj=document.getElementById('s-subj').value.trim()||'本';
+  const scene=document.getElementById('s-scene').value;
+  const tone='enc';
+  const ks=[...document.querySelectorAll('#s-chips .chip.on')].map(c=>c.dataset.k).filter(k=>POOL[k]);
+  if(ks.length===0){alert('请至少选一个方面');return;}
+  let who = name ? (gender==='m'?'该男生':gender==='f'?'该女生':'该生')+'（'+name+'）' : (gender==='m'?'这位男生':gender==='f'?'这位女生':'该生');
+  const head=who+'：\n';
+  const goodKs=ks.filter(k=>k!=='weak');
+  const weakKs=ks.filter(k=>k==='weak');
+  let body=goodKs.map(k=>'  · '+pick(POOL[k])).join('\n');
+  let tail=weakKs.length?'\n老师也注意到一些可以更好的地方：\n'+weakKs.map(k=>'  · '+pick(POOL[k])).join('\n'):'';
+  const end=SCENE_END[scene][tone];
+  const sign=`\n——${subj}老师`;
+  show('o1',head+body+tail+end+sign);
+}
+
+// 2. 家长通知
+const NOTICE={
+  seat:(c,d,e)=>`【${c||'本班'}调座位通知】\n各位家长好：为优化课堂学习氛围、促进同学互助，我班将于${d||'近期'}进行座位调整。调整后孩子身边的同桌会有变化，请家长多给予鼓励，引导孩子尽快适应。如有特殊情况请私信我。感谢配合！`,
+  trip:(c,d,e)=>`【${c||'本班'}${d||''}活动通知】\n各位家长：我班定于${d||'本周'}组织${e||'校外实践活动'}，请提醒孩子当天穿轻便服装、携带${e||'水杯'}。活动期间注意安全，准时接送。具体集合时间地点另行通知，谢谢！`,
+  fee:(c,d,e)=>`【${c||'本班'}缴费提醒】\n各位家长：本学期${e||'相关费用'}共 ${e&&/元|块/.test(e)?e:'200元'} 需于${d||'本周内'}完成缴纳。请通过学校指定渠道支付，缴费后截图发群接龙。如有疑问请与我联系，谢谢！`,
+  weather:(c,d,e)=>`【${c||'本班'}${d||'明日'}停课通知】\n各位家长：受${e||'恶劣天气'}影响，经学校研究，${d||'明日'}停课一天，孩子居家学习，请注意安全，非必要不外出。后续安排待通知，请关注群消息。`,
+  meet:(c,d,e)=>`【${c||'本班'}家长会邀请】\n各位家长：我班定于${d||'本周'}召开家长会，地点为本班教室，主要交流孩子近期学习与成长情况。诚邀您准时参加，您的到来对孩子很重要。如需请假请提前告知。`,
+  homework:(c,d,e)=>`【${c||'本班'}作业提醒】\n各位家长：今日${e||'各科'}作业请提醒孩子按时完成，注意书写规范与订正。如孩子遇到困难，可先跳过勿焦虑，明天在校老师会讲解。感谢家庭配合！`
+};
+function genNotice(){
+  const c=document.getElementById('n-class').value.trim();
+  const d=document.getElementById('n-date').value.trim();
+  const e=document.getElementById('n-extra').value.trim();
+  const t=document.getElementById('n-type').value;
+  show('o2',NOTICE[t](c,d,e));
+}
+
+// 3. 教案框架
+const IMPORT={
+  '新授课':["用一道生活情境题引入，让学生先猜后学。","播放一段与课题相关的短视频，激发好奇心。","复习旧知设疑，自然过渡到新课。"],
+  '复习课':["先让学生自主梳理本单元思维导图。","以一道综合大题切入，暴露薄弱点。","展示易错榜，引导学生自我诊断。"],
+  '活动课':["创设一个真实任务，明确活动目标。","发布小组挑战，限时合作完成。","用一场小型展示会收尾，互评互学。"]
+};
+const BOARD={
+  '新授课':"核心公式/概念 + 1 个典型例题 + 易错提醒",
+  '复习课':"知识网络图 + 方法归纳 + 易错警示",
+  '活动课':"任务清单 + 关键步骤 + 成果标准"
+};
+function genLesson(){
+  const title=document.getElementById('l-title').value.trim()||'（课题）';
+  const grade=document.getElementById('l-grade').value.trim()||'（年级）';
+  const subj=document.getElementById('l-subj').value.trim()||'（学科）';
+  const type=document.getElementById('l-type').value;
+  const proc = type==='复习课'
+    ? "1. 知识梳理：引导学生回顾本单元核心知识点，建立网络\n2. 易错辨析：呈现典型错题，小组讨论错因\n3. 巩固练习：分层练习，查漏补缺\n4. 小结提升：归纳方法，布置针对性作业"
+    : type==='活动课'
+    ? "1. 情境导入：创设真实任务情境，激发兴趣\n2. 分组探究：明确活动规则，合作完成任务\n3. 展示交流：各组汇报，互评互鉴\n4. 总结拓展：提炼经验，延伸至生活"
+    : "1. 情境导入：用生活实例/旧知引出新课，激发兴趣\n2. 探究新知：设疑—自主探究—合作交流—点拨释疑\n3. 巩固练习：基础题+变式题，及时反馈\n4. 课堂小结：学生归纳，教师补充\n5. 分层作业：必做+选做，照顾差异";
+  const txt=`【${subj}教案】${title}（${grade}·${type}）
+
+一、教学目标
+  1. 知识与技能：理解并掌握${title}的相关知识，能正确运用。
+  2. 过程与方法：通过探究活动，体会${subj}思想方法，提升解决问题的能力。
+  3. 情感态度：体验成功的乐趣，增强学习${subj}的自信心。
+
+二、教学重难点
+  重点：${title}的核心内容与基本应用。
+  难点：对${title}本质的理解及灵活迁移。
+
+三、教学准备
+  教师：课件、学具/教具。  学生：预习单、课本、练习本。
+
+四、导入语示例
+  ${pick(IMPORT[type])}
+
+五、教学过程
+${proc}
+
+六、板书设计
+  ${title}
+  ├─ 要点1
+  ├─ 要点2
+  └─ 易错提醒：${BOARD[type]}
+
+七、作业设计
+  必做：课本练习第__题。  选做：拓展一道生活应用题。
+
+八、教学反思（课后填写）
+  □ 目标达成度  □ 环节时间分配  □ 学生参与度  □ 改进设想`;
+  show('o3',txt);
+}
+
+// 4. 我的课表（可自定义，本地保存）
+const DAYS=['周一','周二','周三','周四','周五','周六','周日'];
+const MAXP=12;
+(function(){const s=document.getElementById('c-period');for(let i=1;i<=MAXP;i++){const o=document.createElement('option');o.value=i;o.textContent='第'+i+'节';s.appendChild(o);}})();
+let courses=[];
+try{courses=JSON.parse(localStorage.getItem('ai_tools_timetable')||'[]');}catch(e){courses=[];}
+function saveT(){localStorage.setItem('ai_tools_timetable',JSON.stringify(courses));}
+function addCourse(){
+  const day=document.getElementById('c-day').value;
+  const period=parseInt(document.getElementById('c-period').value);
+  const subj=document.getElementById('c-subj').value.trim()||'（未命名）';
+  const where=document.getElementById('c-where').value.trim();
+  courses.push({day,period,subj,where});
+  saveT();renderTable();
+  document.getElementById('c-subj').value='';document.getElementById('c-where').value='';
+}
+function delCourse(i){courses.splice(i,1);saveT();renderTable();}
+function clearTable(){if(!confirm('确定清空整个课表？'))return;courses=[];saveT();renderTable();}
+function renderTable(){
+  const box=document.getElementById('timetable');
+  if(courses.length===0){box.innerHTML='<div class="hint">还没有课程，先在上面添加一节吧～</div>';return;}
+  const cells={};
+  courses.forEach((c,i)=>{cells[c.day+'#'+c.period]={c,i};});
+  const maxP=Math.max.apply(null,courses.map(c=>c.period));
+  let html='<table style="width:100%;border-collapse:collapse;font-size:12px;min-width:420px">';
+  html+='<tr><th style="border:1px solid var(--border);padding:6px;background:var(--soft);color:var(--muted)">节次</th>';
+  DAYS.forEach(d=>html+='<th style="border:1px solid var(--border);padding:6px;background:var(--soft);color:var(--muted)">'+d+'</th>');
+  html+='</tr>';
+  for(let p=1;p<=maxP;p++){
+    html+='<tr><td style="border:1px solid var(--border);padding:6px;text-align:center;color:var(--muted);white-space:nowrap">第'+p+'节</td>';
+    DAYS.forEach(d=>{
+      const cell=cells[d+'#'+p];
+      if(cell){
+        const c=cell.c;
+        html+='<td style="border:1px solid var(--border);padding:6px;text-align:center;vertical-align:top"><div style="font-weight:600;color:var(--primary-d)">'+c.subj+'</div>'+(c.where?'<div style="font-size:11px;color:var(--muted)">'+c.where+'</div>':'')+'<div onclick="delCourse('+cell.i+')" style="font-size:11px;color:#bbb;cursor:pointer;margin-top:2px">删除</div></td>';
+      }else{
+        html+='<td style="border:1px solid var(--border);padding:6px"></td>';
+      }
+    });
+    html+='</tr>';
+  }
+  html+='</table>';
+  box.innerHTML=html;
+}
+function copyTable(){
+  if(courses.length===0){alert('课表还是空的，先添加课程吧');return;}
+  let txt='我的课表\n';
+  DAYS.forEach(d=>{
+    const list=courses.filter(c=>c.day===d).sort((a,b)=>a.period-b.period);
+    if(list.length){txt+=d+'：'+list.map(c=>'第'+c.period+'节 '+c.subj+(c.where?'('+c.where+')':'')).join('， ')+'\n';}
+  });
+  navigator.clipboard&&navigator.clipboard.writeText(txt);
+  const b=event.target;b.textContent='已复制 ✓';setTimeout(()=>b.textContent='复制课表',1200);
+}
+renderTable();
+</script>
+</body>
+</html>
