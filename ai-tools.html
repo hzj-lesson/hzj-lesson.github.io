@@ -54,6 +54,23 @@ button.gen:active{background:var(--primary-d)}
 .cta .save{font-size:12px;opacity:.9;margin-top:12px}
 .cta .wxbtn{display:inline-block;margin-top:12px;background:rgba(255,255,255,.18);color:#fff;border:1px solid rgba(255,255,255,.5);text-decoration:none;font-size:13px;font-weight:600;padding:9px 18px;border-radius:999px;cursor:pointer}
 .hint{font-size:11px;color:var(--muted);margin-top:14px;text-align:center}
+.tab{display:inline-flex;align-items:center}
+.tab svg{width:15px;height:15px;margin-right:6px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.banner{position:relative;overflow:hidden}
+.banner .deco{position:absolute;fill:none;stroke:#fff;stroke-width:1.6;opacity:.28;stroke-linecap:round;stroke-linejoin:round}
+.banner .deco.d1{width:88px;height:88px;top:-22px;right:-16px}
+.banner .deco.d2{width:62px;height:62px;bottom:-18px;left:-12px;opacity:.2}
+.banner .deco.d3{width:44px;height:44px;top:6px;left:12px;opacity:.16}
+.out{margin-top:16px;border:1.5px dashed var(--border);border-radius:12px;padding:22px 14px;text-align:center;color:var(--muted);font-size:13px}
+.out .ph{display:flex;flex-direction:column;align-items:center;gap:8px}
+.out .ph svg{width:46px;height:46px;fill:none;stroke:var(--primary);stroke-width:1.6;opacity:.5;stroke-linecap:round;stroke-linejoin:round}
+.out.show{border-style:solid;background:var(--soft);text-align:left;color:var(--text);padding:14px}
+.out.show .meta{display:flex;align-items:center;gap:5px}
+.out.show .meta svg{width:14px;height:14px;fill:none;stroke:var(--primary);stroke-width:2}
+.cta{position:relative;overflow:hidden}
+.cta .cta-ico{display:inline-flex;width:44px;height:44px;margin-bottom:8px;fill:none;stroke:#fff;stroke-width:1.6;opacity:.92;stroke-linecap:round;stroke-linejoin:round}
+.wxbtn{display:inline-flex;align-items:center;gap:6px}
+.wxbtn svg{width:15px;height:15px;fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 </style>
 </head>
 <body>
@@ -61,6 +78,9 @@ button.gen:active{background:var(--primary-d)}
   <span class="ai">AI · 教师专属</span>
   <h1>教师AI小工具箱</h1>
   <p>4 个免费小工具 · 免登录即用 · 备课少熬 2 小时</p>
+  <svg class="deco d1" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg>
+  <svg class="deco d2" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+  <svg class="deco d3" viewBox="0 0 24 24"><path d="M12 2l2.4 7.4H22l-6 4.3 2.3 7.3-6.3-4.5L5.7 21l2.3-7.3-6-4.3h7.6Z"/></svg>
 </div>
 <div class="wrap">
   <div class="stat">
@@ -70,10 +90,10 @@ button.gen:active{background:var(--primary-d)}
   </div>
 
   <div class="tabs" id="tabs">
-    <div class="tab active" data-p="p1">评语生成</div>
-    <div class="tab" data-p="p2">家长通知</div>
-    <div class="tab" data-p="p3">教案框架</div>
-    <div class="tab" data-p="p4">我的课表</div>
+    <div class="tab active" data-p="p1"><svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>评语生成</div>
+    <div class="tab" data-p="p2"><svg viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>家长通知</div>
+    <div class="tab" data-p="p3"><svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg>教案框架</div>
+    <div class="tab" data-p="p4"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>我的课表</div>
   </div>
 
   <!-- 评语生成 -->
@@ -95,7 +115,7 @@ button.gen:active{background:var(--primary-d)}
     <label>使用场景</label>
     <select id="s-scene"><option value="term">期末评语</option><option value="usual">平时反馈</option><option value="home">家访沟通</option></select>
     <button class="gen" onclick="genComment()">一键生成评语</button>
-    <div class="out" id="o1"></div>
+    <div class="out" id="o1"><div class="ph"><svg viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/><circle cx="12" cy="12" r="3.2"/></svg><span>点上方按钮，生成的评语会显示在这里</span></div></div>
     <div class="actions"><button class="regen" onclick="genComment()">↻ 再生成一条</button><button class="copy" onclick="copy('o1')">复制</button></div>
   </div>
 
@@ -117,7 +137,7 @@ button.gen:active{background:var(--primary-d)}
     <label>补充信息（地点/金额/事项，可选）</label>
     <input id="n-extra" placeholder="如：校外实践基地 / 200元 / 带水杯">
     <button class="gen" onclick="genNotice()">生成通知</button>
-    <div class="out" id="o2"></div>
+    <div class="out" id="o2"><div class="ph"><svg viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/><circle cx="12" cy="12" r="3.2"/></svg><span>点上方按钮，生成的通知会显示在这里</span></div></div>
     <div class="actions"><button class="regen" onclick="genNotice()">↻ 换一种说法</button><button class="copy" onclick="copy('o2')">复制</button></div>
   </div>
 
@@ -132,7 +152,7 @@ button.gen:active{background:var(--primary-d)}
       <div><label>课型</label><select id="l-type"><option>新授课</option><option>复习课</option><option>活动课</option></select></div>
     </div>
     <button class="gen" onclick="genLesson()">生成教案骨架</button>
-    <div class="out" id="o3"></div>
+    <div class="out" id="o3"><div class="ph"><svg viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/><circle cx="12" cy="12" r="3.2"/></svg><span>点上方按钮，生成的教案骨架会显示在这里</span></div></div>
     <div class="actions"><button class="regen" onclick="genLesson()">↻ 再生成</button><button class="copy" onclick="copy('o3')">复制</button></div>
   </div>
 
@@ -159,6 +179,7 @@ button.gen:active{background:var(--primary-d)}
   </div>
 
   <div class="cta">
+    <svg class="cta-ico" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z"/><path d="M8 10h.01M12 10h.01M16 10h.01"/></svg>
     <h3>想要完整版教案？</h3>
     <p>备课助手里有 544+ 章节教案、20 节公开课逐字稿、作业设计模板，随时取用。</p>
     <a id="siteLink" href="https://hzj-lesson.github.io/">去备课助手看看 →</a>
@@ -175,7 +196,7 @@ document.getElementById('siteLink').href = SITE.siteUrl;
 (function(){
   const w = SITE.wechat, wrap = document.getElementById('wxWrap');
   if(w && w.indexOf("在这里")<0){
-    wrap.innerHTML = '<a class="wxbtn" onclick="copyWx()">复制微信号：'+w+'</a><div class="save">加微信私信“备课”，领 7 天会员码免费体验</div>';
+    wrap.innerHTML = '<a class="wxbtn" onclick="copyWx()"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z"/></svg> 复制微信号：'+w+'</a><div class="save">加微信私信“备课”，领 7 天会员码免费体验</div>';
   } else {
     wrap.innerHTML = '<div class="save">关注后私信“备课”，领 7 天会员码免费体验</div>';
   }
@@ -195,7 +216,12 @@ document.querySelectorAll('.tab').forEach(t=>{
 document.querySelectorAll('#s-chips .chip').forEach(c=>{c.onclick=()=>c.classList.toggle('on');});
 function pick(arr){return arr[Math.floor(Math.random()*arr.length)];}
 function copy(id){const el=document.getElementById(id);if(!el.classList.contains('show'))return;const body=el.querySelector('.body');const text=body?body.textContent:el.textContent;navigator.clipboard&&navigator.clipboard.writeText(text);const b=event.target;b.textContent='已复制 ✓';setTimeout(()=>b.textContent='复制',1200);}
-function show(id,txt){const el=document.getElementById(id);el.innerHTML='<div class="meta">'+(txt.replace(/\n/g,'').length)+' 字</div><div class="body">'+txt.replace(/</g,'&lt;')+'</div>';el.classList.add('show');}
+const OUT_ICON={
+  o1:'<svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>',
+  o2:'<svg viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>',
+  o3:'<svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg>'
+};
+function show(id,txt){const el=document.getElementById(id);const ic=OUT_ICON[id]||'';el.innerHTML='<div class="meta">'+ic+(txt.replace(/\n/g,'').length)+' 字</div><div class="body">'+txt.replace(/</g,'&lt;')+'</div>';el.classList.add('show');}
 
 // 1. 评语
 const POOL={
