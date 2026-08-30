@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>教师AI小工具箱 · 免费免登录</title>
-<meta name="description" content="教师AI小工具箱：评语生成、家长通知、教案框架、智能出题，4个免费工具，免登录即用，备课效率翻倍。">
+<meta name="description" content="教师AI小工具箱：评语生成、家长通知、教案框架、我的课表，4个免费工具，免登录即用，备课效率翻倍。">
 <meta property="og:title" content="教师AI小工具箱 · 免费免登录">
-<meta property="og:description" content="评语生成 / 家长通知 / 教案框架 / 智能出题，老师都在用的免费备课小工具。">
+<meta property="og:description" content="评语生成 / 家长通知 / 教案框架 / 我的课表，老师都在用的免费备课小工具。">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#6d5bd0">
 <style>
@@ -170,7 +170,7 @@ button.gen:active{background:var(--primary-d)}
 
 <script>
 // ===== 站长配置：把下面两行换成你自己的 =====
-const SITE = { wechat: "在这里填你的微信号", siteUrl: "https://hzj-lesson.github.io/" };
+const SITE = { wechat: "April_18forever", siteUrl: "https://hzj-lesson.github.io/" };
 document.getElementById('siteLink').href = SITE.siteUrl;
 (function(){
   const w = SITE.wechat, wrap = document.getElementById('wxWrap');
@@ -199,16 +199,41 @@ function show(id,txt){const el=document.getElementById(id);el.innerHTML='<div cl
 
 // 1. 评语
 const POOL={
-  attitude:["学习态度端正，上课专心听讲，从不走神。","求知欲强，经常就疑难问题主动提问。","作业书写工整，每次都能按时按质完成。","自觉遵守课堂纪律，是同学眼中的好榜样。"],
-  progress:["本学期成绩有明显进步，势头很好。","解题思路越来越清晰，自信心也上来了。","从最初的畏难，到如今主动尝试，进步可喜。","近期测验表现稳定提升，付出终有回报。"],
-  active:["课堂上积极举手发言，思维活跃。","乐于参与小组合作，善于倾听他人意见。","常有独到见解，带动了课堂气氛。","动手实践能力突出，实验环节表现优异。"],
-  talent:["在写作方面很有灵气，语言富有感染力。","数学思维敏捷，解题常有巧思。","语言表达流畅，朗读很有感染力。","艺术感知力强，作品充满想象力。"],
-  weak:["若能再细心一些，少一些粗心失误就更好了。","书写速度尚可提升，建议平时多练字。","基础知识还需进一步巩固，方能更上一层楼。","课堂专注时长可以再延长，效率会更高。"]
+  attitude:[
+    "学习自觉性强，能主动规划学习节奏，课前预习与课后整理习惯稳定。",
+    "课堂专注度高，能持续跟进行师教学脉络，课堂笔记条理清晰。",
+    "求知欲旺盛，常就核心问题深入追问，具备自主钻研的意识。",
+    "作业完成规范、订正及时，展现出严谨而稳定的求学态度。"
+  ],
+  progress:[
+    "本学期学业表现稳步攀升，尤其在高阶思维任务上突破明显。",
+    "知识迁移能力增强，已逐渐实现由'听懂'向'会用'的转化。",
+    "从最初的畏难退缩到主动挑战难题，学习自信与成绩同步提升。",
+    "阶段性测评成绩持续向好，可见努力已转化为扎实的成效。"
+  ],
+  active:[
+    "思维活跃、发言质量高，常能提出有依据、有见地的观点。",
+    "善与合作探究，既能清晰表达主张，也善于吸纳同伴意见。",
+    "探究意识强，乐于动手实践，在实验与活动中表现突出。",
+    "逻辑推理能力突出，分析问题层次分明、论证有据。"
+  ],
+  talent:[
+    "文学感受力细腻，书面表达有文采，且兼具思想深度。",
+    "数理思维缜密，解题路径清晰，常有独到的处理视角。",
+    "语言表达自信流畅，朗读与口语表达颇具感染力。",
+    "审美与创造意识突出，作品兼顾技巧性与想象力。"
+  ],
+  weak:[
+    "建议在细节把控上再下功夫，减少非知识性失分，潜力仍有释放空间。",
+    "书写速度与工整度仍有提升空间，日常可适度加强书写训练。",
+    "基础概念网络尚待夯实，建议通过错题归类实现精准补弱。",
+    "课堂持续专注的时长可逐步延长，以提升单位时间的学习效能。"
+  ]
 };
 const SCENE_END={
-  term:{enc:"\n期待新的一年，继续并肩前行，越来越好！",mid:"\n望扬长避短，稳步前进。"},
-  usual:{enc:"\n保持住这股劲头，老师为你点赞！",mid:"\n请家长一同鼓励，巩固好习惯。"},
-  home:{enc:"\n孩子很有潜力，咱们家校合力，帮ta走得更稳。",mid:"\n期待与您携手，共同促进孩子成长。"}
+  term:{enc:"\n综上，该生本学期综合表现良好，望假期内保持阅读与思考的习惯，新学年再进一步。",mid:"\n望扬长补短，巩固优势、补齐短板，稳步向前。"},
+  usual:{enc:"\n以上为近期观察，孩子状态在线，请家长一同肯定其努力，巩固向好态势。",mid:"\n建议家长给予正向反馈，家校协同巩固良好习惯。"},
+  home:{enc:"\n孩子综合素质值得期待，愿家校同向发力，助其行稳致远。",mid:"\n期待与您保持密切沟通，共同护航孩子成长。"}
 };
 function genComment(){
   const name=document.getElementById('s-name').value.trim();
