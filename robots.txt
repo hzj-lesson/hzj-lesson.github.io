@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# 单页应用 hash 路由，搜索引擎不一定能爬深链，但全量章节数据已通过站内搜索可达，无需特别屏蔽
+Sitemap: https://hzj-lesson.github.io/sitemap.xml
