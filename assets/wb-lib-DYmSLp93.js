@@ -1,35 +1,35 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/data-junior-BYct-egL.js","assets/lesson-data-DD4VMnwu.js","assets/react-vendor-Ds7D3P6J.js","assets/katex-Dc8nsIP1.js","assets/data-primary-uaXu1NRH.js"])))=>i.map(i=>d[i]);
-import{j as Y}from"./react-vendor-Ds7D3P6J.js";import{k as J}from"./katex-Dc8nsIP1.js";const V="modulepreload",Z=function(e){return"/"+e},R={},S=function(s,t,n){let a=Promise.resolve();if(t&&t.length>0){document.getElementsByTagName("link");const i=document.querySelector("meta[property=csp-nonce]"),r=(i==null?void 0:i.nonce)||(i==null?void 0:i.getAttribute("nonce"));a=Promise.allSettled(t.map(l=>{if(l=Z(l),l in R)return;R[l]=!0;const f=l.endsWith(".css"),m=f?'[rel="stylesheet"]':"";if(document.querySelector(`link[href="${l}"]${m}`))return;const x=document.createElement("link");if(x.rel=f?"stylesheet":V,f||(x.as="script"),x.crossOrigin="",x.href=l,r&&x.setAttribute("nonce",r),document.head.appendChild(x),f)return new Promise((v,u)=>{x.addEventListener("load",v),x.addEventListener("error",()=>u(new Error(`Unable to preload CSS for ${l}`)))})}))}function o(i){const r=new Event("vite:preloadError",{cancelable:!0});if(r.payload=i,window.dispatchEvent(r),!r.defaultPrevented)throw i}return a.then(i=>{for(const r of i||[])r.status==="rejected"&&o(r.reason);return s().catch(o)})},g={初中:221,小学:112,高中:211},I=["初中","小学","高中"],Q=544,w={初中:0,小学:g.初中,高中:g.初中+g.小学},ee={初中:()=>S(()=>import("./data-junior-BYct-egL.js"),__vite__mapDeps([0,1,2,3])),小学:()=>S(()=>import("./data-primary-uaXu1NRH.js"),__vite__mapDeps([4,1,2,3])),高中:()=>S(()=>import("./data-senior-F5IYe9hd.js"),[])};let p=new Array(Q).fill(void 0);const _=new Set,B=new Map,E=new Set;function ye(){return p}function Ae(){return I.reduce((e,s)=>e+(_.has(s)?g[s]:0),0)}function ve(e){return E.add(e),()=>{E.delete(e)}}function se(){E.forEach(e=>e())}async function te(e){if(_.has(e))return p.slice(w[e],w[e]+g[e]).filter(Boolean);const s=B.get(e);if(s)return s;const t=(async()=>{const n=await ee[e](),a=n.JUNIOR_LESSONS??n.PRIMARY_LESSONS??n.SENIOR_LESSONS??[];return _.add(e),p=[...p],a.forEach((o,i)=>{p[w[e]+i]=o}),se(),a})();B.set(e,t);try{return await t}finally{B.delete(e)}}async function Le(){for(const e of I)await te(e)}const ne="MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEt0S+4zWqJpWaH6rl96/1h9pVEh2RJcJFvKSTYp/YFJcLvczbf+Hj5eVAxnV3Qp9q+qXfL/1+l1vmJH+mkk5z0A==",j="wb-member",N=e=>e.replace(/-/g,"+").replace(/_/g,"/")+"=".repeat((4-e.length%4)%4);function X(){try{const e=localStorage.getItem(j);if(!e)return null;const s=JSON.parse(e);return s&&typeof s.exp=="number"?s:null}catch{return null}}function ae(){const e=X();return!!e&&(e.exp===0||e.exp>Date.now())}function Se(e,s){try{localStorage.setItem(j,JSON.stringify({code:e,exp:s}))}catch{}}const ie=3*60*1e3,oe="__try__";async function we(){const e=X();if(!e)return!1;const s=Date.now();if(e.exp!==0&&e.exp<=s||!e.code)return b(),!1;if(e.code===oe){const n=e.exp>s&&e.exp-s<=ie+5e3;return n||b(),n}const t=await le(e.code);return!t.ok||t.exp!==e.exp?(b(),!1):!0}function b(){try{localStorage.removeItem(j)}catch{}}async function re(){const e=Uint8Array.from(atob(ne),s=>s.charCodeAt(0));return crypto.subtle.importKey("spki",e,{name:"ECDSA",namedCurve:"P-256"},!1,["verify"])}async function le(e){const s=(e||"").trim();if(!s.startsWith("MB-"))return{ok:!1,reason:"会员码格式不正确，请检查后重试"};const t=s.slice(3),n=t.indexOf(".");if(n<=0)return{ok:!1,reason:"会员码格式不正确，请检查后重试"};const a=t.slice(0,n),o=t.slice(n+1);try{const i=await re(),r=Uint8Array.from(atob(N(o)),x=>x.charCodeAt(0)),l=new TextEncoder().encode(a);if(!await crypto.subtle.verify({name:"ECDSA",hash:"SHA-256"},i,r,l))return{ok:!1,reason:"会员码无效（签名校验失败）"};const m=JSON.parse(atob(N(a)));return typeof m.e!="number"?{ok:!1,reason:"会员码数据异常"}:m.e!==0&&m.e<Date.now()?{ok:!1,reason:"该会员码已过期"}:{ok:!0,exp:m.e}}catch{return{ok:!1,reason:"会员码无效（当前浏览器不支持校验，请换最新版微信/浏览器）"}}}const me="wb-tier",Be=3,_e=2,Ee=10;function Te(){try{return localStorage.getItem(me)==="pro"?"pro":"free"}catch{return"free"}}const Ce=()=>ae();function D(){const e=new Date,s=String(e.getMonth()+1).padStart(2,"0"),t=String(e.getDate()).padStart(2,"0");return`${e.getFullYear()}-${s}-${t}`}function ze(){try{const e=D(),s=localStorage.getItem("wb-export-count");if(!s)return 0;const t=JSON.parse(s);if(!t||typeof t!="object"||t.date!==e)return 0;const n=Number(t.count);return Number.isFinite(n)&&n>=0?n:0}catch{return 0}}function je(){const e=D(),s=ze()+1;try{localStorage.setItem("wb-export-count",JSON.stringify({date:e,count:s}))}catch{}return s}const fe="由「教师备课助手」免费版生成 · 开通会员解锁完整导出";function $(e){return e.replace(/\\\\([A-Za-z])/g,"\\$1").replace(/[\x08\x0B\x0C]([A-Za-z])/g,"\\$1").replace(/[\x08\x0B\x0C]/g,"")}function h(e){return String(e??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;")}function q(e){let s="",t=!1;for(let n=0;n<e.length;n++){const a=e[n];if(a==="$"){t=!t,s+=a;continue}if(!t&&a==="\\"&&e[n+1]==="n"){s+=`
-`,n++;continue}s+=a}return s}function U(e){if(!e)return"";const s=$(q(String(e))),t=[];let n=s.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g,(i,r,l)=>`@@IMG${t.push({alt:r,src:l})-1}@@`);const a=[];n=n.replace(/\$([^$\n]+?)\$/g,(i,r)=>`@@MATH${a.push(r.trim())-1}@@`);let o=h(n).replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>").replace(/\n/g,"<br>");return o=o.replace(/@@MATH(\d+)@@/g,(i,r)=>T(a[+r],!1)),o=o.replace(/@@IMG(\d+)@@/g,(i,r)=>{const l=t[+r];return`<img src="${l.src}" alt="${l.alt}" loading="lazy" style="max-width:100%;border-radius:8px;margin:6px 0;display:block">`}),o}function T(e,s){try{return J.renderToString(e,{displayMode:s,throwOnError:!1,strict:!1,trust:!0,output:"html"})}catch{return s?`<div class="plain-formula">${e}</div>`:`<code class="inline-math">${e}</code>`}}function y(e){return h(e).replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>").replace(/`([^`]+)`/g,"<code>$1</code>").replace(/\n/g,"<br>")}function xe(e){const s=e.map(o=>o.replace(/^\||\|$/g,"").split("|").map(i=>i.trim())),t=s[0],n=s.slice(2);let a="<table><thead><tr>";return t.forEach(o=>{a+=`<th>${y(o)}</th>`}),a+="</tr></thead><tbody>",n.forEach(o=>{a+="<tr>",o.forEach(i=>{a+=`<td>${y(i)}</td>`}),a+="</tr>"}),a+"</tbody></table>"}function ce(e){const s=e.map(a=>{const o=a.match(/^(\s*)[-*•]\s+(.*)$/);return{level:Math.floor(((o==null?void 0:o[1].length)??0)/2),content:(o==null?void 0:o[2])??""}});let t="<ul>",n=0;for(s.forEach(a=>{for(;n>a.level;)t+="</ul>",n--;a.level>n&&(t+="<ul>",n++),t+=`<li>${y(a.content)}</li>`});n>0;)t+="</ul>",n--;return t+="</ul>",t}function d(e){if(!e)return'<p class="empty-md">（暂无内容）</p>';const s=$(q(String(e))).replace(/\r\n/g,`
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/data-junior-B60m-fEt.js","assets/lesson-data-DgoqqcIO.js","assets/react-vendor-Ds7D3P6J.js","assets/katex-Dc8nsIP1.js","assets/data-primary-DkU_DUhQ.js","assets/data-senior-BmApofw8.js"])))=>i.map(i=>d[i]);
+import{j as V}from"./react-vendor-Ds7D3P6J.js";import{k as Y}from"./katex-Dc8nsIP1.js";const J="modulepreload",Z=function(e){return"/"+e},R={},L=function(s,t,n){let a=Promise.resolve();if(t&&t.length>0){document.getElementsByTagName("link");const i=document.querySelector("meta[property=csp-nonce]"),r=(i==null?void 0:i.nonce)||(i==null?void 0:i.getAttribute("nonce"));a=Promise.allSettled(t.map(l=>{if(l=Z(l),l in R)return;R[l]=!0;const f=l.endsWith(".css"),x=f?'[rel="stylesheet"]':"";if(document.querySelector(`link[href="${l}"]${x}`))return;const z=document.createElement("link");if(z.rel=f?"stylesheet":J,f||(z.as="script"),z.crossOrigin="",z.href=l,r&&z.setAttribute("nonce",r),document.head.appendChild(z),f)return new Promise((v,p)=>{z.addEventListener("load",v),z.addEventListener("error",()=>p(new Error(`Unable to preload CSS for ${l}`)))})}))}function o(i){const r=new Event("vite:preloadError",{cancelable:!0});if(r.payload=i,window.dispatchEvent(r),!r.defaultPrevented)throw i}return a.then(i=>{for(const r of i||[])r.status==="rejected"&&o(r.reason);return s().catch(o)})},g={初中:221,小学:112,高中:211},q=["初中","小学","高中"],Q=544,B={初中:0,小学:g.初中,高中:g.初中+g.小学},ee={初中:()=>L(()=>import("./data-junior-B60m-fEt.js"),__vite__mapDeps([0,1,2,3])),小学:()=>L(()=>import("./data-primary-DkU_DUhQ.js"),__vite__mapDeps([4,1,2,3])),高中:()=>L(()=>import("./data-senior-BmApofw8.js"),__vite__mapDeps([5,1,2,3]))};let u=new Array(Q).fill(void 0);const _=new Set,w=new Map,T=new Set;function ye(){return u}function Ae(){return q.reduce((e,s)=>e+(_.has(s)?g[s]:0),0)}function ve(e){return T.add(e),()=>{T.delete(e)}}function se(){T.forEach(e=>e())}async function te(e){if(_.has(e))return u.slice(B[e],B[e]+g[e]).filter(Boolean);const s=w.get(e);if(s)return s;const t=(async()=>{const n=await ee[e](),a=n.JUNIOR_LESSONS??n.PRIMARY_LESSONS??n.SENIOR_LESSONS??[];return _.add(e),u=[...u],a.forEach((o,i)=>{u[B[e]+i]=o}),se(),a})();w.set(e,t);try{return await t}finally{w.delete(e)}}async function Se(){for(const e of q)await te(e)}const ne="MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEt0S+4zWqJpWaH6rl96/1h9pVEh2RJcJFvKSTYp/YFJcLvczbf+Hj5eVAxnV3Qp9q+qXfL/1+l1vmJH+mkk5z0A==",N="wb-member",O=e=>e.replace(/-/g,"+").replace(/_/g,"/")+"=".repeat((4-e.length%4)%4);function I(){try{const e=localStorage.getItem(N);if(!e)return null;const s=JSON.parse(e);return s&&typeof s.exp=="number"?s:null}catch{return null}}function ae(){const e=I();return!!e&&(e.exp===0||e.exp>Date.now())}function Le(e,s){try{localStorage.setItem(N,JSON.stringify({code:e,exp:s}))}catch{}}const ie=3*60*1e3,oe="__try__";async function Be(){const e=I();if(!e)return!1;const s=Date.now();if(e.exp!==0&&e.exp<=s||!e.code)return b(),!1;if(e.code===oe){const n=e.exp>s&&e.exp-s<=ie+5e3;return n||b(),n}const t=await le(e.code);return!t.ok||t.exp!==e.exp?(b(),!1):!0}function b(){try{localStorage.removeItem(N)}catch{}}async function re(){const e=Uint8Array.from(atob(ne),s=>s.charCodeAt(0));return crypto.subtle.importKey("spki",e,{name:"ECDSA",namedCurve:"P-256"},!1,["verify"])}async function le(e){const s=(e||"").trim();if(!s.startsWith("MB-"))return{ok:!1,reason:"会员码格式不正确，请检查后重试"};const t=s.slice(3),n=t.indexOf(".");if(n<=0)return{ok:!1,reason:"会员码格式不正确，请检查后重试"};const a=t.slice(0,n),o=t.slice(n+1);try{const i=await re(),r=Uint8Array.from(atob(O(o)),z=>z.charCodeAt(0)),l=new TextEncoder().encode(a);if(!await crypto.subtle.verify({name:"ECDSA",hash:"SHA-256"},i,r,l))return{ok:!1,reason:"会员码无效（签名校验失败）"};const x=JSON.parse(atob(O(a)));return typeof x.e!="number"?{ok:!1,reason:"会员码数据异常"}:x.e!==0&&x.e<Date.now()?{ok:!1,reason:"该会员码已过期"}:{ok:!0,exp:x.e}}catch{return{ok:!1,reason:"会员码无效（当前浏览器不支持校验，请换最新版微信/浏览器）"}}}const xe="wb-tier",we=3,_e=2,Te=10;function Ee(){try{return localStorage.getItem(xe)==="pro"?"pro":"free"}catch{return"free"}}const Ce=()=>ae();function H(){const e=new Date,s=String(e.getMonth()+1).padStart(2,"0"),t=String(e.getDate()).padStart(2,"0");return`${e.getFullYear()}-${s}-${t}`}function me(){try{const e=H(),s=localStorage.getItem("wb-export-count");if(!s)return 0;const t=JSON.parse(s);if(!t||typeof t!="object"||t.date!==e)return 0;const n=Number(t.count);return Number.isFinite(n)&&n>=0?n:0}catch{return 0}}function Ne(){const e=H(),s=me()+1;try{localStorage.setItem("wb-export-count",JSON.stringify({date:e,count:s}))}catch{}return s}const fe="由「教师备课助手」免费版生成 · 开通会员解锁完整导出";function X(e){return e.replace(/\\\\([A-Za-z])/g,"\\$1").replace(/[\x08\x0B\x0C]([A-Za-z])/g,"\\$1").replace(/[\x08\x0B\x0C]/g,"")}function h(e){return String(e??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;")}function D(e){let s="",t=!1;for(let n=0;n<e.length;n++){const a=e[n];if(a==="$"){t=!t,s+=a;continue}if(!t&&a==="\\"&&e[n+1]==="n"){s+=`
+`,n++;continue}s+=a}return s}function U(e){if(!e)return"";const s=X(D(String(e))),t=[];let n=s.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g,(i,r,l)=>`@@IMG${t.push({alt:r,src:l})-1}@@`);const a=[];n=n.replace(/\$([^$\n]+?)\$/g,(i,r)=>`@@MATH${a.push(r.trim())-1}@@`);let o=h(n).replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>").replace(/\n/g,"<br>");return o=o.replace(/@@MATH(\d+)@@/g,(i,r)=>E(a[+r],!1)),o=o.replace(/@@IMG(\d+)@@/g,(i,r)=>{const l=t[+r];return`<img src="${l.src}" alt="${l.alt}" loading="lazy" style="max-width:100%;border-radius:8px;margin:6px 0;display:block">`}),o}function E(e,s){try{return Y.renderToString(e,{displayMode:s,throwOnError:!1,strict:!1,trust:!0,output:"html"})}catch{return s?`<div class="plain-formula">${e}</div>`:`<code class="inline-math">${e}</code>`}}function y(e){return h(e).replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>").replace(/`([^`]+)`/g,"<code>$1</code>").replace(/\n/g,"<br>")}function ze(e){const s=e.map(o=>o.replace(/^\||\|$/g,"").split("|").map(i=>i.trim())),t=s[0],n=s.slice(2);let a="<table><thead><tr>";return t.forEach(o=>{a+=`<th>${y(o)}</th>`}),a+="</tr></thead><tbody>",n.forEach(o=>{a+="<tr>",o.forEach(i=>{a+=`<td>${y(i)}</td>`}),a+="</tr>"}),a+"</tbody></table>"}function ce(e){const s=e.map(a=>{const o=a.match(/^(\s*)[-*•]\s+(.*)$/);return{level:Math.floor(((o==null?void 0:o[1].length)??0)/2),content:(o==null?void 0:o[2])??""}});let t="<ul>",n=0;for(s.forEach(a=>{for(;n>a.level;)t+="</ul>",n--;a.level>n&&(t+="<ul>",n++),t+=`<li>${y(a.content)}</li>`});n>0;)t+="</ul>",n--;return t+="</ul>",t}function d(e){if(!e)return'<p class="empty-md">（暂无内容）</p>';const s=X(D(String(e))).replace(/\r\n/g,`
 `),t=[];let n=s.replace(/\$\$([\s\S]+?)\$\$/g,(l,f)=>`
 @@TOKEN${t.push({type:"block",tex:f.trim()})-1}@@
-`);n=n.replace(/\$([^$\n]+?)\$/g,(l,f)=>`@@TOKEN${t.push({type:"inline",tex:f.trim()})-1}@@`),n=n.replace(/!\[([^\]]*)\]\(([^)]+)\)/g,(l,f,m)=>`@@TOKEN${t.push({type:"img",alt:f,src:m})-1}@@`);const a=n.split(`
-`),o=[];let i=0;for(;i<a.length;){const l=a[i],f=l.trim();if(!f){i++;continue}if(f.startsWith("|")&&i+1<a.length&&/^\s*\|?[\s:|-]+\|?\s*$/.test(a[i+1])&&a[i+1].includes("-")){const x=[];for(;i<a.length&&a[i].trim().startsWith("|");)x.push(a[i].trim()),i++;o.push(xe(x));continue}if(/^\s*[-*•]\s+/.test(l)){const x=[];for(;i<a.length&&/^\s*[-*•]\s+/.test(a[i]);)x.push(a[i]),i++;o.push(ce(x));continue}const m=[l];for(i++;i<a.length&&a[i].trim()&&!/^\s*[-*•]\s+/.test(a[i])&&!a[i].trim().startsWith("|");)m.push(a[i]),i++;o.push(`<p>${y(m.join(`
+`);n=n.replace(/\$([^$\n]+?)\$/g,(l,f)=>`@@TOKEN${t.push({type:"inline",tex:f.trim()})-1}@@`),n=n.replace(/!\[([^\]]*)\]\(([^)]+)\)/g,(l,f,x)=>`@@TOKEN${t.push({type:"img",alt:f,src:x})-1}@@`);const a=n.split(`
+`),o=[];let i=0;for(;i<a.length;){const l=a[i],f=l.trim();if(!f){i++;continue}if(f.startsWith("|")&&i+1<a.length&&/^\s*\|?[\s:|-]+\|?\s*$/.test(a[i+1])&&a[i+1].includes("-")){const z=[];for(;i<a.length&&a[i].trim().startsWith("|");)z.push(a[i].trim()),i++;o.push(ze(z));continue}if(/^\s*[-*•]\s+/.test(l)){const z=[];for(;i<a.length&&/^\s*[-*•]\s+/.test(a[i]);)z.push(a[i]),i++;o.push(ce(z));continue}const x=[l];for(i++;i<a.length&&a[i].trim()&&!/^\s*[-*•]\s+/.test(a[i])&&!a[i].trim().startsWith("|");)x.push(a[i]),i++;o.push(`<p>${y(x.join(`
 `))}</p>`)}let r=o.join(`
-`);return r=r.replace(/@@TOKEN(\d+)@@/g,(l,f)=>{const m=t[+f];return m.type==="img"?`<img src="${h(m.src??"")}" alt="${h(m.alt??"")}" loading="lazy">`:m.type==="block"?`<div class="katex-display">${T(m.tex??"",!0)}</div>`:T(m.tex??"",!1)}),r}const Oe=({source:e,className:s})=>Y.jsx("div",{className:`md ${s??""}`,dangerouslySetInnerHTML:{__html:d(e)}}),C={name:"hzj",wechat:"April_18forever"};async function Re(){const e=C.wechat;try{return await navigator.clipboard.writeText(e),!0}catch{try{const s=document.createElement("textarea");s.value=e,s.style.position="fixed",s.style.opacity="0",document.body.appendChild(s),s.select();const t=document.execCommand("copy");return document.body.removeChild(s),t}catch{return!1}}}const ke='@font-face{font-display:block;font-family:KaTeX_AMS;font-style:normal;font-weight:400;src:url(/assets/KaTeX_AMS-Regular-BQhdFMY1.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Caligraphic;font-style:normal;font-weight:700;src:url(/assets/KaTeX_Caligraphic-Bold-Dq_IR9rO.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Caligraphic;font-style:normal;font-weight:400;src:url(/assets/KaTeX_Caligraphic-Regular-Di6jR-x-.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Fraktur;font-style:normal;font-weight:700;src:url(/assets/KaTeX_Fraktur-Bold-CL6g_b3V.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Fraktur;font-style:normal;font-weight:400;src:url(/assets/KaTeX_Fraktur-Regular-CTYiF6lA.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Main;font-style:normal;font-weight:700;src:url(/assets/KaTeX_Main-Bold-Cx986IdX.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Main;font-style:italic;font-weight:700;src:url(/assets/KaTeX_Main-BoldItalic-DxDJ3AOS.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Main;font-style:italic;font-weight:400;src:url(/assets/KaTeX_Main-Italic-NWA7e6Wa.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Main;font-style:normal;font-weight:400;src:url(/assets/KaTeX_Main-Regular-B22Nviop.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Math;font-style:italic;font-weight:700;src:url(/assets/KaTeX_Math-BoldItalic-CZnvNsCZ.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Math;font-style:italic;font-weight:400;src:url(/assets/KaTeX_Math-Italic-t53AETM-.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_SansSerif;font-style:normal;font-weight:700;src:url(/assets/KaTeX_SansSerif-Bold-D1sUS0GD.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_SansSerif;font-style:italic;font-weight:400;src:url(/assets/KaTeX_SansSerif-Italic-C3H0VqGB.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_SansSerif;font-style:normal;font-weight:400;src:url(/assets/KaTeX_SansSerif-Regular-DDBCnlJ7.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Script;font-style:normal;font-weight:400;src:url(/assets/KaTeX_Script-Regular-D3wIWfF6.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Size1;font-style:normal;font-weight:400;src:url(/assets/KaTeX_Size1-Regular-mCD8mA8B.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Size2;font-style:normal;font-weight:400;src:url(/assets/KaTeX_Size2-Regular-Dy4dx90m.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Size3;font-style:normal;font-weight:400;src:url(data:font/woff2;base64,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) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Size4;font-style:normal;font-weight:400;src:url(/assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Typewriter;font-style:normal;font-weight:400;src:url(/assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2) format("woff2")}.katex{font: 1.21em KaTeX_Main,Times New Roman,serif;line-height:1.2;position:relative;text-indent:0;text-rendering:auto}.katex *{-ms-high-contrast-adjust:none!important;border-color:currentColor}.katex .katex-version:after{content:"0.16.47"}.katex .katex-mathml{border:0;-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;overflow:hidden;padding:0;position:absolute;width:1px}.katex .katex-html>.newline{display:block}.katex .base{position:relative;white-space:nowrap;width:-webkit-min-content;width:-moz-min-content;width:min-content}.katex .base,.katex .strut{display:inline-block}.katex .textbf{font-weight:700}.katex .textit{font-style:italic}.katex .textrm{font-family:KaTeX_Main}.katex .textsf{font-family:KaTeX_SansSerif}.katex .texttt{font-family:KaTeX_Typewriter}.katex .mathnormal{font-family:KaTeX_Math;font-style:italic}.katex .mathit{font-family:KaTeX_Main;font-style:italic}.katex .mathrm{font-style:normal}.katex .mathbf{font-family:KaTeX_Main;font-weight:700}.katex .boldsymbol{font-family:KaTeX_Math;font-style:italic;font-weight:700}.katex .amsrm,.katex .mathbb,.katex .textbb{font-family:KaTeX_AMS}.katex .mathcal{font-family:KaTeX_Caligraphic}.katex .mathfrak,.katex .textfrak{font-family:KaTeX_Fraktur}.katex .mathboldfrak,.katex .textboldfrak{font-family:KaTeX_Fraktur;font-weight:700}.katex .mathtt{font-family:KaTeX_Typewriter}.katex .mathscr,.katex .textscr{font-family:KaTeX_Script}.katex .mathsf,.katex .textsf{font-family:KaTeX_SansSerif}.katex .mathboldsf,.katex .textboldsf{font-family:KaTeX_SansSerif;font-weight:700}.katex .mathitsf,.katex .mathsfit,.katex .textitsf{font-family:KaTeX_SansSerif;font-style:italic}.katex .mainrm{font-family:KaTeX_Main;font-style:normal}.katex .vlist-t{border-collapse:collapse;display:inline-table;table-layout:fixed}.katex .vlist-r{display:table-row}.katex .vlist{display:table-cell;position:relative;vertical-align:bottom}.katex .vlist>span{display:block;height:0;position:relative}.katex .vlist>span>span{display:inline-block}.katex .vlist>span>.pstrut{overflow:hidden;width:0}.katex .vlist-t2{margin-right:-2px}.katex .vlist-s{display:table-cell;font-size:1px;min-width:2px;vertical-align:bottom;width:2px}.katex .vbox{align-items:baseline;display:inline-flex;flex-direction:column}.katex .hbox{width:100%}.katex .hbox,.katex .thinbox{display:inline-flex;flex-direction:row}.katex .thinbox{max-width:0;width:0}.katex .msupsub{text-align:left}.katex .mfrac>span>span{text-align:center}.katex .mfrac .frac-line{border-bottom-style:solid;display:inline-block;width:100%}.katex .hdashline,.katex .hline,.katex .mfrac .frac-line,.katex .overline .overline-line,.katex .rule,.katex .underline .underline-line{min-height:1px}.katex .mspace{display:inline-block}.katex .smash{display:inline;line-height:0}.katex .clap,.katex .llap,.katex .rlap{position:relative;width:0}.katex .clap>.inner,.katex .llap>.inner,.katex .rlap>.inner{position:absolute}.katex .clap>.fix,.katex .llap>.fix,.katex .rlap>.fix{display:inline-block}.katex .llap>.inner{right:0}.katex .clap>.inner,.katex .rlap>.inner{left:0}.katex .clap>.inner>span{margin-left:-50%;margin-right:50%}.katex .rule{border:0 solid;display:inline-block;position:relative}.katex .hline,.katex .overline .overline-line,.katex .underline .underline-line{border-bottom-style:solid;display:inline-block;width:100%}.katex .hdashline{border-bottom-style:dashed;display:inline-block;width:100%}.katex .sqrt>.root{margin-left:.2777777778em;margin-right:-.5555555556em}.katex .fontsize-ensurer.reset-size1.size1,.katex .sizing.reset-size1.size1{font-size:1em}.katex .fontsize-ensurer.reset-size1.size2,.katex .sizing.reset-size1.size2{font-size:1.2em}.katex .fontsize-ensurer.reset-size1.size3,.katex .sizing.reset-size1.size3{font-size:1.4em}.katex .fontsize-ensurer.reset-size1.size4,.katex .sizing.reset-size1.size4{font-size:1.6em}.katex .fontsize-ensurer.reset-size1.size5,.katex .sizing.reset-size1.size5{font-size:1.8em}.katex .fontsize-ensurer.reset-size1.size6,.katex .sizing.reset-size1.size6{font-size:2em}.katex .fontsize-ensurer.reset-size1.size7,.katex .sizing.reset-size1.size7{font-size:2.4em}.katex .fontsize-ensurer.reset-size1.size8,.katex .sizing.reset-size1.size8{font-size:2.88em}.katex .fontsize-ensurer.reset-size1.size9,.katex .sizing.reset-size1.size9{font-size:3.456em}.katex .fontsize-ensurer.reset-size1.size10,.katex .sizing.reset-size1.size10{font-size:4.148em}.katex .fontsize-ensurer.reset-size1.size11,.katex .sizing.reset-size1.size11{font-size:4.976em}.katex .fontsize-ensurer.reset-size2.size1,.katex .sizing.reset-size2.size1{font-size:.8333333333em}.katex .fontsize-ensurer.reset-size2.size2,.katex .sizing.reset-size2.size2{font-size:1em}.katex .fontsize-ensurer.reset-size2.size3,.katex .sizing.reset-size2.size3{font-size:1.1666666667em}.katex .fontsize-ensurer.reset-size2.size4,.katex .sizing.reset-size2.size4{font-size:1.3333333333em}.katex .fontsize-ensurer.reset-size2.size5,.katex .sizing.reset-size2.size5{font-size:1.5em}.katex .fontsize-ensurer.reset-size2.size6,.katex .sizing.reset-size2.size6{font-size:1.6666666667em}.katex .fontsize-ensurer.reset-size2.size7,.katex .sizing.reset-size2.size7{font-size:2em}.katex .fontsize-ensurer.reset-size2.size8,.katex .sizing.reset-size2.size8{font-size:2.4em}.katex .fontsize-ensurer.reset-size2.size9,.katex .sizing.reset-size2.size9{font-size:2.88em}.katex .fontsize-ensurer.reset-size2.size10,.katex .sizing.reset-size2.size10{font-size:3.4566666667em}.katex .fontsize-ensurer.reset-size2.size11,.katex .sizing.reset-size2.size11{font-size:4.1466666667em}.katex .fontsize-ensurer.reset-size3.size1,.katex .sizing.reset-size3.size1{font-size:.7142857143em}.katex .fontsize-ensurer.reset-size3.size2,.katex .sizing.reset-size3.size2{font-size:.8571428571em}.katex .fontsize-ensurer.reset-size3.size3,.katex .sizing.reset-size3.size3{font-size:1em}.katex .fontsize-ensurer.reset-size3.size4,.katex .sizing.reset-size3.size4{font-size:1.1428571429em}.katex .fontsize-ensurer.reset-size3.size5,.katex .sizing.reset-size3.size5{font-size:1.2857142857em}.katex .fontsize-ensurer.reset-size3.size6,.katex .sizing.reset-size3.size6{font-size:1.4285714286em}.katex .fontsize-ensurer.reset-size3.size7,.katex .sizing.reset-size3.size7{font-size:1.7142857143em}.katex .fontsize-ensurer.reset-size3.size8,.katex .sizing.reset-size3.size8{font-size:2.0571428571em}.katex .fontsize-ensurer.reset-size3.size9,.katex .sizing.reset-size3.size9{font-size:2.4685714286em}.katex .fontsize-ensurer.reset-size3.size10,.katex .sizing.reset-size3.size10{font-size:2.9628571429em}.katex .fontsize-ensurer.reset-size3.size11,.katex .sizing.reset-size3.size11{font-size:3.5542857143em}.katex .fontsize-ensurer.reset-size4.size1,.katex .sizing.reset-size4.size1{font-size:.625em}.katex .fontsize-ensurer.reset-size4.size2,.katex .sizing.reset-size4.size2{font-size:.75em}.katex .fontsize-ensurer.reset-size4.size3,.katex .sizing.reset-size4.size3{font-size:.875em}.katex .fontsize-ensurer.reset-size4.size4,.katex .sizing.reset-size4.size4{font-size:1em}.katex .fontsize-ensurer.reset-size4.size5,.katex .sizing.reset-size4.size5{font-size:1.125em}.katex .fontsize-ensurer.reset-size4.size6,.katex .sizing.reset-size4.size6{font-size:1.25em}.katex .fontsize-ensurer.reset-size4.size7,.katex .sizing.reset-size4.size7{font-size:1.5em}.katex .fontsize-ensurer.reset-size4.size8,.katex .sizing.reset-size4.size8{font-size:1.8em}.katex .fontsize-ensurer.reset-size4.size9,.katex .sizing.reset-size4.size9{font-size:2.16em}.katex .fontsize-ensurer.reset-size4.size10,.katex .sizing.reset-size4.size10{font-size:2.5925em}.katex .fontsize-ensurer.reset-size4.size11,.katex .sizing.reset-size4.size11{font-size:3.11em}.katex .fontsize-ensurer.reset-size5.size1,.katex .sizing.reset-size5.size1{font-size:.5555555556em}.katex .fontsize-ensurer.reset-size5.size2,.katex .sizing.reset-size5.size2{font-size:.6666666667em}.katex .fontsize-ensurer.reset-size5.size3,.katex .sizing.reset-size5.size3{font-size:.7777777778em}.katex .fontsize-ensurer.reset-size5.size4,.katex .sizing.reset-size5.size4{font-size:.8888888889em}.katex .fontsize-ensurer.reset-size5.size5,.katex .sizing.reset-size5.size5{font-size:1em}.katex .fontsize-ensurer.reset-size5.size6,.katex .sizing.reset-size5.size6{font-size:1.1111111111em}.katex .fontsize-ensurer.reset-size5.size7,.katex .sizing.reset-size5.size7{font-size:1.3333333333em}.katex .fontsize-ensurer.reset-size5.size8,.katex .sizing.reset-size5.size8{font-size:1.6em}.katex .fontsize-ensurer.reset-size5.size9,.katex .sizing.reset-size5.size9{font-size:1.92em}.katex .fontsize-ensurer.reset-size5.size10,.katex .sizing.reset-size5.size10{font-size:2.3044444444em}.katex .fontsize-ensurer.reset-size5.size11,.katex .sizing.reset-size5.size11{font-size:2.7644444444em}.katex .fontsize-ensurer.reset-size6.size1,.katex .sizing.reset-size6.size1{font-size:.5em}.katex .fontsize-ensurer.reset-size6.size2,.katex .sizing.reset-size6.size2{font-size:.6em}.katex .fontsize-ensurer.reset-size6.size3,.katex .sizing.reset-size6.size3{font-size:.7em}.katex .fontsize-ensurer.reset-size6.size4,.katex .sizing.reset-size6.size4{font-size:.8em}.katex .fontsize-ensurer.reset-size6.size5,.katex .sizing.reset-size6.size5{font-size:.9em}.katex .fontsize-ensurer.reset-size6.size6,.katex .sizing.reset-size6.size6{font-size:1em}.katex .fontsize-ensurer.reset-size6.size7,.katex .sizing.reset-size6.size7{font-size:1.2em}.katex .fontsize-ensurer.reset-size6.size8,.katex .sizing.reset-size6.size8{font-size:1.44em}.katex .fontsize-ensurer.reset-size6.size9,.katex .sizing.reset-size6.size9{font-size:1.728em}.katex .fontsize-ensurer.reset-size6.size10,.katex .sizing.reset-size6.size10{font-size:2.074em}.katex .fontsize-ensurer.reset-size6.size11,.katex .sizing.reset-size6.size11{font-size:2.488em}.katex .fontsize-ensurer.reset-size7.size1,.katex .sizing.reset-size7.size1{font-size:.4166666667em}.katex .fontsize-ensurer.reset-size7.size2,.katex .sizing.reset-size7.size2{font-size:.5em}.katex .fontsize-ensurer.reset-size7.size3,.katex .sizing.reset-size7.size3{font-size:.5833333333em}.katex .fontsize-ensurer.reset-size7.size4,.katex .sizing.reset-size7.size4{font-size:.6666666667em}.katex .fontsize-ensurer.reset-size7.size5,.katex .sizing.reset-size7.size5{font-size:.75em}.katex .fontsize-ensurer.reset-size7.size6,.katex .sizing.reset-size7.size6{font-size:.8333333333em}.katex .fontsize-ensurer.reset-size7.size7,.katex .sizing.reset-size7.size7{font-size:1em}.katex .fontsize-ensurer.reset-size7.size8,.katex .sizing.reset-size7.size8{font-size:1.2em}.katex .fontsize-ensurer.reset-size7.size9,.katex .sizing.reset-size7.size9{font-size:1.44em}.katex .fontsize-ensurer.reset-size7.size10,.katex .sizing.reset-size7.size10{font-size:1.7283333333em}.katex .fontsize-ensurer.reset-size7.size11,.katex .sizing.reset-size7.size11{font-size:2.0733333333em}.katex .fontsize-ensurer.reset-size8.size1,.katex .sizing.reset-size8.size1{font-size:.3472222222em}.katex .fontsize-ensurer.reset-size8.size2,.katex .sizing.reset-size8.size2{font-size:.4166666667em}.katex .fontsize-ensurer.reset-size8.size3,.katex .sizing.reset-size8.size3{font-size:.4861111111em}.katex .fontsize-ensurer.reset-size8.size4,.katex .sizing.reset-size8.size4{font-size:.5555555556em}.katex .fontsize-ensurer.reset-size8.size5,.katex .sizing.reset-size8.size5{font-size:.625em}.katex .fontsize-ensurer.reset-size8.size6,.katex .sizing.reset-size8.size6{font-size:.6944444444em}.katex .fontsize-ensurer.reset-size8.size7,.katex .sizing.reset-size8.size7{font-size:.8333333333em}.katex .fontsize-ensurer.reset-size8.size8,.katex .sizing.reset-size8.size8{font-size:1em}.katex .fontsize-ensurer.reset-size8.size9,.katex .sizing.reset-size8.size9{font-size:1.2em}.katex .fontsize-ensurer.reset-size8.size10,.katex .sizing.reset-size8.size10{font-size:1.4402777778em}.katex .fontsize-ensurer.reset-size8.size11,.katex .sizing.reset-size8.size11{font-size:1.7277777778em}.katex .fontsize-ensurer.reset-size9.size1,.katex .sizing.reset-size9.size1{font-size:.2893518519em}.katex .fontsize-ensurer.reset-size9.size2,.katex .sizing.reset-size9.size2{font-size:.3472222222em}.katex .fontsize-ensurer.reset-size9.size3,.katex .sizing.reset-size9.size3{font-size:.4050925926em}.katex .fontsize-ensurer.reset-size9.size4,.katex .sizing.reset-size9.size4{font-size:.462962963em}.katex .fontsize-ensurer.reset-size9.size5,.katex .sizing.reset-size9.size5{font-size:.5208333333em}.katex .fontsize-ensurer.reset-size9.size6,.katex .sizing.reset-size9.size6{font-size:.5787037037em}.katex .fontsize-ensurer.reset-size9.size7,.katex .sizing.reset-size9.size7{font-size:.6944444444em}.katex .fontsize-ensurer.reset-size9.size8,.katex .sizing.reset-size9.size8{font-size:.8333333333em}.katex .fontsize-ensurer.reset-size9.size9,.katex .sizing.reset-size9.size9{font-size:1em}.katex .fontsize-ensurer.reset-size9.size10,.katex .sizing.reset-size9.size10{font-size:1.2002314815em}.katex .fontsize-ensurer.reset-size9.size11,.katex .sizing.reset-size9.size11{font-size:1.4398148148em}.katex .fontsize-ensurer.reset-size10.size1,.katex .sizing.reset-size10.size1{font-size:.2410800386em}.katex .fontsize-ensurer.reset-size10.size2,.katex .sizing.reset-size10.size2{font-size:.2892960463em}.katex .fontsize-ensurer.reset-size10.size3,.katex .sizing.reset-size10.size3{font-size:.337512054em}.katex .fontsize-ensurer.reset-size10.size4,.katex .sizing.reset-size10.size4{font-size:.3857280617em}.katex .fontsize-ensurer.reset-size10.size5,.katex .sizing.reset-size10.size5{font-size:.4339440694em}.katex .fontsize-ensurer.reset-size10.size6,.katex .sizing.reset-size10.size6{font-size:.4821600771em}.katex .fontsize-ensurer.reset-size10.size7,.katex .sizing.reset-size10.size7{font-size:.5785920926em}.katex .fontsize-ensurer.reset-size10.size8,.katex .sizing.reset-size10.size8{font-size:.6943105111em}.katex .fontsize-ensurer.reset-size10.size9,.katex .sizing.reset-size10.size9{font-size:.8331726133em}.katex .fontsize-ensurer.reset-size10.size10,.katex .sizing.reset-size10.size10{font-size:1em}.katex .fontsize-ensurer.reset-size10.size11,.katex .sizing.reset-size10.size11{font-size:1.1996142719em}.katex .fontsize-ensurer.reset-size11.size1,.katex .sizing.reset-size11.size1{font-size:.2009646302em}.katex .fontsize-ensurer.reset-size11.size2,.katex .sizing.reset-size11.size2{font-size:.2411575563em}.katex .fontsize-ensurer.reset-size11.size3,.katex .sizing.reset-size11.size3{font-size:.2813504823em}.katex .fontsize-ensurer.reset-size11.size4,.katex .sizing.reset-size11.size4{font-size:.3215434084em}.katex .fontsize-ensurer.reset-size11.size5,.katex .sizing.reset-size11.size5{font-size:.3617363344em}.katex .fontsize-ensurer.reset-size11.size6,.katex .sizing.reset-size11.size6{font-size:.4019292605em}.katex .fontsize-ensurer.reset-size11.size7,.katex .sizing.reset-size11.size7{font-size:.4823151125em}.katex .fontsize-ensurer.reset-size11.size8,.katex .sizing.reset-size11.size8{font-size:.578778135em}.katex .fontsize-ensurer.reset-size11.size9,.katex .sizing.reset-size11.size9{font-size:.6945337621em}.katex .fontsize-ensurer.reset-size11.size10,.katex .sizing.reset-size11.size10{font-size:.8336012862em}.katex .fontsize-ensurer.reset-size11.size11,.katex .sizing.reset-size11.size11{font-size:1em}.katex .delimsizing.size1{font-family:KaTeX_Size1}.katex .delimsizing.size2{font-family:KaTeX_Size2}.katex .delimsizing.size3{font-family:KaTeX_Size3}.katex .delimsizing.size4{font-family:KaTeX_Size4}.katex .delimsizing.mult .delim-size1>span{font-family:KaTeX_Size1}.katex .delimsizing.mult .delim-size4>span{font-family:KaTeX_Size4}.katex .nulldelimiter{display:inline-block;width:.12em}.katex .delimcenter,.katex .op-symbol{position:relative}.katex .op-symbol.small-op{font-family:KaTeX_Size1}.katex .op-symbol.large-op{font-family:KaTeX_Size2}.katex .accent>.vlist-t,.katex .op-limits>.vlist-t{text-align:center}.katex .accent .accent-body{position:relative}.katex .accent .accent-body:not(.accent-full){width:0}.katex .overlay{display:block}.katex .mtable .vertical-separator{display:inline-block;min-width:1px}.katex .mtable .arraycolsep{display:inline-block}.katex .mtable .col-align-c>.vlist-t{text-align:center}.katex .mtable .col-align-l>.vlist-t{text-align:left}.katex .mtable .col-align-r>.vlist-t{text-align:right}.katex .svg-align{text-align:left}.katex svg{fill:currentColor;stroke:currentColor;display:block;height:inherit;position:absolute;width:100%}.katex svg path{stroke:none}.katex svg{fill-rule:nonzero;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1}.katex img{border-style:none;max-height:none;max-width:none;min-height:0;min-width:0}.katex .stretchy{display:block;overflow:hidden;position:relative;width:100%}.katex .stretchy:after,.katex .stretchy:before{content:""}.katex .hide-tail{overflow:hidden;position:relative;width:100%}.katex .halfarrow-left{left:0;overflow:hidden;position:absolute;width:50.2%}.katex .halfarrow-right{overflow:hidden;position:absolute;right:0;width:50.2%}.katex .brace-left{left:0;overflow:hidden;position:absolute;width:25.1%}.katex .brace-center{left:25%;overflow:hidden;position:absolute;width:50%}.katex .brace-right{overflow:hidden;position:absolute;right:0;width:25.1%}.katex .x-arrow-pad{padding:0 .5em}.katex .cd-arrow-pad{padding:0 .55556em 0 .27778em}.katex .mover,.katex .munder,.katex .x-arrow{text-align:center}.katex .boxpad{padding:0 .3em}.katex .fbox,.katex .fcolorbox{border:.04em solid;box-sizing:border-box}.katex .cancel-pad{padding:0 .2em}.katex .cancel-lap{margin-left:-.2em;margin-right:-.2em}.katex .sout{border-bottom-style:solid;border-bottom-width:.08em}.katex .angl{border-right:.049em solid;border-top:.049em solid;box-sizing:border-box;margin-right:.03889em}.katex .anglpad{padding:0 .03889em}.katex .eqn-num:before{content:"(" counter(katexEqnNo) ")";counter-increment:katexEqnNo}.katex .mml-eqn-num:before{content:"(" counter(mmlEqnNo) ")";counter-increment:mmlEqnNo}.katex .mtr-glue{width:50%}.katex .cd-vert-arrow{display:inline-block;position:relative}.katex .cd-label-left{display:inline-block;position:absolute;right:calc(50% + .3em);text-align:left}.katex .cd-label-right{display:inline-block;left:calc(50% + .3em);position:absolute;text-align:right}.katex-display{display:block;margin:1em 0;text-align:center}.katex-display>.katex{display:block;text-align:center;white-space:nowrap}.katex-display>.katex>.katex-html{display:block;position:relative}.katex-display>.katex>.katex-html>.tag{position:absolute;right:0}.katex-display.leqno>.katex>.katex-html>.tag{left:0;right:auto}.katex-display.fleqn>.katex{padding-left:2em;text-align:left}body{counter-reset:katexEqnNo mmlEqnNo}';function z(e){return String(e??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;")}function de(){return ke.replace(/url\(\/assets\/(KaTeX_[A-Za-z0-9_-]+)-[A-Za-z0-9_-]+\.(woff2|woff|ttf)\)/g,"url(https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/fonts/$1.$2)")}const ue=["重点难点解析","典型例题精讲"];function H(e,s,t){const n=e.课堂讲义,a=e.课后作业.reduce((c,k)=>c+k.questions.length,0),o=e.备课方案||"",i=o.match(/课时(?:安排)?[：:]\s*(\d+)\s*课时/)||o.match(/(\d+)\s*课时/),r=i?i[1]:"—",f=[...(n.核心知识点||"").matchAll(/\*\*(一|二|三|四|五|六|七|八|九|十)、([^*]+?)\*\*/g)].map(c=>`${c[1]}、${c[2].trim()}`),m=f.length?`<div class="board"><div class="board-title">${z(e.chapter)}</div>${f.map(c=>`<div class="board-item">${z(c)}</div>`).join("")}</div>
-      <p class="wm-note">板书为自动生成参考骨架，教师可按课堂实际增删。</p>`:'<p class="wm-note">板书设计参考：围绕本节核心概念，建议板书「课题 + 核心概念 + 典型例题结构」。</p>',x=e.课后作业.map((c,k)=>s&&k>0?`
+`);return r=r.replace(/@@TOKEN(\d+)@@/g,(l,f)=>{const x=t[+f];return x.type==="img"?`<img src="${h(x.src??"")}" alt="${h(x.alt??"")}" loading="lazy">`:x.type==="block"?`<div class="katex-display">${E(x.tex??"",!0)}</div>`:E(x.tex??"",!1)}),r}const je=({source:e,className:s})=>V.jsx("div",{className:`md ${s??""}`,dangerouslySetInnerHTML:{__html:d(e)}}),C={name:"hzj",wechat:"April_18forever"};async function Re(){const e=C.wechat;try{return await navigator.clipboard.writeText(e),!0}catch{try{const s=document.createElement("textarea");s.value=e,s.style.position="fixed",s.style.opacity="0",document.body.appendChild(s),s.select();const t=document.execCommand("copy");return document.body.removeChild(s),t}catch{return!1}}}const ke='@font-face{font-display:block;font-family:KaTeX_AMS;font-style:normal;font-weight:400;src:url(/assets/KaTeX_AMS-Regular-BQhdFMY1.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Caligraphic;font-style:normal;font-weight:700;src:url(/assets/KaTeX_Caligraphic-Bold-Dq_IR9rO.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Caligraphic;font-style:normal;font-weight:400;src:url(/assets/KaTeX_Caligraphic-Regular-Di6jR-x-.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Fraktur;font-style:normal;font-weight:700;src:url(/assets/KaTeX_Fraktur-Bold-CL6g_b3V.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Fraktur;font-style:normal;font-weight:400;src:url(/assets/KaTeX_Fraktur-Regular-CTYiF6lA.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Main;font-style:normal;font-weight:700;src:url(/assets/KaTeX_Main-Bold-Cx986IdX.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Main;font-style:italic;font-weight:700;src:url(/assets/KaTeX_Main-BoldItalic-DxDJ3AOS.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Main;font-style:italic;font-weight:400;src:url(/assets/KaTeX_Main-Italic-NWA7e6Wa.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Main;font-style:normal;font-weight:400;src:url(/assets/KaTeX_Main-Regular-B22Nviop.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Math;font-style:italic;font-weight:700;src:url(/assets/KaTeX_Math-BoldItalic-CZnvNsCZ.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Math;font-style:italic;font-weight:400;src:url(/assets/KaTeX_Math-Italic-t53AETM-.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_SansSerif;font-style:normal;font-weight:700;src:url(/assets/KaTeX_SansSerif-Bold-D1sUS0GD.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_SansSerif;font-style:italic;font-weight:400;src:url(/assets/KaTeX_SansSerif-Italic-C3H0VqGB.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_SansSerif;font-style:normal;font-weight:400;src:url(/assets/KaTeX_SansSerif-Regular-DDBCnlJ7.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Script;font-style:normal;font-weight:400;src:url(/assets/KaTeX_Script-Regular-D3wIWfF6.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Size1;font-style:normal;font-weight:400;src:url(/assets/KaTeX_Size1-Regular-mCD8mA8B.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Size2;font-style:normal;font-weight:400;src:url(/assets/KaTeX_Size2-Regular-Dy4dx90m.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Size3;font-style:normal;font-weight:400;src:url(data:font/woff2;base64,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) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Size4;font-style:normal;font-weight:400;src:url(/assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2) format("woff2")}@font-face{font-display:block;font-family:KaTeX_Typewriter;font-style:normal;font-weight:400;src:url(/assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2) format("woff2")}.katex{font: 1.21em KaTeX_Main,Times New Roman,serif;line-height:1.2;position:relative;text-indent:0;text-rendering:auto}.katex *{-ms-high-contrast-adjust:none!important;border-color:currentColor}.katex .katex-version:after{content:"0.16.47"}.katex .katex-mathml{border:0;-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;overflow:hidden;padding:0;position:absolute;width:1px}.katex .katex-html>.newline{display:block}.katex .base{position:relative;white-space:nowrap;width:-webkit-min-content;width:-moz-min-content;width:min-content}.katex .base,.katex .strut{display:inline-block}.katex .textbf{font-weight:700}.katex .textit{font-style:italic}.katex .textrm{font-family:KaTeX_Main}.katex .textsf{font-family:KaTeX_SansSerif}.katex .texttt{font-family:KaTeX_Typewriter}.katex .mathnormal{font-family:KaTeX_Math;font-style:italic}.katex .mathit{font-family:KaTeX_Main;font-style:italic}.katex .mathrm{font-style:normal}.katex .mathbf{font-family:KaTeX_Main;font-weight:700}.katex .boldsymbol{font-family:KaTeX_Math;font-style:italic;font-weight:700}.katex .amsrm,.katex .mathbb,.katex .textbb{font-family:KaTeX_AMS}.katex .mathcal{font-family:KaTeX_Caligraphic}.katex .mathfrak,.katex .textfrak{font-family:KaTeX_Fraktur}.katex .mathboldfrak,.katex .textboldfrak{font-family:KaTeX_Fraktur;font-weight:700}.katex .mathtt{font-family:KaTeX_Typewriter}.katex .mathscr,.katex .textscr{font-family:KaTeX_Script}.katex .mathsf,.katex .textsf{font-family:KaTeX_SansSerif}.katex .mathboldsf,.katex .textboldsf{font-family:KaTeX_SansSerif;font-weight:700}.katex .mathitsf,.katex .mathsfit,.katex .textitsf{font-family:KaTeX_SansSerif;font-style:italic}.katex .mainrm{font-family:KaTeX_Main;font-style:normal}.katex .vlist-t{border-collapse:collapse;display:inline-table;table-layout:fixed}.katex .vlist-r{display:table-row}.katex .vlist{display:table-cell;position:relative;vertical-align:bottom}.katex .vlist>span{display:block;height:0;position:relative}.katex .vlist>span>span{display:inline-block}.katex .vlist>span>.pstrut{overflow:hidden;width:0}.katex .vlist-t2{margin-right:-2px}.katex .vlist-s{display:table-cell;font-size:1px;min-width:2px;vertical-align:bottom;width:2px}.katex .vbox{align-items:baseline;display:inline-flex;flex-direction:column}.katex .hbox{width:100%}.katex .hbox,.katex .thinbox{display:inline-flex;flex-direction:row}.katex .thinbox{max-width:0;width:0}.katex .msupsub{text-align:left}.katex .mfrac>span>span{text-align:center}.katex .mfrac .frac-line{border-bottom-style:solid;display:inline-block;width:100%}.katex .hdashline,.katex .hline,.katex .mfrac .frac-line,.katex .overline .overline-line,.katex .rule,.katex .underline .underline-line{min-height:1px}.katex .mspace{display:inline-block}.katex .smash{display:inline;line-height:0}.katex .clap,.katex .llap,.katex .rlap{position:relative;width:0}.katex .clap>.inner,.katex .llap>.inner,.katex .rlap>.inner{position:absolute}.katex .clap>.fix,.katex .llap>.fix,.katex .rlap>.fix{display:inline-block}.katex .llap>.inner{right:0}.katex .clap>.inner,.katex .rlap>.inner{left:0}.katex .clap>.inner>span{margin-left:-50%;margin-right:50%}.katex .rule{border:0 solid;display:inline-block;position:relative}.katex .hline,.katex .overline .overline-line,.katex .underline .underline-line{border-bottom-style:solid;display:inline-block;width:100%}.katex .hdashline{border-bottom-style:dashed;display:inline-block;width:100%}.katex .sqrt>.root{margin-left:.2777777778em;margin-right:-.5555555556em}.katex .fontsize-ensurer.reset-size1.size1,.katex .sizing.reset-size1.size1{font-size:1em}.katex .fontsize-ensurer.reset-size1.size2,.katex .sizing.reset-size1.size2{font-size:1.2em}.katex .fontsize-ensurer.reset-size1.size3,.katex .sizing.reset-size1.size3{font-size:1.4em}.katex .fontsize-ensurer.reset-size1.size4,.katex .sizing.reset-size1.size4{font-size:1.6em}.katex .fontsize-ensurer.reset-size1.size5,.katex .sizing.reset-size1.size5{font-size:1.8em}.katex .fontsize-ensurer.reset-size1.size6,.katex .sizing.reset-size1.size6{font-size:2em}.katex .fontsize-ensurer.reset-size1.size7,.katex .sizing.reset-size1.size7{font-size:2.4em}.katex .fontsize-ensurer.reset-size1.size8,.katex .sizing.reset-size1.size8{font-size:2.88em}.katex .fontsize-ensurer.reset-size1.size9,.katex .sizing.reset-size1.size9{font-size:3.456em}.katex .fontsize-ensurer.reset-size1.size10,.katex .sizing.reset-size1.size10{font-size:4.148em}.katex .fontsize-ensurer.reset-size1.size11,.katex .sizing.reset-size1.size11{font-size:4.976em}.katex .fontsize-ensurer.reset-size2.size1,.katex .sizing.reset-size2.size1{font-size:.8333333333em}.katex .fontsize-ensurer.reset-size2.size2,.katex .sizing.reset-size2.size2{font-size:1em}.katex .fontsize-ensurer.reset-size2.size3,.katex .sizing.reset-size2.size3{font-size:1.1666666667em}.katex .fontsize-ensurer.reset-size2.size4,.katex .sizing.reset-size2.size4{font-size:1.3333333333em}.katex .fontsize-ensurer.reset-size2.size5,.katex .sizing.reset-size2.size5{font-size:1.5em}.katex .fontsize-ensurer.reset-size2.size6,.katex .sizing.reset-size2.size6{font-size:1.6666666667em}.katex .fontsize-ensurer.reset-size2.size7,.katex .sizing.reset-size2.size7{font-size:2em}.katex .fontsize-ensurer.reset-size2.size8,.katex .sizing.reset-size2.size8{font-size:2.4em}.katex .fontsize-ensurer.reset-size2.size9,.katex .sizing.reset-size2.size9{font-size:2.88em}.katex .fontsize-ensurer.reset-size2.size10,.katex .sizing.reset-size2.size10{font-size:3.4566666667em}.katex .fontsize-ensurer.reset-size2.size11,.katex .sizing.reset-size2.size11{font-size:4.1466666667em}.katex .fontsize-ensurer.reset-size3.size1,.katex .sizing.reset-size3.size1{font-size:.7142857143em}.katex .fontsize-ensurer.reset-size3.size2,.katex .sizing.reset-size3.size2{font-size:.8571428571em}.katex .fontsize-ensurer.reset-size3.size3,.katex .sizing.reset-size3.size3{font-size:1em}.katex .fontsize-ensurer.reset-size3.size4,.katex .sizing.reset-size3.size4{font-size:1.1428571429em}.katex .fontsize-ensurer.reset-size3.size5,.katex .sizing.reset-size3.size5{font-size:1.2857142857em}.katex .fontsize-ensurer.reset-size3.size6,.katex .sizing.reset-size3.size6{font-size:1.4285714286em}.katex .fontsize-ensurer.reset-size3.size7,.katex .sizing.reset-size3.size7{font-size:1.7142857143em}.katex .fontsize-ensurer.reset-size3.size8,.katex .sizing.reset-size3.size8{font-size:2.0571428571em}.katex .fontsize-ensurer.reset-size3.size9,.katex .sizing.reset-size3.size9{font-size:2.4685714286em}.katex .fontsize-ensurer.reset-size3.size10,.katex .sizing.reset-size3.size10{font-size:2.9628571429em}.katex .fontsize-ensurer.reset-size3.size11,.katex .sizing.reset-size3.size11{font-size:3.5542857143em}.katex .fontsize-ensurer.reset-size4.size1,.katex .sizing.reset-size4.size1{font-size:.625em}.katex .fontsize-ensurer.reset-size4.size2,.katex .sizing.reset-size4.size2{font-size:.75em}.katex .fontsize-ensurer.reset-size4.size3,.katex .sizing.reset-size4.size3{font-size:.875em}.katex .fontsize-ensurer.reset-size4.size4,.katex .sizing.reset-size4.size4{font-size:1em}.katex .fontsize-ensurer.reset-size4.size5,.katex .sizing.reset-size4.size5{font-size:1.125em}.katex .fontsize-ensurer.reset-size4.size6,.katex .sizing.reset-size4.size6{font-size:1.25em}.katex .fontsize-ensurer.reset-size4.size7,.katex .sizing.reset-size4.size7{font-size:1.5em}.katex .fontsize-ensurer.reset-size4.size8,.katex .sizing.reset-size4.size8{font-size:1.8em}.katex .fontsize-ensurer.reset-size4.size9,.katex .sizing.reset-size4.size9{font-size:2.16em}.katex .fontsize-ensurer.reset-size4.size10,.katex .sizing.reset-size4.size10{font-size:2.5925em}.katex .fontsize-ensurer.reset-size4.size11,.katex .sizing.reset-size4.size11{font-size:3.11em}.katex .fontsize-ensurer.reset-size5.size1,.katex .sizing.reset-size5.size1{font-size:.5555555556em}.katex .fontsize-ensurer.reset-size5.size2,.katex .sizing.reset-size5.size2{font-size:.6666666667em}.katex .fontsize-ensurer.reset-size5.size3,.katex .sizing.reset-size5.size3{font-size:.7777777778em}.katex .fontsize-ensurer.reset-size5.size4,.katex .sizing.reset-size5.size4{font-size:.8888888889em}.katex .fontsize-ensurer.reset-size5.size5,.katex .sizing.reset-size5.size5{font-size:1em}.katex .fontsize-ensurer.reset-size5.size6,.katex .sizing.reset-size5.size6{font-size:1.1111111111em}.katex .fontsize-ensurer.reset-size5.size7,.katex .sizing.reset-size5.size7{font-size:1.3333333333em}.katex .fontsize-ensurer.reset-size5.size8,.katex .sizing.reset-size5.size8{font-size:1.6em}.katex .fontsize-ensurer.reset-size5.size9,.katex .sizing.reset-size5.size9{font-size:1.92em}.katex .fontsize-ensurer.reset-size5.size10,.katex .sizing.reset-size5.size10{font-size:2.3044444444em}.katex .fontsize-ensurer.reset-size5.size11,.katex .sizing.reset-size5.size11{font-size:2.7644444444em}.katex .fontsize-ensurer.reset-size6.size1,.katex .sizing.reset-size6.size1{font-size:.5em}.katex .fontsize-ensurer.reset-size6.size2,.katex .sizing.reset-size6.size2{font-size:.6em}.katex .fontsize-ensurer.reset-size6.size3,.katex .sizing.reset-size6.size3{font-size:.7em}.katex .fontsize-ensurer.reset-size6.size4,.katex .sizing.reset-size6.size4{font-size:.8em}.katex .fontsize-ensurer.reset-size6.size5,.katex .sizing.reset-size6.size5{font-size:.9em}.katex .fontsize-ensurer.reset-size6.size6,.katex .sizing.reset-size6.size6{font-size:1em}.katex .fontsize-ensurer.reset-size6.size7,.katex .sizing.reset-size6.size7{font-size:1.2em}.katex .fontsize-ensurer.reset-size6.size8,.katex .sizing.reset-size6.size8{font-size:1.44em}.katex .fontsize-ensurer.reset-size6.size9,.katex .sizing.reset-size6.size9{font-size:1.728em}.katex .fontsize-ensurer.reset-size6.size10,.katex .sizing.reset-size6.size10{font-size:2.074em}.katex .fontsize-ensurer.reset-size6.size11,.katex .sizing.reset-size6.size11{font-size:2.488em}.katex .fontsize-ensurer.reset-size7.size1,.katex .sizing.reset-size7.size1{font-size:.4166666667em}.katex .fontsize-ensurer.reset-size7.size2,.katex .sizing.reset-size7.size2{font-size:.5em}.katex .fontsize-ensurer.reset-size7.size3,.katex .sizing.reset-size7.size3{font-size:.5833333333em}.katex .fontsize-ensurer.reset-size7.size4,.katex .sizing.reset-size7.size4{font-size:.6666666667em}.katex .fontsize-ensurer.reset-size7.size5,.katex .sizing.reset-size7.size5{font-size:.75em}.katex .fontsize-ensurer.reset-size7.size6,.katex .sizing.reset-size7.size6{font-size:.8333333333em}.katex .fontsize-ensurer.reset-size7.size7,.katex .sizing.reset-size7.size7{font-size:1em}.katex .fontsize-ensurer.reset-size7.size8,.katex .sizing.reset-size7.size8{font-size:1.2em}.katex .fontsize-ensurer.reset-size7.size9,.katex .sizing.reset-size7.size9{font-size:1.44em}.katex .fontsize-ensurer.reset-size7.size10,.katex .sizing.reset-size7.size10{font-size:1.7283333333em}.katex .fontsize-ensurer.reset-size7.size11,.katex .sizing.reset-size7.size11{font-size:2.0733333333em}.katex .fontsize-ensurer.reset-size8.size1,.katex .sizing.reset-size8.size1{font-size:.3472222222em}.katex .fontsize-ensurer.reset-size8.size2,.katex .sizing.reset-size8.size2{font-size:.4166666667em}.katex .fontsize-ensurer.reset-size8.size3,.katex .sizing.reset-size8.size3{font-size:.4861111111em}.katex .fontsize-ensurer.reset-size8.size4,.katex .sizing.reset-size8.size4{font-size:.5555555556em}.katex .fontsize-ensurer.reset-size8.size5,.katex .sizing.reset-size8.size5{font-size:.625em}.katex .fontsize-ensurer.reset-size8.size6,.katex .sizing.reset-size8.size6{font-size:.6944444444em}.katex .fontsize-ensurer.reset-size8.size7,.katex .sizing.reset-size8.size7{font-size:.8333333333em}.katex .fontsize-ensurer.reset-size8.size8,.katex .sizing.reset-size8.size8{font-size:1em}.katex .fontsize-ensurer.reset-size8.size9,.katex .sizing.reset-size8.size9{font-size:1.2em}.katex .fontsize-ensurer.reset-size8.size10,.katex .sizing.reset-size8.size10{font-size:1.4402777778em}.katex .fontsize-ensurer.reset-size8.size11,.katex .sizing.reset-size8.size11{font-size:1.7277777778em}.katex .fontsize-ensurer.reset-size9.size1,.katex .sizing.reset-size9.size1{font-size:.2893518519em}.katex .fontsize-ensurer.reset-size9.size2,.katex .sizing.reset-size9.size2{font-size:.3472222222em}.katex .fontsize-ensurer.reset-size9.size3,.katex .sizing.reset-size9.size3{font-size:.4050925926em}.katex .fontsize-ensurer.reset-size9.size4,.katex .sizing.reset-size9.size4{font-size:.462962963em}.katex .fontsize-ensurer.reset-size9.size5,.katex .sizing.reset-size9.size5{font-size:.5208333333em}.katex .fontsize-ensurer.reset-size9.size6,.katex .sizing.reset-size9.size6{font-size:.5787037037em}.katex .fontsize-ensurer.reset-size9.size7,.katex .sizing.reset-size9.size7{font-size:.6944444444em}.katex .fontsize-ensurer.reset-size9.size8,.katex .sizing.reset-size9.size8{font-size:.8333333333em}.katex .fontsize-ensurer.reset-size9.size9,.katex .sizing.reset-size9.size9{font-size:1em}.katex .fontsize-ensurer.reset-size9.size10,.katex .sizing.reset-size9.size10{font-size:1.2002314815em}.katex .fontsize-ensurer.reset-size9.size11,.katex .sizing.reset-size9.size11{font-size:1.4398148148em}.katex .fontsize-ensurer.reset-size10.size1,.katex .sizing.reset-size10.size1{font-size:.2410800386em}.katex .fontsize-ensurer.reset-size10.size2,.katex .sizing.reset-size10.size2{font-size:.2892960463em}.katex .fontsize-ensurer.reset-size10.size3,.katex .sizing.reset-size10.size3{font-size:.337512054em}.katex .fontsize-ensurer.reset-size10.size4,.katex .sizing.reset-size10.size4{font-size:.3857280617em}.katex .fontsize-ensurer.reset-size10.size5,.katex .sizing.reset-size10.size5{font-size:.4339440694em}.katex .fontsize-ensurer.reset-size10.size6,.katex .sizing.reset-size10.size6{font-size:.4821600771em}.katex .fontsize-ensurer.reset-size10.size7,.katex .sizing.reset-size10.size7{font-size:.5785920926em}.katex .fontsize-ensurer.reset-size10.size8,.katex .sizing.reset-size10.size8{font-size:.6943105111em}.katex .fontsize-ensurer.reset-size10.size9,.katex .sizing.reset-size10.size9{font-size:.8331726133em}.katex .fontsize-ensurer.reset-size10.size10,.katex .sizing.reset-size10.size10{font-size:1em}.katex .fontsize-ensurer.reset-size10.size11,.katex .sizing.reset-size10.size11{font-size:1.1996142719em}.katex .fontsize-ensurer.reset-size11.size1,.katex .sizing.reset-size11.size1{font-size:.2009646302em}.katex .fontsize-ensurer.reset-size11.size2,.katex .sizing.reset-size11.size2{font-size:.2411575563em}.katex .fontsize-ensurer.reset-size11.size3,.katex .sizing.reset-size11.size3{font-size:.2813504823em}.katex .fontsize-ensurer.reset-size11.size4,.katex .sizing.reset-size11.size4{font-size:.3215434084em}.katex .fontsize-ensurer.reset-size11.size5,.katex .sizing.reset-size11.size5{font-size:.3617363344em}.katex .fontsize-ensurer.reset-size11.size6,.katex .sizing.reset-size11.size6{font-size:.4019292605em}.katex .fontsize-ensurer.reset-size11.size7,.katex .sizing.reset-size11.size7{font-size:.4823151125em}.katex .fontsize-ensurer.reset-size11.size8,.katex .sizing.reset-size11.size8{font-size:.578778135em}.katex .fontsize-ensurer.reset-size11.size9,.katex .sizing.reset-size11.size9{font-size:.6945337621em}.katex .fontsize-ensurer.reset-size11.size10,.katex .sizing.reset-size11.size10{font-size:.8336012862em}.katex .fontsize-ensurer.reset-size11.size11,.katex .sizing.reset-size11.size11{font-size:1em}.katex .delimsizing.size1{font-family:KaTeX_Size1}.katex .delimsizing.size2{font-family:KaTeX_Size2}.katex .delimsizing.size3{font-family:KaTeX_Size3}.katex .delimsizing.size4{font-family:KaTeX_Size4}.katex .delimsizing.mult .delim-size1>span{font-family:KaTeX_Size1}.katex .delimsizing.mult .delim-size4>span{font-family:KaTeX_Size4}.katex .nulldelimiter{display:inline-block;width:.12em}.katex .delimcenter,.katex .op-symbol{position:relative}.katex .op-symbol.small-op{font-family:KaTeX_Size1}.katex .op-symbol.large-op{font-family:KaTeX_Size2}.katex .accent>.vlist-t,.katex .op-limits>.vlist-t{text-align:center}.katex .accent .accent-body{position:relative}.katex .accent .accent-body:not(.accent-full){width:0}.katex .overlay{display:block}.katex .mtable .vertical-separator{display:inline-block;min-width:1px}.katex .mtable .arraycolsep{display:inline-block}.katex .mtable .col-align-c>.vlist-t{text-align:center}.katex .mtable .col-align-l>.vlist-t{text-align:left}.katex .mtable .col-align-r>.vlist-t{text-align:right}.katex .svg-align{text-align:left}.katex svg{fill:currentColor;stroke:currentColor;display:block;height:inherit;position:absolute;width:100%}.katex svg path{stroke:none}.katex svg{fill-rule:nonzero;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1}.katex img{border-style:none;max-height:none;max-width:none;min-height:0;min-width:0}.katex .stretchy{display:block;overflow:hidden;position:relative;width:100%}.katex .stretchy:after,.katex .stretchy:before{content:""}.katex .hide-tail{overflow:hidden;position:relative;width:100%}.katex .halfarrow-left{left:0;overflow:hidden;position:absolute;width:50.2%}.katex .halfarrow-right{overflow:hidden;position:absolute;right:0;width:50.2%}.katex .brace-left{left:0;overflow:hidden;position:absolute;width:25.1%}.katex .brace-center{left:25%;overflow:hidden;position:absolute;width:50%}.katex .brace-right{overflow:hidden;position:absolute;right:0;width:25.1%}.katex .x-arrow-pad{padding:0 .5em}.katex .cd-arrow-pad{padding:0 .55556em 0 .27778em}.katex .mover,.katex .munder,.katex .x-arrow{text-align:center}.katex .boxpad{padding:0 .3em}.katex .fbox,.katex .fcolorbox{border:.04em solid;box-sizing:border-box}.katex .cancel-pad{padding:0 .2em}.katex .cancel-lap{margin-left:-.2em;margin-right:-.2em}.katex .sout{border-bottom-style:solid;border-bottom-width:.08em}.katex .angl{border-right:.049em solid;border-top:.049em solid;box-sizing:border-box;margin-right:.03889em}.katex .anglpad{padding:0 .03889em}.katex .eqn-num:before{content:"(" counter(katexEqnNo) ")";counter-increment:katexEqnNo}.katex .mml-eqn-num:before{content:"(" counter(mmlEqnNo) ")";counter-increment:mmlEqnNo}.katex .mtr-glue{width:50%}.katex .cd-vert-arrow{display:inline-block;position:relative}.katex .cd-label-left{display:inline-block;position:absolute;right:calc(50% + .3em);text-align:left}.katex .cd-label-right{display:inline-block;left:calc(50% + .3em);position:absolute;text-align:right}.katex-display{display:block;margin:1em 0;text-align:center}.katex-display>.katex{display:block;text-align:center;white-space:nowrap}.katex-display>.katex>.katex-html{display:block;position:relative}.katex-display>.katex>.katex-html>.tag{position:absolute;right:0}.katex-display.leqno>.katex>.katex-html>.tag{left:0;right:auto}.katex-display.fleqn>.katex{padding-left:2em;text-align:left}body{counter-reset:katexEqnNo mmlEqnNo}';function m(e){return String(e??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;")}function de(){return ke.replace(/url\(\/assets\/(KaTeX_[A-Za-z0-9_-]+)-[A-Za-z0-9_-]+\.(woff2|woff|ttf)\)/g,"url(https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/fonts/$1.$2)")}const pe=["重点难点解析","典型例题精讲"];function $(e,s,t){const n=e.课堂讲义,a=e.课后作业.reduce((c,k)=>c+k.questions.length,0),o=e.备课方案||"",i=o.match(/课时(?:安排)?[：:]\s*(\d+)\s*课时/)||o.match(/(\d+)\s*课时/),r=i?i[1]:"—",f=[...(n.核心知识点||"").matchAll(/\*\*(一|二|三|四|五|六|七|八|九|十)、([^*]+?)\*\*/g)].map(c=>`${c[1]}、${c[2].trim()}`),x=f.length?`<div class="board"><div class="board-title">${m(e.chapter)}</div>${f.map(c=>`<div class="board-item">${m(c)}</div>`).join("")}</div>
+      <p class="wm-note">板书为自动生成参考骨架，教师可按课堂实际增删。</p>`:'<p class="wm-note">板书设计参考：围绕本节核心概念，建议板书「课题 + 核心概念 + 典型例题结构」。</p>',z=e.课后作业.map((c,k)=>s&&k>0?`
     <section class="hw-group">
-      <h3>${c.difficulty}档 · ${z(c.title)}（${c.questions.length} 题）🔒 会员专享</h3>
+      <h3>${c.difficulty}档 · ${m(c.title)}（${c.questions.length} 题）🔒 会员专享</h3>
       <p class="wm-note">该档作业为会员专享内容，开通会员后可导出完整版。</p>
     </section>`:`
     <section class="hw-group">
-      <h3>${c.difficulty}档 · ${z(c.title)}（${c.questions.length} 题）</h3>
-      ${c.questions.map((L,G)=>`
+      <h3>${c.difficulty}档 · ${m(c.title)}（${c.questions.length} 题）</h3>
+      ${c.questions.map((S,G)=>`
         <div class="hw-item">
-          <p class="hw-q">${G+1}. ${U(L.q)}</p>
-          ${!s&&L.a?`<p class="hw-a">【参考答案】${U(L.a)}</p>`:""}
+          <p class="hw-q">${G+1}. ${U(S.q)}</p>
+          ${!s&&S.a?`<p class="hw-a">【参考答案】${U(S.a)}</p>`:""}
         </div>`).join("")}
-    </section>`).join(""),v=t!==void 0?`<h2 class="sec-title" id="${t}">${z(e.chapter)} · 教案</h2>`:`<h1>${z(e.chapter)}</h1>`,u=c=>{const k=n[c];return!k||!k.trim()?"":s&&ue.includes(c)?`
-      <div class="locked-note">${z(c)}为会员专享内容，开通会员后可导出完整版。</div>`:`
+    </section>`).join(""),v=t!==void 0?`<h2 class="sec-title" id="${t}">${m(e.chapter)} · 教案</h2>`:`<h1>${m(e.chapter)}</h1>`,p=c=>{const k=n[c];return!k||!k.trim()?"":s&&pe.includes(c)?`
+      <div class="locked-note">${m(c)}为会员专享内容，开通会员后可导出完整版。</div>`:`
       <div class="md">${d(k)}</div>`};return`
 ${v}
-<div class="meta">${e.stage}${e.grade}${z(e.subject)} · 教案 · 一键生成，可直接用于课堂教学 · 共 ${a} 道习题</div>
+<div class="meta">${e.stage}${e.grade}${m(e.subject)} · 教案 · 一键生成，可直接用于课堂教学 · 共 ${a} 道习题</div>
 
 <h2>一、教学基本信息</h2>
 <table class="info-table">
-  <tr><th>课题</th><td>${z(e.chapter)}</td></tr>
-  <tr><th>学科</th><td>${z(e.subject)}</td></tr>
-  <tr><th>学段 / 年级</th><td>${z(e.stage)} / ${z(e.grade)}</td></tr>
+  <tr><th>课题</th><td>${m(e.chapter)}</td></tr>
+  <tr><th>学科</th><td>${m(e.subject)}</td></tr>
+  <tr><th>学段 / 年级</th><td>${m(e.stage)} / ${m(e.grade)}</td></tr>
   <tr><th>课时建议</th><td>${r} 课时</td></tr>
   <tr><th>课型</th><td>新授课（含作业布置与课后反馈）</td></tr>
 </table>
@@ -38,17 +38,17 @@ ${v}
 <div class="md">${d(o)}</div>
 
 <h2>三、教学过程</h2>
-<div class="link-step"><span class="link-no">环节 1</span><div><strong>情境导入</strong><p class="step-tip">建议：结合生活实例或复习旧知引出课题《${z(e.chapter)}》，激发学生兴趣，明确学习目标。</p></div></div>
-<div class="link-step"><span class="link-no">环节 2</span><div><strong>新知讲授</strong>${u("核心知识点")}</div></div>
-<div class="link-step"><span class="link-no">环节 3</span><div><strong>重点难点突破</strong>${u("重点难点解析")}</div></div>
-<div class="link-step"><span class="link-no">环节 4</span><div><strong>典例精讲</strong>${u("典型例题精讲")}</div></div>
+<div class="link-step"><span class="link-no">环节 1</span><div><strong>情境导入</strong><p class="step-tip">建议：结合生活实例或复习旧知引出课题《${m(e.chapter)}》，激发学生兴趣，明确学习目标。</p></div></div>
+<div class="link-step"><span class="link-no">环节 2</span><div><strong>新知讲授</strong>${p("核心知识点")}</div></div>
+<div class="link-step"><span class="link-no">环节 3</span><div><strong>重点难点突破</strong>${p("重点难点解析")}</div></div>
+<div class="link-step"><span class="link-no">环节 4</span><div><strong>典例精讲</strong>${p("典型例题精讲")}</div></div>
 <div class="link-step"><span class="link-no">环节 5</span><div><strong>巩固练习与课堂小结</strong><p class="step-tip">建议：组织学生完成基础档作业巩固新知；教师带领学生梳理本节知识结构，点明易错点，布置课后作业。</p></div></div>
 
 <h2>四、板书设计（参考）</h2>
-${m}
+${x}
 
 <h2>五、作业布置</h2>
-${x}
+${z}
 
 <h2>六、教学反思</h2>
 <div class="reflect-box">
@@ -62,7 +62,7 @@ ${s?'<p class="wm-note">课后反馈为会员专享内容，开通会员后可�
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>${z(e)}</title>
+<title>${m(e)}</title>
 <style>
 ${de()}
 * { box-sizing: border-box; }
@@ -108,27 +108,27 @@ ${s}
 <footer>由「教师备课助手」生成 · 发布人：${C.name} · 微信：${C.wechat} · 数据来源于教案知识库</footer>
 ${t?`<div class="wm">${fe}</div>`:""}
 </body>
-</html>`}function Ne(e,s){const t=H(e,s);return A(`${e.stage}${e.grade}${e.subject}《${e.chapter}》备课资料`,t,s)}function Ue(e,s,t){const n=`<div class="toc">
+</html>`}function Oe(e,s){const t=$(e,s);return A(`${e.stage}${e.grade}${e.subject}《${e.chapter}》备课资料`,t,s)}function Ue(e,s,t){const n=`<div class="toc">
 <h2>本册目录（共 ${e.length} 章）</h2>
-<ol>${e.map((o,i)=>`<li><a href="#sec-${i}">${z(o.chapter)}</a></li>`).join("")}</ol>
+<ol>${e.map((o,i)=>`<li><a href="#sec-${i}">${m(o.chapter)}</a></li>`).join("")}</ol>
 </div>`,a=`
-<h1>${z(t)}</h1>
+<h1>${m(t)}</h1>
 <div class="meta">${e.length} 章完整教案 ｜ 备课方案 / 课堂讲义 / 课后作业 / 课后反馈 ｜ 共 ${e.reduce((o,i)=>o+i.课后作业.reduce((r,l)=>r+l.questions.length,0),0)} 道习题</div>
 ${n}
-${e.map((o,i)=>H(o,s,`sec-${i}`)).join(`
-`)}`;return A(t,a,s)}function Ke(e){const s=e.map(({lesson:n,index:a})=>`
+${e.map((o,i)=>$(o,s,`sec-${i}`)).join(`
+`)}`;return A(t,a,s)}function Me(e){const s=e.map(({lesson:n,index:a})=>`
 <tr>
-  <td><a href="#/lesson/${a}">${z(n.chapter)}</a></td>
-  <td>${z(n.stage)}</td><td>${z(n.grade)}</td><td>${z(n.subject)}</td>
+  <td><a href="#/lesson/${a}">${m(n.chapter)}</a></td>
+  <td>${m(n.stage)}</td><td>${m(n.grade)}</td><td>${m(n.subject)}</td>
 </tr>`).join(""),t=`
 <h1>我的收藏 · 教案清单（${e.length} 章）</h1>
 <div class="meta">点击章节名可跳转查看 ｜ 由「教师备课助手」生成 · 发布人：hzj</div>
 <table>
 <thead><tr><th>章节</th><th>学段</th><th>年级</th><th>学科</th></tr></thead>
 <tbody>${s}</tbody>
-</table>`;return A("我的收藏 · 教案清单",t,!1)}function Me(e,s){const t=e.openClass,n=`
-<h1>${z(e.chapter)} · 公开课版</h1>
-<div class="meta">${e.stage}${e.grade}${z(e.subject)} · 公开课详案 + 说课稿 · 会员专享增值内容</div>
+</table>`;return A("我的收藏 · 教案清单",t,!1)}function Pe(e,s){const t=e.openClass,n=`
+<h1>${m(e.chapter)} · 公开课版</h1>
+<div class="meta">${e.stage}${e.grade}${m(e.subject)} · 公开课详案 + 说课稿 · 会员专享增值内容</div>
 
 ${`
 <h2>一、公开课详案</h2>
@@ -138,7 +138,7 @@ ${`
 <div class="md">${d(t&&t.talk?t.talk:"")}</div>
 
 <p class="wm-note">本公开课教案由「教师备课助手」一键生成，供教师公开课备课、说课比赛参考。可直接用于课堂教学。</p>
-`}`;return A(`${e.stage}${e.grade}${e.subject}《${e.chapter}》公开课版`,n,s)}function Pe(e,s){const t=new Blob([s],{type:"text/html;charset=utf-8"}),n=URL.createObjectURL(t),a=document.createElement("a");a.href=n,a.download=e,a.click(),setTimeout(()=>URL.revokeObjectURL(n),1e3)}const pe="d8f219c3e45512fce03ad82bf56c5cfd";let K=!1;function Ie(){if(!(K||typeof document>"u")){K=!0;try{const e=document.createElement("script");e.async=!0,e.src=`https://hm.baidu.com/hm.js?${pe}`;const s=document.getElementsByTagName("script")[0];s&&s.parentNode&&s.parentNode.insertBefore(e,s),window._hmt=window._hmt||[]}catch{}}}function Xe(e,s){try{if(!window._hmt)return;const t=s?Object.entries(s).map(([n,a])=>`${n}=${a}`).join("&"):"";window._hmt.push(["_trackEvent","wb",e,t])}catch{}}const De=[{subject:"语文",version:"统编版",grade:"一年级",volume:"上册",units:[{name:"第一单元（识字）",lessons:["天地人","金木水火土","口耳目","日月水火","对韵歌"]},{name:"第二单元（拼音）",lessons:["a o e","i u ü","b p m f","d t n l","g k h","j q x"]},{name:"第三单元（拼音）",lessons:["z c s","zh ch sh r","y w","ai ei ui","ao ou iu","ie üe er"]},{name:"第四单元（拼音）",lessons:["an en in un ün","ang eng ing ong"]},{name:"第五单元（课文）",lessons:["秋天","小小的船","江南","四季"]},{name:"第六单元（识字）",lessons:["画","大小多少","小书包","日月明","升国旗"]},{name:"第七单元（课文）",lessons:["影子","比尾巴","青蛙写诗","雨点儿"]},{name:"第八单元（课文）",lessons:["明天要远足","大还是小","项链"]}]},{subject:"语文",version:"统编版",grade:"一年级",volume:"下册",units:[{name:"第一单元（识字）",lessons:["春夏秋冬","姓氏歌","小青蛙","猜字谜"]},{name:"第二单元（课文）",lessons:["吃水不忘挖井人","我多想去看看","一个接一个","四个太阳"]},{name:"第三单元（课文）",lessons:["小公鸡和小鸭子","树和喜鹊","怎么都快乐"]},{name:"第四单元（课文）",lessons:["静夜思","夜色","端午粽","彩虹"]},{name:"第五单元（识字）",lessons:["动物儿歌","古对今","操场上","人之初"]},{name:"第六单元（课文）",lessons:["古诗二首：池上/小池","荷叶圆圆","要下雨了"]},{name:"第七单元（课文）",lessons:["文具的家","一分钟","动物王国开大会","小猴子下山"]},{name:"第八单元（课文）",lessons:["棉花姑娘","咕咚","小壁虎借尾巴"]}]},{subject:"语文",version:"统编版",grade:"二年级",volume:"上册",units:[{name:"第一单元（课文）",lessons:["小蝌蚪找妈妈","我是什么","植物妈妈有办法"]},{name:"第二单元（识字）",lessons:["场景歌","树之歌","拍手歌","田家四季歌"]},{name:"第三单元（课文）",lessons:["曹冲称象","玲玲的画","一封信","妈妈睡了"]},{name:"第四单元（课文）",lessons:["古诗二首：登鹳雀楼/望庐山瀑布","黄山奇石","日月潭","葡萄沟"]},{name:"第五单元（课文）",lessons:["坐井观天","寒号鸟","我要的是葫芦"]},{name:"第六单元（课文）",lessons:["大禹治水","朱德的扁担","难忘的泼水节"]},{name:"第七单元（课文）",lessons:["古诗二首：夜宿山寺/敕勒歌","雾在哪里","雪孩子"]},{name:"第八单元（课文）",lessons:["狐假虎威","狐狸分奶酪","纸船和风筝","风娃娃"]}]},{subject:"语文",version:"统编版",grade:"二年级",volume:"下册",units:[{name:"第一单元（课文）",lessons:["古诗二首：村居/咏柳","找春天","开满鲜花的小路","邓小平爷爷植树"]},{name:"第二单元（课文）",lessons:["雷锋叔叔你在哪里","千人糕","一匹出色的马"]},{name:"第三单元（识字）",lessons:["神州谣","传统节日","“贝”的故事","中国美食"]},{name:"第四单元（课文）",lessons:["彩色的梦","枫树上的喜鹊","沙滩上的童话","我是一只小虫子"]},{name:"第五单元（课文）",lessons:["寓言二则：亡羊补牢/揠苗助长","画杨桃","小马过河"]},{name:"第六单元（课文）",lessons:["古诗二首：晓出净慈寺送林子方/绝句","雷雨","要是你在野外迷了路","太空生活趣事多"]},{name:"第七单元（课文）",lessons:["大象的耳朵","蜘蛛开店","青蛙卖泥塘","小毛虫"]},{name:"第八单元（课文）",lessons:["祖先的摇篮","当世界年纪还小的时候","羿射九日"]}]},{subject:"语文",version:"统编版",grade:"三年级",volume:"上册",units:[{name:"第一单元（课文）",lessons:["大青树下的小学","花的学校","不懂就要问"]},{name:"第二单元（课文）",lessons:["古诗三首：山行/赠刘景文/夜书所见","铺满金色巴掌的水泥道","秋天的雨","听听秋的声音"]},{name:"第三单元（课文）",lessons:["卖火柴的小女孩","那一定会很好","在牛肚子里旅行","一块奶酪"]},{name:"第四单元（课文）",lessons:["总也倒不了的老屋","胡萝卜先生的长胡子","不会叫的狗"]},{name:"第五单元（课文）",lessons:["搭船的鸟","金色的草地"]},{name:"第六单元（课文）",lessons:["古诗三首：望天门山/饮湖上初晴后雨/望洞庭","富饶的西沙群岛","海滨小城","美丽的小兴安岭"]},{name:"第七单元（课文）",lessons:["大自然的声音","父亲、树林和鸟","带刺的朋友"]},{name:"第八单元（课文）",lessons:["司马光","掌声","灰雀","手术台就是阵地"]}]},{subject:"语文",version:"统编版",grade:"三年级",volume:"下册",units:[{name:"第一单元（课文）",lessons:["古诗三首：绝句/惠崇春江晚景/三衢道中","燕子","荷花","昆虫备忘录"]},{name:"第二单元（课文）",lessons:["守株待兔","陶罐和铁罐","鹿角和鹿腿","池子与河流"]},{name:"第三单元（课文）",lessons:["古诗三首：元日/清明/九月九日忆山东兄弟","纸的发明","赵州桥","一幅名扬中外的画"]},{name:"第四单元（课文）",lessons:["花钟","蜜蜂","小虾"]},{name:"第五单元（课文）",lessons:["小真的长头发","我变成了一棵树"]},{name:"第六单元（课文）",lessons:["童年的水墨画","剃头大师","肥皂泡","我不能失信"]},{name:"第七单元（课文）",lessons:["我们奇妙的世界","海底世界","火烧云"]},{name:"第八单元（课文）",lessons:["慢性子裁缝和急性子顾客","方帽子店","漏","枣核"]}]},{subject:"语文",version:"统编版",grade:"四年级",volume:"上册",units:[{name:"第一单元（课文）",lessons:["观潮","走月亮","现代诗二首：秋晚的江上/花牛歌","繁星"]},{name:"第二单元（课文）",lessons:["一个豆荚里的五粒豆","蝙蝠和雷达","呼风唤雨的世纪","蝴蝶的家"]},{name:"第三单元（课文）",lessons:["古诗三首：暮江吟/题西林壁/雪梅","爬山虎的脚","蟋蟀的住宅"]},{name:"第四单元（课文）",lessons:["盘古开天地","精卫填海","女娲补天","普罗米修斯"]},{name:"第五单元（课文）",lessons:["麻雀","爬天都峰"]},{name:"第六单元（课文）",lessons:["牛和鹅","一只窝囊的大老虎","陀螺"]},{name:"第七单元（课文）",lessons:["古诗三首：出塞/凉州词/夏日绝句","为中华之崛起而读书","梅兰芳蓄须","延安，我把你追寻"]},{name:"第八单元（课文）",lessons:["王戎不取道旁李","西门豹治邺","故事二则：扁鹊治病/纪昌学射"]}]},{subject:"语文",version:"统编版",grade:"四年级",volume:"下册",units:[{name:"第一单元（课文）",lessons:["古诗三首：宿新市徐公店/四时田园杂兴（其二十五）/清平乐·村居","乡下人家","天窗","三月桃花水"]},{name:"第二单元（课文）",lessons:["琥珀","飞向蓝天的恐龙","纳米技术就在我们身边","千年梦圆在今朝"]},{name:"第三单元（课文）",lessons:["短诗三首：繁星（七一）/（一三一）/（一五九）","绿","白桦","在天晴了的时候"]},{name:"第四单元（课文）",lessons:["猫","母鸡","白鹅"]},{name:"第五单元（课文）",lessons:["海上日出","记金华的双龙洞"]},{name:"第六单元（课文）",lessons:["文言文二则：囊萤夜读/铁杵成针","小英雄雨来","我们家的男子汉","芦花鞋"]},{name:"第七单元（课文）",lessons:["古诗三首：芙蓉楼送辛渐/塞下曲/墨梅","“诺曼底”号遇难记","黄继光","挑山工"]},{name:"第八单元（课文）",lessons:["宝葫芦的秘密","巨人的花园","海的女儿"]}]},{subject:"语文",version:"统编版",grade:"五年级",volume:"上册",units:[{name:"第一单元（课文）",lessons:["白鹭","落花生","桂花雨","珍珠鸟"]},{name:"第二单元（课文）",lessons:["搭石","将相和","什么比猎豹的速度更快"]},{name:"第三单元（课文）",lessons:["猎人海力布","牛郎织女（一）","牛郎织女（二）"]},{name:"第四单元（课文）",lessons:["古诗三首：示儿/题临安邸/己亥杂诗","少年中国说（节选）","圆明园的毁灭"]},{name:"第五单元（课文）",lessons:["太阳","松鼠"]},{name:"第六单元（课文）",lessons:["慈母情深","父爱之舟","“精彩极了”和“糟糕透了”"]},{name:"第七单元（课文）",lessons:["古诗词三首：山居秋暝/枫桥夜泊/长相思","四季之美","鸟的天堂","月迹"]},{name:"第八单元（课文）",lessons:["古人谈读书","忆读书","我的“长生果”"]}]},{subject:"语文",version:"统编版",grade:"五年级",volume:"下册",units:[{name:"第一单元（课文）",lessons:["古诗三首：四时田园杂兴（其三十一）/稚子弄冰/村晚","祖父的园子","月是故乡明","梅花魂"]},{name:"第二单元（课文）",lessons:["草船借箭","景阳冈","猴王出世","红楼春趣"]},{name:"第四单元（课文）",lessons:["古诗三首：从军行/秋夜将晓出篱门迎凉有感/闻官军收河南河北","青山处处埋忠骨","军神","清贫"]},{name:"第五单元（课文）",lessons:["人物描写一组：摔跤/他像一棵挺脱的树/两茎灯草","刷子李"]},{name:"第六单元（课文）",lessons:["自相矛盾","田忌赛马","跳水"]},{name:"第七单元（课文）",lessons:["威尼斯的小艇","牧场之国","金字塔"]},{name:"第八单元（课文）",lessons:["杨氏之子","手指","童年的发现"]}]},{subject:"语文",version:"统编版",grade:"六年级",volume:"上册",units:[{name:"第一单元（课文）",lessons:["草原","丁香结","古诗词三首：宿建德江/六月二十七日望湖楼醉书/西江月·夜行黄沙道中"]},{name:"第二单元（课文）",lessons:["七律·长征","狼牙山五壮士","开国大典","灯光"]},{name:"第三单元（课文）",lessons:["竹节人","宇宙生命之谜","故宫博物院"]},{name:"第四单元（课文）",lessons:["桥","穷人","在柏林"]},{name:"第五单元（课文）",lessons:["夏天里的成长","盼"]},{name:"第六单元（课文）",lessons:["古诗三首：浪淘沙/江南春/书湖阴先生壁","只有一个地球","青山不老","三黑和土地"]},{name:"第七单元（课文）",lessons:["文言文二则：伯牙鼓琴/书戴嵩画牛","月光曲","京剧趣谈"]},{name:"第八单元（课文）",lessons:["少年闰土","好的故事","我的伯父鲁迅先生","有的人"]}]},{subject:"语文",version:"统编版",grade:"六年级",volume:"下册",units:[{name:"第一单元（课文）",lessons:["北京的春节","腊八粥","古诗三首：寒食/迢迢牵牛星/十五夜望月"]},{name:"第二单元（课文）",lessons:["鲁滨逊漂流记（节选）","骑鹅旅行记（节选）","汤姆·索亚历险记（节选）"]},{name:"第三单元（课文）",lessons:["匆匆","那个星期天"]},{name:"第四单元（课文）",lessons:["古诗三首：马诗/石灰吟/竹石","十六年前的回忆","为人民服务","董存瑞舍身炸暗堡"]},{name:"第五单元（课文）",lessons:["文言文二则：学弈/两小儿辩日","真理诞生于一百个问号之后","表里的生物","他们那时候多有趣啊"]}]}],$e=[{subject:"数学",version:"人教版",grade:"一年级",volume:"上册",units:[{name:"第一单元 准备课",lessons:["数一数","比多少"]},{name:"第二单元 位置",lessons:["上、下、前、后","左、右"]},{name:"第三单元 1~5的认识和加减法",lessons:["1~5的认识","比大小","第几","分与合","加法","减法","0的认识"]},{name:"第四单元 认识图形（一）",lessons:["认识立体图形","拼一拼"]},{name:"第五单元 6~10的认识和加减法",lessons:["6和7的认识","8和9的认识","10的认识","6~10的加减法","连加连减","加减混合"]},{name:"第六单元 11~20各数的认识",lessons:["数数、读数","写数","十加几及相应的减法","解决问题"]},{name:"第七单元 认识钟表",lessons:["认识钟表","整时和半时","解决问题"]},{name:"第八单元 20以内的进位加法",lessons:["9加几","8、7、6加几","5、4、3、2加几","解决问题","整理和复习"]}]},{subject:"数学",version:"人教版",grade:"一年级",volume:"下册",units:[{name:"第一单元 认识图形（二）",lessons:["认识平面图形","拼一拼","七巧板"]},{name:"第二单元 20以内的退位减法",lessons:["十几减9","十几减8、7、6","十几减5、4、3、2","解决问题","整理和复习"]},{name:"第三单元 分类与整理",lessons:["分类与整理","整理自己的书包"]},{name:"第四单元 100以内数的认识",lessons:["数数、数的组成","读数、写数","数的顺序、比较大小","整十数加一位数及相应的减法","解决问题","整理和复习"]},{name:"第五单元 认识人民币",lessons:["认识人民币","简单的计算"]},{name:"第六单元 100以内的加法和减法（一）",lessons:["整十数加、减整十数","两位数加一位数、整十数","两位数减一位数、整十数","解决问题","整理和复习"]},{name:"第七单元 找规律",lessons:["找规律（图形）","找规律（数字）","解决问题"]}]},{subject:"数学",version:"人教版",grade:"二年级",volume:"上册",units:[{name:"第一单元 长度单位",lessons:["认识厘米","认识米","认识线段","解决问题"]},{name:"第二单元 100以内的加法和减法（二）",lessons:["不进位加","进位加","不退位减","退位减","连加、连减和加减混合","解决问题","整理和复习"]},{name:"第三单元 角的初步认识",lessons:["角的初步认识","认识直角","认识锐角和钝角"]},{name:"第四单元 表内乘法（一）",lessons:["乘法的初步认识","2、3的乘法口诀","4、5的乘法口诀","6的乘法口诀","整理和复习"]},{name:"第五单元 观察物体（一）",lessons:["观察物体（从不同位置）","观察立体图形"]},{name:"第六单元 表内乘法（二）",lessons:["7的乘法口诀","8的乘法口诀","9的乘法口诀","解决问题","整理和复习"]},{name:"第七单元 认识时间",lessons:["认识时间","解决问题"]},{name:"第八单元 数学广角——搭配（一）",lessons:["搭配问题"]}]},{subject:"数学",version:"人教版",grade:"二年级",volume:"下册",units:[{name:"第一单元 数据收集整理",lessons:["数据的收集整理","用正字记录数据","整理分析数据"]},{name:"第二单元 表内除法（一）",lessons:["平均分","除法","用2~6的乘法口诀求商","解决问题","整理和复习"]},{name:"第三单元 图形的运动（一）",lessons:["轴对称图形","平移","旋转"]},{name:"第四单元 表内除法（二）",lessons:["用7、8、9的乘法口诀求商","解决问题","整理和复习"]},{name:"第五单元 混合运算",lessons:["没有括号的同级混合运算","含小括号的混合运算","解决问题","整理和复习"]},{name:"第六单元 有余数的除法",lessons:["有余数除法的意义","有余数除法的计算","解决问题"]},{name:"第七单元 万以内数的认识",lessons:["1000以内数的认识","10000以内数的认识","整百、整千数加减法","解决问题","整理和复习"]},{name:"第八单元 克和千克",lessons:["克和千克的认识","解决问题"]},{name:"第九单元 数学广角——推理",lessons:["简单推理","数独游戏"]}]},{subject:"数学",version:"人教版",grade:"三年级",volume:"上册",units:[{name:"第一单元 时、分、秒",lessons:["秒的认识","时、分、秒单位换算","解决问题"]},{name:"第二单元 万以内的加法和减法（一）",lessons:["两位数加两位数（口算）","两位数减两位数（口算）","几百几十加、减几百几十","解决问题","整理和复习"]},{name:"第三单元 测量",lessons:["毫米、分米的认识","千米的认识","吨的认识","解决问题"]},{name:"第四单元 万以内的加法和减法（二）",lessons:["三位数加法（不进位和进位）","三位数加法（连续进位）","三位数减法","加减法验算","解决问题","整理和复习"]},{name:"第五单元 倍的认识",lessons:["倍的认识","求一个数是另一个数的几倍","求一个数的几倍是多少","解决问题"]},{name:"第六单元 多位数乘一位数",lessons:["口算乘法","笔算乘法（不进位）","笔算乘法（进位）","乘数中间或末尾有0的乘法","解决问题","整理和复习"]},{name:"第七单元 长方形和正方形",lessons:["四边形","周长的认识","长方形和正方形的周长","解决问题"]},{name:"第八单元 分数的初步认识",lessons:["几分之一","几分之几","分数的简单计算","分数的简单应用"]},{name:"第九单元 数学广角——集合",lessons:["集合（重叠问题）"]}]},{subject:"数学",version:"人教版",grade:"三年级",volume:"下册",units:[{name:"第一单元 位置与方向（一）",lessons:["认识东南西北","认识东南、东北、西南、西北","会看简单的路线图"]},{name:"第二单元 除数是一位数的除法",lessons:["口算除法","笔算除法（基本）","笔算除法（商中间、末尾有0）","解决问题","整理和复习"]},{name:"第三单元 复式统计表",lessons:["复式统计表","解决问题"]},{name:"第四单元 两位数乘两位数",lessons:["口算乘法","笔算乘法（不进位）","笔算乘法（进位）","解决问题","整理和复习"]},{name:"第五单元 面积",lessons:["面积和面积单位","长方形、正方形面积的计算","面积单位间的进率","解决问题"]},{name:"第六单元 年、月、日",lessons:["年、月、日的认识","平年、闰年","24时计时法","解决问题"]},{name:"第七单元 小数的初步认识",lessons:["认识小数","简单的小数加、减法"]},{name:"第八单元 数学广角——搭配（二）",lessons:["搭配问题","排列组合初步"]}]},{subject:"数学",version:"人教版",grade:"四年级",volume:"上册",units:[{name:"第一单元 大数的认识",lessons:["亿以内数的认识","亿以内数的读法和写法","数的产生、十进制计数法","亿以上数的认识","计算工具的认识和用计算器计算","整理和复习"]},{name:"第二单元 公顷和平方千米",lessons:["公顷","平方千米"]},{name:"第三单元 角的度量",lessons:["线段、直线、射线","角的度量","角的分类","画角"]},{name:"第四单元 三位数乘两位数",lessons:["三位数乘两位数的笔算","因数中间或末尾有0的乘法","积的变化规律","解决问题"]},{name:"第五单元 平行四边形和梯形",lessons:["平行与垂直","画垂线和点到直线的距离","平行四边形和梯形的认识"]},{name:"第六单元 除数是两位数的除法",lessons:["口算除法","笔算除法（商是一位数）","笔算除法（商是两位数）","商的变化规律","解决问题","整理和复习"]},{name:"第七单元 条形统计图",lessons:["1格代表1个单位的条形统计图","1格代表多个单位的条形统计图"]},{name:"第八单元 数学广角——优化",lessons:["沏茶问题","烙饼问题","田忌赛马问题"]}]},{subject:"数学",version:"人教版",grade:"四年级",volume:"下册",units:[{name:"第一单元 四则运算",lessons:["加、减法的意义和各部分间的关系","乘、除法的意义和各部分间的关系","括号","解决问题","整理和复习"]},{name:"第二单元 观察物体（二）",lessons:["观察物体（从不同位置观察）","观察立体图形"]},{name:"第三单元 运算定律",lessons:["加法交换律和结合律","加法运算定律的应用","乘法交换律和结合律","乘法分配律","简便计算","整理和复习"]},{name:"第四单元 小数的意义和性质",lessons:["小数的意义","小数的读法和写法","小数的大小比较","小数点移动引起小数大小的变化","小数与单位换算","求小数的近似数","整理和复习"]},{name:"第五单元 三角形",lessons:["三角形的特性","三角形三边关系","三角形的分类","三角形的内角和"]},{name:"第六单元 小数的加法和减法",lessons:["小数加、减法","小数加减混合运算","整数加法运算定律推广到小数","解决问题"]},{name:"第七单元 图形的运动（二）",lessons:["轴对称","平移","解决问题"]},{name:"第八单元 平均数与条形统计图",lessons:["平均数","复式条形统计图"]},{name:"第九单元 数学广角——鸡兔同笼",lessons:["鸡兔同笼"]}]},{subject:"数学",version:"人教版",grade:"五年级",volume:"上册",units:[{name:"第一单元 小数乘法",lessons:["小数乘整数","小数乘小数","积的近似数","整数乘法运算定律推广到小数","解决问题"]},{name:"第二单元 位置",lessons:["用数对确定位置","在方格纸上用数对表示位置"]},{name:"第三单元 小数除法",lessons:["小数除以整数","一个数除以小数","商的近似数","循环小数","解决问题","整理和复习"]},{name:"第四单元 可能性",lessons:["事件发生的可能性","可能性的大小","掷一掷"]},{name:"第五单元 简易方程",lessons:["用字母表示数","方程的意义","等式的性质","解方程","实际问题与方程","整理和复习"]},{name:"第六单元 多边形的面积",lessons:["平行四边形的面积","三角形的面积","梯形的面积","组合图形的面积","解决问题"]},{name:"第七单元 数学广角——植树问题",lessons:["植树问题（两端都栽）","植树问题（两端不栽）","植树问题（封闭图形）"]}]},{subject:"数学",version:"人教版",grade:"五年级",volume:"下册",units:[{name:"第一单元 观察物体（三）",lessons:["观察物体（根据图形摆法）","观察物体（综合运用）"]},{name:"第二单元 因数与倍数",lessons:["因数和倍数","2、5的倍数的特征","3的倍数的特征","质数和合数","解决问题","整理和复习"]},{name:"第三单元 长方体和正方体",lessons:["长方体和正方体的认识","长方体和正方体的表面积","体积和体积单位","长方体和正方体的体积","容积和容积单位","解决问题","整理和复习"]},{name:"第四单元 分数的意义和性质",lessons:["分数的意义","分数与除法","真分数和假分数","分数的基本性质","约分","通分","分数和小数的互化","整理和复习"]},{name:"第五单元 图形的运动（三）",lessons:["旋转","图形的运动综合运用"]},{name:"第六单元 分数的加法和减法",lessons:["同分母分数加、减法","异分母分数加、减法","分数加减混合运算","解决问题","整理和复习"]},{name:"第七单元 折线统计图",lessons:["单式折线统计图","复式折线统计图"]},{name:"第八单元 数学广角——找次品",lessons:["找次品"]}]},{subject:"数学",version:"人教版",grade:"六年级",volume:"上册",units:[{name:"第一单元 分数乘法",lessons:["分数乘整数","分数乘分数","小数乘分数","分数混合运算和简便运算","解决问题（连续求一个数的几分之几）","解决问题（已知一个数比另一个数多几分之几）","整理和复习"]},{name:"第二单元 位置与方向（二）",lessons:["描述物体的位置","描述并绘制路线图"]},{name:"第三单元 分数除法",lessons:["倒数的认识","分数除以整数","一个数除以分数","分数四则混合运算","解决问题（已知一个数的几分之几是多少）","解决问题（比一个数多几分之几）","整理和复习"]},{name:"第四单元 比",lessons:["比的意义","比的基本性质","比的应用（按比分配）"]},{name:"第五单元 圆",lessons:["圆的认识","圆的周长","圆的面积","解决问题（圆环面积）","扇形"]},{name:"第六单元 百分数（一）",lessons:["百分数的意义和读写","百分数与分数、小数的互化","求一个数是另一个数的百分之几","求一个数比另一个数多（少）百分之几","解决问题","整理和复习"]},{name:"第七单元 扇形统计图",lessons:["扇形统计图","选择合适的统计图"]},{name:"第八单元 数学广角——数与形",lessons:["数与形（平方数的直观）","数与形（规律探索）"]}]},{subject:"数学",version:"人教版",grade:"六年级",volume:"下册",units:[{name:"第一单元 负数",lessons:["负数的认识","负数的大小比较","用负数解决实际问题"]},{name:"第二单元 百分数（二）",lessons:["折扣","成数","税率","利率","解决问题（促销问题）","整理和复习"]},{name:"第三单元 圆柱与圆锥",lessons:["圆柱的认识","圆柱的表面积","圆柱的体积","圆锥的认识","圆锥的体积","整理和复习"]},{name:"第四单元 比例",lessons:["比例的意义和基本性质","解比例","正比例","反比例","比例尺","图形的放大与缩小","用比例解决问题","整理和复习"]},{name:"第五单元 数学广角——鸽巢问题",lessons:["鸽巢问题（抽屉原理）","鸽巢问题的应用"]}]}],qe=[{subject:"数学",version:"人教版",grade:"七年级",volume:"上册",units:[{name:"第一章 有理数",lessons:["正数和负数","有理数","有理数的加减法","有理数的乘除法","有理数的乘方"]},{name:"第二章 整式的加减",lessons:["整式","整式的加减"]},{name:"第三章 一元一次方程",lessons:["从算式到方程","解一元一次方程（一）——合并同类项与移项","解一元一次方程（二）——去括号与去分母","实际问题与一元一次方程"]},{name:"第四章 几何图形初步",lessons:["几何图形","直线、射线、线段","角"]}]},{subject:"数学",version:"人教版",grade:"七年级",volume:"下册",units:[{name:"第五章 相交线与平行线",lessons:["相交线","平行线及其判定","平行线的性质","平移"]},{name:"第六章 实数",lessons:["平方根","立方根","实数"]},{name:"第七章 平面直角坐标系",lessons:["平面直角坐标系","坐标方法的简单应用"]},{name:"第八章 二元一次方程组",lessons:["二元一次方程组","消元——解二元一次方程组","实际问题与二元一次方程组","三元一次方程组的解法"]},{name:"第九章 不等式与不等式组",lessons:["不等式","一元一次不等式","一元一次不等式组"]},{name:"第十章 数据的收集、整理与描述",lessons:["统计调查","直方图"]}]},{subject:"数学",version:"人教版",grade:"八年级",volume:"上册",units:[{name:"第十一章 三角形",lessons:["与三角形有关的线段","与三角形有关的角","多边形及其内角和"]},{name:"第十二章 全等三角形",lessons:["全等三角形","三角形全等的判定","角的平分线的性质"]},{name:"第十三章 轴对称",lessons:["轴对称","画轴对称图形","等腰三角形"]},{name:"第十四章 整式的乘法与因式分解",lessons:["整式的乘法","乘法公式","因式分解"]},{name:"第十五章 分式",lessons:["分式","分式的运算","分式方程"]}]},{subject:"数学",version:"人教版",grade:"八年级",volume:"下册",units:[{name:"第十六章 二次根式",lessons:["二次根式","二次根式的乘除","二次根式的加减"]},{name:"第十七章 勾股定理",lessons:["勾股定理","勾股定理的逆定理"]},{name:"第十八章 平行四边形",lessons:["平行四边形","特殊的平行四边形"]},{name:"第十九章 一次函数",lessons:["函数","一次函数"]},{name:"第二十章 数据的分析",lessons:["数据的集中趋势","数据的波动程度"]}]},{subject:"数学",version:"人教版",grade:"九年级",volume:"上册",units:[{name:"第二十一章 一元二次方程",lessons:["一元二次方程","解一元二次方程","实际问题与一元二次方程"]},{name:"第二十二章 二次函数",lessons:["二次函数的图象和性质","二次函数与一元二次方程","实际问题与二次函数"]},{name:"第二十三章 旋转",lessons:["图形的旋转","中心对称"]},{name:"第二十四章 圆",lessons:["圆的有关性质","点和圆、直线和圆的位置关系","正多边形和圆","弧长和扇形面积"]},{name:"第二十五章 概率初步",lessons:["随机事件与概率","用列举法求概率","用频率估计概率"]}]},{subject:"数学",version:"人教版",grade:"九年级",volume:"下册",units:[{name:"第二十六章 反比例函数",lessons:["反比例函数","实际问题与反比例函数"]},{name:"第二十七章 相似",lessons:["图形的相似","相似三角形","位似"]},{name:"第二十八章 锐角三角函数",lessons:["锐角三角函数","解直角三角形及其应用"]},{name:"第二十九章 投影与视图",lessons:["投影","三视图"]}]}],He=[{subject:"物理",version:"人教版",grade:"八年级",volume:"上册",units:[{name:"第一章 机械运动",lessons:["长度和时间的测量","运动的描述","运动的快慢","测量平均速度"]},{name:"第二章 声现象",lessons:["声音的产生与传播","声音的特性","声的利用","噪声的危害和控制"]},{name:"第三章 物态变化",lessons:["温度","熔化和凝固","汽化和液化","升华和凝华"]},{name:"第四章 光现象",lessons:["光的直线传播","光的反射","平面镜成像","光的折射","光的色散"]},{name:"第五章 透镜及其应用",lessons:["透镜","生活中的透镜","凸透镜成像的规律","眼睛和眼镜","显微镜和望远镜"]},{name:"第六章 质量与密度",lessons:["质量","密度","测量物质的密度","密度与社会生活"]}]},{subject:"物理",version:"人教版",grade:"八年级",volume:"下册",units:[{name:"第七章 力",lessons:["力","弹力","重力"]},{name:"第八章 运动和力",lessons:["牛顿第一定律","二力平衡","摩擦力"]},{name:"第九章 压强",lessons:["压强","液体的压强","大气压强","流体压强与流速的关系"]},{name:"第十章 浮力",lessons:["浮力","阿基米德原理","物体的浮沉条件及应用"]},{name:"第十一章 功和机械能",lessons:["功","功率","动能和势能","机械能及其转化"]},{name:"第十二章 简单机械",lessons:["杠杆","滑轮","机械效率"]}]},{subject:"物理",version:"人教版",grade:"九年级",volume:"全一册",units:[{name:"第十三章 内能",lessons:["分子热运动","内能","比热容"]},{name:"第十四章 内能的利用",lessons:["热机","热机的效率","能量的转化和守恒"]},{name:"第十五章 电流和电路",lessons:["两种电荷","电流和电路","串联和并联","电流的测量","串、并联电路中电流的规律"]},{name:"第十六章 电压 电阻",lessons:["电压","串、并联电路中电压的规律","电阻","变阻器"]},{name:"第十七章 欧姆定律",lessons:["电流与电压和电阻的关系","欧姆定律","电阻的测量","欧姆定律在串、并联电路中的应用"]},{name:"第十八章 电功率",lessons:["电能 电功","电功率","测量小灯泡的电功率","焦耳定律"]},{name:"第十九章 生活用电",lessons:["家庭电路","家庭电路中电流过大的原因","安全用电"]},{name:"第二十章 电与磁",lessons:["磁现象 磁场","电生磁","电磁铁 电磁继电器","电动机","磁生电"]},{name:"第二十一章 信息的传递",lessons:["现代顺风耳——电话","电磁波的海洋","广播、电视和移动通信","越来越宽的信息之路"]},{name:"第二十二章 能源与可持续发展",lessons:["能源","核能","太阳能","能源与可持续发展"]}]}],We=[{subject:"化学",version:"人教版",grade:"九年级",volume:"上册",units:[{name:"第一单元 走进化学世界",lessons:["物质的变化和性质","化学是一门以实验为基础的科学","走进化学实验室"]},{name:"第二单元 我们周围的空气",lessons:["空气","氧气","制取氧气"]},{name:"第三单元 物质构成的奥秘",lessons:["分子和原子","原子的结构","元素"]},{name:"第四单元 自然界的水",lessons:["爱护水资源","水的净化","水的组成","化学式与化合价"]},{name:"第五单元 化学方程式",lessons:["质量守恒定律","如何正确书写化学方程式","利用化学方程式的简单计算"]},{name:"第六单元 碳和碳的氧化物",lessons:["金刚石、石墨和C60","二氧化碳制取的研究","二氧化碳和一氧化碳"]},{name:"第七单元 燃料及其利用",lessons:["燃烧和灭火","燃料的合理利用与开发"]}]},{subject:"化学",version:"人教版",grade:"九年级",volume:"下册",units:[{name:"第八单元 金属和金属材料",lessons:["金属材料","金属的化学性质","金属资源的利用和保护"]},{name:"第九单元 溶液",lessons:["溶液的形成","溶解度","溶液的浓度"]},{name:"第十单元 酸和碱",lessons:["常见的酸和碱","酸和碱的中和反应"]},{name:"第十一单元 盐 化肥",lessons:["生活中常见的盐","化学肥料"]},{name:"第十二单元 化学与生活",lessons:["人类重要的营养物质","化学元素与人体健康","有机合成材料"]}]}],Fe=[{subject:"语文",version:"统编版",grade:"七年级",volume:"上册",units:[{name:"第一单元",lessons:["春","济南的冬天","雨的四季","古代诗歌四首（观沧海/闻王昌龄左迁龙标遥有此寄/次北固山下/天净沙·秋思）"]},{name:"第二单元",lessons:["秋天的怀念","散步","散文诗二首（金色花/荷叶·母亲）","《世说新语》二则"]},{name:"第三单元",lessons:["从百草园到三味书屋","再塑生命的人","《论语》十二章"]},{name:"第四单元",lessons:["纪念白求恩","植树的牧羊人","走一步再走一步","诫子书"]},{name:"第五单元",lessons:["猫","鸟","狼"]},{name:"第六单元",lessons:["皇帝的新装","天上的街市","女娲造人","寓言四则（赫尔墨斯和雕像者/蚊子和狮子/穿井得一人/杞人忧天）"]}]},{subject:"语文",version:"统编版",grade:"七年级",volume:"下册",units:[{name:"第一单元",lessons:["邓稼先","说和做——记闻一多先生言行片段","回忆鲁迅先生","孙权劝学"]},{name:"第二单元",lessons:["黄河颂","老山界","土地的誓言","木兰诗"]},{name:"第三单元",lessons:["阿长与《山海经》","老王","台阶","卖油翁"]},{name:"第四单元",lessons:["叶圣陶先生二三事","驿路梨花","最苦与最乐","短文两篇（陋室铭/爱莲说）"]},{name:"第五单元",lessons:["紫藤萝瀑布","一棵小桃树","外国诗二首（假如生活欺骗了你/未选择的路）","古代诗歌五首（登幽州台歌/望岳/登飞来峰/游山西村/己亥杂诗）"]},{name:"第六单元",lessons:["伟大的悲剧","太空一日","带上她的眼睛","河中石兽"]}]},{subject:"语文",version:"统编版",grade:"八年级",volume:"上册",units:[{name:"第一单元",lessons:["消息二则","首届诺贝尔奖颁发","飞天凌空","一着惊海天"]},{name:"第二单元",lessons:["藤野先生","回忆我的母亲","列夫·托尔斯泰","美丽的颜色"]},{name:"第三单元",lessons:["三峡","短文二篇（答谢中书书/记承天寺夜游）","与朱元思书","唐诗五首（野望/黄鹤楼/使至塞上/渡荆门送别/钱塘湖春行）"]},{name:"第四单元",lessons:["背影","白杨礼赞","散文二篇（永久的生命/我为什么而活着）","昆明的雨"]},{name:"第五单元",lessons:["中国石拱桥","苏州园林","蝉","梦回繁华"]},{name:"第六单元",lessons:["《孟子》二章（得道多助失道寡助/富贵不能淫）","愚公移山","周亚夫军细柳","诗词五首（饮酒/春望/雁门太守行/赤壁/渔家傲·天接云涛连晓雾）"]}]},{subject:"语文",version:"统编版",grade:"八年级",volume:"下册",units:[{name:"第一单元",lessons:["社戏","回延安","安塞腰鼓","灯笼"]},{name:"第二单元",lessons:["大自然的语言","阿西莫夫短文两篇（恐龙无处不有/被压扁的沙子）","大雁归来","时间的脚印"]},{name:"第三单元",lessons:["桃花源记","小石潭记","核舟记","《诗经》二首（关雎/蒹葭）"]},{name:"第四单元",lessons:["最后一次讲演","应有格物致知精神","我一生中的重要抉择","庆祝奥林匹克运动复兴25周年"]},{name:"第五单元",lessons:["壶口瀑布","在长江源头各拉丹冬","登勃朗峰","一滴水经过丽江"]},{name:"第六单元",lessons:["《庄子》二则（北冥有鱼/庄子与惠子游于濠梁之上）","《礼记》二则（虽有嘉肴/大道之行也）","马说","唐诗二首（茅屋为秋风所破歌/卖炭翁）"]}]},{subject:"语文",version:"统编版",grade:"九年级",volume:"上册",units:[{name:"第一单元",lessons:["沁园春·雪","我爱这土地","乡愁","你是人间的四月天","我看"]},{name:"第二单元",lessons:["敬业与乐业","就英法联军远征中国致巴特勒上尉的信","论教养","精神的三间小屋"]},{name:"第三单元",lessons:["岳阳楼记","醉翁亭记","湖心亭看雪","诗词三首（行路难/酬乐天扬州初逢席上见赠/水调歌头）"]},{name:"第四单元",lessons:["故乡","我的叔叔于勒","孤独之旅"]},{name:"第五单元",lessons:["中国人失掉自信力了吗","怀疑与学问","谈创造性思维","创造宣言"]},{name:"第六单元",lessons:["智取生辰纲","范进中举","三顾茅庐","刘姥姥进大观园"]}]},{subject:"语文",version:"统编版",grade:"九年级",volume:"下册",units:[{name:"第一单元",lessons:["祖国啊，我亲爱的祖国","梅岭三章","短诗五首","海燕"]},{name:"第二单元",lessons:["孔乙己","变色龙","溜索","蒲柳人家"]},{name:"第三单元",lessons:["鱼我所欲也","唐雎不辱使命","送东阳马生序","词四首（渔家傲·秋思/江城子·密州出猎/破阵子·为陈同甫赋壮词以寄之/满江红）"]},{name:"第四单元",lessons:["短文两篇（谈读书/不求甚解）","山水画的意境","无言之美","驱遣我们的想象"]},{name:"第五单元",lessons:["屈原（节选）","天下第一楼（节选）","枣儿"]},{name:"第六单元",lessons:["曹刿论战","出师表","诗词曲五首（十五从军征/白雪歌送武判官归京/南乡子·登京口北固亭有怀/过零丁洋/山坡羊·潼关怀古）"]}]}],Ge=[{subject:"道德与法治",version:"统编版",grade:"七年级",volume:"上册",units:[{name:"第一单元 成长的节拍",lessons:["中学序曲","少年有梦","认识自己","做更好的自己"]},{name:"第二单元 友谊的天空",lessons:["和朋友在一起","深深浅浅话友谊","让友谊之树常青","绽放友谊之花"]},{name:"第三单元 师长情谊",lessons:["走近老师","师生交往","家的意味","爱在家人间","让家更美好"]},{name:"第四单元 生命的思考",lessons:["生命可以永恒吗","敬畏生命","增强生命的韧性","感受生命的意义","活出生命的精彩"]}]},{subject:"道德与法治",version:"统编版",grade:"七年级",volume:"下册",units:[{name:"第一单元 青春时光",lessons:["悄悄变化的我","成长的不仅仅是身体","男生女生","青春萌动","青春有格"]},{name:"第二单元 做情绪情感的主人",lessons:["青春的情绪","情绪的管理","我们的情感世界","在品味情感中成长"]},{name:"第三单元 在集体中成长",lessons:["集体生活成就我","共奏和谐乐章","单音与和声","节奏与旋律","憧憬美好集体","我与集体共成长"]},{name:"第四单元 走进法治天地",lessons:["法律在我们身边","法律伴我们成长","生活需要法律","法律保障生活"]}]},{subject:"道德与法治",version:"统编版",grade:"八年级",volume:"上册",units:[{name:"第一单元 走进社会生活",lessons:["我与社会","在社会中成长","网络生活新空间","合理利用网络"]},{name:"第二单元 遵守社会规则",lessons:["社会生活离不开秩序","遵守规则","自由与规则不可分","维护秩序","诚实守信","法不可违","预防犯罪","善用法律"]},{name:"第三单元 勇担社会责任",lessons:["我的角色我的责任","做负责任的人","关爱他人","服务社会"]},{name:"第四单元 维护国家利益",lessons:["国家好大家才会好","坚持国家利益至上","树立总体国家安全观","建设美好祖国"]}]},{subject:"道德与法治",version:"统编版",grade:"八年级",volume:"下册",units:[{name:"第一单元 坚持宪法至上",lessons:["维护宪法权威","治国安邦的总章程","坚持依宪治国","加强宪法监督"]},{name:"第二单元 理解权利义务",lessons:["公民基本权利","依法行使权利","公民基本义务","依法履行义务"]},{name:"第三单元 人民当家作主",lessons:["根本政治制度","基本政治制度","国家权力机关","国家行政机关","国家司法机关"]},{name:"第四单元 崇尚法治精神",lessons:["尊重自由平等","公平正义的守护","自由平等的真谛","公平正义的价值"]}]},{subject:"道德与法治",version:"统编版",grade:"九年级",volume:"上册",units:[{name:"第一单元 富强与创新",lessons:["踏上强国之路","创新驱动发展","坚持改革开放","走向共同富裕","创新改变生活","创新永无止境"]},{name:"第二单元 民主与法治",lessons:["追求民主价值","建设法治中国","生活在新型民主国家","参与民主生活","夯实法治基础","凝聚法治共识"]},{name:"第三单元 文明与家园",lessons:["守望精神家园","建设美丽中国","延续文化血脉","凝聚价值追求","正视发展挑战","共筑生命家园"]},{name:"第四单元 和谐与梦想",lessons:["中华一家亲","中国人中国梦","促进民族团结","维护祖国统一","我们的梦想","共圆中国梦"]}]},{subject:"道德与法治",version:"统编版",grade:"九年级",volume:"下册",units:[{name:"第一单元 我们共同的世界",lessons:["同住地球村","构建人类命运共同体","开放互动的世界","复杂多变的关系","推动和平与发展","谋求互利共赢"]},{name:"第二单元 世界舞台上的中国",lessons:["与世界共发展","与世界深度互动","中国担当","中国影响","机遇与挑战","携手促发展"]},{name:"第三单元 走向未来的少年",lessons:["少年的担当","从这里出发","学无止境","多彩的职业","回望成长","走向未来"]}]}],Ye=[{subject:"英语",version:"人教版（PEP）",grade:"三年级",volume:"上册",units:[{name:"Unit 1 Hello!",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 2 Colours",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 3 Look at me!",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 4 We love animals",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 5 Let's eat!",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 6 Happy birthday",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]}]},{subject:"英语",version:"人教版（PEP）",grade:"三年级",volume:"下册",units:[{name:"Unit 1 Welcome back to school!",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 2 My family",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 3 At the zoo",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 4 Where is my car?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 5 Do you like pears?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 6 How many?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]}]},{subject:"英语",version:"人教版（PEP）",grade:"四年级",volume:"上册",units:[{name:"Unit 1 My classroom",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 2 My schoolbag",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 3 My friends",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 4 My home",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 5 Dinner's ready",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 6 Meet my family!",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]}]},{subject:"英语",version:"人教版（PEP）",grade:"四年级",volume:"下册",units:[{name:"Unit 1 My school",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 2 What time is it?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 3 Weather",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 4 At the farm",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 5 My clothes",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 6 Shopping",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]}]},{subject:"英语",version:"人教版（PEP）",grade:"五年级",volume:"上册",units:[{name:"Unit 1 What's he like?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 2 My week",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 3 What would you like?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 4 What can you do?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 5 There is a big bed",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 6 In a nature park",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]}]},{subject:"英语",version:"人教版（PEP）",grade:"五年级",volume:"下册",units:[{name:"Unit 1 My day",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 2 My favourite season",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 3 My school calendar",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 4 When is the art show?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 5 Whose dog is it?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 6 Work quietly!",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]}]},{subject:"英语",version:"人教版（PEP）",grade:"六年级",volume:"上册",units:[{name:"Unit 1 How can I get there?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 2 Ways to go to school",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 3 My weekend plan",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 4 I have a pen pal",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 5 What does he do?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 6 How do you feel?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]}]},{subject:"英语",version:"人教版（PEP）",grade:"六年级",volume:"下册",units:[{name:"Unit 1 How tall are you?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 2 Last weekend",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 3 Where did you go?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 4 Then and now",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]}]}];function M(e){return String(e||"").toLowerCase().replace(/^第[一二三四五六七八九十百]+(单元|章|课|节)/,"").replace(/[（(][^）)]*[)）]/g,"").replace(/^(课文|古诗三首|古诗|古诗文|古文|习作|拼音|识字（[一二三四五六七八九十]+）|识字|现代诗|现代文|阅读|综合性学习|口语交际|名著导读|数学广角[：:]?|整理和复习|数一数)[:：]?/,"").replace(/[~～]/g,"-").replace(/[\s，。、：:；;！!？?·"'“”]/g,"").trim()}function ge(e,s){const t=M(s);if(!t)return-1;for(let n=0;n<e.length;n++){const a=e[n];if(!a)continue;const o=M(a.chapter);if(o&&(o===t||t.length>=3&&(o.includes(t)||t.includes(o))||t.length===1&&o.startsWith(t)))return n}return-1}function Je(e,s){let t=0;for(const n of s)ge(e,n)>=0&&t++;return{have:t,total:s.length}}const W="wb-bookmarks",F=20,P={starred:[],progress:{},recent:[]};function Ve(){try{const e=localStorage.getItem(W);if(!e)return{...P};const s=JSON.parse(e);return{starred:Array.isArray(s.starred)?s.starred:[],progress:s.progress&&typeof s.progress=="object"?s.progress:{},recent:Array.isArray(s.recent)?s.recent.slice(0,F):[]}}catch{return{...P}}}function O(e){try{localStorage.setItem(W,JSON.stringify(e))}catch{}window.dispatchEvent(new CustomEvent("wb-bookmarks-changed"))}function Ze(e,s){const t={...e,starred:e.starred.includes(s)?e.starred.filter(n=>n!==s):[s,...e.starred]};return O(t),t}function Qe(e,s,t){const n={...e,progress:{...e.progress,[String(s)]:t}};return O(n),n}function es(e,s){if(e.recent[0]===s)return e;const t={...e,recent:[s,...e.recent.filter(n=>n!==s)].slice(0,F)};return O(t),t}const ss={"小学|一年级|语文|识字（一）：天地人":{plan:`**教学基本信息**
+`}`;return A(`${e.stage}${e.grade}${e.subject}《${e.chapter}》公开课版`,n,s)}function Ke(e,s){const t=new Blob([s],{type:"text/html;charset=utf-8"}),n=URL.createObjectURL(t),a=document.createElement("a");a.href=n,a.download=e,a.click(),setTimeout(()=>URL.revokeObjectURL(n),1e3)}const ue="d8f219c3e45512fce03ad82bf56c5cfd";let M=!1;function qe(){if(!(M||typeof document>"u")){M=!0;try{const e=document.createElement("script");e.async=!0,e.src=`https://hm.baidu.com/hm.js?${ue}`;const s=document.getElementsByTagName("script")[0];s&&s.parentNode&&s.parentNode.insertBefore(e,s),window._hmt=window._hmt||[]}catch{}}}function Ie(e,s){try{if(!window._hmt)return;const t=s?Object.entries(s).map(([n,a])=>`${n}=${a}`).join("&"):"";window._hmt.push(["_trackEvent","wb",e,t])}catch{}}const He=[{subject:"语文",version:"统编版",grade:"一年级",volume:"上册",units:[{name:"第一单元（识字）",lessons:["天地人","金木水火土","口耳目","日月水火","对韵歌"]},{name:"第二单元（拼音）",lessons:["a o e","i u ü","b p m f","d t n l","g k h","j q x"]},{name:"第三单元（拼音）",lessons:["z c s","zh ch sh r","y w","ai ei ui","ao ou iu","ie üe er"]},{name:"第四单元（拼音）",lessons:["an en in un ün","ang eng ing ong"]},{name:"第五单元（课文）",lessons:["秋天","小小的船","江南","四季"]},{name:"第六单元（识字）",lessons:["画","大小多少","小书包","日月明","升国旗"]},{name:"第七单元（课文）",lessons:["影子","比尾巴","青蛙写诗","雨点儿"]},{name:"第八单元（课文）",lessons:["明天要远足","大还是小","项链"]}]},{subject:"语文",version:"统编版",grade:"一年级",volume:"下册",units:[{name:"第一单元（识字）",lessons:["春夏秋冬","姓氏歌","小青蛙","猜字谜"]},{name:"第二单元（课文）",lessons:["吃水不忘挖井人","我多想去看看","一个接一个","四个太阳"]},{name:"第三单元（课文）",lessons:["小公鸡和小鸭子","树和喜鹊","怎么都快乐"]},{name:"第四单元（课文）",lessons:["静夜思","夜色","端午粽","彩虹"]},{name:"第五单元（识字）",lessons:["动物儿歌","古对今","操场上","人之初"]},{name:"第六单元（课文）",lessons:["古诗二首：池上/小池","荷叶圆圆","要下雨了"]},{name:"第七单元（课文）",lessons:["文具的家","一分钟","动物王国开大会","小猴子下山"]},{name:"第八单元（课文）",lessons:["棉花姑娘","咕咚","小壁虎借尾巴"]}]},{subject:"语文",version:"统编版",grade:"二年级",volume:"上册",units:[{name:"第一单元（课文）",lessons:["小蝌蚪找妈妈","我是什么","植物妈妈有办法"]},{name:"第二单元（识字）",lessons:["场景歌","树之歌","拍手歌","田家四季歌"]},{name:"第三单元（课文）",lessons:["曹冲称象","玲玲的画","一封信","妈妈睡了"]},{name:"第四单元（课文）",lessons:["古诗二首：登鹳雀楼/望庐山瀑布","黄山奇石","日月潭","葡萄沟"]},{name:"第五单元（课文）",lessons:["坐井观天","寒号鸟","我要的是葫芦"]},{name:"第六单元（课文）",lessons:["大禹治水","朱德的扁担","难忘的泼水节"]},{name:"第七单元（课文）",lessons:["古诗二首：夜宿山寺/敕勒歌","雾在哪里","雪孩子"]},{name:"第八单元（课文）",lessons:["狐假虎威","狐狸分奶酪","纸船和风筝","风娃娃"]}]},{subject:"语文",version:"统编版",grade:"二年级",volume:"下册",units:[{name:"第一单元（课文）",lessons:["古诗二首：村居/咏柳","找春天","开满鲜花的小路","邓小平爷爷植树"]},{name:"第二单元（课文）",lessons:["雷锋叔叔你在哪里","千人糕","一匹出色的马"]},{name:"第三单元（识字）",lessons:["神州谣","传统节日","“贝”的故事","中国美食"]},{name:"第四单元（课文）",lessons:["彩色的梦","枫树上的喜鹊","沙滩上的童话","我是一只小虫子"]},{name:"第五单元（课文）",lessons:["寓言二则：亡羊补牢/揠苗助长","画杨桃","小马过河"]},{name:"第六单元（课文）",lessons:["古诗二首：晓出净慈寺送林子方/绝句","雷雨","要是你在野外迷了路","太空生活趣事多"]},{name:"第七单元（课文）",lessons:["大象的耳朵","蜘蛛开店","青蛙卖泥塘","小毛虫"]},{name:"第八单元（课文）",lessons:["祖先的摇篮","当世界年纪还小的时候","羿射九日"]}]},{subject:"语文",version:"统编版",grade:"三年级",volume:"上册",units:[{name:"第一单元（课文）",lessons:["大青树下的小学","花的学校","不懂就要问"]},{name:"第二单元（课文）",lessons:["古诗三首：山行/赠刘景文/夜书所见","铺满金色巴掌的水泥道","秋天的雨","听听秋的声音"]},{name:"第三单元（课文）",lessons:["卖火柴的小女孩","那一定会很好","在牛肚子里旅行","一块奶酪"]},{name:"第四单元（课文）",lessons:["总也倒不了的老屋","胡萝卜先生的长胡子","不会叫的狗"]},{name:"第五单元（课文）",lessons:["搭船的鸟","金色的草地"]},{name:"第六单元（课文）",lessons:["古诗三首：望天门山/饮湖上初晴后雨/望洞庭","富饶的西沙群岛","海滨小城","美丽的小兴安岭"]},{name:"第七单元（课文）",lessons:["大自然的声音","父亲、树林和鸟","带刺的朋友"]},{name:"第八单元（课文）",lessons:["司马光","掌声","灰雀","手术台就是阵地"]}]},{subject:"语文",version:"统编版",grade:"三年级",volume:"下册",units:[{name:"第一单元（课文）",lessons:["古诗三首：绝句/惠崇春江晚景/三衢道中","燕子","荷花","昆虫备忘录"]},{name:"第二单元（课文）",lessons:["守株待兔","陶罐和铁罐","鹿角和鹿腿","池子与河流"]},{name:"第三单元（课文）",lessons:["古诗三首：元日/清明/九月九日忆山东兄弟","纸的发明","赵州桥","一幅名扬中外的画"]},{name:"第四单元（课文）",lessons:["花钟","蜜蜂","小虾"]},{name:"第五单元（课文）",lessons:["小真的长头发","我变成了一棵树"]},{name:"第六单元（课文）",lessons:["童年的水墨画","剃头大师","肥皂泡","我不能失信"]},{name:"第七单元（课文）",lessons:["我们奇妙的世界","海底世界","火烧云"]},{name:"第八单元（课文）",lessons:["慢性子裁缝和急性子顾客","方帽子店","漏","枣核"]}]},{subject:"语文",version:"统编版",grade:"四年级",volume:"上册",units:[{name:"第一单元（课文）",lessons:["观潮","走月亮","现代诗二首：秋晚的江上/花牛歌","繁星"]},{name:"第二单元（课文）",lessons:["一个豆荚里的五粒豆","蝙蝠和雷达","呼风唤雨的世纪","蝴蝶的家"]},{name:"第三单元（课文）",lessons:["古诗三首：暮江吟/题西林壁/雪梅","爬山虎的脚","蟋蟀的住宅"]},{name:"第四单元（课文）",lessons:["盘古开天地","精卫填海","女娲补天","普罗米修斯"]},{name:"第五单元（课文）",lessons:["麻雀","爬天都峰"]},{name:"第六单元（课文）",lessons:["牛和鹅","一只窝囊的大老虎","陀螺"]},{name:"第七单元（课文）",lessons:["古诗三首：出塞/凉州词/夏日绝句","为中华之崛起而读书","梅兰芳蓄须","延安，我把你追寻"]},{name:"第八单元（课文）",lessons:["王戎不取道旁李","西门豹治邺","故事二则：扁鹊治病/纪昌学射"]}]},{subject:"语文",version:"统编版",grade:"四年级",volume:"下册",units:[{name:"第一单元（课文）",lessons:["古诗三首：宿新市徐公店/四时田园杂兴（其二十五）/清平乐·村居","乡下人家","天窗","三月桃花水"]},{name:"第二单元（课文）",lessons:["琥珀","飞向蓝天的恐龙","纳米技术就在我们身边","千年梦圆在今朝"]},{name:"第三单元（课文）",lessons:["短诗三首：繁星（七一）/（一三一）/（一五九）","绿","白桦","在天晴了的时候"]},{name:"第四单元（课文）",lessons:["猫","母鸡","白鹅"]},{name:"第五单元（课文）",lessons:["海上日出","记金华的双龙洞"]},{name:"第六单元（课文）",lessons:["文言文二则：囊萤夜读/铁杵成针","小英雄雨来","我们家的男子汉","芦花鞋"]},{name:"第七单元（课文）",lessons:["古诗三首：芙蓉楼送辛渐/塞下曲/墨梅","“诺曼底”号遇难记","黄继光","挑山工"]},{name:"第八单元（课文）",lessons:["宝葫芦的秘密","巨人的花园","海的女儿"]}]},{subject:"语文",version:"统编版",grade:"五年级",volume:"上册",units:[{name:"第一单元（课文）",lessons:["白鹭","落花生","桂花雨","珍珠鸟"]},{name:"第二单元（课文）",lessons:["搭石","将相和","什么比猎豹的速度更快"]},{name:"第三单元（课文）",lessons:["猎人海力布","牛郎织女（一）","牛郎织女（二）"]},{name:"第四单元（课文）",lessons:["古诗三首：示儿/题临安邸/己亥杂诗","少年中国说（节选）","圆明园的毁灭"]},{name:"第五单元（课文）",lessons:["太阳","松鼠"]},{name:"第六单元（课文）",lessons:["慈母情深","父爱之舟","“精彩极了”和“糟糕透了”"]},{name:"第七单元（课文）",lessons:["古诗词三首：山居秋暝/枫桥夜泊/长相思","四季之美","鸟的天堂","月迹"]},{name:"第八单元（课文）",lessons:["古人谈读书","忆读书","我的“长生果”"]}]},{subject:"语文",version:"统编版",grade:"五年级",volume:"下册",units:[{name:"第一单元（课文）",lessons:["古诗三首：四时田园杂兴（其三十一）/稚子弄冰/村晚","祖父的园子","月是故乡明","梅花魂"]},{name:"第二单元（课文）",lessons:["草船借箭","景阳冈","猴王出世","红楼春趣"]},{name:"第四单元（课文）",lessons:["古诗三首：从军行/秋夜将晓出篱门迎凉有感/闻官军收河南河北","青山处处埋忠骨","军神","清贫"]},{name:"第五单元（课文）",lessons:["人物描写一组：摔跤/他像一棵挺脱的树/两茎灯草","刷子李"]},{name:"第六单元（课文）",lessons:["自相矛盾","田忌赛马","跳水"]},{name:"第七单元（课文）",lessons:["威尼斯的小艇","牧场之国","金字塔"]},{name:"第八单元（课文）",lessons:["杨氏之子","手指","童年的发现"]}]},{subject:"语文",version:"统编版",grade:"六年级",volume:"上册",units:[{name:"第一单元（课文）",lessons:["草原","丁香结","古诗词三首：宿建德江/六月二十七日望湖楼醉书/西江月·夜行黄沙道中"]},{name:"第二单元（课文）",lessons:["七律·长征","狼牙山五壮士","开国大典","灯光"]},{name:"第三单元（课文）",lessons:["竹节人","宇宙生命之谜","故宫博物院"]},{name:"第四单元（课文）",lessons:["桥","穷人","在柏林"]},{name:"第五单元（课文）",lessons:["夏天里的成长","盼"]},{name:"第六单元（课文）",lessons:["古诗三首：浪淘沙/江南春/书湖阴先生壁","只有一个地球","青山不老","三黑和土地"]},{name:"第七单元（课文）",lessons:["文言文二则：伯牙鼓琴/书戴嵩画牛","月光曲","京剧趣谈"]},{name:"第八单元（课文）",lessons:["少年闰土","好的故事","我的伯父鲁迅先生","有的人"]}]},{subject:"语文",version:"统编版",grade:"六年级",volume:"下册",units:[{name:"第一单元（课文）",lessons:["北京的春节","腊八粥","古诗三首：寒食/迢迢牵牛星/十五夜望月"]},{name:"第二单元（课文）",lessons:["鲁滨逊漂流记（节选）","骑鹅旅行记（节选）","汤姆·索亚历险记（节选）"]},{name:"第三单元（课文）",lessons:["匆匆","那个星期天"]},{name:"第四单元（课文）",lessons:["古诗三首：马诗/石灰吟/竹石","十六年前的回忆","为人民服务","董存瑞舍身炸暗堡"]},{name:"第五单元（课文）",lessons:["文言文二则：学弈/两小儿辩日","真理诞生于一百个问号之后","表里的生物","他们那时候多有趣啊"]}]}],Xe=[{subject:"数学",version:"人教版",grade:"一年级",volume:"上册",units:[{name:"第一单元 准备课",lessons:["数一数","比多少"]},{name:"第二单元 位置",lessons:["上、下、前、后","左、右"]},{name:"第三单元 1~5的认识和加减法",lessons:["1~5的认识","比大小","第几","分与合","加法","减法","0的认识"]},{name:"第四单元 认识图形（一）",lessons:["认识立体图形","拼一拼"]},{name:"第五单元 6~10的认识和加减法",lessons:["6和7的认识","8和9的认识","10的认识","6~10的加减法","连加连减","加减混合"]},{name:"第六单元 11~20各数的认识",lessons:["数数、读数","写数","十加几及相应的减法","解决问题"]},{name:"第七单元 认识钟表",lessons:["认识钟表","整时和半时","解决问题"]},{name:"第八单元 20以内的进位加法",lessons:["9加几","8、7、6加几","5、4、3、2加几","解决问题","整理和复习"]}]},{subject:"数学",version:"人教版",grade:"一年级",volume:"下册",units:[{name:"第一单元 认识图形（二）",lessons:["认识平面图形","拼一拼","七巧板"]},{name:"第二单元 20以内的退位减法",lessons:["十几减9","十几减8、7、6","十几减5、4、3、2","解决问题","整理和复习"]},{name:"第三单元 分类与整理",lessons:["分类与整理","整理自己的书包"]},{name:"第四单元 100以内数的认识",lessons:["数数、数的组成","读数、写数","数的顺序、比较大小","整十数加一位数及相应的减法","解决问题","整理和复习"]},{name:"第五单元 认识人民币",lessons:["认识人民币","简单的计算"]},{name:"第六单元 100以内的加法和减法（一）",lessons:["整十数加、减整十数","两位数加一位数、整十数","两位数减一位数、整十数","解决问题","整理和复习"]},{name:"第七单元 找规律",lessons:["找规律（图形）","找规律（数字）","解决问题"]}]},{subject:"数学",version:"人教版",grade:"二年级",volume:"上册",units:[{name:"第一单元 长度单位",lessons:["认识厘米","认识米","认识线段","解决问题"]},{name:"第二单元 100以内的加法和减法（二）",lessons:["不进位加","进位加","不退位减","退位减","连加、连减和加减混合","解决问题","整理和复习"]},{name:"第三单元 角的初步认识",lessons:["角的初步认识","认识直角","认识锐角和钝角"]},{name:"第四单元 表内乘法（一）",lessons:["乘法的初步认识","2、3的乘法口诀","4、5的乘法口诀","6的乘法口诀","整理和复习"]},{name:"第五单元 观察物体（一）",lessons:["观察物体（从不同位置）","观察立体图形"]},{name:"第六单元 表内乘法（二）",lessons:["7的乘法口诀","8的乘法口诀","9的乘法口诀","解决问题","整理和复习"]},{name:"第七单元 认识时间",lessons:["认识时间","解决问题"]},{name:"第八单元 数学广角——搭配（一）",lessons:["搭配问题"]}]},{subject:"数学",version:"人教版",grade:"二年级",volume:"下册",units:[{name:"第一单元 数据收集整理",lessons:["数据的收集整理","用正字记录数据","整理分析数据"]},{name:"第二单元 表内除法（一）",lessons:["平均分","除法","用2~6的乘法口诀求商","解决问题","整理和复习"]},{name:"第三单元 图形的运动（一）",lessons:["轴对称图形","平移","旋转"]},{name:"第四单元 表内除法（二）",lessons:["用7、8、9的乘法口诀求商","解决问题","整理和复习"]},{name:"第五单元 混合运算",lessons:["没有括号的同级混合运算","含小括号的混合运算","解决问题","整理和复习"]},{name:"第六单元 有余数的除法",lessons:["有余数除法的意义","有余数除法的计算","解决问题"]},{name:"第七单元 万以内数的认识",lessons:["1000以内数的认识","10000以内数的认识","整百、整千数加减法","解决问题","整理和复习"]},{name:"第八单元 克和千克",lessons:["克和千克的认识","解决问题"]},{name:"第九单元 数学广角——推理",lessons:["简单推理","数独游戏"]}]},{subject:"数学",version:"人教版",grade:"三年级",volume:"上册",units:[{name:"第一单元 时、分、秒",lessons:["秒的认识","时、分、秒单位换算","解决问题"]},{name:"第二单元 万以内的加法和减法（一）",lessons:["两位数加两位数（口算）","两位数减两位数（口算）","几百几十加、减几百几十","解决问题","整理和复习"]},{name:"第三单元 测量",lessons:["毫米、分米的认识","千米的认识","吨的认识","解决问题"]},{name:"第四单元 万以内的加法和减法（二）",lessons:["三位数加法（不进位和进位）","三位数加法（连续进位）","三位数减法","加减法验算","解决问题","整理和复习"]},{name:"第五单元 倍的认识",lessons:["倍的认识","求一个数是另一个数的几倍","求一个数的几倍是多少","解决问题"]},{name:"第六单元 多位数乘一位数",lessons:["口算乘法","笔算乘法（不进位）","笔算乘法（进位）","乘数中间或末尾有0的乘法","解决问题","整理和复习"]},{name:"第七单元 长方形和正方形",lessons:["四边形","周长的认识","长方形和正方形的周长","解决问题"]},{name:"第八单元 分数的初步认识",lessons:["几分之一","几分之几","分数的简单计算","分数的简单应用"]},{name:"第九单元 数学广角——集合",lessons:["集合（重叠问题）"]}]},{subject:"数学",version:"人教版",grade:"三年级",volume:"下册",units:[{name:"第一单元 位置与方向（一）",lessons:["认识东南西北","认识东南、东北、西南、西北","会看简单的路线图"]},{name:"第二单元 除数是一位数的除法",lessons:["口算除法","笔算除法（基本）","笔算除法（商中间、末尾有0）","解决问题","整理和复习"]},{name:"第三单元 复式统计表",lessons:["复式统计表","解决问题"]},{name:"第四单元 两位数乘两位数",lessons:["口算乘法","笔算乘法（不进位）","笔算乘法（进位）","解决问题","整理和复习"]},{name:"第五单元 面积",lessons:["面积和面积单位","长方形、正方形面积的计算","面积单位间的进率","解决问题"]},{name:"第六单元 年、月、日",lessons:["年、月、日的认识","平年、闰年","24时计时法","解决问题"]},{name:"第七单元 小数的初步认识",lessons:["认识小数","简单的小数加、减法"]},{name:"第八单元 数学广角——搭配（二）",lessons:["搭配问题","排列组合初步"]}]},{subject:"数学",version:"人教版",grade:"四年级",volume:"上册",units:[{name:"第一单元 大数的认识",lessons:["亿以内数的认识","亿以内数的读法和写法","数的产生、十进制计数法","亿以上数的认识","计算工具的认识和用计算器计算","整理和复习"]},{name:"第二单元 公顷和平方千米",lessons:["公顷","平方千米"]},{name:"第三单元 角的度量",lessons:["线段、直线、射线","角的度量","角的分类","画角"]},{name:"第四单元 三位数乘两位数",lessons:["三位数乘两位数的笔算","因数中间或末尾有0的乘法","积的变化规律","解决问题"]},{name:"第五单元 平行四边形和梯形",lessons:["平行与垂直","画垂线和点到直线的距离","平行四边形和梯形的认识"]},{name:"第六单元 除数是两位数的除法",lessons:["口算除法","笔算除法（商是一位数）","笔算除法（商是两位数）","商的变化规律","解决问题","整理和复习"]},{name:"第七单元 条形统计图",lessons:["1格代表1个单位的条形统计图","1格代表多个单位的条形统计图"]},{name:"第八单元 数学广角——优化",lessons:["沏茶问题","烙饼问题","田忌赛马问题"]}]},{subject:"数学",version:"人教版",grade:"四年级",volume:"下册",units:[{name:"第一单元 四则运算",lessons:["加、减法的意义和各部分间的关系","乘、除法的意义和各部分间的关系","括号","解决问题","整理和复习"]},{name:"第二单元 观察物体（二）",lessons:["观察物体（从不同位置观察）","观察立体图形"]},{name:"第三单元 运算定律",lessons:["加法交换律和结合律","加法运算定律的应用","乘法交换律和结合律","乘法分配律","简便计算","整理和复习"]},{name:"第四单元 小数的意义和性质",lessons:["小数的意义","小数的读法和写法","小数的大小比较","小数点移动引起小数大小的变化","小数与单位换算","求小数的近似数","整理和复习"]},{name:"第五单元 三角形",lessons:["三角形的特性","三角形三边关系","三角形的分类","三角形的内角和"]},{name:"第六单元 小数的加法和减法",lessons:["小数加、减法","小数加减混合运算","整数加法运算定律推广到小数","解决问题"]},{name:"第七单元 图形的运动（二）",lessons:["轴对称","平移","解决问题"]},{name:"第八单元 平均数与条形统计图",lessons:["平均数","复式条形统计图"]},{name:"第九单元 数学广角——鸡兔同笼",lessons:["鸡兔同笼"]}]},{subject:"数学",version:"人教版",grade:"五年级",volume:"上册",units:[{name:"第一单元 小数乘法",lessons:["小数乘整数","小数乘小数","积的近似数","整数乘法运算定律推广到小数","解决问题"]},{name:"第二单元 位置",lessons:["用数对确定位置","在方格纸上用数对表示位置"]},{name:"第三单元 小数除法",lessons:["小数除以整数","一个数除以小数","商的近似数","循环小数","解决问题","整理和复习"]},{name:"第四单元 可能性",lessons:["事件发生的可能性","可能性的大小","掷一掷"]},{name:"第五单元 简易方程",lessons:["用字母表示数","方程的意义","等式的性质","解方程","实际问题与方程","整理和复习"]},{name:"第六单元 多边形的面积",lessons:["平行四边形的面积","三角形的面积","梯形的面积","组合图形的面积","解决问题"]},{name:"第七单元 数学广角——植树问题",lessons:["植树问题（两端都栽）","植树问题（两端不栽）","植树问题（封闭图形）"]}]},{subject:"数学",version:"人教版",grade:"五年级",volume:"下册",units:[{name:"第一单元 观察物体（三）",lessons:["观察物体（根据图形摆法）","观察物体（综合运用）"]},{name:"第二单元 因数与倍数",lessons:["因数和倍数","2、5的倍数的特征","3的倍数的特征","质数和合数","解决问题","整理和复习"]},{name:"第三单元 长方体和正方体",lessons:["长方体和正方体的认识","长方体和正方体的表面积","体积和体积单位","长方体和正方体的体积","容积和容积单位","解决问题","整理和复习"]},{name:"第四单元 分数的意义和性质",lessons:["分数的意义","分数与除法","真分数和假分数","分数的基本性质","约分","通分","分数和小数的互化","整理和复习"]},{name:"第五单元 图形的运动（三）",lessons:["旋转","图形的运动综合运用"]},{name:"第六单元 分数的加法和减法",lessons:["同分母分数加、减法","异分母分数加、减法","分数加减混合运算","解决问题","整理和复习"]},{name:"第七单元 折线统计图",lessons:["单式折线统计图","复式折线统计图"]},{name:"第八单元 数学广角——找次品",lessons:["找次品"]}]},{subject:"数学",version:"人教版",grade:"六年级",volume:"上册",units:[{name:"第一单元 分数乘法",lessons:["分数乘整数","分数乘分数","小数乘分数","分数混合运算和简便运算","解决问题（连续求一个数的几分之几）","解决问题（已知一个数比另一个数多几分之几）","整理和复习"]},{name:"第二单元 位置与方向（二）",lessons:["描述物体的位置","描述并绘制路线图"]},{name:"第三单元 分数除法",lessons:["倒数的认识","分数除以整数","一个数除以分数","分数四则混合运算","解决问题（已知一个数的几分之几是多少）","解决问题（比一个数多几分之几）","整理和复习"]},{name:"第四单元 比",lessons:["比的意义","比的基本性质","比的应用（按比分配）"]},{name:"第五单元 圆",lessons:["圆的认识","圆的周长","圆的面积","解决问题（圆环面积）","扇形"]},{name:"第六单元 百分数（一）",lessons:["百分数的意义和读写","百分数与分数、小数的互化","求一个数是另一个数的百分之几","求一个数比另一个数多（少）百分之几","解决问题","整理和复习"]},{name:"第七单元 扇形统计图",lessons:["扇形统计图","选择合适的统计图"]},{name:"第八单元 数学广角——数与形",lessons:["数与形（平方数的直观）","数与形（规律探索）"]}]},{subject:"数学",version:"人教版",grade:"六年级",volume:"下册",units:[{name:"第一单元 负数",lessons:["负数的认识","负数的大小比较","用负数解决实际问题"]},{name:"第二单元 百分数（二）",lessons:["折扣","成数","税率","利率","解决问题（促销问题）","整理和复习"]},{name:"第三单元 圆柱与圆锥",lessons:["圆柱的认识","圆柱的表面积","圆柱的体积","圆锥的认识","圆锥的体积","整理和复习"]},{name:"第四单元 比例",lessons:["比例的意义和基本性质","解比例","正比例","反比例","比例尺","图形的放大与缩小","用比例解决问题","整理和复习"]},{name:"第五单元 数学广角——鸽巢问题",lessons:["鸽巢问题（抽屉原理）","鸽巢问题的应用"]}]}],De=[{subject:"数学",version:"人教版",grade:"七年级",volume:"上册",units:[{name:"第一章 有理数",lessons:["正数和负数","有理数","有理数的加减法","有理数的乘除法","有理数的乘方"]},{name:"第二章 整式的加减",lessons:["整式","整式的加减"]},{name:"第三章 一元一次方程",lessons:["从算式到方程","解一元一次方程（一）——合并同类项与移项","解一元一次方程（二）——去括号与去分母","实际问题与一元一次方程"]},{name:"第四章 几何图形初步",lessons:["几何图形","直线、射线、线段","角"]}]},{subject:"数学",version:"人教版",grade:"七年级",volume:"下册",units:[{name:"第五章 相交线与平行线",lessons:["相交线","平行线及其判定","平行线的性质","平移"]},{name:"第六章 实数",lessons:["平方根","立方根","实数"]},{name:"第七章 平面直角坐标系",lessons:["平面直角坐标系","坐标方法的简单应用"]},{name:"第八章 二元一次方程组",lessons:["二元一次方程组","消元——解二元一次方程组","实际问题与二元一次方程组","三元一次方程组的解法"]},{name:"第九章 不等式与不等式组",lessons:["不等式","一元一次不等式","一元一次不等式组"]},{name:"第十章 数据的收集、整理与描述",lessons:["统计调查","直方图"]}]},{subject:"数学",version:"人教版",grade:"八年级",volume:"上册",units:[{name:"第十一章 三角形",lessons:["与三角形有关的线段","与三角形有关的角","多边形及其内角和"]},{name:"第十二章 全等三角形",lessons:["全等三角形","三角形全等的判定","角的平分线的性质"]},{name:"第十三章 轴对称",lessons:["轴对称","画轴对称图形","等腰三角形"]},{name:"第十四章 整式的乘法与因式分解",lessons:["整式的乘法","乘法公式","因式分解"]},{name:"第十五章 分式",lessons:["分式","分式的运算","分式方程"]}]},{subject:"数学",version:"人教版",grade:"八年级",volume:"下册",units:[{name:"第十六章 二次根式",lessons:["二次根式","二次根式的乘除","二次根式的加减"]},{name:"第十七章 勾股定理",lessons:["勾股定理","勾股定理的逆定理"]},{name:"第十八章 平行四边形",lessons:["平行四边形","特殊的平行四边形"]},{name:"第十九章 一次函数",lessons:["函数","一次函数"]},{name:"第二十章 数据的分析",lessons:["数据的集中趋势","数据的波动程度"]}]},{subject:"数学",version:"人教版",grade:"九年级",volume:"上册",units:[{name:"第二十一章 一元二次方程",lessons:["一元二次方程","解一元二次方程","实际问题与一元二次方程"]},{name:"第二十二章 二次函数",lessons:["二次函数的图象和性质","二次函数与一元二次方程","实际问题与二次函数"]},{name:"第二十三章 旋转",lessons:["图形的旋转","中心对称"]},{name:"第二十四章 圆",lessons:["圆的有关性质","点和圆、直线和圆的位置关系","正多边形和圆","弧长和扇形面积"]},{name:"第二十五章 概率初步",lessons:["随机事件与概率","用列举法求概率","用频率估计概率"]}]},{subject:"数学",version:"人教版",grade:"九年级",volume:"下册",units:[{name:"第二十六章 反比例函数",lessons:["反比例函数","实际问题与反比例函数"]},{name:"第二十七章 相似",lessons:["图形的相似","相似三角形","位似"]},{name:"第二十八章 锐角三角函数",lessons:["锐角三角函数","解直角三角形及其应用"]},{name:"第二十九章 投影与视图",lessons:["投影","三视图"]}]}],$e=[{subject:"物理",version:"人教版",grade:"八年级",volume:"上册",units:[{name:"第一章 机械运动",lessons:["长度和时间的测量","运动的描述","运动的快慢","测量平均速度"]},{name:"第二章 声现象",lessons:["声音的产生与传播","声音的特性","声的利用","噪声的危害和控制"]},{name:"第三章 物态变化",lessons:["温度","熔化和凝固","汽化和液化","升华和凝华"]},{name:"第四章 光现象",lessons:["光的直线传播","光的反射","平面镜成像","光的折射","光的色散"]},{name:"第五章 透镜及其应用",lessons:["透镜","生活中的透镜","凸透镜成像的规律","眼睛和眼镜","显微镜和望远镜"]},{name:"第六章 质量与密度",lessons:["质量","密度","测量物质的密度","密度与社会生活"]}]},{subject:"物理",version:"人教版",grade:"八年级",volume:"下册",units:[{name:"第七章 力",lessons:["力","弹力","重力"]},{name:"第八章 运动和力",lessons:["牛顿第一定律","二力平衡","摩擦力"]},{name:"第九章 压强",lessons:["压强","液体的压强","大气压强","流体压强与流速的关系"]},{name:"第十章 浮力",lessons:["浮力","阿基米德原理","物体的浮沉条件及应用"]},{name:"第十一章 功和机械能",lessons:["功","功率","动能和势能","机械能及其转化"]},{name:"第十二章 简单机械",lessons:["杠杆","滑轮","机械效率"]}]},{subject:"物理",version:"人教版",grade:"九年级",volume:"全一册",units:[{name:"第十三章 内能",lessons:["分子热运动","内能","比热容"]},{name:"第十四章 内能的利用",lessons:["热机","热机的效率","能量的转化和守恒"]},{name:"第十五章 电流和电路",lessons:["两种电荷","电流和电路","串联和并联","电流的测量","串、并联电路中电流的规律"]},{name:"第十六章 电压 电阻",lessons:["电压","串、并联电路中电压的规律","电阻","变阻器"]},{name:"第十七章 欧姆定律",lessons:["电流与电压和电阻的关系","欧姆定律","电阻的测量","欧姆定律在串、并联电路中的应用"]},{name:"第十八章 电功率",lessons:["电能 电功","电功率","测量小灯泡的电功率","焦耳定律"]},{name:"第十九章 生活用电",lessons:["家庭电路","家庭电路中电流过大的原因","安全用电"]},{name:"第二十章 电与磁",lessons:["磁现象 磁场","电生磁","电磁铁 电磁继电器","电动机","磁生电"]},{name:"第二十一章 信息的传递",lessons:["现代顺风耳——电话","电磁波的海洋","广播、电视和移动通信","越来越宽的信息之路"]},{name:"第二十二章 能源与可持续发展",lessons:["能源","核能","太阳能","能源与可持续发展"]}]}],We=[{subject:"化学",version:"人教版",grade:"九年级",volume:"上册",units:[{name:"第一单元 走进化学世界",lessons:["物质的变化和性质","化学是一门以实验为基础的科学","走进化学实验室"]},{name:"第二单元 我们周围的空气",lessons:["空气","氧气","制取氧气"]},{name:"第三单元 物质构成的奥秘",lessons:["分子和原子","原子的结构","元素"]},{name:"第四单元 自然界的水",lessons:["爱护水资源","水的净化","水的组成","化学式与化合价"]},{name:"第五单元 化学方程式",lessons:["质量守恒定律","如何正确书写化学方程式","利用化学方程式的简单计算"]},{name:"第六单元 碳和碳的氧化物",lessons:["金刚石、石墨和C60","二氧化碳制取的研究","二氧化碳和一氧化碳"]},{name:"第七单元 燃料及其利用",lessons:["燃烧和灭火","燃料的合理利用与开发"]}]},{subject:"化学",version:"人教版",grade:"九年级",volume:"下册",units:[{name:"第八单元 金属和金属材料",lessons:["金属材料","金属的化学性质","金属资源的利用和保护"]},{name:"第九单元 溶液",lessons:["溶液的形成","溶解度","溶液的浓度"]},{name:"第十单元 酸和碱",lessons:["常见的酸和碱","酸和碱的中和反应"]},{name:"第十一单元 盐 化肥",lessons:["生活中常见的盐","化学肥料"]},{name:"第十二单元 化学与生活",lessons:["人类重要的营养物质","化学元素与人体健康","有机合成材料"]}]}],Fe=[{subject:"语文",version:"统编版",grade:"七年级",volume:"上册",units:[{name:"第一单元",lessons:["春","济南的冬天","雨的四季","古代诗歌四首（观沧海/闻王昌龄左迁龙标遥有此寄/次北固山下/天净沙·秋思）"]},{name:"第二单元",lessons:["秋天的怀念","散步","散文诗二首（金色花/荷叶·母亲）","《世说新语》二则"]},{name:"第三单元",lessons:["从百草园到三味书屋","再塑生命的人","《论语》十二章"]},{name:"第四单元",lessons:["纪念白求恩","植树的牧羊人","走一步再走一步","诫子书"]},{name:"第五单元",lessons:["猫","鸟","狼"]},{name:"第六单元",lessons:["皇帝的新装","天上的街市","女娲造人","寓言四则（赫尔墨斯和雕像者/蚊子和狮子/穿井得一人/杞人忧天）"]}]},{subject:"语文",version:"统编版",grade:"七年级",volume:"下册",units:[{name:"第一单元",lessons:["邓稼先","说和做——记闻一多先生言行片段","回忆鲁迅先生","孙权劝学"]},{name:"第二单元",lessons:["黄河颂","老山界","土地的誓言","木兰诗"]},{name:"第三单元",lessons:["阿长与《山海经》","老王","台阶","卖油翁"]},{name:"第四单元",lessons:["叶圣陶先生二三事","驿路梨花","最苦与最乐","短文两篇（陋室铭/爱莲说）"]},{name:"第五单元",lessons:["紫藤萝瀑布","一棵小桃树","外国诗二首（假如生活欺骗了你/未选择的路）","古代诗歌五首（登幽州台歌/望岳/登飞来峰/游山西村/己亥杂诗）"]},{name:"第六单元",lessons:["伟大的悲剧","太空一日","带上她的眼睛","河中石兽"]}]},{subject:"语文",version:"统编版",grade:"八年级",volume:"上册",units:[{name:"第一单元",lessons:["消息二则","首届诺贝尔奖颁发","飞天凌空","一着惊海天"]},{name:"第二单元",lessons:["藤野先生","回忆我的母亲","列夫·托尔斯泰","美丽的颜色"]},{name:"第三单元",lessons:["三峡","短文二篇（答谢中书书/记承天寺夜游）","与朱元思书","唐诗五首（野望/黄鹤楼/使至塞上/渡荆门送别/钱塘湖春行）"]},{name:"第四单元",lessons:["背影","白杨礼赞","散文二篇（永久的生命/我为什么而活着）","昆明的雨"]},{name:"第五单元",lessons:["中国石拱桥","苏州园林","蝉","梦回繁华"]},{name:"第六单元",lessons:["《孟子》二章（得道多助失道寡助/富贵不能淫）","愚公移山","周亚夫军细柳","诗词五首（饮酒/春望/雁门太守行/赤壁/渔家傲·天接云涛连晓雾）"]}]},{subject:"语文",version:"统编版",grade:"八年级",volume:"下册",units:[{name:"第一单元",lessons:["社戏","回延安","安塞腰鼓","灯笼"]},{name:"第二单元",lessons:["大自然的语言","阿西莫夫短文两篇（恐龙无处不有/被压扁的沙子）","大雁归来","时间的脚印"]},{name:"第三单元",lessons:["桃花源记","小石潭记","核舟记","《诗经》二首（关雎/蒹葭）"]},{name:"第四单元",lessons:["最后一次讲演","应有格物致知精神","我一生中的重要抉择","庆祝奥林匹克运动复兴25周年"]},{name:"第五单元",lessons:["壶口瀑布","在长江源头各拉丹冬","登勃朗峰","一滴水经过丽江"]},{name:"第六单元",lessons:["《庄子》二则（北冥有鱼/庄子与惠子游于濠梁之上）","《礼记》二则（虽有嘉肴/大道之行也）","马说","唐诗二首（茅屋为秋风所破歌/卖炭翁）"]}]},{subject:"语文",version:"统编版",grade:"九年级",volume:"上册",units:[{name:"第一单元",lessons:["沁园春·雪","我爱这土地","乡愁","你是人间的四月天","我看"]},{name:"第二单元",lessons:["敬业与乐业","就英法联军远征中国致巴特勒上尉的信","论教养","精神的三间小屋"]},{name:"第三单元",lessons:["岳阳楼记","醉翁亭记","湖心亭看雪","诗词三首（行路难/酬乐天扬州初逢席上见赠/水调歌头）"]},{name:"第四单元",lessons:["故乡","我的叔叔于勒","孤独之旅"]},{name:"第五单元",lessons:["中国人失掉自信力了吗","怀疑与学问","谈创造性思维","创造宣言"]},{name:"第六单元",lessons:["智取生辰纲","范进中举","三顾茅庐","刘姥姥进大观园"]}]},{subject:"语文",version:"统编版",grade:"九年级",volume:"下册",units:[{name:"第一单元",lessons:["祖国啊，我亲爱的祖国","梅岭三章","短诗五首","海燕"]},{name:"第二单元",lessons:["孔乙己","变色龙","溜索","蒲柳人家"]},{name:"第三单元",lessons:["鱼我所欲也","唐雎不辱使命","送东阳马生序","词四首（渔家傲·秋思/江城子·密州出猎/破阵子·为陈同甫赋壮词以寄之/满江红）"]},{name:"第四单元",lessons:["短文两篇（谈读书/不求甚解）","山水画的意境","无言之美","驱遣我们的想象"]},{name:"第五单元",lessons:["屈原（节选）","天下第一楼（节选）","枣儿"]},{name:"第六单元",lessons:["曹刿论战","出师表","诗词曲五首（十五从军征/白雪歌送武判官归京/南乡子·登京口北固亭有怀/过零丁洋/山坡羊·潼关怀古）"]}]}],Ge=[{subject:"道德与法治",version:"统编版",grade:"七年级",volume:"上册",units:[{name:"第一单元 成长的节拍",lessons:["中学序曲","少年有梦","认识自己","做更好的自己"]},{name:"第二单元 友谊的天空",lessons:["和朋友在一起","深深浅浅话友谊","让友谊之树常青","绽放友谊之花"]},{name:"第三单元 师长情谊",lessons:["走近老师","师生交往","家的意味","爱在家人间","让家更美好"]},{name:"第四单元 生命的思考",lessons:["生命可以永恒吗","敬畏生命","增强生命的韧性","感受生命的意义","活出生命的精彩"]}]},{subject:"道德与法治",version:"统编版",grade:"七年级",volume:"下册",units:[{name:"第一单元 青春时光",lessons:["悄悄变化的我","成长的不仅仅是身体","男生女生","青春萌动","青春有格"]},{name:"第二单元 做情绪情感的主人",lessons:["青春的情绪","情绪的管理","我们的情感世界","在品味情感中成长"]},{name:"第三单元 在集体中成长",lessons:["集体生活成就我","共奏和谐乐章","单音与和声","节奏与旋律","憧憬美好集体","我与集体共成长"]},{name:"第四单元 走进法治天地",lessons:["法律在我们身边","法律伴我们成长","生活需要法律","法律保障生活"]}]},{subject:"道德与法治",version:"统编版",grade:"八年级",volume:"上册",units:[{name:"第一单元 走进社会生活",lessons:["我与社会","在社会中成长","网络生活新空间","合理利用网络"]},{name:"第二单元 遵守社会规则",lessons:["社会生活离不开秩序","遵守规则","自由与规则不可分","维护秩序","诚实守信","法不可违","预防犯罪","善用法律"]},{name:"第三单元 勇担社会责任",lessons:["我的角色我的责任","做负责任的人","关爱他人","服务社会"]},{name:"第四单元 维护国家利益",lessons:["国家好大家才会好","坚持国家利益至上","树立总体国家安全观","建设美好祖国"]}]},{subject:"道德与法治",version:"统编版",grade:"八年级",volume:"下册",units:[{name:"第一单元 坚持宪法至上",lessons:["维护宪法权威","治国安邦的总章程","坚持依宪治国","加强宪法监督"]},{name:"第二单元 理解权利义务",lessons:["公民基本权利","依法行使权利","公民基本义务","依法履行义务"]},{name:"第三单元 人民当家作主",lessons:["根本政治制度","基本政治制度","国家权力机关","国家行政机关","国家司法机关"]},{name:"第四单元 崇尚法治精神",lessons:["尊重自由平等","公平正义的守护","自由平等的真谛","公平正义的价值"]}]},{subject:"道德与法治",version:"统编版",grade:"九年级",volume:"上册",units:[{name:"第一单元 富强与创新",lessons:["踏上强国之路","创新驱动发展","坚持改革开放","走向共同富裕","创新改变生活","创新永无止境"]},{name:"第二单元 民主与法治",lessons:["追求民主价值","建设法治中国","生活在新型民主国家","参与民主生活","夯实法治基础","凝聚法治共识"]},{name:"第三单元 文明与家园",lessons:["守望精神家园","建设美丽中国","延续文化血脉","凝聚价值追求","正视发展挑战","共筑生命家园"]},{name:"第四单元 和谐与梦想",lessons:["中华一家亲","中国人中国梦","促进民族团结","维护祖国统一","我们的梦想","共圆中国梦"]}]},{subject:"道德与法治",version:"统编版",grade:"九年级",volume:"下册",units:[{name:"第一单元 我们共同的世界",lessons:["同住地球村","构建人类命运共同体","开放互动的世界","复杂多变的关系","推动和平与发展","谋求互利共赢"]},{name:"第二单元 世界舞台上的中国",lessons:["与世界共发展","与世界深度互动","中国担当","中国影响","机遇与挑战","携手促发展"]},{name:"第三单元 走向未来的少年",lessons:["少年的担当","从这里出发","学无止境","多彩的职业","回望成长","走向未来"]}]}],Ve=[{subject:"英语",version:"人教版（PEP）",grade:"三年级",volume:"上册",units:[{name:"Unit 1 Hello!",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 2 Colours",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 3 Look at me!",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 4 We love animals",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 5 Let's eat!",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 6 Happy birthday",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]}]},{subject:"英语",version:"人教版（PEP）",grade:"三年级",volume:"下册",units:[{name:"Unit 1 Welcome back to school!",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 2 My family",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 3 At the zoo",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 4 Where is my car?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 5 Do you like pears?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 6 How many?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]}]},{subject:"英语",version:"人教版（PEP）",grade:"四年级",volume:"上册",units:[{name:"Unit 1 My classroom",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 2 My schoolbag",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 3 My friends",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 4 My home",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 5 Dinner's ready",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 6 Meet my family!",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]}]},{subject:"英语",version:"人教版（PEP）",grade:"四年级",volume:"下册",units:[{name:"Unit 1 My school",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 2 What time is it?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 3 Weather",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 4 At the farm",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 5 My clothes",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 6 Shopping",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]}]},{subject:"英语",version:"人教版（PEP）",grade:"五年级",volume:"上册",units:[{name:"Unit 1 What's he like?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 2 My week",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 3 What would you like?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 4 What can you do?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 5 There is a big bed",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 6 In a nature park",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]}]},{subject:"英语",version:"人教版（PEP）",grade:"五年级",volume:"下册",units:[{name:"Unit 1 My day",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 2 My favourite season",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 3 My school calendar",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 4 When is the art show?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 5 Whose dog is it?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 6 Work quietly!",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]}]},{subject:"英语",version:"人教版（PEP）",grade:"六年级",volume:"上册",units:[{name:"Unit 1 How can I get there?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 2 Ways to go to school",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 3 My weekend plan",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 4 I have a pen pal",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 5 What does he do?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 6 How do you feel?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]}]},{subject:"英语",version:"人教版（PEP）",grade:"六年级",volume:"下册",units:[{name:"Unit 1 How tall are you?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 2 Last weekend",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 3 Where did you go?",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]},{name:"Unit 4 Then and now",lessons:["A. Let's talk","A. Let's learn","B. Let's talk","B. Let's learn"]}]}];function P(e){return String(e||"").toLowerCase().replace(/^第[一二三四五六七八九十百]+(单元|章|课|节)/,"").replace(/[（(][^）)]*[)）]/g,"").replace(/^(课文|古诗三首|古诗|古诗文|古文|习作|拼音|识字（[一二三四五六七八九十]+）|识字|现代诗|现代文|阅读|综合性学习|口语交际|名著导读|数学广角[：:]?|整理和复习|数一数)[:：]?/,"").replace(/[~～]/g,"-").replace(/[\s，。、：:；;！!？?·"'“”]/g,"").trim()}function ge(e,s){const t=P(s);if(!t)return-1;for(let n=0;n<e.length;n++){const a=e[n];if(!a)continue;const o=P(a.chapter);if(o&&(o===t||t.length>=3&&(o.includes(t)||t.includes(o))||t.length===1&&o.startsWith(t)))return n}return-1}function Ye(e,s){let t=0;for(const n of s)ge(e,n)>=0&&t++;return{have:t,total:s.length}}const W="wb-bookmarks",F=20,K={starred:[],progress:{},recent:[]};function Je(){try{const e=localStorage.getItem(W);if(!e)return{...K};const s=JSON.parse(e);return{starred:Array.isArray(s.starred)?s.starred:[],progress:s.progress&&typeof s.progress=="object"?s.progress:{},recent:Array.isArray(s.recent)?s.recent.slice(0,F):[]}}catch{return{...K}}}function j(e){try{localStorage.setItem(W,JSON.stringify(e))}catch{}window.dispatchEvent(new CustomEvent("wb-bookmarks-changed"))}function Ze(e,s){const t={...e,starred:e.starred.includes(s)?e.starred.filter(n=>n!==s):[s,...e.starred]};return j(t),t}function Qe(e,s,t){const n={...e,progress:{...e.progress,[String(s)]:t}};return j(n),n}function es(e,s){if(e.recent[0]===s)return e;const t={...e,recent:[s,...e.recent.filter(n=>n!==s)].slice(0,F)};return j(t),t}const ss={"小学|一年级|语文|识字（一）：天地人":{plan:`**教学基本信息**
 课题：识字（一）：天地人
 教材版本：统编版小学语文一年级上册
 年级：小学一年级
@@ -5663,7 +5663,7 @@ d＝2r　　r＝d÷2
 板书以题目"让生活更美好"为中心，上方写补题标准"真实、具体、小巧"，中间写结构"是什么、为什么美好、怎样带来美好"和"开头点题、中间写事例、结尾升华"，下方写以小见大的支架"小事、细节、感受、点题"。板书就是一篇习作的思维导图，学生看着板书就能搭起文章骨架，把整节课的方法带回家。板书上的每一个关键词，都来自学生的发现和教师的提炼，是师生共同完成的课堂笔记。在评改环节，我还会请修改前后对比鲜明的同学站起来朗读，让全班听到文字变好的声音。
 
 八、说教学反思
-这节课我最看重的是"真实"二字。选材时坚持回忆检索，宁可让学生换题，也不让他写空话；写作时用对比片段让学生自己发现具体与空洞的差别；评改时用简单的星级表，先自评圈问题、再互评提建议，保证每个孩子都能当堂改起来。预设的困难是学生可能把小事写平，我会用"放大细节"的追问帮他把动作、语言、心理写具体。我还预设了学生补题雷同的情况，准备了备用素材，引导孩子从不同角度挖掘自己独有的美好。如果时间紧张，我会合并结尾点评，但练写环节的时间绝不压缩，因为只有动笔，方法才真正属于学生。同时我也提醒自己，公开课上要给学生留足安静写作的时间，热闹的讨论代替不了笔尖的思考。最后，愿每一个孩子都能在写作中，发现生活里被忽略的美好。我的说课到此结束，谢谢各位老师。`}},ms={"小学|一年级|数学|认识人民币":{plan:`**教学基本信息**
+这节课我最看重的是"真实"二字。选材时坚持回忆检索，宁可让学生换题，也不让他写空话；写作时用对比片段让学生自己发现具体与空洞的差别；评改时用简单的星级表，先自评圈问题、再互评提建议，保证每个孩子都能当堂改起来。预设的困难是学生可能把小事写平，我会用"放大细节"的追问帮他把动作、语言、心理写具体。我还预设了学生补题雷同的情况，准备了备用素材，引导孩子从不同角度挖掘自己独有的美好。如果时间紧张，我会合并结尾点评，但练写环节的时间绝不压缩，因为只有动笔，方法才真正属于学生。同时我也提醒自己，公开课上要给学生留足安静写作的时间，热闹的讨论代替不了笔尖的思考。最后，愿每一个孩子都能在写作中，发现生活里被忽略的美好。我的说课到此结束，谢谢各位老师。`}},xs={"小学|一年级|数学|认识人民币":{plan:`**教学基本信息**
 
 - 课题：认识人民币
 - 教材版本：人教版义务教育教科书《数学》一年级下册
@@ -6536,7 +6536,7 @@ d＝2r　　r＝d÷2
 
 **八、说教学反思与效果预测**
 
-这节课以操作和体验为主线，预计学生参与度高，对面积概念的理解会比较扎实。数方格和选单位这两个活动目标明确，容易达成；面积与周长的区分可能还有个别学生混淆，我会在练习中通过围一圈还是占地方的追问重点辨析。对基础较弱的学生，只要求理解面积含义、会用数方格比较，单位换算只练整百数；对学有余力的学生，鼓励他们用同样多的方格画出不同形状的图形，感受面积与形状的关系。课后通过估一估家里物体表面的面积单位，让课堂知识延伸到生活。我相信孩子们会带着直观的感知，顺利迈出认识面积的第一步。这节课也让我深切体会到，几何概念的教学离不开亲身体验。我的说课到此结束，谢谢大家！`}},zs={"小学|三年级|数学|年 月 日":{plan:`**教学基本信息**
+这节课以操作和体验为主线，预计学生参与度高，对面积概念的理解会比较扎实。数方格和选单位这两个活动目标明确，容易达成；面积与周长的区分可能还有个别学生混淆，我会在练习中通过围一圈还是占地方的追问重点辨析。对基础较弱的学生，只要求理解面积含义、会用数方格比较，单位换算只练整百数；对学有余力的学生，鼓励他们用同样多的方格画出不同形状的图形，感受面积与形状的关系。课后通过估一估家里物体表面的面积单位，让课堂知识延伸到生活。我相信孩子们会带着直观的感知，顺利迈出认识面积的第一步。这节课也让我深切体会到，几何概念的教学离不开亲身体验。我的说课到此结束，谢谢大家！`}},ms={"小学|三年级|数学|年 月 日":{plan:`**教学基本信息**
 
 课题：年 月 日
 教材版本：人教版小学数学三年级下册第六单元
@@ -8176,7 +8176,7 @@ d＝2r　　r＝d÷2
 
 本课最大的特点是把算理与算法融为一体，先操作、再竖式、后对比，让学生"知其然更知其所以然"。需要反思的是，一节课同时学习进位加法和退位减法容量较大，操作环节要紧凑高效，防止拖沓；对学困生来说，退位减法退位后十位忘减 1 的问题可能仍会反复，需要课后分层滚动训练。此外，竖式书写的规范性要从小处抓起，数位是否对齐、进位的 1 和退位点是否写清，都要在巡视中一一落实，让良好的书写习惯成为计算的保障。效果预测上，绝大多数学生能正确用竖式计算进位加法和退位减法，能说出算理，养成先估算后计算再检验的意识。对于基础薄弱的学生，课后坚持每天练 10 道口算，先易后难、滚动巩固，让每个孩子都能稳步过关。同时建议家长让孩子在家帮忙算算购物找零，多说说"满十进一""退一当十"的道理，把计算当成生活游戏，在真实运用中提升计算的准确率与熟练度。
 
-我的说课到此结束，恳请各位老师批评指正，谢谢大家！`}},xs={"小学|二年级|数学|表内乘法（二）：7-9 的乘法口诀":{plan:`**教学基本信息**
+我的说课到此结束，恳请各位老师批评指正，谢谢大家！`}},zs={"小学|二年级|数学|表内乘法（二）：7-9 的乘法口诀":{plan:`**教学基本信息**
 课题：表内乘法（二）：7-9 的乘法口诀
 教材版本：人教版小学数学二年级上册
 年级：小学二年级
@@ -11769,7 +11769,7 @@ d＝2r　　r＝d÷2
 ## 八、说教学评价
 
 本课注重评价的激励与诊断功能。课堂上通过求比值、举例验证、手势判断等活动，实时了解学生对概念的掌握情况；练习中重点观察解比例是否对应正确、正反比例判断是否漏看"一定的量"、比例尺单位是否统一。通过自评、互评、师评相结合，既肯定学生的发现，也及时纠正偏差。对学有余力的学生，增加按比例分配问题激发挑战欲望；对学习困难的学生，用对比卡片反复辨析正反比例。我相信，当学生能够用比例的眼光观察世界、用比例的规律解决问题时，代数思维的种子便已悄然发芽。课后，我将布置学生用比例尺知识测量并计算家到学校的实际距离，让学生在真实的应用中感受比例的价值，让课堂学习真正走向生活。
-`}},us={"初中|七年级|数学|有理数":{plan:`**教学基本信息**
+`}},ps={"初中|七年级|数学|有理数":{plan:`**教学基本信息**
 课题：有理数
 教材版本：人教版初中数学七年级上册
 年级：初中七年级
@@ -11942,7 +11942,7 @@ d＝2r　　r＝d÷2
 我的板书采用“总—分—结”的结构。正上方是课题“有理数”，下面分六块依次列出：正数与负数、数轴三要素、相反数、绝对值的分段规则、四则运算要点、乘方与科学记数法，最后用一句口诀“先乘方，再乘除，后加减，括号优先”收尾。整个板书既是知识清单，又是方法指南，学生抬头即可复习，尤其绝对值的三行分段和乘方括号对比，把本课难点直观固化在黑板上。
 
 **八、说教学反思与效果预测**
-通过这堂课，我预计大部分学生能准确表示相反意义的量，会用数轴求相反数和绝对值，能正确进行有理数混合运算，并能用科学记数法表示简单的大数与小数。课堂上可能出现的生成问题是：学生在异号相加时仍会符号判错，或在绝对值化简时把“负a”误认为负数，我会把这些典型错误当作即时教学资源，用数轴距离当场纠偏。不足之处在于，45 分钟容量较大，若学生讨论热烈，综合练习时间可能被压缩，我会灵活精简提高作业的讲解，把更多时间留给运算巩固。相信在数形结合与分层训练的支撑下，学生能扎实迈好初中代数第一步。此外，我会特别关注学困生在符号规则上的反复，安排课后同伴互助与针对性补偿练习，确保人人过关、不留夹生饭。我的说课完毕，恳请各位老师批评指正，谢谢大家！`}},ps={"初中|七年级|数学|一元一次方程":{plan:`**教学基本信息**
+通过这堂课，我预计大部分学生能准确表示相反意义的量，会用数轴求相反数和绝对值，能正确进行有理数混合运算，并能用科学记数法表示简单的大数与小数。课堂上可能出现的生成问题是：学生在异号相加时仍会符号判错，或在绝对值化简时把“负a”误认为负数，我会把这些典型错误当作即时教学资源，用数轴距离当场纠偏。不足之处在于，45 分钟容量较大，若学生讨论热烈，综合练习时间可能被压缩，我会灵活精简提高作业的讲解，把更多时间留给运算巩固。相信在数形结合与分层训练的支撑下，学生能扎实迈好初中代数第一步。此外，我会特别关注学困生在符号规则上的反复，安排课后同伴互助与针对性补偿练习，确保人人过关、不留夹生饭。我的说课完毕，恳请各位老师批评指正，谢谢大家！`}},us={"初中|七年级|数学|一元一次方程":{plan:`**教学基本信息**
 课题：一元一次方程（第一课时：概念、性质与解法入门）
 教材版本：人民教育出版社义务教育教科书·数学·七年级上册
 年级：初中七年级
@@ -13013,7 +13013,7 @@ y = x平方 减 2x 减 3
 
 八、说教学反思与效果预测
 
-预设反思有五：情境导入有效但部分学生拘谨，需更充分预热；动词链分解是亮点但朗读时长待加强，应让读中悟更充分；反语理解需支架式提问，降低认知坡度；情感迁移口头表达略仓促，可增设同桌互诉；板书生成应更多交给学生，增强主体性。效果预测：通过慢镜头细读，学生能准确赏析动词并说出父爱之深；借助双线梳理，能清晰把握结构与线索；背景补充将帮助难点突破；情感联结环节将唤起多数学生对亲情的真切体悟，实现语言学习与生命教育的统一，达成公开课以文化人、以情育人的目标，让学生在读懂背影的同时，也学会读懂自己的父亲。`}},Ls={"初中|九年级|语文|课文：故乡":{plan:`一、导入，走近鲁迅笔下的故乡（约六分钟）
+预设反思有五：情境导入有效但部分学生拘谨，需更充分预热；动词链分解是亮点但朗读时长待加强，应让读中悟更充分；反语理解需支架式提问，降低认知坡度；情感迁移口头表达略仓促，可增设同桌互诉；板书生成应更多交给学生，增强主体性。效果预测：通过慢镜头细读，学生能准确赏析动词并说出父爱之深；借助双线梳理，能清晰把握结构与线索；背景补充将帮助难点突破；情感联结环节将唤起多数学生对亲情的真切体悟，实现语言学习与生命教育的统一，达成公开课以文化人、以情育人的目标，让学生在读懂背影的同时，也学会读懂自己的父亲。`}},Ss={"初中|九年级|语文|课文：故乡":{plan:`一、导入，走近鲁迅笔下的故乡（约六分钟）
 
 【教师活动】教师在黑板正中工工整整写下课题《故乡》二字，同时用投影出示鲁迅青年与中年照片、小说集《呐喊》初版本影，并配以一段沉静舒缓的背景音乐，营造庄重而略带苍凉的课堂氛围。教师富有感情地范读课文第一自然段：我冒了严寒，回到相隔二千余里，别了二十余年的故乡去。随后设疑导入。师：同学们，我们在七年级学过鲁迅的《从百草园到三味书屋》，在八年级读过《社戏》，那百草园的生机、水乡月夜的温情，曾让我们会心一笑。可是今天这篇《故乡》，开篇却给人以截然不同的感受。请大家默读第一至第五自然段，圈画出描写故乡景象的词语，说说你眼前浮现的是一幅怎样的画面，读到这些文字时你的心情又如何。
 
@@ -13094,7 +13094,7 @@ y = x平方 减 2x 减 3
 板书采用树状结构，以故乡为根，分展记忆与现实两幅图景，下联少年与中年闰土、杨二嫂，归结于对比手法与封建压迫，最终指向批判等级、呼唤新生活的主旨与走之成路的希望。结构清晰，逻辑可视，既是教学脉络的浓缩，也是学生回顾的抓手，便于形成结构化认知。板书随课堂推进逐步生成，让学生的思维轨迹清晰可见，成为看得见的学习支架。如此，板书既是教师教的提纲，也是学生学的地图。
 
 八、说教学反思与效果预测
-预设效果：学生在对比与朗读中能准确把握形象与主题，多数能独立概括闰土变化及根源，对路的哲理形成基本理解，并能在生活中初步迁移运用。同时，我预判部分学生可能对路的象征义理解偏浅，故在设计中预留了联系生活的迁移环节，以保底促优。反思改进：一需补充历史史料，化解时代隔阂；二须给老爷细节留足体验时间；三须明示杨二嫂的对照价值，避免其被忽视；四宜将走好自己的路落地育人。力争让经典在少年心中真正生根，使公开课既有语文味，又有思想力，实现工具性与人文性的统一，达成润物无声的育人境界。`}},Ss={"初中|九年级|语文|文言文：岳阳楼记":{plan:`一、导入新课，走近范仲淹与“记”体裁
+预设效果：学生在对比与朗读中能准确把握形象与主题，多数能独立概括闰土变化及根源，对路的哲理形成基本理解，并能在生活中初步迁移运用。同时，我预判部分学生可能对路的象征义理解偏浅，故在设计中预留了联系生活的迁移环节，以保底促优。反思改进：一需补充历史史料，化解时代隔阂；二须给老爷细节留足体验时间；三须明示杨二嫂的对照价值，避免其被忽视；四宜将走好自己的路落地育人。力争让经典在少年心中真正生根，使公开课既有语文味，又有思想力，实现工具性与人文性的统一，达成润物无声的育人境界。`}},Ls={"初中|九年级|语文|文言文：岳阳楼记":{plan:`一、导入新课，走近范仲淹与“记”体裁
 
 【教师活动】
 师：（伴随配乐，屏显岳阳楼图片与“洞庭天下水，岳阳天下楼”对联）同学们，我国江南有三大名楼：黄鹤楼、滕王阁、岳阳楼。古往今来，无数文人登楼抒怀，留下千古绝唱。不过，岳阳楼之所以名扬天下，很大程度上得益于一篇三百六十余字的短文——范仲淹的《岳阳楼记》。今天，我们就一起走进这座楼、这篇文章。请大家看课下注释，谁能用一句话介绍作者？
@@ -13232,4 +13232,789 @@ y = x平方 减 2x 减 3
 板书采用树状结构，以“岳阳楼记”为根，分叙事、写景、抒情议论三大枝：叙事枝标“滕子京谪守、嘱予作记”；写景枝标“淫雨霏霏、春和景明”，并注“悲景生悲情、喜景生喜情”；抒情议论枝以“迁客骚人”对举“古仁人”，由“以物喜以己悲”翻至“不以物喜不以己悲”“先忧后乐”。底部归纳“情景交融、对比映衬、骈散结合”与主旨。树状图直观呈现“景—情—理”的递进与正反衬托，帮助学生提纲挈领。
 
 八、说教学反思与效果预测
-反思：其一，诵读环节应更精细，可增划停顿线的个别训练；其二，词句疏通宜前置预学，把更多时间留给警句品读；其三，拓展环节时间需留足，让“古为今用”充分展开。效果预测：通过层层诵读与对比探究，学生能准确积累文言词语、流畅背诵名句，并真正理解“先忧后乐”不是空话，而是把个人荣辱置于天下之后的担当。预计多数学生能完成基础与提高层作业，部分学生能在拓展层联系抗疫、扶贫等当代事例，实现文化传承与立德树人的统一。`}};export{Ne as $,He as A,We as B,De as C,Fe as D,Ge as E,ye as F,te as G,ve as H,Je as I,qe as J,ge as K,Ae as L,$e as M,Ke as N,Ss as O,C as P,Pe as Q,Xe as R,Ce as S,Q as T,ze as U,Be as V,Ue as W,je as X,Oe as Y,U as Z,Ee as _,Ls as a,_e as a0,Me as a1,le as a2,Se as a3,ie as a4,Ve as a5,Te as a6,X as a7,Le as a8,we as a9,Ie as aa,Ze as ab,Qe as ac,es as ad,g as ae,vs as b,As as c,ys as d,hs as e,bs as f,gs as g,ps as h,us as i,ds as j,ks as k,cs as l,xs as m,fs as n,zs as o,ms as p,ls as q,rs as r,os as s,is as t,as as u,ns as v,ts as w,ss as x,Re as y,Ye as z};
+反思：其一，诵读环节应更精细，可增划停顿线的个别训练；其二，词句疏通宜前置预学，把更多时间留给警句品读；其三，拓展环节时间需留足，让“古为今用”充分展开。效果预测：通过层层诵读与对比探究，学生能准确积累文言词语、流畅背诵名句，并真正理解“先忧后乐”不是空话，而是把个人荣辱置于天下之后的担当。预计多数学生能完成基础与提高层作业，部分学生能在拓展层联系抗疫、扶贫等当代事例，实现文化传承与立德树人的统一。`}},Bs={"高中|高一|数学|集合与常用逻辑用语":{plan:`**教学基本信息**
+课题：集合与常用逻辑用语
+教材：人教版高中数学必修第一册第一章
+课型：新授课（单元整合公开课）
+课时：一课时（四十五分钟）
+授课对象：高中一年级学生
+
+**教学目标**
+一、理解集合的含义，掌握元素与集合的“属于”与“不属于”关系，能用列举法、描述法表示集合，理解集合元素的确定性、互异性、无序性。
+二、理解子集、真子集、集合相等，会用 Venn 图表达集合间关系，会求含 n 个元素的集合的子集、真子集个数；理解交集、并集、补集的概念，掌握其运算性质。
+三、理解命题，掌握充分条件、必要条件、充要条件的含义，能借助集合的包含关系判断条件关系，体会数形结合思想。
+
+**教学重难点**
+教学重点：集合的三种表示方法；集合的交、并、补运算；充分条件与必要条件的判断。
+教学难点：用描述法表示集合；含参数集合运算中对空集的讨论；充分条件与必要条件的逆向判断。
+
+**教学过程**
+
+**环节一 情境导入，从生活实例引出集合思想（约七分钟）**
+
+【教师活动】
+上课伊始，教师在大屏幕出示三幅图片：高一（三）班合影、校园绿化树木分布图、图书馆数学类图书。教师提问：“这三幅图里的事物有什么共同特点？能不能用一种统一的数学语言把它们‘打包’描述出来？”引导学生发现：每一幅图里的对象都是一个“整体”，其中的事物都是明确、可区分的。
+预设师生对话：
+师：“高一（三）班的同学，我们能不能说‘个子高的同学’组成一个集合？”
+生：“不能，因为‘高’的标准不明确，张三觉得高，李四觉得不高。”
+师：“说得真好！这就告诉我们，组成一个集合的对象，必须是确定的。那么‘班里所有女生’能不能组成集合？”
+生：“能，女生是明确的，不会含糊。”
+师：“对。像这样，把一些确定的、互不相同的研究对象放在一起组成的整体，数学上就叫作集合。今天我们就走进集合的世界。”
+
+【学生活动】
+学生观察图片，尝试描述“整体”的特征，说出“对象要明确、不重复、无顺序”等直觉认识，初步感知集合思想。
+
+【设计意图】
+从班级、树木、图书等学生熟悉的生活情境切入，在“个子高算不算成员”的认知冲突中，自然引出集合“确定性”这一核心特征，让抽象的集合概念扎根于真实经验，激发探究欲望。
+
+**环节二 概念建构，集合的定义与表示（约十一分钟）**
+
+【教师活动】
+（一）给出定义。教师板书：把研究对象叫元素，元素组成的总体叫集合。强调三要素——确定性（“是不是成员”唯一确定）、互异性（元素互不相同，如｛1,1,2｝应写成｛1,2｝）、无序性（｛1,2,3｝与｛3,2,1｝同一集合）。
+（二）元素与集合的关系。若 a 是 A 的元素，记 a∈A（属于）；否则记 a∉A（不属于）。介绍常用数集：自然数集 N，正整数集 N*，整数集 Z，有理数集 Q，实数集 R。
+（三）集合的表示。教师讲解列举法——把元素一一列举在大括号内，如｛1,2,3｝；描述法——用代表元素及满足的条件表示，形如“｛x 竖线 p(x)｝”，如“｛x 竖线 x 是大于 1 小于 5 的整数｝”。强调描述法须写清代表元素。
+预设师生对话：
+师：“请用列举法表示‘小于 10 的正偶数组成的集合’。”
+生：“｛2,4,6,8｝。”
+师：“很好。那‘所有正方形’这个集合，列举法方便吗？”
+生：“不方便，正方形有无数个，列举不完。”
+师：“没错，元素个数无限或规律复杂时，我们改用描述法：｛x 竖线 x 是正方形｝。再看｛x 竖线 x²=1｝等于什么？”
+生：“方程的解是 1 和负 1，所以是｛1,负 1｝。”
+师：“正是如此。描述法只是换了写法，本质上和列举法表示同一个集合。”
+
+【学生活动】
+学生记录三要素，区分 ∈ 与 ∉，练习用列举法、描述法表示集合，体会“无限集用描述法”的必要性，并通过解方程把描述法转为列举法。
+
+【设计意图】
+本环节是概念建构的核心。通过“定义—关系—表示”三步推进，把集合三要素和两种表示法建立在具体例子之上；用“列举法不方便”的追问引出描述法，突破“描述法代表元素易写错”的难点。
+
+**环节三 核心探究，集合间关系与运算（约十五分钟）**
+
+【教师活动】
+（一）集合间关系。教师用 Venn 图画出 A=｛1,2｝、B=｛1,2,3｝的包含关系，提问：“A 的每个元素是否都在 B 中？”引出子集：若 A 中任意一个元素都是 B 的元素，则称 A 是 B 的子集，记作 A⊆B。进一步说明：若 A⊆B 且 B 中至少有一个元素不在 A 中，则 A 是 B 的真子集，记作 A⊊B；若 A⊆B 且 B⊆A，则 A 与 B 相等。强调空集 ∅ 是任何集合的子集、任何非空集合的真子集。结论：含 n 个元素的集合，子集有 2ⁿ 个，真子集有 2ⁿ 减 1 个，非空真子集有 2ⁿ 减 2 个。
+预设师生对话：
+师：“空集是任何集合的子集，这句话对吗？”
+生：“对，因为空集没有元素，自然满足‘空集的每个元素都在那个集合里’。”
+师：“非常深刻！那｛0｝和 ∅ 一样吗？”
+生：“不一样，｛0｝有一个元素 0，∅ 一个元素都没有。”
+师：“这是最易混淆处，务必分清‘含 0 的集合’与‘不含元素的集合’。”
+（二）集合的运算。教师用 Venn 图动态演示：由既属于 A 又属于 B 的元素组成的集合叫交集，记作 A∩B；由属于 A 或属于 B 的元素组成的集合叫并集，记作 A∪B；设 U 为全集，由 U 中不属于 A 的元素组成的集合叫 A 在 U 中的补集，记作 ∁ᵤA。板书性质：A∩A=A，A∩∅=∅，A∩B⊆A；A∪A=A，A∪∅=A，A⊆A∪B；A∪(∁ᵤA)=U，A∩(∁ᵤA)=∅。
+预设师生对话：
+师：“已知 U=｛1,2,3,4,5,6｝，A=｛1,3,5｝，B=｛2,4,5｝，求 A∩B 和 A∪B。”
+生：“公共元素只有 5，所以 A∩B=｛5｝；合起来是｛1,2,3,4,5｝，所以 A∪B=｛1,2,3,4,5｝。”
+师：“正确。那 ∁ᵤ(A∪B) 呢？”
+生：“全集去掉｛1,2,3,4,5｝，剩下｛6｝。”
+师：“可见补集须盯紧全集。”
+
+【学生活动】
+学生用 Venn 图表示子集、真子集与相等关系，记忆子集个数公式，通过例题计算交、并、补，体会“交取公共、并取全部、补看全集”的口诀。
+
+【设计意图】
+集合间关系与运算是本章主干。借助 Venn 图把抽象的包含、交并补可视化，落实数形结合；通过空集、｛0｝与 ∅ 的辨析扫清易错点；运算性质以“口诀”固化，便于记忆。
+
+**环节四 常用逻辑用语，命题与条件（约八分钟）**
+
+【教师活动】
+（一）命题。教师说明：可判断真假的语句叫命题，如“2 是偶数”真、“3 大于 5”假。命题常写为“若 p，则 q”，p 为条件，q 为结论。
+（二）充分条件与必要条件。核心规则：若 p⇒q，则 p 是 q 的充分条件，q 是 p 的必要条件；若 p⇔q，则 p 是 q 的充要条件。用集合观点解释：设满足 p 的对象组成集合 A，满足 q 的对象组成集合 B，若 A⊆B，则 p 是 q 的充分条件——小范围能推出大范围。
+预设师生对话：
+师：“p：x>2；q：x>1。p 是 q 的什么条件？”
+生：“x>2 能推出 x>1，所以 p⇒q，p 是 q 的充分条件。”
+师：“那 q 能推出 p 吗？”
+生：“不能，x=1.5 满足 x>1 但不满足 x>2，所以 q 推不出 p。”
+师：“因此 p 是 q 的什么？”
+生：“充分不必要条件！”
+师：“完全正确。记住口诀：小范围推大范围，充分不必要；相等则充要。”
+
+【学生活动】
+学生区分命题真假，把“若 p 则 q”转化为条件关系，借助集合包含关系判断充分、必要、充要条件，掌握“小范围推大范围”技巧。
+
+【设计意图】
+常用逻辑用语是集合思想的自然延伸。用集合包含关系解释充分必要条件，把“逻辑”问题转化为“图形”问题，既降低抽象度，又深化数形结合，呼应全章主线。同时强化“小范围推大范围”的判断技巧。
+
+**环节五 小结作业，分层巩固（约四分钟）**
+
+【教师活动】
+（一）课堂小结。教师引导学生回顾：今天学习了集合的概念与三要素、元素与集合的关系、列举法与描述法、集合间关系（子集、真子集、相等）、集合运算（交、并、补），以及命题与充分必要条件。
+（二）分层作业。基础：课本练习题，巩固列举法、描述法与交并补运算；提高：用描述法表示三个集合，并求它们之间的交、并、补；拓展：搜集生活中的“充分条件”例子，用集合包含关系解释。
+预设师生对话：
+师：“今天我们最大的收获是什么？”
+生：“用集合的眼光看世界，很多逻辑关系都能画成图！”
+师：“说得好。希望同学们带着这双‘集合之眼’去观察数学。”
+
+【学生活动】
+学生参与小结，梳理知识网络，明确分层作业要求，把所得延伸到课外。
+
+【设计意图】
+通过结构化小结帮助学生形成“概念—关系—运算—逻辑”的完整认知链条；分层作业兼顾巩固与拓展，照顾不同层次学生。
+
+**板书设计**
+<pre>
+                    集合与常用逻辑用语
+一、集合的概念
+    元素：研究对象    集合：元素组成的总体
+    三要素：确定性  互异性  无序性
+    关系：a∈A（属于）  a∉A（不属于）
+    常用数集：N 自然数集  N* 正整数集  Z 整数集  Q 有理数集  R 实数集
+二、集合的表示
+    列举法：｛1,2,3｝
+    描述法：｛x 竖线 p(x)｝   例 ｛x 竖线 x 是大于 1 小于 5 的整数｝
+三、集合间关系
+    A⊆B  子集（A 中元素都在 B 中）
+    A⊊B  真子集（A⊆B 且 B 有元素不在 A 中）
+    A=B   相等（A⊆B 且 B⊆A）
+    空集 ∅：任何集合的子集
+    含 n 个元素：子集 2ⁿ 个  真子集 2ⁿ-1 个  非空真子集 2ⁿ-2 个
+四、集合的运算
+    交集 A∩B：既属于 A 又属于 B
+    并集 A∪B：属于 A 或属于 B
+    补集 ∁ᵤA：U 中不属于 A 的元素
+    性质：A∩A=A   A∪∅=A   A∪(∁ᵤA)=U   A∩(∁ᵤA)=∅
+五、常用逻辑用语
+    命题：可判断真假的语句（若 p 则 q）
+    p⇒q：p 是 q 的充分条件，q 是 p 的必要条件
+    p⇔q：充要条件
+    集合观点：A⊆B 则 p 是 q 的充分条件（小范围推大范围）
+</pre>
+
+**教学反思要点**
+1. 情境导入中“个子高的同学能否成集合”的冲突是否真正引发思考，是否需补充更多生活反例强化确定性。
+2. 描述法的代表元素是否讲清，学生是否会混淆点集、数集、定义域集，需后续专项辨析。
+3. 空集 ∅ 与 ｛0｝ 的辨析是否到位，含参数集合运算中“空集优先”的思想是否通过例题落实。
+4. 用集合包含关系判断充分必要条件这一难点，学生能否独立完成“小范围推大范围”的转化。
+5. 课堂时间分配是否合理，环节三容量较大，是否需删减例题以保证逻辑用语环节充分展开。`,talk:`**一、说教材**
+各位评委老师，大家好！我说课的内容是人教版高中数学必修第一册第一章《集合与常用逻辑用语》。本章是高中数学的起始章节，也是整个高中数学的语言基础。集合作为一种基本数学语言，贯穿函数、数列、不等式、解析几何乃至概率统计的始终；常用逻辑用语则为后续的命题推理与论证表达提供了工具。本章依次展开：先给出集合的含义，讨论元素与集合的关系及列举法、描述法两种表示；再研究集合间的基本关系（子集、真子集、相等）与基本运算（交、并、补）；最后进入常用逻辑用语，学习命题、充分条件与必要条件，并延伸到全称量词与存在量词。本章的核心思想是“用数学语言精确刻画对象及其关系”，它是学生从初中具体数学走向高中抽象数学的第一座桥梁。我把本课定位为新授课，但在公开课上采用单元整合方式，把概念、关系、运算、逻辑串成一条清晰主线，帮助学生建立结构化的集合认知。
+
+**二、说学情**
+高一学生刚升入高中，思维正从具体形象向抽象逻辑过渡，具备一定的观察、归纳能力，但抽象概括与符号表达能力仍较薄弱。关于“分类”“整体”的生活经验他们并不缺乏，比如班级分组、兴趣小组，但要把这些经验上升为严格的“集合”概念，并理解确定性、互异性、无序性，仍需引导。另一方面，学生初次接触符号语言 ∈、⊆、∩、∪，容易在“属于”与“包含”上混淆（元素与集合用 ∈，集合与集合用 ⊆）；充分必要条件的方向也极易颠倒。因此我的设计原则是：多用生活情境降低抽象，多用 Venn 图与数轴实现数形结合，多设认知冲突激发思考，并针对易错点设计专项辨析。
+
+**三、说教学目标**
+基于课程标准与教材特点，我确定三个教学目标。第一，理解集合的含义，掌握元素与集合的属于、不属于关系，能用列举法、描述法表示集合，理解三要素，这是知识与技能目标。第二，理解子集、真子集、集合相等，会求子集个数；掌握交集、并集、补集的概念与运算性质，这是过程与方法目标。第三，理解命题、充分条件与必要条件，能借助集合包含关系判断条件关系，体会数形结合与分类讨论思想，这是能力与情感目标。三项目标由概念到运算、由技能到逻辑，层层递进。
+
+**四、说教学重难点**
+本课的教学重点：集合的三种表示方法，集合的交、并、补运算，充分条件与必要条件的判断。教学难点：用描述法表示集合（代表元素易写错）；含参数集合运算中对空集的讨论；充分条件与必要条件的逆向判断。之所以难，是因为符号语言抽象、空集易被遗漏、条件方向易颠倒。针对难点，我专门用 Venn 图与数轴把关系可视化，用“｛0｝与 ∅”的辨析扫清空集误区。
+
+**五、说教法学法**
+教法上，我主要采用情境引入法、数形结合法、类比归纳法。用班级、图书等情境引出集合，用 Venn 图与数轴把包含、交并补直观化，用分类板书归纳运算性质。学法上，我引导学生“看—说—画—练”：看情境发现问题，说特征建构概念，画 Venn 图建立直观，练分层题目巩固技能，突出学生主体。同时以板演与练习单为即时评价手段，捕捉思维痕迹，做到“练中评、评中改”。
+
+**六、说教学过程**
+我的课堂分为五个环节，总时长约四十五分钟。第一环节约七分钟，用班级、树木、图书三幅图导入，在“个子高能否成集合”的冲突中引出集合与确定性。第二环节约十一分钟，是概念建构核心，依次讲集合定义、三要素、元素与集合关系、列举法与描述法，用“无限集列举不便”自然引出描述法。第三环节约十五分钟，探究集合间关系与运算，用 Venn 图讲子集、真子集、相等及子集个数公式，辨析 ∅ 与 ｛0｝，再动态演示交、并、补并归纳性质口诀。第四环节约八分钟，进入常用逻辑用语，用“若 p 则 q”与 p⇒q 引出充分必要条件，并用集合包含关系解释“小范围推大范围”。第五环节约四分钟，结构化小结并布置分层作业。整节课以集合为骨、以逻辑为脉，环环相扣。
+
+**七、说板书设计**
+我的板书采用“总—分”结构。正上方是课题“集合与常用逻辑用语”，下面分五块依次列出：集合的概念与三要素、集合的两种表示、集合间关系（含子集个数公式）、集合运算及性质、常用逻辑用语（含充分必要条件与集合观点）。整块板书既是知识清单又是方法指南，尤其三要素、∅ 的标注与“小范围推大范围”口诀，把本课难点直观固化在黑板上，学生抬头即可复习。
+
+**八、说教学反思与效果预测**
+通过本课，我预计大部分学生能准确判断元素与集合关系，会用两种表示法刻画集合，能正确进行交并补运算，并能借助集合包含关系判断充分必要条件。课堂可能的生成问题是：学生在描述法代表元素上写错，或在充分必要条件方向颠倒，我会把这些典型错误当堂变成教学资源，用 Venn 图当场纠偏。不足之处在于四十五分钟容量较大，若学生讨论热烈，运算环节时间可能被压缩，我会灵活精简例题，把更多时间留给逻辑用语的探究。相信在情境支撑、数形结合与分层训练的保障下，学生能扎实迈好高中数学抽象思维第一步。我的说课完毕，恳请各位老师批评指正，谢谢大家！`}},ws={"高中|高一|数学|函数的概念与性质":{plan:`**教学基本信息**
+课题：函数的概念与性质（第 1 课时 函数的概念与三要素）
+教材：人教版高中数学必修第一册（第三章）
+课型：新授课（概念建构课，公开课展示）
+课时：45 分钟
+授课对象：高一（上学期）学生
+
+**教学目标**
+1. 经历从初中变量说向高中对应说的认识跨越，理解函数的近代定义：设 A、B 是非空的数集，如果按某个确定的对应关系 f，使对于集合 A 中的任意一个数 x，在集合 B 中都有唯一确定的数 y 和它对应，那么就称 f：A→B 是从集合 A 到集合 B 的一个函数，记作 y ＝ f(x)，x ∈ A。
+2. 理解抽象符号 f(x) 的意义，明确函数的三要素（定义域、对应法则、值域），掌握判断两个函数是否相等只看定义域与对应法则是否一致。
+3. 会求简单函数的定义域（偶次根式、分式、零次幂等使解析式有意义，以及实际问题中的实际意义），体会数形结合与从具体到抽象的数学思想。
+
+**教学重难点**
+教学重点：函数的近代定义、函数符号 f(x) 的含义、函数三要素尤其是定义域的求法。
+教学难点：对对应关系 f 的抽象理解；从变量说自然过渡到对应说；定义域"有意义"条件的全面列举。
+
+**教学准备**
+多媒体课件、几何画板（动态演示图象与对应关系）、学案、随堂练习单。
+
+**教学过程**
+
+**一、情境引入：从变量说到对应说（约 8 分钟）**
+
+【教师活动】
+教师先回顾初中定义：在一个变化过程中，有两个变量 x 和 y，如果给定 x 的每一个值，y 都有唯一确定的值与之对应，那么 y 是 x 的函数。随后提出问题：初中的变量说能解释所有函数吗？出示一枚炮弹发射后高度 h 随时间 t 变化的图象、以及气温随时间变化的曲线，让学生意识到变量说依赖"变化过程"，不够严谨。
+接着给出三个具体对应：① 人对应其身高；② 时间对应当日气温；③ 正方形边长 x 对应面积 S ＝ x²。引导学生观察共同特征：每一个"输入"都对应唯一"输出"。
+预设师生对话：
+师：初中我们怎么定义函数的？
+生：一个变化过程中，有两个变量，给定 x 的值，y 有唯一值对应。
+师：那炮弹的高度 h 随 t 变化，能用变量说吗？
+生：能，t 变了 h 也跟着变，每个 t 对应一个 h。
+师：很好。但"变化过程"这个词不够精确。我们换一种更数学的说法：把 t 的取值看成一个集合 A，把 h 的取值看成集合 B，函数其实是从 A 到 B 的一种对应。今天我们就用对应说重新认识函数。
+教师板书课题，并引出"非空数集"与"单值对应"两个关键词。
+
+【学生活动】
+学生回忆初中函数定义，对比教师给出的图象与实例，发现变量说虽直观但不够严谨，在教师引导下把"输入—输出"提炼为"集合到集合的对应"，初步感知对应说的优势。
+
+【设计意图】
+从学生已有知识出发，先肯定变量说的价值，再暴露其不足，制造认知冲突，自然引出对应说。以具体实例搭桥，让抽象的"非空数集上的单值对应"有落脚之处，体现从具体到抽象的建构思路，也为后续严格定义铺路。
+
+**二、函数概念建构：近代定义与符号 f(x)（约 11 分钟）**
+
+【教师活动】
+教师在黑板给出严格定义：设 A、B 是非空的数集，如果按照某种确定的对应关系 f，使对于集合 A 中的任意一个数 x，在集合 B 中都有唯一确定的数 y 和它对应，那么就称 f：A→B 为从集合 A 到集合 B 的一个函数。记作 y ＝ f(x)，x ∈ A。其中 x 叫自变量，x 的取值范围 A 叫定义域；与 x 对应的 y 值叫函数值，函数值的集合 ｛ f(x) ｜ x ∈ A ｝ 叫值域。
+逐字解读关键词：非空数集（A、B 必须是数集且非空）、任意（定义域内每个 x 都要有对应）、唯一确定（单值对应，一个 x 只能对应一个 y）。
+随后重点讲符号 f(x)：f 不是 f 乘 x，而是"对应法则"的名字；f(x) 表示把法则 f 作用在 x 上得到的输出。f(a) 就是 x ＝ a 时的函数值。
+预设师生对话：
+师：定义里为什么说 A、B 必须是非空数集？
+生：因为函数研究的是数，而且集合不能为空。
+师：对。那"唯一确定"是什么意思？
+生：一个 x 只能对应一个 y，不能一个 x 对应两个 y。
+师：没错，这叫单值对应。那 f(x) 里的 f 是 f 乘以 x 吗？
+生：不是，f 是对应法则。
+师：非常准确。f 是法则的名字，f(x) 是 x 经过法则 f 得到的函数值。那么 f(2) 表示什么？
+生：x 等于 2 时的函数值。
+师：很好。这个符号把"对应法则"从模糊的说法变成了可运算的对象。
+
+【学生活动】
+学生齐读定义，在教师逐词解读下圈画关键词（非空数集、任意、唯一确定），理解 f(x) 是"法则作用在 x 上"而非乘积，并尝试用 f(x) 表示几个简单对应，如 f(x) ＝ x² 表示"平方"这一法则。
+
+【设计意图】
+定义的逐词剖析帮助学生跨越变量说到对应说的语言鸿沟；强调 f(x) 的记号意义是本课关键，把看不见的对应法则符号化，为后续研究三要素与性质奠定符号基础。师生对话中反复确认易错点，避免学生把 f(x) 误读成乘法。
+
+**三、函数三要素：定义域、对应法则、值域（约 13 分钟）**
+
+【教师活动】
+教师指出：一个函数由定义域、对应法则、值域共同确定，称为三要素。值域由定义域和对应法则唯一决定，所以判断两个函数是否相等，只需看定义域与对应法则是否相同，与自变量用什么字母无关。
+举例辨析：f(x) ＝ x 与 g(x) ＝ x² ÷ x，前者定义域为实数集 R，后者定义域为 ｛ x ｜ x ≠ 0 ｝，定义域不同，不是同一函数；f(x) ＝ x² 与 g(t) ＝ t²，定义域都是 R、对应法则相同，是同一函数。
+接着重点突破定义域求法。给出函数 f(x) ＝ √（x＋1）÷（x－2），引导学生逐条列条件：偶次根式被开方数 ≥ 0，即 x＋1 ≥ 0；分式分母 ≠ 0，即 x－2 ≠ 0。取交集得定义域 ［－1，2）∪（2，＋∞）。
+再举一实际情境：用 20 米篱笆靠墙围矩形，与墙垂直边长 x，面积 S ＝ x（20－2x）。提问 x 能取任意实数吗？学生发现 x ＞ 0 且 20－2x ＞ 0，故 0 ＜ x ＜ 10，实际意义限制了定义域。
+预设师生对话：
+师：判断两个函数相等，为什么要看定义域和对应法则？
+生：因为值域由它们两个决定。
+师：对，字母不同没关系，比如 f(x)＝x² 和 g(t)＝t² 是同一个函数吗？
+生：是，定义域都是 R，法则都是平方。
+师：很好。那求 f(x) ＝ √（x＋1）÷（x－2）的定义域，要列哪些条件？
+生：根号里 x＋1 ≥ 0，分母 x－2 ≠ 0。
+师：取交集后是什么？
+生：［－1，2）并上（2，＋∞）。
+师：实际问题呢？篱笆长 20，x 能等于 12 吗？
+生：不行，那样另一边就负了，没有意义。
+师：所以实际问题中，定义域还要受实际意义限制，这叫"定义域优先"意识。
+
+【学生活动】
+学生参与同一函数辨析，归纳"只看定义域与对应法则两点"；在教师示范下列举定义域约束条件并取交集，写出区间或集合；讨论实际情境中定义域的额外限制，体会数学与现实的连接。
+
+【设计意图】
+三要素是函数的骨架。用同一函数辨析题组（定义域不同、仅字母不同）突破易错点；定义域求法以"逐一列条件、再取交集"为方法主线，并引入"定义域优先"思想；实际问题让学生明白定义域既来自解析式也来自现实，落实数学建模素养。
+
+**四、函数性质初探：单调性与奇偶性（约 9 分钟）**
+
+【教师活动】
+教师利用几何画板画出 y ＝ x² 的图象，引导学生观察：在 y 轴左侧图象下降，右侧上升。进而给出单调性定义：设函数 f(x) 的定义域为 I，区间 D ⊆ I。若对任意 x₁、x₂ ∈ D，当 x₁ ＜ x₂ 时都有 f(x₁) ＜ f(x₂)，则称 f(x) 在区间 D 上单调递增；若都有 f(x₁) ＞ f(x₂)，则单调递减。
+强调：单调性是区间上的局部性质；证明必须用定义法（取值、作差、变形、定号），不能只看图。
+再画 y ＝ x³ 与 y ＝ ｜x｜，引出奇偶性：若定义域关于原点对称，且对任意 x 都有 f(－x) ＝ f(x)，则为偶函数，图象关于 y 轴对称；都有 f(－x) ＝ －f(x)，则为奇函数，图象关于原点对称。先检验定义域是否对称，是判断奇偶性的第一步。
+预设师生对话：
+师：看 y ＝ x²，x 从负无穷到 0，图象怎么走？
+生：往下降。
+师：x 大于 0 呢？
+生：往上升。
+师：这就是单调性的直观来源。怎么严格说"上升"？
+生：任取 x₁＜x₂，都有 f(x₁)＜f(x₂)。
+师：漂亮。那 y＝x³ 关于什么对称？
+生：关于原点对称，是奇函数。
+师：判断奇偶先做什么？
+生：先看定义域是不是关于原点对称。
+师：对，定义域不对称，直接判非奇非偶，不用化简。
+
+【学生活动】
+学生观察图象升降与对称，把直观感受翻译为单调性与奇偶性的符号语言；跟读定义，记住"取值、作差、变形、定号"四步和"奇偶性先看定义域对称"的铁律。
+
+【设计意图】
+性质教学坚持先形后数：用图象直观唤起感知，再上升为严格的符号定义，落实数形结合。单调性定义中的"任意 x₁＜x₂"是抽象难点，通过师生共同翻译图象语言为数学语言来突破；奇偶性强调"定义域优先"，与前面三要素呼应，形成知识网络。
+
+**五、小结作业，分层巩固（约 4 分钟）**
+
+【教师活动】
+教师引导学生回顾全课：从变量说到对应说，得到函数定义与 f(x)；明确三要素，掌握定义域求法与同一函数判断；初识单调性与奇偶性。出示知识结构图（见板书）。
+布置分层作业：
+基础层：课本习题，求若干简单函数定义域，判断两组函数是否同一函数。
+提高层：用定义证明 f(x) ＝ 2x＋1 在 R 上单调递增；判断 f(x) ＝ （x²＋x）÷（x＋1） 的奇偶性。
+拓展层：查阅资料，思考初中的变量说与高中的对应说各有什么优劣，写一段约 100 字感想。
+预设师生对话：
+师：今天最核心的一句话是什么？
+生：函数是非空数集上的单值对应。
+师：非常好。判断两个函数相等看什么？
+生：定义域和对应法则。
+师：希望大家带着"定义域优先"的意识去完成作业。
+
+【学生活动】
+学生对照板书梳理知识脉络，明确分层作业要求，选择适合自己水平的任务完成。
+
+【设计意图】
+小结以"一句话核心"收束，帮助学生形成长时记忆；分层作业照顾差异，基础层保底、提高层进阶、拓展层联通新旧定义，体现面向全体的公开课理念。
+
+**板书设计**
+<pre>
+                        函数的概念与性质
+  一、函数定义（对应说）
+     设 A、B 是非空数集，若对 A 中任意 x，B 中有唯一 y 与之对应，
+     则称 f：A → B 为函数，记作 y ＝ f(x)，x ∈ A
+     关键词：非空数集 · 任意 · 唯一确定（单值对应）
+     符号 f(x)：f 是对应法则，f(x) 是 x 的函数值
+  二、函数三要素
+     定义域 A：自变量 x 的取值范围
+     对应法则 f：x → y 的规则
+     值域：函数值的集合 ｛ f(x) ｜ x ∈ A ｝（由定义域与法则唯一确定）
+     同一函数 ⇔ 定义域相同 且 对应法则相同（与字母无关）
+  三、定义域求法（定义域优先）
+     偶次根式：被开方数 ≥ 0
+     分式：分母 ≠ 0
+     零次幂：底数 ≠ 0
+     实际问题：符合实际意义
+     方法：逐条列条件 → 取交集 → 写区间/集合
+     例：f(x) ＝ √（x＋1）÷（x－2），D ＝ ［－1，2）∪（2，＋∞）
+  四、函数性质（初探）
+     单调性：任取 x₁＜x₂ ∈ D
+              f(x₁)＜f(x₂) 增；f(x₁)＞f(x₂) 减（局部性质）
+             证明四步：取值 · 作差 · 变形 · 定号
+     奇偶性：先看定义域是否关于原点对称
+             f(－x)＝f(x) 偶（关于 y 轴对称）
+             f(－x)＝－f(x) 奇（关于原点对称）
+  五、小结
+     变量说 → 对应说；三要素；定义域优先；数形结合
+</pre>
+
+**教学反思要点**
+1. 变量说到对应说的过渡是否自然：是否真正制造了认知冲突，让学生体会到对应说比变量说更严谨，而非生硬替换术语。
+2. 符号 f(x) 的理解是否到位：学生是否摆脱"f 乘 x"的误解，能否用 f(x) 表达对应法则，这是后续学习的根基。
+3. 定义域"逐条列条件、取交集"的方法是否落实：学生能否全面列举根式、分式、零次幂等约束，实际问题能否想到实际意义限制。
+4. 单调性与奇偶性定义是否建立在图象直观之上：学生能否把图象的升降、对称准确翻译为符号语言，"定义域优先"意识是否贯穿奇偶性判断。
+5. 公开课容量与时间分配：五环节约 45 分钟，性质初探较紧，需观察学生反应灵活调整，确保概念建构充分而不仓促。`,talk:`**一、说教材**
+各位评委老师好。我说课的内容是人教版高中数学必修第一册第三章《函数的概念与性质》第 1 课时。函数是描述客观世界变量依存关系的基本数学模型，是高中数学的核心概念与贯穿性主线。初中阶段学生已用变量说初步认识函数，但变量说依赖变化过程、不够严谨，难以支撑后续研究。本课以对应说重建函数定义，引入符号 f(x)，明确三要素与定义域求法，并初步接触单调性与奇偶性，是从常量数学迈向变量数学、从直观走向严格的关键一课，也为后续基本初等函数与导数奠定概念基础。我把本课定位为新授课（概念建构课），用一课时完成函数概念与三要素的建构，性质部分作初步渗透。
+从学科地位看，函数既是初中与高中数学知识衔接的枢纽，也是贯穿整个高中数学的主线：基本初等函数、三角函数、数列、导数、不等式乃至解析几何都离不开函数观念。函数的本质是把两个集合的元素按照规则配对，这种对应思想帮助学生摆脱初中依赖变化过程的模糊认知，建立起用集合与映射刻画世界的严谨视角。因此，本节课不仅要让学生记住定义，更要让其体会概念演进背后的数学思想，为后续用函数工具研究现实问题打开大门。
+
+**二、说学情**
+授课对象为高一新生。他们在初中已会列函数关系式、画一次函数与反比例函数图象，具备变量说的初步观念，也接触过 y ＝ x² 等简单对应。但高一学生的抽象思维仍在发展：一是对非空数集上的单值对应这一集合语言感到陌生；二是易把 f(x) 误读为 f 乘 x；三是求定义域时常漏掉某个约束条件，或忽视实际问题中的实际意义；四是单调性与奇偶性的严格符号语言（任意 x₁＜x₂）需要数形结合才能理解。因此本课坚持从具体实例出发，先形后数、以形助数，在对话中澄清误解，在对比中强化方法。此外，学生刚经历初高中衔接，学习习惯上仍存在重结论轻过程、重记忆轻理解的倾向，对严格定义往往急于背诵而疏于追问为什么。因此我在设计中刻意设置认知冲突与追问环节，倒逼学生回到概念本源思考，培养其用数学语言精确表达的习惯，这也是高中数学对思维方式提出的新要求。
+
+**三、说教学目标**
+依据课程标准与学情，确定四维目标。知识与技能：理解函数近代定义，掌握符号 f(x) 含义，明确三要素，会求简单函数定义域，能判断两函数是否相等。过程与方法：经历变量说到对应说的跨越，体会从具体到抽象、数形结合的研究路径，初步学会用集合语言刻画概念。应用目标：能在实际与解析情境中正确求定义域、辨析同一函数。情感态度：感受数学概念的严谨与简洁，体会定义域优先的方法论价值，增强用数学眼光观察世界的意识。目标共同指向数学抽象、逻辑推理、数学运算等核心素养。
+
+**四、说教学重难点**
+教学重点：函数的近代定义、符号 f(x) 的含义、函数三要素与定义域求法。教学难点：对对应关系 f 的抽象理解；从变量说自然过渡到对应说；求定义域时条件的全面列举。把对应法则与定义系列为难点，是因为它们跨越了学生的日常经验，需要集合语言支撑；定义域求法难在条件一个都不能少的严谨习惯尚未养成。
+
+**五、说教法学法**
+教法采用情境驱动、问题探究、讲练结合。以变量说是否严谨设疑引入，用炮弹高度、气温曲线等实例搭桥；用几何画板动态演示图象，把抽象对应与性质直观化；以题组辨析突破同一函数与定义域。学法引导学生读一读定义、圈一圈关键词、画一画图象、说一说符号，在师生对话中自主建构，突出学生主体。
+
+**六、说教学过程**
+全课五环节约 45 分钟。环节一约 8 分钟，回顾变量说并暴露其不足，以三个具体对应引出对应说与课题。环节二约 11 分钟，给出严格定义并逐词解读（非空数集、任意、唯一确定），重点讲清 f(x) 是法则而非乘积。环节三约 13 分钟，讲三要素，用同一函数辨析题组突破易错点，再以逐条列条件、取交集方法求定义域，并用例题与篱笆情境强调实际意义限制。环节四约 9 分钟，借图象引出单调性与奇偶性定义，强调证明四步与奇偶性先看定义域对称。环节五约 4 分钟，小结核心并布置分层作业。全程以对话推进，板书随讲随成。需要说明，环节二的定义解读是本课重心，我会放慢节奏，舍得花时间让学生逐字咀嚼非空数集、任意、唯一确定，因为这是后续一切推理的基石；环节三的题组辨析采用先错后正策略，先呈现学生易错的字母不同即判不同的做法，再纠正，使同一函数的判定标准真正内化；环节四性质仅作初探，重在建立图象与符号的联系，不急于展开证明训练，留待后续课时。整节课以问题链驱动，确保概念建构充分而不仓促。
+
+**七、说板书设计**
+板书采用主干分支结构。正中课题，下分五块：一写定义与关键词、f(x) 含义；二写三要素与同一函数判定；三写定义域求法的依据、方法与例题；四写单调性与奇偶性定义及证明四步；五写小结主线。板书本是知识地图，学生抬头即见概念脉络与方法路标。
+
+**八、说教学反思与效果预测**
+预计多数学生能说出函数对应说定义、解释 f(x) 含义、求简单定义域并判断同一函数；学优生能完成单调性定义证明与奇偶性判断。可能的生成问题：学生把 f(x) 读成乘积、求定义域漏条件、奇偶性不先看对称性，我将以板演纠错、图象对照、同桌互讲来化解。不足在于一课时内性质仅能初探，需后续课时深化；若概念建构耗时偏多，我将压缩性质举例、保住定义与定义域这一核心。总之，力求让概念课既有严谨的推理，又有直观的温度，使学生真正看见函数的本质。从更长远看，函数概念的建立只是起点，后续还需在基本初等函数中反复运用三要素与定义域优先意识，在单调性与奇偶性的严格证明中锤炼推理。我会在本课后持续追踪学生的作业与错题，重点观察定义域漏条件、奇偶性忘检对称、f(x) 误读等高频问题是否改善，并据此调整后续课时节奏。若公开课中学生对话活跃、定义理解扎实，则本节课的核心目标即已达成；若部分学生仍停留于机械记忆，我将在练习课中以变式题组补救，确保不把概念漏洞带入函数应用阶段。`}},_s={"高中|高一|数学|指数函数与对数函数":{plan:`**教学基本信息**
+课题：指数函数与对数函数
+教材版本：人教版高中数学必修第一册
+课型：新授课（单元整合公开课）
+课时：公开课一课时（45 分钟）
+授课对象：高中一年级学生
+
+**教学目标**
+1. 通过细胞分裂、存款复利等实例抽象出指数函数模型，理解指数函数、对数函数的严格定义，掌握底数 a>0 且 a≠1 的合理性。
+2. 会用“列表—描点—连线—归纳”的方法画出两类函数图像，归纳其定义域、值域、定点与单调性，并能用单调性比较大小。
+3. 理解对数的概念与真数大于零的来由，掌握对数恒等式 a^(log_a N)=N 与两个特例，知道指数函数与对数函数互为反函数，图像关于直线 y=x 对称。
+4. 在探究中体会数形结合、特殊到一般、互逆转化等数学思想，发展数学抽象、直观想象与数学运算素养。
+
+**教学重难点**
+教学重点：指数函数与对数函数的概念、图像与性质，以及二者互为反函数的关系。
+教学难点：底数 a>0 且 a≠1 的合理性论证；对数概念及真数大于零的理解；互为反函数与图像对称的几何直观建立。
+
+**教学准备**
+课件：细胞分裂动画、存款复利计算表、几何画板动态函数图像；教具：彩色粉笔、磁性坐标系贴；学生准备：直尺、已复习实数指数幂的运算性质（a^m 乘 a^n=a^(m+n)，(a^m)^n=a^(mn)，(ab)^n=a^n b^n）。
+
+**一、情境引入，感受指数爆炸（约 8 分钟）**
+
+【教师活动】
+上课伊始，教师在大屏幕出示两组对比鲜明的素材。第一组是细胞分裂动画：一个细胞每过二十分钟分裂一次，每次由一变二，提问一小时后共有多少个细胞。第二组是银行存款复利：本金一万元，年利率百分之五，按年复利计息，十年后本息合计多少。教师引导学生列出算式：细胞数依次为 2^1、2^2、2^3、…、2^n；本息为 10000 乘（1＋0.05）^n。教师进一步追问：如果存三十年，本息大约是本金的多少倍？让学生初步估算，体会增长之迅猛。
+预设师生对话：
+师：一小时内细胞分裂几次？
+生：一小时有六十分钟，每二十分钟分裂一次，共分裂三次，所以是一变二、二变四、四变八，即 2^3 个。
+师：很好。那如果经过 n 个二十分钟呢？
+生：应该是 2^n 个细胞。
+师：再看存款，第一年末是 10000 乘 1.05，第二年末呢？
+生：再乘一个 1.05，就是 10000 乘 1.05^2，第 n 年就是 10000 乘 1.05^n。
+师：非常准确。这类“底数为常数、指数为变量”的式子，就是我们今天要研究的指数函数，它刻画的就是这种增长或衰减极快的现象，常被称为“指数爆炸”。
+教师板书课题“指数函数与对数函数”，并说明本节课将沿着“实例—定义—图像—性质—反函数”的线索展开。
+
+【学生活动】
+学生观察动画与数据，动手计算前几项，体会指数增长由慢到快的突变感，并尝试用含有字母 n 的式子概括规律，初步感知“指数”作为变量的位置，激发进一步研究的愿望。
+
+【设计意图】
+从细胞分裂、存款复利等真实且富有反差感的实例切入，让学生在“旧知识无法一眼看出结果”的认知冲突中，自然产生研究新函数模型的需要。把抽象的指数函数锚定在看得见、算得出的具体情境里，既激发兴趣，又揭示函数来自现实、服务现实的数学本质。同时借“三十年多少倍”的追问制造悬念，为后续单调性比较埋下伏笔，也为整个单元的探究线索定调。
+
+**二、指数函数的定义与图像性质（约 12 分钟）**
+
+【教师活动】
+（一）给出定义。教师先带领学生回顾实数指数幂的运算性质，再板书：一般地，函数 y=a^x 叫做指数函数，其中底数 a 满足 a>0 且 a≠1，自变量 x 的取值范围是实数集 R。教师追问：为什么规定 a>0 且 a≠1？
+预设师生对话：
+师：如果 a 等于 0，比如 0^x，当 x 取负数或零时会怎样？
+生：0 的负数次方没有意义，0^0 也没有意义，所以 a 不能等于 0。
+师：那 a 等于 1 呢？
+生：1 的任何次方都是 1，函数变成常数 y=1，失去了研究价值，所以 a≠1。
+师：还有 a<0 的情形，比如（负2）的 1/2 次方是什么？
+生：是根号下负 2，在实数范围内没有意义，所以必须 a>0。
+师：所以只有 a>0 且 a≠1，指数函数才对任意实数 x 都有意义，定义才严谨。
+（二）描点作图。教师让学生分组取 a=2 与 a=1/2 两组，列表、描点、连线，在同一坐标系中画出图像，再取 a=3 与 a=1/3 验证。教师巡视后，用几何画板动态演示底数 a 从接近 0 到很大时图像的变化，引导学生归纳性质，并特别强调 x 轴是指数函数的渐近线。
+预设师生对话：
+师：观察 a=2 这条曲线，它经过哪个定点？
+生：当 x=0 时，a^0=1，所以无论 a 是多少，图像都过点（0，1）。
+师：单调性呢？a=2 与 a=1/2 有什么不同？
+生：a=2 时图像上升，函数递增；a=1/2 时图像下降，函数递减。看来 a>1 递增，0<a<1 递减。
+师：值域和定义域分别是什么？图像会不会碰到 x 轴？
+生：定义域是全体实数，值域是（0，＋∞），图像总在 x 轴上方，越来越贴近 x 轴但永不相交。
+教师归纳并板书：指数函数 y=a^x（a>0，a≠1）的定义域为 R，值域为（0，＋∞），恒过定点（0，1）；当 a>1 时单调递增，当 0<a<1 时单调递减；图像分布在 x 轴上方，并以 x 轴为渐近线。
+
+【学生活动】
+学生分组选取不同底数描点作图，在动手实践中发现指数函数的共同特征，通过对比 a>1 与 0<a<1 两类图像，自主归纳单调性与定点的规律，并在几何画板动画中验证猜想，体会底数变化对图像形态的影响。
+
+【设计意图】
+定义的得出不是直接灌输，而是让学生在“为什么 a>0 且 a≠1”的追问中，自己用反例（0、1、负数）论证，培养严谨的数学表达与逻辑推理。图像的获得坚持“列表—描点—连线—归纳”的探究路径，落实数形结合思想；定点（0，1）、渐近线意识与单调性的归纳，是后续比较大小、解指数不等式的核心工具，也为反函数关系的揭示作好铺垫。
+
+**三、对数的概念与运算（约 8 分钟）**
+
+【教师活动】
+教师承接：既然增长可以用指数式表示，那么反过来，已知 2^x=8，求 x 该用什么运算？教师指出，这就是对数要解决的“已知幂与底数、求指数”的问题，是人类为了简化计算而发明的重要运算。板书对数定义：如果 a^b=N（a>0，a≠1），那么数 b 叫做以 a 为底 N 的对数，记作 b=log_a N，其中 a 叫做底数，N 叫做真数。教师强调两个前提：底数 a>0 且 a≠1，真数 N>0，并让学生用指数式反推。
+预设师生对话：
+师：2^3=8 写成对数式是什么？
+生：3=log_2 8，读作以 2 为底 8 的对数等于 3。
+师：真数 N 为什么必须大于 0？
+生：因为 a>0，不论指数 b 取什么实数，a^b 恒为正数，所以 N 一定大于 0，负数和 0 没有对数。
+师：那 log_a 1 等于几？log_a a 呢？
+生：因为 a^0=1，所以 log_a 1=0；因为 a^1=a，所以 log_a a=1。
+教师顺势引出对数恒等式：把 b=log_a N 代回指数式得到 a^(log_a N)=N，并把 log_a 1=0、log_a a=1 作为两个特例一并板书。接着简要介绍常用对数 lg N（底为 10）与自然对数 ln N（底为 e），说明对数能把乘方转化为乘法、把乘除转化为加减，历史上曾极大推动天文与航海计算。
+
+【学生活动】
+学生练习把指数式与对数式互化，体会二者是同一关系的两种写法，理解真数大于零的来由，并记忆两个特殊值与对数恒等式，感受对数运算“降维”的工具价值。
+
+【设计意图】
+对数是本节课的认知难点，因为它“倒过来想”。通过指数式与对数式的互化训练，把新运算扎根于已学的指数之中，降低陌生感；用“a^b 恒正”解释真数大于零，让限制条件有迹可循而非死记硬背；对数恒等式与两个特例是后续化简求值、解对数方程的基础，此处夯实十分必要。介绍常用对数与自然对数，则把数学史与工具价值自然融入，拓宽学生视野。
+
+**四、对数函数及其与指数函数的反函数关系（约 12 分钟）**
+
+【教师活动】
+（一）定义与图像。教师指出：指数函数 y=a^x（a>0，a≠1）反映了 x 到 y 的对应，如果把这种对应反过来，由 y 求 x，就得到 x=log_a y，习惯上把自变量仍记作 x，得到对数函数 y=log_a x，定义域为（0，＋∞），值域为 R。教师提醒：这里自变量 x 恰好是原来的真数，因此定义域受真数大于零限制。
+预设师生对话：
+师：对数函数 y=log_a x 的图像和谁有关？
+生：它和指数函数 y=a^x 应该是同一对变量 x、y 互换了角色。
+师：对。那它们的图像位置有什么关系？
+生：把 y=a^x 的图像上每个点（x，y）换成（y，x）再画出，应该关于直线 y=x 对称。
+教师用几何画板同时显示 y=2^x 与 y=log_2 x，引导学生观察二者关于 y=x 对称，并归纳对数函数性质：定义域（0，＋∞），值域 R，恒过定点（1，0），以 y 轴为渐近线；a>1 时递增，0<a<1 时递减。
+（二）反函数关系。教师板书：指数函数 y=a^x 与对数函数 y=log_a x（a>0，a≠1）互为反函数。说明互为反函数的两个函数图像关于直线 y=x 对称，定义域与值域互换，对应关系互逆。
+预设师生对话：
+师：y=2^x 的定义域、值域分别是什么？
+生：定义域 R，值域（0，＋∞）。
+师：那 y=log_2 x 呢？
+生：定义域（0，＋∞），值域 R，正好互换了。
+师：这就是反函数的特征，图像还会关于 y=x 对称，二者本是一体两面。
+
+【学生活动】
+学生在同一坐标系中画出对数函数图像，与指数函数对比，归纳定义域、值域、定点与单调性，并通过几何画板动态验证“关于 y=x 对称”的几何事实，理解互为反函数的内涵，体会变量互换的思想。
+
+【设计意图】
+本环节是本课的高潮与思想凝练。借助“变量互换”自然导出对数函数，避免另起炉灶；用具体实例 y=2^x 与 y=log_2 x 揭示互为反函数及其图像对称性，把“数”与“形”再次深度融合，既突破了反函数这一抽象概念，又让学生体会指数函数与对数函数本是一体两面的辩证关系，提升数学抽象与直观想象素养，也为后续复合函数与方程学习奠定思想基础。
+
+**五、小结作业，分层巩固（约 5 分钟）**
+
+【教师活动】
+（一）课堂小结。教师引导学生用“一条主线、两座函数、三种对称”回顾：一条主线是指数运算到对数运算的互逆；两座函数是指数函数与对数函数；三种对称这里指图像关于 y=x 对称、指数图像过（0，1）与对数图像过（1，0）的对应。教师请学生口述本节课的知识网络，并在黑板补全结构图。
+（二）分层作业。基础：课本习题，熟记两类函数定义、图像与性质，完成指数对数互化二十题。提高：比较 1.7^2.5 与 1.7^3、log_2 3 与 log_2 3.5 的大小并说明理由；证明 log_a (MN)=log_a M＋log_a N。拓展：调查生活中一处“指数爆炸”或“对数增长”的现象，写一篇三百字小报告，并尝试用函数图像解释其特点。
+预设师生对话：
+师：今天最重要的一个关系式是什么？
+生：指数函数与对数函数互为反函数，图像关于 y=x 对称。
+师：记住这条主线，很多比较大小和解方程的问题都能迎刃而解，课后务必把两类函数性质对照记忆。
+
+【学生活动】
+学生参与知识网络梳理，明确分层作业要求，结合自身水平选择相应层次任务，带着“互逆与对称”的核心认识结束课堂，形成可迁移的函数研究经验。
+
+【设计意图】
+小结用“一条主线、两座函数、三种对称”帮助学生把零散知识结构化，形成长时记忆；分层作业照顾不同学力，基础层保底、提高层进阶、拓展层联系生活，体现因材施教与学科育人。结构图的当堂补全，让知识网络可视化，利于学生构建完整的函数认知体系。
+
+**板书设计**
+<pre>
+                        指数函数与对数函数
+一、指数函数  y=a^x（a>0，a≠1）
+    定义域：R    值域：（0，＋∞）    定点：（0，1）
+    性质：a>1 递增；0<a<1 递减
+    例：2^n、10000×1.05^n（指数爆炸）
+二、对数概念
+    定义：a^b=N  ⇔  b=log_a N（a>0，a≠1，N>0）
+    真数 N>0（因 a^b 恒正）
+    特例：log_a 1=0，log_a a=1
+    恒等式：a^(log_a N)=N
+    常用对数 lg N，自然对数 ln N
+三、对数函数  y=log_a x（a>0，a≠1）
+    定义域：（0，＋∞）  值域：R  定点：（1，0）
+    性质：a>1 递增；0<a<1 递减
+四、反函数关系
+    y=a^x 与 y=log_a x 互为反函数
+    图像关于直线 y=x 对称
+    定义域与值域互换
+五、主线：指数⇔对数（互逆）  数形结合
+</pre>
+
+**教学反思要点**
+1. 情境引入是否真正引发“指数爆炸”的震撼，细胞分裂与复利实例是否足够让学生体会到研究指数函数的必要性，是否需要补充更多身边素材。
+2. 底数 a>0 且 a≠1 的合理性是否由学生通过反例自主得出，还是教师包办，论证过程是否到位、语言是否严谨。
+3. 图像由“描点”到“归纳”的探究是否扎实，定点（0，1）与（1，0）及单调性是否真正被学生理解并用于比较大小。
+4. 互为反函数与“关于 y=x 对称”的几何直观是否建立，学生能否从变量互换的角度理解二者关系，还是仅停留在记忆结论。
+5. 四十五分钟各环节时间分配是否均衡，分层作业是否覆盖不同学力，课堂生成的典型错误是否被及时转化为教学资源。`,talk:`**一、说教材**
+各位评委老师好！我说课的内容是人教版高中数学必修第一册的《指数函数与对数函数》。本课时是学生系统学习基本初等函数的重要起点，在全书函数主线中具有承上启下的枢纽地位。在此之前，学生已掌握实数指数幂运算，完成了指数概念从整数到实数的扩充，并初步具备函数的概念、单调性与图像描画能力；在此之后，将以此为工具研究指数方程、对数方程及复合函数，并为后续学习幂函数、三角函数以及导数的函数性质奠定思想基础。本节把指数函数与对数函数整合为一课，突出二者“互为反函数”的内在联系，用一条“指数与对数互逆”的主线串起定义、图像与性质，体现了函数研究中“从特殊到一般、从数到形、从表象到本质”的认知规律。把两函数同课处理，既能节省重复建构的时间，更能凸显其辩证统一关系，符合新课标倡导的大单元教学理念。同时，指数函数的引入承接了学生在初中已经熟悉的正数幂运算，实现了知识的正迁移；而对数作为指数的逆运算，其工具价值在科学计算史上举足轻重，曾极大推动天文与航海的发展，本节课也承担着渗透数学文化、培养应用意识的任务。
+
+**二、说学情**
+授课对象为高一学生，他们已具备实数指数幂的基础，具有一定的代数运算能力和函数图象的初步认知，但对“底数为常数、指数为变量”的函数模型尚属首次接触。学生在心理上对细胞分裂、存款利率等生活实例有兴趣，却容易把指数函数与幂函数的变量位置混淆，误以为 y=x^a 与 y=a^x 同类。对数作为“倒过来求指数”的运算，抽象度高，是认知难点，学生常把对数符号 log_a N 当作乘积，或忽视真数大于零的限制。此外，高一学生抽象逻辑思维正在发展，仍依赖直观支撑，反函数概念对他们尤为陌生。不少学生在课前会本能回避符号密集的推导，倾向于直接套用结论，因此课堂中我格外重视用具体数值先建立直觉，再上升到一般定义，循序渐进地搭建脚手架。同时，学生之间的差异开始显现，部分人面对抽象符号容易退缩，我在提问与板演中注意分层铺设台阶，保护不同层次学生的学习信心，让每个人都能在课堂上找到参与感与成就感。
+
+**三、说教学目标**
+依据课程标准与核心素养要求，我确定如下目标。知识与技能：理解指数函数、对数函数的概念，掌握其图像与性质，知道二者互为反函数，能运用单调性比较大小。过程与方法：通过实例抽象出函数模型，经历“列表—描点—连线—归纳”的探究，体会数形结合、特殊到一般与互逆转化的思想。情感态度价值观：在指数爆炸与对数应用中感受数学与生活的联系，在反例论证中养成严谨求实的科学态度。对应核心素养，本节课重点发展数学抽象（函数定义与对数概念的建构）、直观想象（图像与对称）、数学运算（指数对数互化与比较）三方面素养，让目标可测、可评、可落地。
+
+**四、说教学重难点**
+教学重点是指数函数、对数函数的概念、图像与性质，以及二者互为反函数关系，因为这是后续一切指数对数应用的根基。教学难点有三：一是底数 a>0 且 a≠1 的合理性的理解，学生易机械记忆而不知所以然；二是对数概念及真数大于零的来由，根源在于对数“逆向思维”的陌生；三是指数函数与对数函数互为反函数及其图像关于 y=x 对称的几何直观。针对难点，我均以反例追问与几何画板动态演示来突破，把抽象结论还原为可观察、可操作的活动。
+
+**五、说教法学法**
+教法上采用情境引入、问题驱动与数形结合。以细胞分裂、复利创设问题，用“为什么 a>0 且 a≠1”等一连串追问引导学生思辨，用几何画板把图像与对称可视化，把教师定位为组织者与点拨者。学法上引导学生“观察—猜想—验证—归纳”，在分组描点中自主发现规律，在师生对话中完善表达，在互化练习中内化概念，突出学生主体，实现做中学、悟中得。评价上以黑板板演与即时练习为反馈手段，捕捉思维痕迹，做到练中评、评中改。
+
+**六、说教学过程**
+全课约四十五分钟，分五个环节。第一环节约八分钟，用细胞分裂与存款复利引入，列出 2^n、1.05^n 等式子，感受指数爆炸并板书课题与探究线索。第二环节约十二分钟，先回顾指数幂性质，给出定义并让学生用反例论证 a 的范围，再分组描点画出 a=2 与 a=1/2 的图像，归纳定点（0，1）、渐近线、单调性与值域。第三环节约八分钟，由 2^x=8 引出对数定义，讲清真数大于零、两个特例与对数恒等式，并简介常用对数与自然对数。第四环节约十二分钟，由变量互换导出对数函数，用 y=2^x 与 y=log_2 x 演示关于 y=x 对称，揭示互为反函数，对比定义域值域互换。第五环节约五分钟，以“一条主线、两座函数、三种对称”小结并补全结构图，布置分层作业。整节课环环相扣，数形交融，主线清晰。各环节均预设了师生对话与即时练习，确保重点处有探究、难点处有支撑，使不同层次学生都能在原有基础上获得提升。在板书与小结中反复呼应“一条主线、两座函数、三种对称”，帮助学生把零散知识编织成网络，为课后自主复习提供清晰抓手。
+
+**七、说板书设计**
+板书采用“总—分”结构，上方居中写课题，主体分五块：指数函数定义与性质、对数概念与恒等式、对数函数定义与性质、反函数关系、知识主线，并配实例 2^n、1.05^n 与对称记号。定点（0，1）、（1，0）及 a 的范围被重点标注，对数恒等式单独成行突出，既是知识清单，又是方法指南，便于学生抬头即复习，也呼应小结中的结构图。
+
+**八、说教学反思与效果预测**
+预计多数学生能说出两类函数定义与性质，会用单调性比较大小，理解互为反函数与图像对称，并体会指数对数的互逆。课堂可能生成的问题是：学生易把指数函数的变量位置与幂函数混淆，或把对数恒等式记反、忽略真数大于零，我会用即时练习当堂纠偏，并把典型错误转化为教学资源。不足在于容量大，若讨论热烈，第四环节可能被压缩，我会灵活精简拓展作业的讲解，保证反函数这一难点的充分展开。相信在情境、反例与数形结合的支撑下，学生能扎实建立指数与对数的互逆观念，为后续函数学习筑牢根基。我的说课到此结束，谢谢各位老师！`}},Ts={"高中|高一|数学|三角函数":{plan:`一、情境引入（周期现象：潮汐、圆周运动）
+
+【教师活动】教师在多媒体上播放两段视频：第一段是海边每日潮起潮落的延时摄影，第二段是摩天轮匀速转动的俯视动画。视频暂停后，教师提问：这两幅画面有什么共同特征？能否用一个词概括它们的变化规律？随后教师在黑板上画出潮汐高度随时间变化的草图，以及圆周上一点绕圆心运动的轨迹，引导学生观察“周而复始”的变化。
+
+【学生活动】学生观看视频，分组讨论后发言。多数学生能说出“重复”“循环”“一圈一圈”。一名学生补充：摩天轮上座舱的高度一会儿高一会儿低，转一圈又回到原来的高度。学生在草稿纸上尝试用横轴表示时间、纵轴表示高度，描出几个点，初步感受“周期性”。
+
+【设计意图】从学生熟悉的真实情境切入，把抽象的“周期”概念建立在可感知的生活经验之上，激发探究欲望，同时自然引出“用函数刻画周期现象”的研究方向，为后面定义三角函数埋下伏笔。
+
+（师生对话）
+师：请大家看潮汐图，如果时间一直往后走，这条曲线的形状会怎样？
+生：它会一直重复前面的样子。
+师：用一个数学词怎么说？
+生：周期性的，或者说循环的。
+师：很好。我们学过的函数里，有没有本身就是周期变化的？
+生：……好像一次函数、二次函数都不是。
+师：对，我们需要一个新的函数家族来描述这类现象，这就是今天的主角——三角函数。
+
+二、任意角与弧度制（角的推广、弧度与角度互化）
+
+【教师活动】教师先回顾初中角的定义，然后演示：让一条射线绕端点旋转，逆时针转得正角，顺时针转得负角，不转得零角。教师提问：转一圈回到原位，这个角和零角有什么关系？引出终边相同的角的集合 β = α + k·360°（k 为整数）。接着过渡到弧度制：把长度等于半径的弧所对的圆心角规定为 1 弧度，板书换算关系 180° = π rad，并推导弧长公式 l = |α|·r 与扇形面积公式 S = (1/2)·l·r。
+
+【学生活动】学生动手把常见角互化：120° 化为 2π/3，π/3 化为 60°，并在练习本上推导弧长公式。小组互查换算过程，纠正“把角度直接代入弧长公式”的错误。
+
+【设计意图】角的推广是学习任意角三角函数的前提，弧度制则把角与实数一一对应，为用函数观点研究三角函数扫清障碍。通过“角度↔弧度”双向互化训练，突破单位混淆这一常见难点。
+
+（师生对话）
+师：一条射线顺时针转半圈，这个角怎么记？
+生：负的一百八十度。
+师：那转一整圈又停在原地，和零角终边相同吗？
+生：相同，但它其实转了一圈。
+师：所以对同一个终边，可以有无数个角，它们之间相差……
+生：整数个三百六十度。
+师：正确。那弧长公式 l = |α|·r 里的 α 用什么单位？
+生：弧度！不能用角度直接代。
+
+三、三角函数定义（借助单位圆定义 sin/cos/tan）
+
+【教师活动】教师在坐标平面上画出单位圆（半径为 1 的圆），取任意角 α 的终边与单位圆交于点 P(x, y)。教师明确：sinα 就是点 P 的纵坐标 y，cosα 就是横坐标 x，tanα = y/x（x 不为 0）。动态演示：让 α 从 0 缓慢增大，点 P 沿圆周逆时针运动，学生观察 sinα、cosα 随之变化的规律。再借助 P 在不同象限的位置，归纳各三角函数的符号规律（一全正、二正弦、三正切、四余弦）。
+
+【学生活动】学生在本子上画出单位圆，标出 α 终边与单位圆的交点，写出 sinα、cosα、tanα 的值。针对 α 在不同象限的情形，判断三个函数值的符号，并用“一全正、二正弦、三正切、四余弦”口诀相互检验。
+
+【设计意图】单位圆把“角”与“点的坐标”直观联系起来，是数形结合的核心载体。动态演示设想让学生“看见”三角函数值随角变化的连续性，有助于理解定义域、值域与符号，也为后续图像教学奠定几何基础。
+
+（师生对话）
+师：α 是第二象限角，sinα 是正还是负？
+生：正，因为点 P 的纵坐标在上方。
+师：cosα 呢？
+生：负，横坐标是负的。
+师：tanα 等于 y 除以 x，正负如何？
+生：x 是负的，y 正，负除以正，所以是负的。
+师：对，所以第二象限只有正弦为正，正好对应“二正弦”。
+
+四、诱导公式与图像性质（正弦余弦的图像、五点法、周期性、单调性、奇偶性）
+
+【教师活动】教师先由单位圆的对称性导出诱导公式，概括口诀“奇变偶不变，符号看象限”。随后进入图像：用五点法（x = 0、π/2、π、3π/2、2π 五个关键点）在黑板上逐步描出 y = sinx 的图象；同样方法画出 y = cosx。结合图像总结性质：定义域均为实数集，值域均为 [−1, 1]，最小正周期均为 2π；y = sinx 为奇函数，在 [−π/2 + 2kπ, π/2 + 2kπ] 上递增；y = cosx 为偶函数，在 [2kπ − π, 2kπ] 上递增。最后简要介绍 y = tanx 的定义域与周期 π。
+
+【学生活动】学生两人一组，一人用五点法列表、一人描点连线，合作完成 sinx 与 cosx 的手绘图。然后在图象上用彩色笔标出单调区间、对称轴与最值点，对照教师板书的“性质表”进行核对与修正。
+
+【设计意图】五点法是作三角函数图象的基本功，学生亲自动手能把“公式”转化为“图形直觉”。通过图象归纳周期性、单调性、奇偶性，落实数形结合思想，使性质记忆有“形”可依，避免死记硬背。
+
+（师生对话）
+师：sinx 的图象为什么既关于原点的中心对称，又关于 x = π/2 轴对称？
+生：因为它奇函数，所以中心对称；最高点在 π/2，所以那里是对称轴。
+师：递增区间从哪里到哪里？
+生：从负二分之π加二kπ，到二分之π加二kπ。
+师：很好，这就是它“上升”的那一段。
+
+五、小结作业，分层巩固
+
+【教师活动】教师引导学生从“知识”与“方法”两条线小结：知识上，任意角与弧度制、单位圆定义、同角关系、诱导公式、图象与性质；方法上，数形结合、单位圆动态分析、五点作图。随后布置分层作业：基础层完成角度弧度互化与同角求值；提高层完成诱导公式化简与图象性质判断；拓展层研究 y = Asin(ωx + φ) 的变换与解三角形应用。
+
+【学生活动】学生先用一句话概括本节课的收获，再自主选择对应层次的作业。学优生分享对图象变换的猜想，学困生提出弧度制换算的疑惑，教师当堂点拨。
+
+【设计意图】小结帮助学生建构知识网络，分层作业尊重差异、各得其所，既巩固基础又留有挑战空间，体现“面向全体、因材施教”的公开课理念。
+
+（师生对话）
+师：今天最让你“眼前一亮”的地方是什么？
+生：用单位圆上的点直接读 sin、cos，太直观了。
+师：那课后就把五点法画一遍，再想想 Asin(ωx+φ) 怎么变出来。
+
+板书设计
+<pre>
+三角函数
+├─ 一、任意角与弧度制
+│   ├─ 任意角：正角(逆) 负角(顺) 零角
+│   ├─ 终边相同：β = α + k·360°（k∈Z）
+│   └─ 弧度制：180° = π rad；l = |α|·r；S = 1/2·l·r
+├─ 二、三角函数定义（单位圆，半径 1）
+│   ├─ 设交点 P(x, y)，r = √(x² + y²)
+│   └─ sinα = y/r，cosα = x/r，tanα = y/x（x ≠ 0）
+├─ 三、同角关系与诱导公式
+│   ├─ sin²α + cos²α = 1；tanα = sinα/cosα
+│   └─ 口诀：奇变偶不变，符号看象限
+├─ 四、图象与性质（五点法）
+│   ├─ y = sinx：奇函数，T = 2π，值域 [−1, 1]
+│   ├─ y = cosx：偶函数，T = 2π，值域 [−1, 1]
+│   └─ 单调区间、最值、对称轴（结合图象）
+└─ 五、小结与分层作业
+</pre>
+
+教学反思要点
+1. 情境引入的视频素材要简短有力，“周而复始”的提炼需留足学生发言时间，避免教师包办。
+2. 弧度制是认知难点，换算训练要当堂反馈，及时纠正“角度直接代公式”的典型错误。
+3. 单位圆动态演示是本节课的灵魂，条件允许时应让学生上台拖动角体验，而非只看教师演示。
+4. 五点法作图宜先教师示范再学生合作，关注学困生列表取值的规范性。
+5. 分层作业要落到“可检查”，下节课用三分钟反馈各层完成情况，形成教学闭环。`,talk:`一、说教材
+《三角函数》是高中数学必修课程中“函数”主线的重要一环，承接《函数的概念与性质》，是学生首次系统研究具有“周期性”的函数模型。本节作为单元起始课，内容覆盖任意角与弧度制、任意角三角函数的单位圆定义、同角三角函数基本关系、诱导公式，以及正弦、余弦函数的图象与性质。它在知识链上起着承上启下的枢纽作用：向上衔接初中锐角三角函数与函数初步，向下为后续研究 y = Asin(ωx + φ) 的图象变换、三角恒等变换及解三角形提供方法与工具。从应用价值看，三角函数广泛用于物理中的简谐振动与交变电流、天文中的周期运动以及信号处理等领域，是连接数学与自然科学的重要桥梁。在培养学生数学抽象、直观想象、数学运算等核心素养方面也具有独特价值，是高中数学从“静态函数”走向“动态周期模型”的关键转折点。
+
+二、说学情
+授课对象为高一学生。从认知基础看，他们已掌握函数三要素、单调性与奇偶性，以及坐标平面、圆的相关知识，具备一定的抽象思维能力；从生活经验看，对“旋转”“循环”“潮起潮落”有直观感受。但存在三个落差：其一，初中三角函数局限于锐角，本节课将推广到任意角，跨度较大；其二，弧度制是全新的度量体系，学生易与角度制混淆，尤其容易把角度值直接代入弧长公式；其三，单位圆定义较为抽象，符号判断容易出错。此外，高一学生刚接触高中数学的严谨表述，规范书写与符号意识仍需引导。同时，学生在初中已接触过圆与直角三角形的边角关系，对“直角三角形中锐角的对边比斜边”有印象，这既是有利迁移点，也可能成为负迁移——需明确任意角三角函数已脱离直角三角形框架，改由单位圆坐标定义。因此教学须借助动态演示搭建台阶，把抽象定义可视化、把符号规律口诀化，并充分激活其已有圆的几何经验，实现正迁移。
+
+三、说教学目标
+依据课程标准与核心素养要求，确定三维目标。知识与技能：理解任意角与弧度制，掌握角度与弧度互化及弧长公式；借助单位圆理解任意角三角函数定义，掌握同角关系 sin²α + cos²α = 1 与诱导公式；会用五点法作正弦、余弦函数图象，并说出其定义域、值域、周期性、单调性、奇偶性。过程与方法：经历“情境—定义—图象—性质”的探究过程，体会数形结合与从特殊到一般的思想，提升几何直观与逻辑推理能力。情感态度价值观：在感受数学刻画自然周期现象的简洁与和谐中，增强学习数学的自信心与探究热情，体会数学与生活、科学的广泛联系。
+
+四、说教学重难点
+教学重点：任意角与弧度制、三角函数的单位圆定义、正弦与余弦函数的图象及性质。教学难点：弧度制的理解与换算、诱导公式的符号判断、由图象归纳函数性质。突破策略：以单位圆动态演示化解定义的抽象；以“奇变偶不变，符号看象限”口诀配合象限检验突破诱导公式；以五点法作图训练把解析式转化为图形直觉，避免死记硬背；以当堂互查纠正弧度换算的典型错误。
+
+五、说教法学法
+教法上采用情境驱动导入、问题链引导探究、数形结合与讲练结合；借助多媒体与单位圆课件，将角的变化、点的运动、函数值的变化同步呈现，让“形”说话。学法上倡导“观察—猜想—验证—归纳”，引导学生在动手画图、合作交流中自主建构知识；设置分层任务，使不同水平学生各有收获。教师退居组织者、引导者角色，把课堂还给学生。
+
+六、说教学过程
+设计五个环节。环节一，情境引入：播放潮汐、摩天轮视频，提炼“周而复始”，引出用函数刻画周期现象，明确研究问题。环节二，任意角与弧度制：推广角到任意角，给出终边相同角集合，建立弧度制并推导弧长公式，强化单位换算训练。环节三，单位圆定义：动态演示终边与单位圆交点，定义 sin、cos、tan，归纳象限符号规律。环节四，诱导公式与图象性质：由对称性得诱导公式，用五点法作图象，总结周期性、单调性、奇偶性，并简介正切函数。环节五，小结作业：知识与方法的双线小结，分层巩固。全程穿插师生对话，突出学生主体。各环节时间大致分配为：情境引入约六分钟，任意角与弧度制约十二分钟，单位圆定义约十分钟，诱导公式与图象性质约十二分钟，小结作业约五分钟，并留有余地以应对课堂生成性问题，做到“环环相扣而不赶场”。
+
+七、说板书设计
+采用主干加分支的树状板书：左侧板书定义、公式与换算，中部同步手绘单位圆与正弦、余弦图象，底部列出性质对比表与记忆口诀，结构清晰、重点突出，便于学生整理笔记。板书与课件互补，静态留痕帮助学生课后复习（详见教案末板书设计）。
+
+八、说教学反思与效果预测
+预设借助情境与单位圆动态演示，学生能建立周期直觉，单位圆定义与五点法可成为牢固支点；难点弧度制与诱导符号需当堂强化训练。预测多数学生能独立完成基础层作业，提高层经点拨可达成，学优生可向图象变换延伸。课堂将设“错题即时反馈”环节，针对换算与符号典型错误当堂纠正。同时，本节课信息容量较大，须警惕“赶进度”挤压学生思考，关键处应“等一等、慢下来”；若课堂实测显示弧度制掌握薄弱，下节课以三分钟微专题即时补救，确保单元后续学习不掉队。课后将据课堂生成及时调整节奏，对学困生加强换算与列表规范，对学优生补充挑战任务，形成“教学—反馈—改进”闭环，切实提升核心素养。`}},Es={"高中|高一|数学|平面向量":{plan:`一、情境引入（物理中的力、位移等既有大小又有方向的量）
+
+【教师活动】上课伊始，教师用多媒体呈现两组生活实例。第一组：位移、速度、力、加速度；第二组：长度、质量、温度、时间。请学生观察两组量各自的共同特征，并尝试按"是否有方向"分类。随后教师播放动画：一个人从A地向东行走3米到达B地，屏幕上出现一条带箭头的线段；教师再标出"3米"这一纯数字，说明它只表示距离、不含方向。教师顺势板书课题"平面向量"，并追问：为什么我们需要专门研究这一类量？
+
+【学生活动】学生观察画面、同桌交流后踊跃发言。
+生：第一组里的力、速度、位移好像都带着方向，第二组好像只有大小。
+生：比如温度三十度，无所谓朝哪边；可位移必须说"向东三米"才有意义。
+师：说得非常准确。第一组这类量，我们既关心它"有多大"，又关心它"朝哪个方向"，这一类量就是今天的主角——向量。而第二组只有大小、没有方向的量，数学上称为数量（也叫标量）。从今天起，我们要学会用一种全新的眼光去看待"方向"。
+
+【设计意图】从学生熟悉的物理现象与日常生活经验出发，通过"有无方向"的二元分类，自然引出向量概念，体现"数学源于生活、服务于生活"的课程理念。动画演示强化学生对"方向"的直观感受，同时为后续严格区分向量与数量埋下伏笔，避免一上来就抽象定义造成认知断层。
+
+二、向量概念（向量定义、模、零向量、单位向量、平行向量、相等向量）
+
+【教师活动】教师给出向量的严格定义：既有大小又有方向的量叫作向量。讲解其几何表示——用一条有向线段来表示，有向线段的长度表示向量的大小（即模），箭头指向表示方向；向量可记作 →a，也可记作 →AB（A为起点，B为终点）。教师追问：向量能像实数那样比较大小吗？为什么？
+
+【学生活动】
+生：不能比较大小，因为方向没法比大小，只有它的长度能比。
+师：对，向量的大小叫作模，记作 |→a|，它是一个非负数，只有模才可以比较大小。
+教师接着引出特殊向量。零向量：模为0的向量，方向任意，规定零向量与任意向量平行。单位向量：模等于1的向量。再讲向量之间的关系：相等向量是指模相等且方向相同的向量；平行向量（也叫共线向量）是指方向相同或相反的非零向量，并规定零向量与任意向量共线。
+生：相等和平行到底什么关系？
+师：相等一定平行，因为方向相同自然属于"方向相同或相反"；但平行不一定相等，因为方向可能相反，模也可能不同。简记：相等是更强的条件。
+
+【设计意图】概念教学采用"定义—表示—特例—关系"四个层次，配合层层追问，引导学生主动辨析易混点。特别强调向量的"自由性"——向量只与大小和方向有关，与起点的具体位置无关，因此平行向量可以通过平移互相重合。这一认识是后续共线向量、向量相等判定乃至坐标化的逻辑基础，须在此重点突破。
+
+三、线性运算（向量加减法的三角形／平行四边形法则、数乘向量）
+
+【教师活动】教师以位移为载体引出加法：先向东走3米，再向北走4米，总位移应如何用向量表示？教师用几何画板演示三角形法则——把两个向量首尾相接，和向量由第一个向量的起点指向第二个向量的终点；再演示平行四边形法则——两向量共起点，以它们为邻边作平行四边形，和向量就是共起点的那条对角线。学生观察两种法则得到的SUM向量是否一致。
+
+【学生活动】
+生：两次位移首尾连起来，从最初起点到最终终点的箭头，就是总位移。
+师：很好，这就是三角形法则。那么 →a−→b 该怎么理解？
+生：等于 →a＋（−→b），把 →b 反向，再和 →a 相加。
+师：记忆口诀是：共起点，连终点，指向被减向量。请大家用口诀验证一下。
+教师再讲数乘：λ→a（λ为实数），其模为 |λ|·|→a|；当 λ＞0 时与 →a 同向，λ＜0 时反向，λ＝0 时得到零向量。几何画板动态展示 λ 由正到负连续变化时，向量随之伸缩与反向的过程，让学生"看见"数乘的几何意义。
+
+【设计意图】以物理位移为原型，让向量运算"看得见、摸得着"。几何画板的动态演示将抽象的运算法则可视化，帮助学生建立"形"的直觉；减法口诀降低记忆负担，师生对话中及时暴露并纠正"方向指向错误"这一典型误区，把运算的方向性讲透。
+
+四、坐标表示与数量积（坐标运算、数量积 a·b＝|a||b|cosθ、向量垂直条件）
+
+【教师活动】教师建立平面直角坐标系，将任意向量 →a 平移，使起点落在原点，此时终点的坐标（x，y）就定义为该向量的坐标，记作 →a＝（x，y）。给出坐标运算法则：→a±→b＝（x1±x2，y1±y2），λ→a＝（λx1，λy1）；两点确定的向量 →AB＝（x2−x1，y2−y1），其模 |→AB|＝√（（x2−x1）²＋（y2−y1）²）。
+
+【学生活动】
+师：两个向量互相垂直时，代数上有什么特征？
+生：它们的数量积等于零。
+师：那数量积又是怎么定义的？
+生：a·b＝|a||b|cosθ，其中 θ 是两向量之间的夹角。
+教师强调数量积的几何意义：a·b 等于 →a 在 →b 方向上的投影 |a|cosθ 乘以 |b|，也等于 →b 在 →a 方向上的投影乘以 |a|。由此得到垂直充要条件：→a⊥→b 当且仅当 →a·→b＝0；用坐标写出即为 x1x2＋y1y2＝0。教师引导学生对比平行的坐标条件（x1y2−x2y1＝0），提醒二者不可混用。
+
+【设计意图】本环节实现从"几何"到"代数"的关键跨越。坐标表示是向量运算的核心工具，使向量问题转化为数的运算，真正落实"数形结合"。数量积教学突出其几何意义（投影），避免学生陷入纯符号记忆；垂直充要条件的坐标化，为后续用代数方法判定平行、垂直、夹角与模长奠定通法基础。
+
+五、小结作业，分层巩固
+
+【教师活动】教师引导学生自主梳理本节课的知识主线：从向量概念，到线性运算，再到坐标表示与数量积，并用板书呈现结构化的知识树。随后布置分层作业：A层（基础巩固）完成概念辨析与线性运算小题；B层（能力提高）完成坐标运算与数量积的综合计算；C层（拓展挑战）尝试用向量法证明一个平面几何结论，或求解含参模长的最值问题。
+
+【学生活动】学生回顾本节要点，口头汇报自己的收获与仍存疑问之处。
+生：我明白了向量本身不能比大小，但它的模可以比大小。
+生：两个向量垂直就是数量积等于零，坐标形式下是对应坐标乘积之和为零。
+生：减法要"指向被减向量"，我之前总记反，现在用口诀就不会错了。
+
+【设计意图】小结环节培养学生自主归纳、建构知识网络的能力；分层作业尊重学生的个体差异，让不同水平的学生都能在各自"最近发展区"内获得发展，切实落实因材施教。作业中的C层设计也呼应了公开课"面向全体、兼顾拔尖"的展示诉求。
+
+板书设计
+<pre>
+平面向量
+一、向量概念
+  定义：既有大小又有方向的量（自由向量）
+  表示：有向线段 →AB，模 |→AB|（长度，可比较）
+  特殊向量：零向量（模0，方向任意，与任意向量平行）
+            单位向量（模为1）
+  关系：相等向量（模相等且方向相同）
+        平行（共线）向量（方向相同或相反）
+二、线性运算
+  加法：三角形法则（首尾相接）
+        平行四边形法则（共起点，对角线）
+  减法：共起点，连终点，指向被减向量
+        →a−→b＝→a＋（−→b）
+  数乘：λ→a（λ∈R），模 |λ|·|→a|
+三、坐标表示与数量积
+  坐标：→a＝（x，y）
+  运算：→a±→b＝（x1±x2，y1±y2）
+        λ→a＝（λx1，λy1）
+        →AB＝（x2−x1，y2−y1）
+  数量积：a·b＝|a||b|cosθ
+  投影：|a|cosθ
+  垂直：→a⊥→b ⟺ →a·→b＝0
+        坐标式 x1x2＋y1y2＝0
+</pre>
+
+教学反思要点
+1. 物理情境引入有效激活了学生的前认知，但部分学生仍易把"模相等"误当作"向量相等"，后续需增设概念辨析专项训练，强化方向条件。
+2. 几何画板的动态演示显著提升了法则的直观性，建议为减法与数乘也制作可交互动画，并让学生上台拖动参数亲身感受。
+3. 数量积的几何意义（投影）是公认的难点，应补充"先投影、后相乘"的更多生活实例，避免学生只机械套用公式而忽视其几何来源。
+4. 坐标运算中 →AB 的方向易写反（误写成起点减终点），需要在练习中反复强化"终点坐标减起点坐标"的书写规范。
+5. 分层作业的实施效果必须通过批改与反馈动态调整；对C层学生应提供必要的"方法支架"与思路提示，而非简单堆砌难题。`,talk:`一、说教材
+《平面向量》是人教A版高中数学必修第二册的核心内容，也是沟通几何与代数的重要桥梁。向量既是一个几何对象（可用有向线段表示），又是一个代数对象（可用坐标表示），其"数形结合"的本质贯穿整个高中数学。本节作为平面向量的起始课，承担着概念建构与运算奠基的双重任务：后续的坐标表示、数量积、向量法解几何问题，全部建立在本节课所确立的概念体系与运算直觉之上，因此其地位举足轻重，是培养学生直观想象与数学抽象素养的关键载体。此外，向量思想在后续的复数、空间向量、解析几何乃至大学线性代数中反复出现，是一以贯之的数学语言；本节奠基是否扎实，直接影响学生长远的数学学习能力。因此，本节课不仅要让学生"学会"，更要让他们"想通"，为整个向量单元乃至更高学段埋下伏笔。
+
+二、说学情
+授课对象为高一学生。他们在物理课中已接触过力、位移、速度等带方向的量，具备初步的直观经验；同时经过初中与高一上学期的学习，已经掌握了平面直角坐标系与实数运算的基本技能。但学生长期习惯"数"的思维，对"既有大小又有方向"的向量缺乏系统认识，容易把向量与数量混为一谈，对带方向性运算的几何意义感到抽象。因此，教学必须借助直观演示与物理原型，把抽象概念"翻译"成学生能感知的经验。同时，高一学生已具备一定的合作探究与归纳能力，乐于在动手操作中建构知识，但抽象概括能力仍有待提升，需要教师搭好"脚手架"，在关键处点拨、在易错处停留，避免因急于赶进度而架空学生的思维过程。
+
+三、说教学目标
+基于课标与学情，确立四维目标：（1）知识与技能——理解向量的概念，能区分向量与数量，掌握模、零向量、单位向量、相等向量、平行（共线）向量的含义及相互关系；掌握向量加减法的三角形与平行四边形法则、数乘的几何意义；理解坐标表示与数量积定义，会进行坐标运算，掌握垂直的充要条件 a·b＝0。（2）过程与方法——经历"物理原型—几何表示—代数运算"的探究过程。（3）情感态度——感受数学与物理的密切联系。（4）核心素养——重点发展数学抽象、直观想象与数学运算素养。四个维度相互支撑，既保证基础知识的落实，又凸显学科育人价值，使本节课在赛课展示中不仅"好看"，更"有用"，避免公开课流于形式表演。
+
+四、说教学重难点
+教学重点：向量的概念与几何表示；线性运算的法则及其几何意义；坐标运算与数量积。教学难点：向量方向的几何意义（尤其是减法的"指向被减"与数乘的方向变化）；数量积的几何意义（投影）；用坐标判定平行与垂直时的条件区分。突破策略：以物理位移为原型引出运算，借助几何画板动态演示把"方向"可视化，配合简明的记忆口诀与针对性的辨析练习，层层化解难点。需要特别说明的是，难点的形成并非学生能力问题，而是从"数"到"形"思维切换的不适应；因此本节课格外注重在每一步运算之后回归几何意义，防止学生"只算不想"，把运算课上成机械训练。
+
+五、说教法学法
+教法上采用情境驱动、问题导引、数形结合与讲练结合。以"分类—定义—演示—运算—应用"为主线索推进。学法上倡导自主探究（概念辨析）、合作交流（法则推导）与归纳建构（知识主线）。充分运用几何画板让学生"做中学"：在操作中理解法则，在对话中澄清误区，在练习中形成技能，真正把课堂还给学生。同时设计"概念辨析单"与"分层任务卡"，让不同起点的学生都有明确的探究路径，体现对学习差异的尊重与支持。
+
+六、说教学过程
+全课分为五个环节。环节一情境引入：通过物理量的二元分类引出向量，激发兴趣。环节二概念建构：给出定义，讲清模、零向量、单位向量、相等与平行，突破"自由性"认识。环节三线性运算：以位移为载体，用几何画板演示加法两种法则、减法与数乘，配口诀巩固。环节四坐标与数量积：建立坐标表示，推导坐标运算法则，揭示数量积定义 a·b＝|a||b|cosθ 与垂直条件 a·b＝0。环节五小结作业：梳理知识树并布置分层作业。全程穿插师生对话，落实以学定教。各环节时间分配约为：情境引入6分钟、概念建构12分钟、线性运算15分钟、坐标与数量积10分钟、小结作业2分钟，并预留弹性空间以应对课堂生成，确保重点突出、节奏从容，符合赛课对课堂驾驭力的高要求。
+
+七、说板书设计
+板书采用"知识树"结构，分三区呈现：左侧列出概念体系（定义、模、特殊向量、相等与平行）；中间列出运算法则（加法两法则、减法口诀、数乘）；右侧列出坐标与数量积的核心公式，并醒目标出垂直的充要条件。整体结构清晰、逻辑主线突出，便于学生回看、笔记与课后复习，也体现了"概念—运算—应用"的认知梯度。板书并非教师独角戏式地抄写，而是在师生共同梳理中逐步生成；关键公式用彩色粉笔标注，垂直充要条件单独成框，起到"画龙点睛"的强调作用，让板书本身成为可回放的思维地图。
+
+八、说教学反思与效果预测
+教学反思：情境引入有效但易混概念仍需强化训练；动态演示对法则理解帮助显著，应推广到减法与数乘；数量积的几何意义是难点，须补充投影实例。效果预测：预计百分之八十以上的学生能独立完成基础运算，约百分之六十能灵活运用坐标判定平行与垂直；通过分层作业与及时反馈，不同层次学生均能获得相应发展，直观想象与数学运算素养得到有效提升，达成公开课既定的素养目标。若实际授课中发现学生对投影理解吃力，将临时增插一个"手电筒斜射地面"的生活类比，把抽象的投影具象化，体现教师对课堂的生成性调控能力，也彰显公开课应有的教学机智。`}};export{Ue as $,ns as A,ts as B,ss as C,Re as D,He as E,Ve as F,$e as G,We as H,Fe as I,De as J,Ge as K,ye as L,Xe as M,te as N,Es as O,C as P,ve as Q,Ye as R,ge as S,Ae as T,Q as U,Me as V,Ke as W,Ie as X,Ce as Y,me as Z,we as _,Ts as a,Ne as a0,je as a1,U as a2,Te as a3,Oe as a4,_e as a5,Pe as a6,le as a7,Le as a8,ie as a9,Je as aa,Ee as ab,I as ac,Se as ad,Be as ae,qe as af,Ze as ag,Qe as ah,es as ai,g as aj,_s as b,ws as c,Bs as d,Ls as e,Ss as f,vs as g,As as h,ys as i,hs as j,bs as k,gs as l,us as m,ps as n,ds as o,ks as p,cs as q,zs as r,fs as s,ms as t,xs as u,ls as v,rs as w,os as x,is as y,as as z};
