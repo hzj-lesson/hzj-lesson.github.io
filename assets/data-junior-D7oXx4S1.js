@@ -1,4 +1,4 @@
-import{O as n,o as e}from"./lesson-data-BimG3vbW.js";import"./open-class-B_KYLiVg.js";const $=[{subject:"语文",stage:"初中",grade:"七年级",chapter:"古诗文：观沧海/闻王昌龄左迁龙标遥有此寄",备课方案:`**教学目标**
+import{O as n,o as e}from"./lesson-data-B1Ceay3X.js";import"./open-class-C8V03qV8.js";const $=[{subject:"语文",stage:"初中",grade:"七年级",chapter:"古诗文：观沧海/闻王昌龄左迁龙标遥有此寄",备课方案:`**教学目标**
 1. 反复诵读，把握两首诗的基本内容与感情基调，能背诵并默写全文。
 2. 学习《观沧海》借景抒情、虚实结合的手法，感受曹操博大的胸襟与雄心壮志。
 3. 学习《闻王昌龄左迁龙标遥有此寄》托物寄情的手法，体会李白对友人的深切关怀。
