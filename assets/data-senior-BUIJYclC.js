@@ -1,4 +1,4 @@
-import{O as r,o as $}from"./lesson-data-Br9ODW1L.js";import"./open-class-qCcVvAVh.js";const i=[{subject:"语文",stage:"高中",grade:"高一",chapter:"古诗文：短歌行/归园田居",备课方案:`**教学目标**
+import{O as r,o as $}from"./lesson-data-DQAZVsji.js";import"./open-class-V_1rVkBY.js";const i=[{subject:"语文",stage:"高中",grade:"高一",chapter:"古诗文：短歌行/归园田居",备课方案:`**教学目标**
 1. 反复诵读两首诗歌，读准字音，把握四言、五言诗的节奏与韵律，能熟练背诵并准确默写全诗。
 2. 理解《短歌行》中曹操「忧思难忘」的深层内涵，体会其求贤若渴、一统天下的雄心壮志。
 3. 理解《归园田居》中陶渊明厌恶官场、回归自然的情感，感受田园诗冲淡平和的意境之美。
