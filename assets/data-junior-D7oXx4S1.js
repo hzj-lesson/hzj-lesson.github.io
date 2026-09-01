@@ -16435,4 +16435,2251 @@ A. has lived; living  B. lived; live  C. has lived; live  D. lives; living
 **常见错误**：used to 三种结构混淆；成长故事只有结论没有细节；not only 置于句首时忘记倒装；前后时态不一致。
 **教学改进建议**：用三栏对照表强化三种 used to 结构；用时间线写作法先列时间点再成文；范文精读仿写。
 **分层辅导**：学困生掌握 used to 基本用法，写出"过去 vs 现在"对比句；学优生要求事例具体、用倒装等高分句式。
-**给家长的建议**：和孩子一起回忆成长故事积累素材；鼓励用英语向家人介绍自己的变化。`}],t=i=>i.map(a=>{const r=n[e(a)];return r?{...a,openClass:r}:a}),_=[...t($),...t(s),...t(g),...t(o),...t(w),...t(l),...t(c),...t(S),...t(h),...t(u),...t(q),...t(f),...t(d)];export{_ as JUNIOR_LESSONS};
+**给家长的建议**：和孩子一起回忆成长故事积累素材；鼓励用英语向家人介绍自己的变化。`},{subject:"英语",stage:"初中",grade:"九年级",chapter:`人教版 Unit 1：How can we become good learners?`,备课方案:`**教学目标**
+1. 语音与词汇：能正确认读、拼写并运用本单元 36 个课内单词（见讲义单词表），掌握 20 个核心短语，注意区分 pronunciation / pronounce、wise / wisely、memory / memorize 等词族。
+2. 语言知识：掌握"by + 动名词"表示方式方法的构成与用法，掌握 How do you...? / How can I...? 的问答，理解动名词作主语、宾语的基本用法。
+3. 语言技能：能听懂关于学习方法的对话与访谈，读懂介绍学习经验、学习习惯的短文，能就"如何学好英语"进行口头交流并写出条理清楚的建议信。
+4. 情感态度与文化意识：认识到学习方法因人而异、没有万能捷径，乐于向同伴分享行之有效的学习策略，养成善于总结、勤于反思、从错误中学习的好习惯。
+
+**教学重点**：by + 动名词表示方式方法；How do you...? 问答句型；学习方法类话题词汇与短语。
+**教学难点**：by 与 with / in / through 表示方式时的区别；动名词作主语时谓语动词用单数；听力中因连读、弱读造成的信息遗漏。
+**教学方法**：情景导入、任务型教学、小组合作、思维导图归纳、当堂检测。
+**课时安排**：4 课时（Section A 2 课时 + Section B 1 课时 + 复习与写作 1 课时）`,课堂讲义:{核心知识点:`**一、课内单词（Words and Expressions）**
+| 单词 | 音标 | 词性 | 中文释义 | 教材搭配 / 例句 |
+|------|------|------|----------|-----------------|
+| textbook | /ˈtekstbʊk/ | n. | 教科书；课本 | read the textbook aloud 朗读课本 |
+| conversation | /ˌkɒnvəˈseɪʃn/ | n. | 交谈；谈话 | have conversations with friends 和朋友交谈 |
+| aloud | /əˈlaʊd/ | adv. | 出声地；大声地 | read aloud to practice pronunciation 朗读练发音 |
+| pronunciation | /prəˌnʌnsiˈeɪʃn/ | n. | 发音；读音 | get the pronunciation right 把音发准 |
+| sentence | /ˈsentəns/ | n. | 句子 | make sentences with new words 用生词造句 |
+| patient | /ˈpeɪʃnt/ | adj. | 有耐心的（n. 病人） | be patient with your classmates 对同学有耐心 |
+| expression | /ɪkˈspreʃn/ | n. | 表达（方式）；表情 | the expressions on their faces 他们脸上的表情 |
+| discover | /dɪˈskʌvə(r)/ | v. | 发现；发觉 | discover the secret to learning 发现学习的秘诀 |
+| secret | /ˈsiːkrət/ | n. | 秘诀；秘密（adj. 秘密的） | the secret to language learning 语言学习的秘诀 |
+| grammar | /ˈɡræmə(r)/ | n. | 语法 | make mistakes in grammar 在语法上犯错 |
+| repeat | /rɪˈpiːt/ | v. | 重复；重做 | repeat the words out loud 大声重复单词 |
+| note | /nəʊt/ | n. | 笔记；记录（v. 注意） | take notes in class 课上记笔记 |
+| physics | /ˈfɪzɪks/ | n. | 物理；物理学 | have a physics class 上物理课 |
+| chemistry | /ˈkeməstri/ | n. | 化学 | study chemistry hard 努力学化学 |
+| memorize | /ˈmeməraɪz/ | v. | 记忆；记住 | memorize sentence patterns 记住句型 |
+| pattern | /ˈpætn/ | n. | 模式；方式 | useful sentence patterns 有用的句型 |
+| pronounce | /prəˈnaʊns/ | v. | 发音 | pronounce some of the words 发一些单词的音 |
+| increase | /ɪnˈkriːs/ | v. | 增加；增长 | increase my reading speed 提高阅读速度 |
+| speed | /spiːd/ | n. | 速度 | at a low speed 以很慢的速度 |
+| partner | /ˈpɑːtnə(r)/ | n. | 搭档；同伴 | practice speaking with a partner 与同伴练口语 |
+| born | /bɔːn/ | v. | 出生（adj. 天生的） | be born with the ability 天生具有这种能力 |
+| ability | /əˈbɪləti/ | n. | 能力；才能 | the ability to learn 学习的能力 |
+| create | /kriˈeɪt/ | v. | 创造；创建 | create an interest in what we learn 激发学习兴趣 |
+| brain | /breɪn/ | n. | 大脑 | use your brain 动脑筋 |
+| active | /ˈæktɪv/ | adj. | 活跃的；积极的 | be active in class 课上积极 |
+| attention | /əˈtenʃn/ | n. | 注意；关注 | pay attention to it for a long time 长时间关注它 |
+| connect | /kəˈnekt/ | v. | （使）连接；与……有联系 | connect...with... 把……和……联系起来 |
+| review | /rɪˈvjuː/ | v. / n. | 回顾；复习 | review what we have learned 复习学过的内容 |
+| knowledge | /ˈnɒlɪdʒ/ | n. | 知识；学问 | knowledge comes from questioning 知识源于质疑 |
+| wisely | /ˈwaɪzli/ | adv. | 明智地；聪明地 | learn wisely and learn well 学得明智、学得好 |
+| overnight | /ˌəʊvəˈnaɪt/ | adv. | 一夜之间；在夜间 | it doesn't happen overnight 这不会一夜之间发生 |
+| learner | /ˈlɜːnə(r)/ | n. | 学习者 | a successful learner 一名成功的学习者 |
+| improve | /ɪmˈpruːv/ | v. | 改进；改善 | improve my speaking skills 提高我的口语能力 |
+| vocabulary | /vəˈkæbjələri/ | n. | 词汇；词汇量 | build up your vocabulary 积累词汇量 |
+| listening | /ˈlɪsnɪŋ/ | n. | 听力 | do more listening practice 多做听力练习 |
+| skill | /skɪl/ | n. | 技能；技巧 | listening skills 听力技巧 |
+
+**二、核心短语**
+- ask the teacher for help —— 向老师求助
+- study for a test —— 备考
+- have conversations with —— 与……交谈
+- read aloud —— 朗读
+- speaking skills —— 口语技能
+- word by word —— 逐词地
+- the secret to... —— ……的秘诀
+- look up...in a dictionary —— 在词典里查阅……
+- take notes —— 记笔记
+- make mistakes in grammar —— 在语法方面出错
+- pay attention to —— 注意；关注
+- connect...with... —— 把……和……联系起来
+- be born with —— 天生具有
+- depend on —— 取决于；依靠
+- learn from mistakes —— 从错误中学习
+- bit by bit —— 一点点地
+- instead of —— 代替；而不是
+- at once —— 立刻；马上
+- worry about —— 为……担心
+- over and over again —— 反复地；一再地
+
+**三、核心句型**
+1. — How do you study for a test? — I study by working with a group. —— 用 How 提问方式，用"by + 动名词"回答。
+2. — How can I improve my pronunciation? — One way is by listening to tapes. —— 用 by 短语给出具体建议。
+3. What about reading aloud to practice pronunciation? —— What/How about + 动名词，用于提出建议。
+4. It's too hard to understand spoken English. —— too...to... 表示"太……而不能……"，spoken English 为过去分词作定语。
+5. The more you read, the faster you'll be. —— "the + 比较级, the + 比较级"表示"越……越……"。
+6. It is also easier for you to pay attention to it for a long time. —— It is + adj. + for sb. + to do sth. 句型。
+7. Learning is a lifelong journey because every day brings something new. —— 动名词作主语，谓语动词用单数。
+
+**四、语法聚焦："by + 动名词"表示方式 & 动名词作主语、宾语**
+- 构成：by + 动词-ing（动名词），在句中作方式状语。
+- 用法一：回答 How 引导的问句，说明"通过怎样的方式"做成某事。by 之后只能接动名词，不能接动词原形；否定形式为 by not doing。
+  - I learn new words by making word cards. 我通过做单词卡片学新词。
+  - He improved his English by not being afraid of making mistakes. 他靠不怕出错提高了英语。
+  - — How do you practice speaking? — By having conversations with my classmates.
+- 用法二：动名词可作主语，谓语动词用单数；也可作动词或介词的宾语。
+  - Reading aloud is a good way to learn English.（主语，谓语用 is）
+  - I enjoy reading English magazines.（动词宾语）
+  - Are you afraid of speaking in class?（介词宾语）
+- 易错提示：
+  1. by 后误接动词原形，如错写成 by read，必须改为 by reading。
+  2. by 表示抽象方式，with 表示使用具体工具（write with a pen），in 表示用某种语言或材料（in English），through 强调经由某个过程（through hard work），四者不可混用。
+  3. pay attention to、look forward to、be used to 中的 to 都是介词，后面一律接动名词。
+  4. 动名词作主语时谓语用单数，学生常受紧邻的复数名词干扰而误用 are。
+
+**五、话题写作框架（给建议信：如何学好英语 / 汉语）**
+- 开头点题：I'm glad to give you some advice on how to learn English well. Here are some good ways of learning English.
+- 中间分层：First, you can improve your listening by watching English movies. Second, it's a good idea to read aloud every morning. Third, don't be afraid of making mistakes — you can learn from them. What's more, taking notes in class helps a lot.
+- 结尾收束：I hope my advice will help you. Remember, practice makes perfect and learning is a lifelong journey.`,重点难点解析:`**重点："by + 动名词"表示方式方法**
+by 是介词，后面必须接动名词（动词-ing），整个介词短语在句中作方式状语，用来回答 How 提出的"怎样做"的问题。它强调"通过某种手段或途径"达到目的。
+- I study English by watching English videos. 我通过看英语视频学英语。
+- You can improve your writing by keeping a diary in English. 你可以通过用英语写日记来提高写作。
+- She memorized the words by making word cards. 她靠做单词卡片记住了这些词。
+需要提醒学生：提问时用 How（How do you learn new words?），回答时用 By doing；若答语是具体工具，则用 with（I write with a pen）。
+
+**难点一：by / with / in / through 表示"用、通过"的辨析**
+- by：接动名词，表示抽象的方式、手段，by reading aloud；也可表示交通方式 by bus、被动语态的动作执行者 written by him。
+- with：接具体工具或身体部位，表示"用……"，cut it with a knife、write with my left hand。
+- in：接语言、材料、声音，表示"用（某种语言/材料）"，in English、in ink、in a low voice。
+- through：强调"经由某个过程、经历"，through hard work、through years of practice。
+学生典型错误：把"通过大声朗读"译成 with reading aloud；把"用钢笔写"译成 by a pen。记忆口诀：**by 接动名词表方式，with 接工具，in 接语言材料，through 接过程经历**。
+
+**难点二：动名词作主语与宾语**
+动名词兼具动词和名词的特征，因此在句中可以充当名词的多种角色。
+1. 作主语：谓语动词用**单数**。Reading aloud **is** helpful. / Watching English movies **helps** a lot. 学生常因主语里出现复数名词而误用 are（错句：Reading English books are useful.）。
+2. 作动词宾语：常见后接动名词的动词有 enjoy, practice, finish, mind, keep, suggest, consider, imagine 等。I practice **speaking** English every day.（不能说 practice to speak）
+3. 作介词宾语：介词后一律用动名词，尤其注意短语中的 to 是介词的情况——pay attention **to doing**、look forward **to doing**、be used **to doing**、instead **of doing**。
+记忆方法：把"介词 + 动名词"当作固定搭配整体记忆，见到 to 先判断它是介词还是不定式符号。
+
+**中考考点提示**
+- 单项选择与语法填空：必考 by + 动名词，题干多为"—How do you improve your English? —___ English songs."，答案用 By listening to；常把 with / in / to 混入选项。
+- 完成句子：常考"通过做某事"的翻译，如 by reading aloud、by working with friends，注意 -ing 形式不可漏掉。
+- 完形填空与阅读理解：学习方法类说明文高频，短语 take notes、look up、make mistakes、pay attention to、depend on 的辨析是设题点。
+- 书面表达：建议信（给外国笔友介绍汉语学习方法、给同学提英语学习建议）为高频题型，词数 80—100，需要用到 by doing、the more...the more...、It's + adj. + to do 等句式。`,典型例题精讲:`**例题 1（by + 动名词）**
+题目：— How do you improve your listening? — ______ English songs every day.
+A. By listening to  B. With listening to  C. By listen to  D. To listen to
+解析：How 提问方式，答语用"by + 动名词"；by 是介词，后面必须接 -ing 形式，且 listen 是不及物动词，接宾语时要加 to。with 后接具体工具，不接动名词表方式；不定式不能回答 How。
+答案：A
+方法小结：看到 How 问方式，先在选项中找 By + doing；同时检查动词是否为 -ing 形式。
+
+**例题 2（by / with / in 辨析）**
+题目：Please write your name ______ a pen, and try to answer the question ______ English.
+A. by; in  B. with; in  C. in; with  D. with; by
+解析：a pen 是具体书写工具，用 with；English 是语言，用 in。by 后接动名词表示方式，不接具体工具，也不接语言。
+答案：B
+方法小结：工具用 with，语言材料用 in，抽象方式用 by doing，三者不可互换。
+
+**例题 3（动名词作主语）**
+题目：______ word cards ______ a useful way to memorize new words.
+A. Make; is  B. Making; are  C. Making; is  D. Makes; are
+解析：此处需要主语，动词原形不能作主语，须用动名词 Making；动名词短语作主语时，谓语动词用单数 is。
+答案：C
+方法小结：动词作主语一律变 -ing（或 to do），谓语一律按单数处理。
+
+**例题 4（完成句子与综合运用）**
+题目：根据汉语完成句子：每天早上大声朗读是学好英语的好方法。______ ______ every morning ______ a good way to learn English well.
+解析："大声朗读"作主语用动名词 Reading aloud；"是"对应 is；句首注意大写。题干同时考查教材短语 read aloud。
+答案：Reading aloud; is
+方法小结：完成句子先定句子成分——缺主语就用动名词，缺谓语再定单复数与时态。
+
+**例题 5（话题表达）**
+题目：你的英国笔友 Mike 想学汉语，来信征求建议。请给他回信，介绍 2—3 条学习汉语的方法，词数 80 左右。
+解析：建议信按"总—分—总"组织；每条建议都要落到"by + 动名词"上；结尾用鼓励性语句收束。
+答案：参考范文：Dear Mike, I'm glad to give you some advice on how to learn Chinese well. First, you can improve your listening by watching Chinese cartoons. Second, it's a good idea to read aloud every morning, which helps you get the pronunciation right. Third, don't be afraid of making mistakes. You can learn a lot from them by keeping a diary in Chinese. What's more, learning Chinese songs is also fun and useful. Learning a language takes time, so be patient. I hope my advice will help you.
+方法小结：写建议信时，方法用 First / Second / What's more 分层，每条配 by doing，结尾呼应开头。`},课后作业:[{difficulty:"基础",title:"基础巩固",questions:[{q:`根据句意和首字母提示写单词：Please read a______ so that everyone can hear you.`,a:`答案 aloud。read aloud 意为“朗读、出声地读”，aloud 是副词，强调“出声”，与 loudly（大声地）不同。`},{q:`用所给词的适当形式填空：You can learn new words by ______ (make) word cards.`,a:`答案 making。by 是介词，后接动名词，make 去 e 加 -ing。`},{q:`短语翻译：① 向老师求助 ② 查字典 ③ 记笔记 ④ 注意；关注`,a:`答案 ① ask the teacher for help ② look up...in a dictionary ③ take notes ④ pay attention to。注意 look up 的宾语是代词时须放在 look 与 up 之间（look them up）。`},{q:`句型转换：I study English by working with a group.（对 by working with a group 提问）`,a:`答案 How do you study English?。by 短语表示方式，用 How 提问，原句一般现在时，主语 I 变为 you，加助动词 do。`}]},{difficulty:"中等",title:"能力提升",questions:[{q:`单项选择：The secret ______ language learning is ______ attention to what you are learning.  A. to; paying  B. of; pay  C. to; pay  D. of; paying`,a:`答案 A。the secret to... 是固定搭配；is 后接表语，动词须用动名词 paying；pay attention to 中 to 为介词。`},{q:`单项选择：— I can't understand the new words in the text. — Why not ______ in a dictionary?  A. look up them  B. look them up  C. look it up  D. to look them up`,a:`答案 B。Why not + 动词原形；look up 是“动词 + 副词”短语，代词宾语须置于中间；words 为复数，用 them。`},{q:`完成句子：你读得越多，你的阅读速度就越快。______ ______ you read, ______ ______ you will be.`,a:`答案 The more; the faster。“the + 比较级, the + 比较级”表示“越……越……”，much 的比较级是 more，fast 的比较级是 faster。`},{q:`单项选择：______ English magazines every day is helpful to us.  A. Read  B. Reads  C. Reading  D. To reading`,a:`答案 C。此处缺主语，动词须用动名词 Reading；动名词短语作主语时谓语用单数，故后半句用 is。`}]},{difficulty:"难",title:"综合挑战",questions:[{q:`短文填空：用方框中所给词的适当形式填空（每词限用一次）：learn, pay, connect, review, active。Good learners often ___1___ what they need to learn with something interesting. They also ___2___ attention to the key points in class. After class, they ___3___ what they have learned in time. They are ___4___ in thinking and never stop ___5___ from mistakes.`,a:`答案 1. connect（connect...with... 把……与……联系起来）2. pay（pay attention to 注意）3. review（及时复习）4. active（be active in 在……方面积极）5. learning（stop doing 停止做某事；learn from mistakes 从错误中学习）。`},{q:`句型转换：It is very hard for me to understand spoken English.（改为同义句，用 too...to...）`,a:`答案 It is too hard for me to understand spoken English. 或 Spoken English is too hard for me to understand.。too + 形容词 + to do 表示“太……而不能……”，与 It is + adj. + for sb. to do 可互换表达。`},{q:`翻译句子：① 我通过和朋友用英语交谈来提高口语。② 知识源于质疑。`,a:`答案 ① I improve my speaking skills by having conversations with my friends in English.（by + 动名词；have conversations with 与……交谈）② Knowledge comes from questioning.（介词 from 后接动名词 questioning）`},{q:`语段改错：下面短文中有 4 处错误，请找出并改正。I learn English by read aloud every morning. It help me a lot. My teacher often tells me pay attention to my pronunciation. I also practice to speak with my partner.`,a:`答案 ① by read → by reading（by + 动名词）② It help → It helps（主语为第三人称单数）③ tells me pay → tells me to pay（tell sb. to do sth.）④ practice to speak → practice speaking（practice 后接动名词）。`}]},{difficulty:"综合",title:"中考真题对接",questions:[{q:`（中考真题）— ______ do you improve your writing? — ______ keeping a diary in English.  A. What; By  B. How; By  C. How; With  D. What; With`,a:`答案 B。答语 keeping 是动名词，说明用 by 表示方式；提问方式用 How。`},{q:`（中考真题）We can save water ______ turning off the tap while brushing our teeth.  A. by  B. with  C. in  D. for`,a:`答案 A。turning off 是动名词，by 表示“通过某种方式”，符合“通过关水龙头来节水”的语境。`},{q:`（中考真题·阅读理解节选）Good learners think about what they are good at and what they need to practice more. They are not afraid of making mistakes, and they learn from them. Question: What do good learners do with their mistakes?  A. They try to forget them.  B. They are afraid of them.  C. They learn from them.  D. They never make them.`,a:`答案 C。原文 but 后明确说明 they learn from them，与 be not afraid of making mistakes 相呼应；A、B 与原文相反，D 原文未提及。`},{q:`（中考真题·书面表达）某英文报社正在举办“How I Learn English”征文活动。请写一篇短文，介绍你学习英语的两到三条有效方法，并谈谈你的体会。词数 80 左右。`,a:`参考范文：How I Learn English
+English is important, but it was difficult for me at first. Now I have found some good ways to learn it. First, I improve my listening by watching English movies. It makes learning fun. Second, I read aloud for twenty minutes every morning, and my pronunciation has improved a lot. Third, I keep a diary in English and I am not afraid of making mistakes, because I can learn from them. My English teacher also tells me to take notes carefully in class.
+I think learning is a lifelong journey. The more I practice, the better I will be.`}]}],课后反馈:`**常见错误**：by 后误接动词原形（by read）；by / with / in 混用；动名词作主语时谓语误用复数；practice、enjoy、finish 后误接不定式；look up 的代词宾语位置放错；写作中建议只有口号没有具体做法。
+**教学改进建议**：用"提问—回答"配对操练固化 How...? — By doing... 结构；用四栏对照表（by / with / in / through）做辨析；归纳后接动名词的动词口诀"完成练习值得忙，喜欢介意别放弃"；写作前先列方法清单再成句。
+**分层辅导**：学困生只要求掌握 20 个高频词与 by + 动名词基本句，能写出 3 句"我怎样学英语"；中等生要求短文填空与完成句子不失分；学优生要求在写作中运用 the more...the more...、It's + adj. + to do 等句式，并主动使用连接词。
+**给家长的建议**：每天陪伴孩子大声朗读 10 分钟并签字；允许孩子犯错，引导其准备一个"错题本"定期复习；鼓励孩子用英语记录一件小事，重在用而非背。`},{subject:"英语",stage:"初中",grade:"九年级",chapter:`人教版 Unit 2：I think that mooncakes are delicious!`,备课方案:`**教学目标**
+1. 语音与词汇：能正确认读、拼写并运用本单元 34 个课内单词（见讲义单词表），掌握 20 余个节日类核心短语。
+2. 语言知识：掌握 that / if / whether 引导的宾语从句（重点是从句的陈述语序与时态呼应），掌握 What 与 How 引导的感叹句并能正确选用。
+3. 语言技能：能听懂关于中外节日的对话与介绍，读懂节日传说与习俗类短文，能口头介绍一个节日并写出 80 词左右的节日介绍短文。
+4. 情感态度与文化意识：了解泼水节、端午节、中秋节、春节与圣诞节、万圣节的文化内涵，尊重文化差异，能用英语向世界介绍中国传统节日，增强文化自信。
+
+**教学重点**：that / if / whether 引导的宾语从句及其陈述语序；What / How 感叹句的选用；节日话题词汇与传说表达。
+**教学难点**：宾语从句的语序与时态呼应；What 与 How 的判定；长难句（含定语从句的传说句）的理解与复述。
+**教学方法**：情景导入、任务型教学、小组合作、思维导图归纳、当堂检测。
+**课时安排**：4 课时（Section A 2 课时 + Section B 1 课时 + 复习与写作 1 课时）`,课堂讲义:{核心知识点:`**一、课内单词（Words and Expressions）**
+| 单词 | 音标 | 词性 | 中文释义 | 教材搭配 / 例句 |
+|------|------|------|----------|-----------------|
+| mooncake | /ˈmuːnkeɪk/ | n. | 月饼 | eat mooncakes on Mid-Autumn Day 中秋节吃月饼 |
+| lantern | /ˈlæntən/ | n. | 灯笼 | the Lantern Festival 元宵节 |
+| stranger | /ˈstreɪndʒə(r)/ | n. | 陌生人 | talk to strangers 与陌生人交谈 |
+| relative | /ˈrelətɪv/ | n. | 亲属；亲戚 | visit relatives 走亲戚 |
+| pound | /paʊnd/ | n. | 磅（重量单位）；英镑 | put on five pounds 胖了五磅 |
+| folk | /fəʊk/ | adj. | 民间的；民俗的 | folk stories 民间故事 |
+| goddess | /ˈɡɒdes/ | n. | 女神 | the goddess of the moon 月亮女神 |
+| whoever | /huːˈevə(r)/ | pron. | 无论谁；不管什么人 | Whoever drank this could live forever. |
+| steal | /stiːl/ | v. | 偷；窃取（stole, stolen） | steal the magic medicine 偷走仙药 |
+| lay | /leɪ/ | v. | 放置；安放；产（卵） | lay out 摆开；布置 |
+| dessert | /dɪˈzɜːt/ | n. | （饭后）甜点；甜食 | have dessert after dinner 饭后吃甜点 |
+| garden | /ˈɡɑːdn/ | n. | 花园；园子 | admire the moon in the garden 在园中赏月 |
+| tradition | /trəˈdɪʃn/ | n. | 传统；风俗 | an old tradition 古老的传统 |
+| admire | /ədˈmaɪə(r)/ | v. | 欣赏；仰慕 | admire the full moon 赏满月 |
+| tie | /taɪ/ | n. | 领带（v. 捆；束） | wear a tie 系领带 |
+| haunted | /ˈhɔːntɪd/ | adj. | 有鬼魂出没的；闹鬼的 | a haunted house 鬼屋 |
+| ghost | /ɡəʊst/ | n. | 鬼；鬼魂 | dress up as ghosts 打扮成鬼 |
+| trick | /trɪk/ | n. | 花招；把戏 | play a trick on sb. 捉弄某人 |
+| treat | /triːt/ | n. | 款待；招待（v. 招待；请客） | trick or treat 不给糖就捣蛋 |
+| spider | /ˈspaɪdə(r)/ | n. | 蜘蛛 | spiders and ghosts 蜘蛛和鬼 |
+| Christmas | /ˈkrɪsməs/ | n. | 圣诞节 | Christmas Eve 圣诞前夕 |
+| fool | /fuːl/ | n. | 蠢人；傻瓜（v. 愚弄） | April Fool's Day 愚人节 |
+| novel | /ˈnɒvl/ | n. | （长篇）小说 | a famous short novel 一部著名的短篇小说 |
+| eve | /iːv/ | n. | 前夕；前夜 | on Christmas Eve 在圣诞前夕 |
+| dead | /ded/ | adj. | 死的；失去生命的 | his dead business partner 他死去的生意伙伴 |
+| business | /ˈbɪznəs/ | n. | 生意；商业 | do business with others 与他人做生意 |
+| punish | /ˈpʌnɪʃ/ | v. | 惩罚；处罚 | be punished for something 因某事受罚 |
+| warn | /wɔːn/ | v. | 警告；告诫 | warn sb. not to do sth. 警告某人不要做某事 |
+| present | /ˈpreznt/ | n. | 礼物；现在（adj. 现在的） | give presents to children 给孩子们送礼物 |
+| warmth | /wɔːmθ/ | n. | 温暖；暖和 | the warmth of the sun 阳光的温暖 |
+| spread | /spred/ | v. / n. | 传播；展开；蔓延 | spread love and joy 传播爱与快乐 |
+| costume | /ˈkɒstjuːm/ | n. | （特定场合穿的）服装；装束 | dress up in costumes 穿上戏服打扮 |
+| remind | /rɪˈmaɪnd/ | v. | 提醒；使想起 | remind sb. of sth. 使某人想起某事 |
+| Halloween | /ˌhæləʊˈiːn/ | n. | 万圣节前夕 | celebrate Halloween 庆祝万圣节前夕 |
+
+**二、核心短语**
+- the Water Festival —— 泼水节
+- the Dragon Boat Festival —— 端午节
+- the Spring Festival —— 春节
+- the Lantern Festival —— 元宵节
+- put on five pounds —— 体重增加了五磅
+- be similar to —— 与……相似
+- throw water at each other —— 互相泼水
+- wash away —— 冲走；洗掉
+- in the shape of —— 呈……的形状
+- carry people's wishes —— 承载人们的祝愿
+- shoot down —— 射下；击落
+- call out one's name —— 呼喊某人的名字
+- lay out —— 摆开；布置
+- as a result —— 结果
+- dress up —— 装扮；打扮
+- play a trick on sb. —— 捉弄某人
+- give sb. a treat —— 招待某人
+- care about —— 关心；在意
+- end up —— 最终成为；最后处于
+- remind sb. of sth. —— 使某人想起某事
+- warn sb. (not) to do sth. —— 警告某人（不要）做某事
+- think of oneself —— 为自己着想
+- spread...around —— 到处传播……
+
+**三、核心句型**
+1. I think that mooncakes are delicious! —— that 引导的宾语从句，that 在口语中常可省略。
+2. I wonder if/whether they'll have the races again next year. —— if / whether 引导的宾语从句，表示"是否"。
+3. What fun the Water Festival is! —— What 引导的感叹句，fun 为不可数名词，不加冠词。
+4. How pretty the dragon boats were! —— How 引导的感叹句，后接形容词或副词。
+5. He warns Scrooge to change his ways if he doesn't want to end up like him. —— warn sb. to do sth.，其中 if 引导条件状语从句。
+6. It is my favorite festival because it makes me feel happy. —— because 引导原因状语从句，说明喜欢某个节日的理由。
+7. The new year is a time for cleaning and washing away bad things. —— a time for doing sth. 表示"做某事的时节"。
+
+**四、语法聚焦：宾语从句（that / if / whether 引导）与感叹句**
+- 构成：
+  1. 宾语从句：主句 + that + 陈述句语序的从句；或 主句 + if / whether + 陈述句语序的从句。
+  2. 感叹句：What + (a/an) + 形容词 + 名词 + 主语 + 谓语！；How + 形容词 / 副词 + 主语 + 谓语！
+- 用法：
+  1. that 引导陈述内容的宾语从句，本身无词义，口语中常省略；动词多为 think, believe, know, hope, guess, hear 等。
+  2. if / whether 引导由一般疑问句转来的宾语从句，意为"是否"，从句必须用陈述语序；与 or not 连用或与不定式连用时只能用 whether（I don't know whether to go）。
+  3. 感叹句的选择口诀：**名用 What，形副用 How**；名词为可数单数时加 a/an，不可数名词与复数名词不加。
+- 例句：
+  - I think **that** the Lantern Festival is fun. 我认为元宵节很有趣。
+  - I wonder **if** it will rain tomorrow. 我想知道明天是否会下雨。
+  - **What** an interesting story it is! = **How** interesting the story is! 多有趣的故事啊！
+  - **What** delicious mooncakes they are! / **How** fast the boat is going!
+- 易错提示：
+  1. 宾语从句必须用**陈述语序**，学生常误写 I wonder if will it rain，应改为 I wonder if it will rain。
+  2. 主句为一般过去时，从句时态须相应后移（He said he **was** busy.）；但从句为客观真理时仍用一般现在时。
+  3. 感叹句混淆 What 与 How：先去掉主语和谓语，看剩下部分——是名词用 What，是形容词或副词用 How。
+  4. What 后接不可数名词或复数名词时不能加 a/an（What bad weather! / What beautiful flowers!）。
+  5. I think 后接否定的宾语从句时要"否定前移"：I **don't think** he is right.（不常说 I think he isn't right.）
+
+**五、话题写作框架（介绍一个节日）**
+- 开头点题：My favorite Chinese festival is the Spring Festival. It usually comes in January or February.
+- 中间展开：节前准备（Before the festival, people clean their houses and buy...）；节日活动（On that day, families get together to have a big dinner; children can get lucky money）；传说或意义（It is a time for...）。
+- 结尾抒情：It is my favorite festival because it makes me feel happy and warm. I hope you can come to China to celebrate it with us.
+- 常用衔接：First...; During the festival...; What's more...; As a result...`,重点难点解析:`**重点：that / if / whether 引导的宾语从句**
+宾语从句在句中作及物动词或介词的宾语。本单元重点掌握两类：
+1. that 引导：从句由陈述句转换而来，that 无词义、不充当成分，口语中常省略。I think (that) mooncakes are delicious. / He believes (that) he will be back next year.
+2. if / whether 引导：从句由一般疑问句转换而来，意为"是否"。I wonder if/whether they'll have the races again next year. / Do you know whether he likes zongzi?
+必须强调两点：一是从句一律用**陈述语序**（主语在前、谓语在后），助动词 do/does/did 要去掉并还原到实义动词上；二是**时态呼应**——主句为一般现在时，从句按需使用时态；主句为一般过去时，从句谓语相应变为过去范畴（is→was, will→would, have done→had done），但客观真理永用一般现在时（The teacher said that the moon travels around the earth.）。
+
+**难点一：宾语从句的语序与主句时态**
+学生典型错误：I wonder if will they come.（×）→ I wonder if they will come.（√）；Do you know where does he live?（×）→ Do you know where he lives?（√）
+纠正方法：教给学生"三步法"——① 找连接词；② 把疑问句还原成"主语 + 谓语"的陈述语序；③ 检查时态。可让学生用"does/do/did 消失，动词变回原形或过去式"的口诀自查。另外注意：Could you tell me...?、Would you please...? 中的 could / would 表示委婉语气，不是过去时，其后的从句时态不受影响。
+
+**难点二：What 与 How 感叹句的判定**
+判定口诀：**先砍主谓，看剩什么；名词用 What，形副用 How；可数单数加 a/an，不可数复数不加**。
+- What a clever boy he is!（去掉 he is，剩下 clever boy 是名词短语，用 What，且 boy 可数单数加 a）
+- What delicious food it is!（food 不可数，不加 a）
+- How clever the boy is!（去掉 the boy is，剩下 clever 是形容词，用 How）
+- How fast he runs!（去掉 he runs，剩下 fast 是副词，用 How）
+学生常见错误：What clever the boy is!（What 后直接接形容词，错）；How a clever boy he is!（How 后不能接名词，错）。还需提醒：What 与 How 引导的同义句可互换——What an interesting story it is! = How interesting the story is!
+补充：感叹句在口语中常省略主谓，如 What fun! / How interesting!，写作中保留主谓更规范。
+
+**中考考点提示**
+- 单项选择：必考宾语从句，四个选项分别设置"语序错""连接词错""时态错""正确"四种，解题顺序为"先判语序、再判连接词、最后看时态"。
+- 句型转换：把两个简单句合并为含宾语从句的复合句，或把感叹句在 What / How 之间互相转换，是完成句子题的常客。
+- 完形与阅读：节日文化类语篇高频，put on（增重/穿上）、lay out、end up、care about、remind...of... 等短语是设题点。
+- 书面表达：介绍中国传统节日（春节、中秋节、端午节）是各地中考热点，词数 80—100，要求包含时间、活动与意义，可嵌入宾语从句（I think that...）与感叹句（How happy we are!）提升语言档次。`,典型例题精讲:`**例题 1（宾语从句的语序）**
+题目：I wonder ______ next year.
+A. that they will have the races again  B. if will they have the races again
+C. whether they will have the races again  D. whether they had the races again
+解析：wonder 后接"是否"之意，用 if / whether，排除 A；宾语从句必须用陈述语序，they will 不能写成 will they，排除 B；时间状语 next year 表示将来，用一般将来时，排除 D。
+答案：C
+方法小结：三步走——连接词（是否用 if/whether）→ 陈述语序 → 时态与时间状语一致。
+
+**例题 2（宾语从句的时态呼应）**
+题目：Our teacher told us that the earth ______ around the sun.
+A. went  B. goes  C. is going  D. will go
+解析：主句 told 是过去时，从句一般用过去范畴的时态；但"地球绕太阳转"是客观真理，仍用一般现在时 goes。
+答案：B
+方法小结：时态呼应有三条铁律——主现从任意、主过从过去、真理永现在。
+
+**例题 3（What 与 How 的选用）**
+题目：______ exciting news it is! Let's tell our teacher at once.
+A. What  B. What an  C. How  D. How an
+解析：去掉主谓 it is，剩下 exciting news 是以名词 news 为中心词的名词短语，用 What；news 是不可数名词，不加 a/an。
+答案：A
+方法小结：先砍主谓看词性——名词用 What，形容词或副词用 How，再看名词是否可数单数决定是否加 a/an。
+
+**例题 4（感叹句与宾语从句综合）**
+题目：句型转换：The lanterns are very beautiful.（改为感叹句，两种）
+解析：去掉主谓 the lanterns are，剩下 beautiful 是形容词，可用 How 引导；也可把 lanterns 当作复数名词用 What 引导。
+答案：How beautiful the lanterns are! / What beautiful lanterns they are!
+方法小结：同一意思常可写成 What 与 How 两句，注意 What 句中名词前要有修饰语，复数与不可数名词前不加 a/an。
+
+**例题 5（话题表达）**
+题目：你的美国笔友 Tom 想了解中国传统节日，请给他写一封 80 词左右的信，介绍中秋节的时间、活动和意义。
+解析：按"点题—时间—活动—意义—邀请"组织；至少用一处宾语从句（I think that... / I hope that...）和一处感叹句（How happy we are!）。
+答案：参考范文：Dear Tom, I'm glad to tell you something about the Mid-Autumn Festival. It is one of the most important traditional festivals in China. It falls on the fifteenth day of the eighth lunar month. On that day, families get together to have a big dinner. After dinner, we sit in the garden, eat mooncakes and admire the bright full moon. Mooncakes are in the shape of a full moon, and they carry people's wishes to the families they love. I think that the festival is a symbol of getting together. How happy we are on that night! I hope you can come to China and celebrate it with us.
+方法小结：节日介绍 = 时间 + 活动 + 意义，末段嵌入宾语从句与感叹句，语言立刻上一个档次。`},课后作业:[{difficulty:"基础",title:"基础巩固",questions:[{q:`根据汉语提示写单词：① 亲属；亲戚 ______ ② 甜点 ______ ③ 传统 ______ ④ 警告；告诫 ______`,a:`答案 ① relative ② dessert ③ tradition ④ warn。注意 dessert（甜点）双写 s，与 desert（沙漠）拼写不同。`},{q:`写出下列动词的过去式与过去分词：steal ______ / ______；lay ______ / ______；spread ______ / ______`,a:`答案 steal—stole—stolen；lay—laid—laid；spread—spread—spread。lay 作“放置、产卵”时是及物动词，过去式为 laid，勿与 lie（躺，lay—lain）混淆。`},{q:`短语翻译：① 摆开；布置 ② 捉弄某人 ③ 使某人想起某事 ④ 最终成为`,a:`答案 ① lay out ② play a trick on sb. ③ remind sb. of sth. ④ end up。end up 后接名词时用 end up as，接动作时用 end up doing。`},{q:`用 What / How 填空：① ______ interesting the story is! ② ______ an interesting story it is! ③ ______ bad weather it is!`,a:`答案 ① How ② What ③ What。去掉主谓后分别是 interesting（形容词）、story（可数单数名词，加 an）、weather（不可数名词，不加 a）。`}]},{difficulty:"中等",title:"能力提升",questions:[{q:`单项选择：I don't know ______ he will come to the party. ______ he comes, I'll call you.  A. if; If  B. whether; Whether  C. if; Whether  D. that; If`,a:`答案 A。第一空是宾语从句，表示“是否”，if / whether 均可；第二空是条件状语从句，表示“如果”，只能用 If。whether 不能引导条件状语从句。`},{q:`单项选择：He said that he ______ his relatives the next week.  A. visits  B. will visit  C. would visit  D. is visiting`,a:`答案 C。主句 said 为一般过去时，从句须用过去范畴时态；the next week 表示将来，故用过去将来时 would visit。`},{q:`完成句子：我想知道他们明年是否还会举行龙舟比赛。I ______ ______ they'll have the dragon boat races again next year.`,a:`答案 wonder if / wonder whether。wonder 后接 if / whether 引导的宾语从句，意为“想知道是否……”，从句用陈述语序。`},{q:`改为宾语从句：“Is the Water Festival fun?” Could you tell me...?`,a:`答案 Could you tell me if/whether the Water Festival is fun?。一般疑问句变宾语从句用 if / whether 引导，并把 is 放回主语之后，句末用问号（主句是疑问句）。`}]},{difficulty:"难",title:"综合挑战",questions:[{q:`短文填空：用方框中所给词的适当形式填空（每词限用一次）：admire, lay, tradition, spread, care。On Mid-Autumn night, families sit together to ___1___ the full moon. Mother ___2___ out mooncakes and fruits on the table. Eating mooncakes is a ___3___ in China. The round mooncakes ___4___ people's wishes to their families. We also learn to ___5___ about the people around us.`,a:`答案 1. admire（admire the moon 赏月）2. lays（lay out 摆开；主语为第三人称单数，且描述习俗用一般现在时，也可用 laid）3. tradition（一种传统）4. spread（spread...to... 把……传给……）5. care（care about 关心；learn to 后接动词原形）。`},{q:`单句改错：① I think that he isn't right. ② I wonder that they will come or not. ③ What clever the boy is!`,a:`答案 ① I don't think (that) he is right.（I think 后接否定从句须否定前移）② I wonder whether they will come or not.（与 or not 连用只能用 whether）③ How clever the boy is! 或 What a clever boy he is!（What 后须接名词短语）。`},{q:`翻译句子：① 我认为月饼很好吃。② 这些灯笼多漂亮啊！③ 他警告斯克鲁奇如果不想落得和他一样的下场，就要改变自己的生活方式。`,a:`答案 ① I think (that) mooncakes are delicious. ② How beautiful these lanterns are! / What beautiful lanterns they are! ③ He warns Scrooge to change his ways if he doesn't want to end up like him.`},{q:`阅读理解：Why did Hou Yi want to shoot down the nine suns? A. Because he wanted to be famous. B. Because there were ten suns and it was too hot for people to live. C. Because the goddess asked him to do so. D. Because he wanted the magic medicine.`,a:`答案 B。根据教材嫦娥奔月的传说，天上出现十个太阳，大地干旱、人们难以生存，后羿射下九个，因此得到仙药，B 项符合故事情节；D 项仙药是射日后的奖赏而非动机。`}]},{difficulty:"综合",title:"中考真题对接",questions:[{q:`（中考真题）— Could you tell me ______? — Sorry, I don't know.  A. where does he live  B. where he lives  C. where did he live  D. where he live`,a:`答案 B。宾语从句用陈述语序，排除 A、C；主语 he 为第三人称单数，谓语加 -s，选 B。Could 在此表委婉语气，不影响从句时态。`},{q:`（中考真题）______ interesting book it is! I have read it twice.  A. What  B. What an  C. How  D. How an`,a:`答案 B。去掉主谓 it is，剩下 interesting book 是以可数单数名词 book 为中心的名词短语，用 What，且 interesting 以元音开头，用 an。`},{q:`（中考真题·阅读理解节选）A Christmas Carol is a famous short novel written by Charles Dickens. It is about an old man named Scrooge who never laughs or smiles. He is mean and only thinks about himself. One Christmas Eve, three ghosts visit him and take him to see his past, present and future. Question: What does the story mainly tell us?  A. Christmas is the best time to give presents.  B. People should change and learn to share and care.  C. Ghosts are real and they can visit people.  D. Making money is the most important thing.`,a:`答案 B。故事通过三个幽灵让 Scrooge 看到自己的过去、现在与未来，使他最终改变自私的性格、学会关心他人，B 概括主旨；A、C 停留于表面信息，D 与主题相反。`},{q:`（中考真题·书面表达）假如你是李华，你的英国笔友 Peter 对中国传统节日很感兴趣。请给他写一封 80 词左右的邮件，介绍你最喜欢的传统节日（名称、时间、主要活动、喜欢的理由）。`,a:`参考范文：Dear Peter, I'm happy that you are interested in Chinese festivals. My favorite one is the Spring Festival. It usually comes in January or February.
+Before the festival, my family clean the house and put up red paper cutting. On New Year's Eve, we get together to have a big dinner and watch the Spring Festival Gala. I can also get lucky money from my grandparents.
+I think that the Spring Festival is a time for families to get together. How happy we are on that day! I hope you can spend it with us one day.
+Yours, Li Hua`}]}],课后反馈:`**常见错误**：宾语从句写成疑问语序（if will they come）；主句过去时而从句时态不呼应；whether 与 if 用法不分（与 or not 连用时误用 if）；What / How 混用（What clever...）；不可数名词前误加 a/an；节日名首字母未大写。
+**教学改进建议**：用"三步法"卡片训练宾语从句；用"砍主谓"手势操练感叹句判定；把嫦娥奔月与《圣诞颂歌》做成时间轴与人物关系图，先在图上复述再落笔。
+**分层辅导**：学困生先掌握 20 个高频节日词与 What / How 的基本判定，能写出 3 句节日介绍；中等生要求宾语从句转换与句型转换不失分；学优生要求在写作中自然嵌入宾语从句、定语从句与感叹句，并复述传说。
+**给家长的建议**：节日期间和孩子聊聊节日的来历与家中的地位，用英语说出三句话；鼓励孩子把月饼、灯笼、春联等实物拍成照片配上英文说明，做成"节日小报"。`},{subject:"英语",stage:"初中",grade:"九年级",chapter:`人教版 Unit 3：Could you please tell me where the restrooms are?`,备课方案:`**教学目标**
+1. 语音与词汇：能正确认读、拼写并运用本单元 33 个课内单词（见讲义单词表），掌握 20 个问路与求助类核心短语。
+2. 语言知识：掌握 wh- 引导的宾语从句，重点是**从句必须用陈述语序**；掌握 Could you please...? 等礼貌请求句式及其应答，理解语言的礼貌程度与语境的关系。
+3. 语言技能：能听懂问路、咨询类的对话，读懂介绍公共场所与礼貌用语的短文，能在实际情境中礼貌地询问信息并为他人指路、介绍场所。
+4. 情感态度与文化意识：认识到礼貌用语是跨文化交际的通行证，学会根据对象与场合选择合适的表达方式，做一个有礼貌、乐于助人的交流者。
+
+**教学重点**：wh- 宾语从句的陈述语序；Could you please...? 及其应答；问路指路的常用表达。
+**教学难点**：宾语从句的语序转换；"疑问词 + 不定式"与宾语从句的互换；不同场合下礼貌程度的选择。
+**教学方法**：情景导入、任务型教学、小组合作、思维导图归纳、当堂检测。
+**课时安排**：4 课时（Section A 2 课时 + Section B 1 课时 + 复习与写作 1 课时）`,课堂讲义:{核心知识点:`**一、课内单词（Words and Expressions）**
+| 单词 | 音标 | 词性 | 中文释义 | 教材搭配 / 例句 |
+|------|------|------|----------|-----------------|
+| restroom | /ˈrestruːm/ | n. | （美）洗手间；公共卫生间 | Where are the restrooms? 洗手间在哪里？ |
+| stamp | /stæmp/ | n. | 邮票；印章 | buy some stamps 买些邮票 |
+| bookstore | /ˈbʊkstɔː(r)/ | n. | 书店 | go to the bookstore 去书店 |
+| postcard | /ˈpəʊstkɑːd/ | n. | 明信片 | send a postcard to a friend 给朋友寄明信片 |
+| pardon | /ˈpɑːdn/ | interj. | 请再说一遍；抱歉 | Pardon me? 请再说一遍好吗？ |
+| washroom | /ˈwɒʃruːm/ | n. | 洗手间；厕所 | the washroom on the second floor 二楼的洗手间 |
+| bathroom | /ˈbɑːθruːm/ | n. | 浴室；洗手间 | take a shower in the bathroom 在浴室洗澡 |
+| quick | /kwɪk/ | adj. | 快的；迅速的 | have a quick dinner 快速吃顿饭 |
+| rush | /rʌʃ/ | v. / n. | 仓促行事；急促 | rush to the classroom 冲向教室 |
+| suggest | /səˈdʒest/ | v. | 建议；提议 | suggest doing sth. 建议做某事 |
+| staff | /stɑːf/ | n. | 管理人员；职工 | ask the staff for help 向工作人员求助 |
+| grape | /ɡreɪp/ | n. | 葡萄 | fresh grapes 新鲜的葡萄 |
+| central | /ˈsentrəl/ | adj. | 中心的；中央的 | Central Street 中央大街 |
+| mail | /meɪl/ | v. | 邮寄（n. 邮件） | mail a letter 寄信 |
+| east | /iːst/ | n. / adj. / adv. | 东；东方；向东的 | go east along this street 沿这条街向东走 |
+| fascinating | /ˈfæsɪneɪtɪŋ/ | adj. | 迷人的；极有吸引力的 | a fascinating museum 迷人的博物馆 |
+| convenient | /kənˈviːniənt/ | adj. | 便利的；方便的 | It is convenient to take the underground. |
+| mall | /mɔːl/ | n. | 商场；购物中心 | the shopping mall 购物中心 |
+| clerk | /klɑːk/ | n. | 职员；店员 | ask the clerk about it 向店员打听 |
+| corner | /ˈkɔːnə(r)/ | n. | 拐角；角落 | at the corner of the street 在街道拐角处 |
+| polite | /pəˈlaɪt/ | adj. | 有礼貌的；客气的 | be polite to others 对他人有礼貌 |
+| politely | /pəˈlaɪtli/ | adv. | 礼貌地；客气地 | ask for help politely 礼貌地求助 |
+| request | /rɪˈkwest/ | n. / v. | 要求；请求 | make polite requests 提出礼貌的请求 |
+| direction | /dəˈrekʃn/ | n. | 方向；方位 | ask for directions 问路 |
+| correct | /kəˈrekt/ | adj. | 正确的；恰当的（v. 改正） | the correct answer 正确答案 |
+| direct | /dəˈrekt/ | adj. | 直接的；直率的 | direct questions 直接的问题 |
+| speaker | /ˈspiːkə(r)/ | n. | 发言者；讲（某种语言）的人 | a good speaker of English 英语讲得好的人 |
+| whom | /huːm/ | pron. | 谁；什么人（who 的宾格） | To whom are you speaking? 你在和谁说话？ |
+| impolite | /ˌɪmpəˈlaɪt/ | adj. | 不礼貌的；粗鲁的 | sound impolite 听起来不礼貌 |
+| address | /əˈdres/ | n. | 地址；通讯处 | your e-mail address 你的电子邮箱地址 |
+| underground | /ˌʌndəˈɡraʊnd/ | adj. / n. | 地下的；地铁 | take the underground 乘地铁 |
+| course | /kɔːs/ | n. | 课程；学科 | take an English course 上英语课 |
+| Italian | /ɪˈtæliən/ | adj. / n. | 意大利（人）的；意大利人/语 | an Italian restaurant 一家意大利餐厅 |
+
+**二、核心短语**
+- get some money —— 取些钱
+- buy some stamps —— 买些邮票
+- a pair of shoes —— 一双鞋
+- go past the bank —— 经过银行
+- turn left / right —— 向左 / 右转
+- on one's right / left —— 在某人的右 / 左边
+- go along / down the street —— 沿着这条街走
+- pass by —— 路过；经过
+- ask for help / directions —— 求助 / 问路
+- look forward to —— 盼望；期待
+- pardon me —— 对不起；请再说一遍
+- in a rush —— 匆忙地
+- a good place to eat —— 吃饭的好去处
+- in different situations —— 在不同的场合
+- depend on —— 取决于；依靠
+- lead in to a request —— 引入一个请求
+- communicate with sb. —— 与某人交流
+- know sb. well —— 很了解某人
+- such as —— 例如
+- spend time doing sth. —— 花时间做某事
+
+**三、核心句型**
+1. — Could you please tell me where the restrooms are? — Sure. They're on the second floor. —— Could you please...? 表示委婉请求，后接动词原形。
+2. Do you know when the bookstore closes today? —— 宾语从句用陈述语序，closes 不能用 does...close。
+3. Excuse me, could you tell me how to get to the post office? —— "疑问词 + 不定式"可替换宾语从句。
+4. I wonder where we should go next. —— wonder 后接 wh- 从句，用陈述语序。
+5. It is not enough to just ask a question correctly. —— It is + adj. + to do sth.，"仅仅正确提问是不够的"。
+6. The expressions they use might depend on whom they are speaking to. —— depend on 后的宾语从句同样用陈述语序。
+7. I'm looking forward to your reply. —— look forward to 后接名词或动名词。
+
+**四、语法聚焦：wh- 引导的宾语从句（陈述语序）与礼貌请求**
+- 构成：主句 + 疑问词（where / when / how / what / who / which / why）+ 陈述句语序的从句。
+- 用法：
+  1. 宾语从句一律用**陈述语序**：连接词之后先写主语，再写谓语；原疑问句中的助动词 do / does / did 要去掉，时态与人称体现在谓语动词上；be 动词、情态动词、助动词放回主语之后。
+  2. 疑问词在从句中充当成分，本身不可省略（that 才常省略）。
+  3. "疑问词 + 不定式"是宾语从句的简化形式：how to get there = how I can get there，常用于主句主语与从句主语一致时。
+  4. 礼貌请求用 Could you please (not) do...? / Would you mind doing...?；应答用 Sure. / Certainly. / Of course. / Sorry, I'm afraid not.
+- 例句：
+  - Could you tell me **where the post office is**?（不能说 where is the post office）
+  - I don't know **when the train will arrive**.
+  - Excuse me, do you know **how I can get to** the mall? = Excuse me, do you know **how to get to** the mall?
+  - — Could you please tell me your name? — Certainly. My name is Li Hua.
+- 易错提示：
+  1. 语序错误最高发：Can you tell me where can I buy a dictionary?（×）→ where I can buy a dictionary（√）。
+  2. 疑问词作主语时语序"看似不变"：Do you know who is singing? 中的 who 本身就是主语，不能改成 who sings is。
+  3. Could you please 后接动词原形，否定为 Could you please not do...，学生常误加 to。
+  4. Could / Would 在此表委婉语气，不是过去时，其后的从句时态不受影响。
+  5. look forward to 中的 to 是介词，后接名词或动名词，学生常误写 look forward to hear from you。
+
+**五、话题写作框架（问路指路 / 礼貌求助信）**
+- 开头：Excuse me, I'm sorry to trouble you, but could you please tell me how to get to the science museum?
+- 中间：指路用 "Go along this street and turn left at the second crossing. You will see a bank on your right. The museum is next to the bank. It takes about ten minutes to walk there."
+- 求助信：I'm writing to ask for some information about your school. First, could you please tell me what courses I will take? Second, I wonder where I will live and what I can eat.
+- 结尾：Thank you for your help. I'm looking forward to your reply.
+- 礼貌升级：把直接句改为间接句——Where is the post office? → Could you please tell me where the post office is?`,重点难点解析:`**重点：wh- 引导的宾语从句（陈述语序）**
+当特殊疑问句变成宾语从句时，必须做三件事：① 保留疑问词作为连接词；② 把语序改为陈述语序（主语 + 谓语）；③ 调整人称、时态与时间状语。
+- Where is the bookstore? → Could you tell me **where the bookstore is**?
+- When does the train leave? → Do you know **when the train leaves**?
+- How can I get to the post office? → Excuse me, could you tell me **how I can get to** the post office?
+- Where did he go yesterday? → I wonder **where he went** yesterday.
+关键是去掉助动词 do / does / did，并把时态"还给"实义动词（does...leave → leaves；did...go → went）；若原句含 be 动词或情态动词，则直接放回主语之后（where is it → where it is）。主句为一般过去时时，从句时态相应后移（He asked where the post office **was**.）。
+
+**难点一：陈述语序的转换与"疑问词作主语"的特例**
+学生典型错误：Do you know where can I buy a stamp?（×）→ Do you know where I can buy a stamp?（√）；Can you tell me what time is it now?（×）→ Can you tell me what time it is now?（√）
+特例提醒：当疑问词本身就是从句主语时，语序"不用改"，如 Who is on duty today? → I don't know **who is on duty** today.（who 作主语，is 仍在后面）；What's wrong with him? → Tell me **what is wrong** with him. 这类句子学生常被"改成陈述语序"的规则带偏，误改成 what wrong is。
+训练方法：让学生先划出从句并标出从句的"主语"和"谓语"，确认主语在谓语之前即可。
+
+**难点二：礼貌请求的表达与语体选择**
+同一个请求可以有不同的礼貌程度，选择依据是与对方的关系和场合的正式程度：
+- 直接：Where is the restroom?（熟人或紧急时使用，对陌生人显得生硬）
+- 一般礼貌：Excuse me, where is the restroom?
+- 更礼貌：Excuse me, could you please tell me where the restroom is?
+- 最礼貌：I'm sorry to trouble you, but could you possibly tell me where the restroom is?
+应答方式也要注意：肯定用 Sure. / Certainly. / Of course. / No problem.；否定时要说明理由并给出替代方案：Sorry, I'm a stranger here myself. You can ask the police over there.
+补充结构：Could you please **not** do...?（否定在 please 之后）；Would you mind **doing**...?（后接动名词）；"疑问词 + 不定式"（how to get there）用于主从句主语一致时，比从句更简洁。
+
+**中考考点提示**
+- 单项选择：必考宾语从句语序，典型题干为 Could you tell me ______?，四个选项分别设置正确语序、疑问语序、连接词误用、时态误用。
+- 句型转换：把两个简单句合并为含宾语从句的复合句，或把宾语从句简化为"疑问词 + 不定式"，是完成句子题的常考形式。
+- 情景交际：问路、购物、咨询类补全对话高频出现，常考 Could you please...? / Do you know...? / Thanks a lot. / You're welcome. 等交际用语。
+- 书面表达：求助信（向外教或夏令营咨询课程、住宿、交通等信息）是热点，词数 80—100，要求连续使用 2—3 个礼貌的宾语从句，礼貌用语与信息要点各占分值。`,典型例题精讲:`**例题 1（宾语从句的语序）**
+题目：— Excuse me, could you tell me ______? — Sure. It's on Center Street, next to the bank.
+A. where is the bookstore  B. where the bookstore is  C. where was the bookstore  D. the bookstore is where
+解析：宾语从句必须用陈述语序，主语 the bookstore 在谓语 is 之前；答语为一般现在时，问路也用一般现在时；连接词 where 须置于从句首。
+答案：B
+方法小结：先判语序（主语在前）→ 再判连接词（放句首）→ 最后判时态。
+
+**例题 2（语序与人称、时态）**
+题目：He asked me ______ the day before.
+A. where did I go  B. where I went  C. where I go  D. where had I gone
+解析：主句 asked 是过去时，从句须用过去范畴；the day before 表示过去时间，用一般过去时 went；语序为陈述语序 I went。
+答案：B
+方法小结：主过从过去；去掉助动词 did 后，时态"还给"动词，go 变为 went。
+
+**例题 3（疑问词 + 不定式）**
+题目：Excuse me, could you tell me how ______ to the railway station?
+A. get  B. to get  C. getting  D. got
+解析：主句主语 you 与从句主语 I 不一致，严格说应用 how I can get；但在交际中常用"疑问词 + 不定式"how to get 作简化表达，教材即采用此结构。
+答案：B
+方法小结：主从句主语一致时可用"疑问词 + 不定式"替换宾语从句，形式为 疑问词 + to do。
+
+**例题 4（礼貌请求与应答）**
+题目：— ______ — Sure, go along this street and turn left at the second crossing. You can't miss it.
+A. Where is the post office?  B. Tell me the way to the post office.
+C. Could you please tell me where the post office is?  D. Do you know where the post office?
+解析：对陌生人问路须用礼貌的间接问句；A、B 过于直接；D 句末缺少系动词，结构不完整（应为 Do you know where the post office is?）。
+答案：C
+方法小结：问路首选 Excuse me / Could you please tell me...，并注意从句结构完整（有谓语）。
+
+**例题 5（综合写作）**
+题目：你校将接待一批来参加暑期英语夏令营的外国学生，负责人 Mr. Smith 发邮件询问相关信息。请你用 80 词左右给他回信，介绍去学校的路线，并礼貌询问他们的到达时间与饮食习惯。
+解析：回信分两段——第一段指路（用 Go along..., turn left/right, next to, It takes...）；第二段用 2—3 个礼貌的宾语从句提问。
+答案：参考范文：Dear Mr. Smith, I'm glad that you will come to our school. Let me tell you how to get here. Take the underground and get off at Central Street Station. Go along the street and turn right at the first corner. Our school is next to a big bookstore, and it takes about five minutes to walk there.
+Could you please tell me when you will arrive? I also wonder what kind of food you like, so that we can prepare meals for you. If you need any help, please let me know.
+I'm looking forward to your reply.
+方法小结：信息类邮件 = 提供信息（路线用祈使句 + 方位介词）+ 礼貌询问（Could you please tell me... / I wonder...）+ 期待回复。`},课后作业:[{difficulty:"基础",title:"基础巩固",questions:[{q:`根据汉语提示写单词：① 洗手间 ______ ② 明信片 ______ ③ 有礼貌的（副词）______ ④ 方向 ______`,a:`答案 ① restroom / washroom ② postcard ③ politely ④ direction。注意 polite 的副词直接加 -ly，不去 e。`},{q:`用所给词的适当形式填空：① I'm looking forward to ______ (hear) from you. ② He suggests ______ (go) there by underground.`,a:`答案 ① hearing（look forward to 中 to 是介词，后接动名词）② going（suggest 后接动名词，不接不定式）。`},{q:`短语翻译：① 路过；经过 ② 盼望；期待 ③ 向某人求助 ④ 在街道拐角处`,a:`答案 ① pass by ② look forward to ③ ask sb. for help ④ at the corner of the street。corner 前常用介词 at（小地点）或 on（on the corner）。`},{q:`用合适的疑问词填空：① Could you tell me ______ the bookstore closes? — At 9:00 p.m. ② I don't know ______ he lives.`,a:`答案 ① when（答语是时间，用 when 引导）② where（表示“住在哪里”，用 where 引导，从句用陈述语序 he lives）。`}]},{difficulty:"中等",title:"能力提升",questions:[{q:`单项选择：— Do you know ______? — Yes, it's next to the post office.  A. where is the bank  B. where the bank is  C. where was the bank  D. the bank is where`,a:`答案 B。宾语从句用陈述语序 the bank is；答语为一般现在时，问句也用一般现在时。`},{q:`单项选择：Could you please ______ me where I can buy some stamps?  A. tell  B. to tell  C. telling  D. told`,a:`答案 A。Could you please 后接动词原形；否定形式为 Could you please not tell...。注意 could 在此表委婉语气，不是过去时。`},{q:`改为含宾语从句的复合句：Where can I get some money?（用 Could you tell me 开头）`,a:`答案 Could you tell me where I can get some money?。连接词 where 置于从句首，can 放回主语 I 之后，句末用问号（主句为疑问句）。`},{q:`完成句子：仅仅正确地提问是不够的，我们还要学会礼貌地求助。It is not ______ to just ask a question ______. We should learn to ask for help ______.`,a:`答案 enough; correctly; politely。It is + adj. + to do sth. 句型；修饰动词 ask 用副词 correctly、politely。`}]},{difficulty:"难",title:"综合挑战",questions:[{q:`短文填空：用方框中所给词的适当形式填空，必要时需变换词形（每词限用一次）：depend, direct, polite, lead, rush。Good speakers change the way they speak in different situations. The expressions they use might ___1___ on whom they are speaking to. It is all right to ask your classmates ___2___ questions because you know them well. But if you ask your teacher, "When is the school trip?", this might sound ___3___. Usually polite questions are longer. Sometimes we even need to spend time ___4___ into a request. Don't be in a ___5___ when you ask for help — a smile and polite words make a big difference.`,a:`答案 1. depend（depend on 取决于；情态动词 might 后接原形）2. direct（direct questions 直接的问题，形容词修饰名词）3. impolite（sound 后接形容词；对老师用直接问句听起来“不礼貌”，故用 polite 的反义词）4. leading（spend time doing sth. 花时间做某事；lead into a request 引入一个请求）5. rush（be in a rush 匆忙，名词）。`},{q:`单句改错：① Can you tell me where can I buy a dictionary? ② Could you please to open the door? ③ I look forward to hear from you soon.`,a:`答案 ① Can you tell me where I can buy a dictionary?（宾语从句用陈述语序）② Could you please open the door?（please 后接动词原形）③ I look forward to hearing from you soon.（to 是介词，后接动名词）。`},{q:`翻译句子：① 打扰一下，你能告诉我怎么去邮局吗？② 你知道这家书店今天什么时候关门吗？③ 我不知道该乘哪路公交车。`,a:`答案 ① Excuse me, could you tell me how to get to the post office? / how I can get to the post office? ② Do you know when the bookstore closes today? ③ I don't know which bus to take.（which bus I should take）`},{q:`情景对话补全：A: Excuse me, _______? B: Sure. Go along this street and turn left. The museum is on your right. A: _______? B: It's about ten minutes' walk. A: Thank you very much. B: _______.`,a:`答案 ① Could you tell me how to get to the museum / where the museum is ② How far is it / How long will it take ③ You're welcome / That's all right / My pleasure。问路对话遵循“礼貌提问—指路—追问距离—致谢—应答”的话轮结构。`}]},{difficulty:"综合",title:"中考真题对接",questions:[{q:`（中考真题）— Excuse me, could you tell me ______? — Certainly. Go along this road and it's on your left.  A. how can I get to the museum  B. how I can get to the museum  C. how could I get to the museum  D. how I could get to the museum`,a:`答案 B。宾语从句用陈述语序；could 在主句中表委婉语气，从句时态不受影响，故用 can 而非 could。`},{q:`（中考真题）We are looking forward to ______ the Great Wall during the summer holiday.  A. visit  B. visiting  C. visited  D. visits`,a:`答案 B。look forward to 中的 to 是介词，后接动名词；类似结构还有 pay attention to doing、be used to doing。`},{q:`（中考真题·阅读理解节选）When you visit a foreign country, it is important to know how to ask for help politely. For example, you may ask "Where are the restrooms?" or "Could you please tell me where the restrooms are?" These are similar requests for directions. Both are correct, but the first one sounds less polite. Question: Why is the second question better?  A. It is shorter.  B. It sounds more polite.  C. It is easier to answer.  D. It uses more difficult words.`,a:`答案 B。原文指出两种问法都正确，但第一种听起来不够礼貌，说明使用更长的间接问句能提高礼貌程度；A 与原文相反（polite questions are longer），C、D 未提及。`},{q:`（中考真题·书面表达）假如你是李华，你想参加一个英语夏令营。请给负责人 Mr. Green 写一封 80 词左右的邮件，礼貌询问营地的时间、课程和住宿情况。`,a:`参考范文：Dear Mr. Green, I'm Li Hua, a middle school student from China. I'm very interested in your English summer camp, so I'm writing to ask for some information about it.
+First, could you please tell me when the camp will start and how long it will last? Second, I wonder what courses I will take and whether there are any activities on weekends. Besides, would you mind telling me where the students will live?
+Thank you for your help. I'm looking forward to your reply.
+Yours, Li Hua`}]}],课后反馈:`**常见错误**：宾语从句写成疑问语序（where can I buy）；疑问词作主语时强行改语序（what wrong is）；Could you please 后误加 to；look forward to 后误接动词原形；direct / directly、polite / impolite 词形变化出错；指路表达缺少方位介词。
+**教学改进建议**：用"改写三步卡"专项训练语序；用礼貌程度阶梯表（直接—一般—礼貌—最礼貌）做对比朗读，体会语气差异；把校园周边地图做成任务单，让学生两两完成问路指路对话。
+**分层辅导**：学困生先掌握问路指路的 8 个必备句与 15 个高频词，能完成一段简单对话；中等生要求语序转换与情景交际不失分；学优生要求写出信息完整的咨询邮件，并自然使用 depend on、lead into、in different situations 等表达。
+**给家长的建议**：带孩子外出时鼓励其用英语向工作人员礼貌提问（如询问洗手间、营业时间）；在家与孩子演练"Excuse me — Sure — Thank you"的完整话轮，注意语音语调的礼貌感。`},{subject:"英语",stage:"初中",grade:"九年级",chapter:`人教版 Unit 4：I used to be afraid of the dark.`,备课方案:`**教学目标**
+1. 语音与词汇：能正确认读、拼写并运用本单元 33 个课内单词（见讲义单词表），掌握 25 个描述人物变化的核心短语。
+2. 语言知识：辨析 used to do（过去常常）、be / get used to doing（习惯于）、be used to do（被用来做）三种结构的构成与用法，掌握反意疑问句 Did you use to...? 及其应答。
+3. 语言技能：能听懂关于人物今昔对比的对话与采访，读懂人物成长变化的短文，能口头描述他人的变化并写出 80—100 词的"我的变化"短文。
+4. 情感态度与文化意识：正视自己的成长与不足，认识到变化需要勇气与坚持；学会欣赏他人的改变，理解亲情与师爱在成长中的作用。
+
+**教学重点**：used to do 的意义与句式变化；三种 used to 结构的辨析；今昔对比的表达方式。
+**教学难点**：be / get used to doing 中 to 为介词；used to 与一般过去时、现在完成时的选用；作文中"过去—转折—现在—感悟"的线索安排。
+**教学方法**：情景导入、任务型教学、小组合作、思维导图归纳、当堂检测。
+**课时安排**：4 课时（Section A 2 课时 + Section B 1 课时 + 复习与写作 1 课时）`,课堂讲义:{核心知识点:`**一、课内单词（Words and Expressions）**
+| 单词 | 音标 | 词性 | 中文释义 | 教材搭配 / 例句 |
+|------|------|------|----------|-----------------|
+| humorous | /ˈhjuːmərəs/ | adj. | 有幽默感的；滑稽有趣的 | a humorous teacher 幽默的老师 |
+| silent | /ˈsaɪlənt/ | adj. | 不说话的；沉默的 | keep silent in class 在课上保持沉默 |
+| helpful | /ˈhelpfl/ | adj. | 有用的；有帮助的 | be helpful to us 对我们有帮助 |
+| score | /skɔː(r)/ | n. / v. | 得分；进球 | get good scores on exams 考试取得好成绩 |
+| background | /ˈbækɡraʊnd/ | n. | 背景 | family background 家庭背景 |
+| interview | /ˈɪntəvjuː/ | n. / v. | 面试；访谈；采访 | have an interview with sb. 采访/面试某人 |
+| Asian | /ˈeɪʃn/ | adj. / n. | 亚洲（人）的；亚洲人 | Asian pop stars 亚洲流行歌星 |
+| deal | /diːl/ | v. | 对付；对待（n. 协议） | deal with her shyness 克服她的羞怯 |
+| shyness | /ˈʃaɪnəs/ | n. | 害羞；腼腆 | get over her shyness 克服羞怯 |
+| dare | /deə(r)/ | v. | 敢于；胆敢 | dare to sing in front of crowds 敢于在人群前唱歌 |
+| crowd | /kraʊd/ | n. | 人群；群众（v. 挤满） | in front of crowds 在人群面前 |
+| ton | /tʌn/ | n. | 吨；大量（tons of） | tons of attention 极大的关注 |
+| guard | /ɡɑːd/ | n. | 警卫；看守（v. 守卫） | There are guards around her. |
+| require | /rɪˈkwaɪə(r)/ | v. | 需要；要求 | require a lot of talent 需要很多天赋 |
+| European | /ˌjʊərəˈpiːən/ | adj. / n. | 欧洲（人）的；欧洲人 | European history 欧洲历史 |
+| African | /ˈæfrɪkən/ | adj. / n. | 非洲（人）的；非洲人 | African culture 非洲文化 |
+| British | /ˈbrɪtɪʃ/ | adj. | 英国（人）的 | British English 英式英语 |
+| speech | /spiːtʃ/ | n. | 讲话；发言 | give a speech in public 当众发表演讲 |
+| public | /ˈpʌblɪk/ | n. / adj. | 民众；公开的；公众的 | in public 公开地；当众 |
+| ant | /ænt/ | n. | 蚂蚁 | watch ants 观察蚂蚁 |
+| insect | /ˈɪnsekt/ | n. | 昆虫 | be interested in insects 对昆虫感兴趣 |
+| influence | /ˈɪnfluəns/ | v. / n. | 影响 | influence his way of thinking 影响他的思维方式 |
+| seldom | /ˈseldəm/ | adv. | 不常；很少 | seldom cause problems 很少惹麻烦 |
+| proud | /praʊd/ | adj. | 自豪的；骄傲的 | be proud of ... 为……感到骄傲 |
+| absent | /ˈæbsənt/ | adj. | 缺席；不在 | be absent from classes 缺课 |
+| fail | /feɪl/ | v. | 失败；未能（做到） | fail the examinations 考试不及格 |
+| examination | /ɪɡˌzæmɪˈneɪʃn/ | n. | 考试；审查 | pass the examination 通过考试 |
+| boarding | /ˈbɔːdɪŋ/ | adj. | 寄宿的 | a boarding school 寄宿学校 |
+| exactly | /ɪɡˈzæktli/ | adv. | 确切地；精确地 | exactly what I need 正是我需要的 |
+| pride | /praɪd/ | n. | 自豪；骄傲 | take pride in ... 为……感到自豪 |
+| grandson | /ˈɡrænsʌn/ | n. | 孙子；外孙 | his little grandson 他的小孙子 |
+| general | /ˈdʒenrəl/ | adj. / n. | 总的；普遍的；将军 | a general introduction 总体介绍 |
+| introduction | /ˌɪntrəˈdʌkʃn/ | n. | 介绍 | give a self-introduction 做自我介绍 |
+
+**二、核心短语**
+- used to do sth. —— 过去常常做某事
+- be / get used to doing sth. —— 习惯于做某事
+- be used to do sth. —— 被用来做某事
+- be afraid of the dark —— 怕黑
+- be interested in —— 对……感兴趣
+- on the swim team —— 在游泳队
+- from time to time —— 时常；有时
+- get good scores —— 取得好成绩
+- be brave enough to do sth. —— 足够勇敢去做某事
+- deal with —— 应对；处理
+- take up —— 开始从事；占据
+- tons of attention —— 极大的关注
+- fight on —— 继续奋斗
+- the road to success —— 成功之路
+- make it to the top —— 到达巅峰；成功登顶
+- in public —— 公开地；当众
+- give a speech —— 发表演讲
+- be absent from —— 缺席……
+- fail one's examinations —— 考试不及格
+- in person —— 亲自；亲身
+- take pride in / be proud of —— 为……感到自豪
+- pay attention to —— 注意；关注
+- even though —— 即使；尽管
+- no longer —— 不再
+- in the last few years —— 在过去的几年里（常与现在完成时连用）
+- change a lot —— 变化很大
+
+**三、核心句型**
+1. — Mario, you used to be short, didn't you? — Yes, I did. —— used to 的反意疑问句用 did / didn't。
+2. I used to be afraid of the dark, but now I'm not afraid of it anymore. —— used to + 动词原形，表示过去的状态或习惯，现在已不如此。
+3. You used to be really quiet, didn't you? You were always silent in class. —— 用 used to 与一般过去时描述今昔对比。
+4. It's been three years since we last saw our primary school classmates. —— "It has been + 时间段 + since 从句"表示"自从……已经多久了"。
+5. It's interesting to see how people have changed. —— It is + adj. + to do sth.，从句用现在完成时强调变化的结果。
+6. I used to be nervous about tests all the time. What about you? —— be nervous about 对……紧张；all the time 一直。
+7. He used to cause a lot of trouble, but now he is one of the best students in his class. —— 人物今昔对比的经典写法。
+
+**四、语法聚焦：used to do / be (get) used to doing / be used to do 三种结构**
+- 构成与用法：
+  1. **used to do sth.**：used to + 动词原形，表示"过去常常做某事 / 过去是某种状态"，暗含"现在已不再如此"。否定式 didn't use to do 或 used not to do；疑问式 Did you use to...?；反意疑问句用 didn't + 主语。
+  2. **be / get used to doing sth.**：to 是介词，后接名词或动名词，表示"（变得）习惯于做某事"。be used to 表状态，get / become used to 表"逐渐习惯"的动作过程，可用于各种时态。
+  3. **be used to do sth.**：是 use sth. to do 的被动形式，表示"被用来做某事"，to 是不定式符号，后接动词原形。be used for doing 是同义表达。
+- 例句：
+  - I **used to walk** to school, but now I take the bus. 我过去常步行上学，现在乘公交车。
+  - I **am used to getting** up early now. 我现在习惯早起了。
+  - Wood **is used to make** paper. = Wood **is used for making** paper. 木材被用来造纸。
+- 易错提示：
+  1. 看 to 后面接什么：接原形是 used to do 或 be used to do，接 -ing 一定是 be / get used to doing。
+  2. used to do 的否定与疑问常漏掉 did，误写 Did you used to...?（应为 Did you **use to**...?）。
+  3. used to 强调"过去与现在的对比"，若句中出现 now / but now，通常用 used to；若句中有 since / for + 时间段，通常用现在完成时。
+  4. be used to doing 中的 be 要随主语与时态变化（was / were / has been used to doing）。
+
+**五、话题写作框架（How I've Changed / My Changes）**
+- 开头点题：My life has changed a lot in the last few years. I used to be..., but now I...
+- 中间分点：性格（I used to be silent and seldom talked with others. Now I am outgoing and have made many friends.）；学习（I used to be weak in English, but now I get good scores by reading aloud.）；爱好（I used to be interested in insects. Now I take up basketball.）；转折点（Everything changed after my teacher talked with me in person.）
+- 结尾感悟：I'm proud of my changes. Thanks to my parents and teachers, I have become a better person. Nothing is impossible if I keep trying.
+- 高分句式：It has been three years since... / Even though I still..., I... / I no longer... / I'm no longer afraid of...`,重点难点解析:`**重点：used to do sth.（过去常常）**
+used to 是情态化的半助动词，后接动词原形，表示过去经常发生的动作或存在的状态，核心含义是"**过去如此，现在不再如此**"，因此常与 but now...、not...any more / any longer 呼应。
+- I **used to be** short, but now I **am** the tallest in my class. 我过去很矮，现在却是班里最高的。
+- She **used to walk** to school. Now she goes by bike. 她过去常步行上学，现在骑车。
+- There **used to be** a small river near our village. 我们村附近过去有一条小河。（There be 结构中同样用 used to be）
+句式变化：否定 didn't use to be / used not to be；疑问 Did you use to be shy?；反意疑问 You used to be shy, **didn't you**? — Yes, I did. / No, I didn't.
+辨析提醒：used to do 强调"过去的习惯与现在不同"，而一般过去时只陈述过去的事实，不暗示现在如何。对比：I used to smoke.（现在不抽了）vs. I smoked yesterday.（只说昨天抽了）。
+
+**难点一：三种 used to 结构的分辨**
+学生最典型的错误是把三者混为一谈，尤其在填空与完成句子中。分辨口诀：**看 to 后的形式，看句子的主语是"人"还是"物"**。
+- I **used to get** up late.（to 后是原形 get，主语是人，表示"过去常常"）
+- I **am used to getting** up early.（to 后是 -ing，表示"习惯于"）
+- The knife **is used to cut** bread.（主语是物 knife，表示"被用来做"，也可说 is used for cutting）
+再补充时态变化：be used to doing 中的 be 可换成 get / become（强调从不习惯到习惯的过程，如 I have got used to living here.），get used to doing 可与时间段连用。
+记忆方法：把三句话连成一个小语段背诵——"I used to be lazy, but now I am used to working hard, and my time is used to do something useful." 一句之内练三个结构。
+
+**难点二：used to 与现在完成时、一般过去时的选用**
+描述变化时，三种时态容易打架：
+- used to：突出"过去的状态 + 现在的对比"，常配 but now、anymore。I used to hate P.E. class, but now I love it.
+- 一般过去时 + 过去时间状语：只讲过去某时的事实。Two years ago, I was very shy.
+- 现在完成时：强调变化的结果与对现在的影响，常配 in the last few years、since then、already。I have changed a lot in the last few years. / It has been three years since we last met.
+学生典型错误：I have used to be lazy.（×，used to 无完成时）；I used to change a lot.（×，change 是变化动作，须用现在完成时 I have changed a lot）。
+写作建议：一篇"变化"作文通常三种时态并用——过去用 used to / 一般过去时，变化过程用一般过去时（讲述转折事件），结果用现在完成时与一般现在时。
+
+**中考考点提示**
+- 单项选择：必考三种 used to 结构，题干多为对比句（...but now...）或含 -ing 的句子，选项设置为 used to do / be used to doing / be used to do 的混排。
+- 句型转换：把 used to 句改为否定句、一般疑问句或反意疑问句（Did you use to...? / didn't you?），是完成句子题的高频形式。
+- 完形填空：人物成长类记叙文常考 silent、seldom、absent、fail、influence、proud、pride、deal with、take up、in person 等词与短语。
+- 书面表达："How I've Changed""I Have Grown Up"是各地中考常考话题，词数 80—100，要求写出具体的变化细节与转变原因，正确使用 used to 与现在完成时可得语言分。`,典型例题精讲:`**例题 1（三种 used to 结构辨析）**
+题目：My grandfather ______ in a small village, so he ______ the quiet life there now.
+A. used to live; is used to living  B. used to living; used to live
+C. is used to live; used to living  D. used to live; used to live
+解析：前半句表示"过去住在小村庄"，用 used to live；后半句有 now，"习惯于那里的安静生活"，用 be used to living（to 是介词）。
+答案：A
+方法小结：先看 to 后是原形还是 -ing，再看句中有无 now、but now 等对比信号。
+
+**例题 2（used to 的疑问与否定）**
+题目：— You used to be really quiet, ______? — Yes, I did. But now I'm very outgoing.
+A. weren't you  B. didn't you  C. don't you  D. did you
+解析：陈述部分含 used to，反意疑问部分须用助动词 did，前肯后否，故用 didn't you；回答与事实一致用 Yes, I did.
+答案：B
+方法小结：used to 的疑问、否定与反意疑问一律借助 did，且 did 出现后 used 要还原为 use（Did you **use to** be shy?）。
+
+**例题 3（be used to do 与 be used to doing）**
+题目：This kind of machine ______ cut paper, and the workers ______ operating it now.
+A. is used to; are used to  B. is used for; used to
+C. is used to; used to  D. uses to; are used for
+解析：主语是 machine（物），表示"被用来切纸"，用 is used to cut（后接原形）或 is used for cutting；后半句"工人们现在习惯于操作它"，用 are used to operating（后接动名词）。
+答案：A
+方法小结：物作主语常用 be used to do / be used for doing；人作主语且 to 后为 -ing 时才是"习惯于"。
+
+**例题 4（时态选用与综合）**
+题目：用括号内动词的适当形式填空：I ______ (change) a lot in the last three years. I ______ (use) to be too shy to speak in public, but now I dare ______ (give) a speech in front of crowds.
+解析：in the last three years 是现在完成时的标志，用 have changed；"过去太害羞"用 used to be；dare 在此作实义动词，后接带 to 的不定式 to give（dare 作情态动词时后接原形，多用于否定与疑问）。
+答案：have changed; used; (to) give
+方法小结：时间状语定时态，对比语境定 used to，dare 后接不定式或原形均可，写作中建议用 dare to do。
+
+**例题 5（话题写作）**
+题目：以 "How I've Changed" 为题写一篇 80 词左右的短文，介绍你初中三年来在性格、学习或爱好上的变化，并说明变化的原因与感受。
+解析：按"点题—过去—转折—现在—感悟"五步走；至少用两处 used to 与一处现在完成时；变化要有具体细节（哪件事带来改变）。
+答案：参考范文：How I've Changed
+My life has changed a lot in the last three years. I used to be short and thin, and I was always silent in class. I used to be afraid of speaking in public and seldom talked with my classmates.
+Everything changed after I joined the school basketball team. My teammates were friendly and I practiced with them every afternoon. Little by little, I became outgoing and made many friends. Now I am even brave enough to give a speech in front of the whole school.
+Even though I still have some weak points, I am proud of my changes. Thanks to my teachers and friends, I have become a better person.
+方法小结：变化类作文 = 过去（used to）+ 转折（Everything changed after...）+ 现在（now / be brave enough to）+ 感悟（be proud of / Thanks to）。`},课后作业:[{difficulty:"基础",title:"基础巩固",questions:[{q:`根据汉语提示写单词：① 有幽默感的 ______ ② 沉默的 ______ ③ 影响 ______ ④ 自豪；骄傲（名词）______`,a:`答案 ① humorous ② silent ③ influence ④ pride。注意 pride 是名词，形容词为 proud；humorous 由 humor + ous 构成。`},{q:`用 used to / be used to 的适当形式填空：① I ______ be afraid of the dark.（过去怕黑）② He ______ getting up early now.（习惯于早起）③ Knives ______ cut things.（被用来切东西）`,a:`答案 ① used to ② is used to ③ are used to。判断依据：to 后接原形 be → used to；to 后接 -ing → be used to；物作主语表示用途 → be used to do。`},{q:`短语翻译：① 应对；处理 ② 公开地；当众 ③ 亲自 ④ 为……感到自豪（两种）`,a:`答案 ① deal with ② in public ③ in person ④ be proud of / take pride in。deal with 常与 how 连用（how to deal with），do with 常与 what 连用。`},{q:`句型转换：He used to be a quiet boy.（改为一般疑问句，并作否定回答）`,a:`答案 — Did he use to be a quiet boy? — No, he didn't.。借助 did 构成疑问，did 出现后 used 还原为 use；否定回答用 didn't。`}]},{difficulty:"中等",title:"能力提升",questions:[{q:`单项选择：My sister ______ in a big city, so she has no difficulty ______ with foreigners.  A. used to live; talking  B. is used to live; talking  C. used to living; to talk  D. is used to living; talking`,a:`答案 D。句意为“我姐姐习惯于住在大城市，因此与外国人交谈没有困难”；be used to doing 表“习惯于”，have no difficulty (in) doing 后接动名词。`},{q:`单项选择：The boy ______ cause a lot of trouble, but now he ______ a hard-working student.  A. used to; is used to being  B. is used to; used to be  C. used to; is  D. was used to; is`,a:`答案 C。but now 提示前半句用 used to do（过去常常惹麻烦），后半句陈述现在的事实，用一般现在时 is。`},{q:`完成句子：自从上次见到我的小学同学已经三年了。It ______ ______ three years ______ we last saw our primary school classmates.`,a:`答案 has been; since。“It has been + 时间段 + since 从句”表示“自从……已经多久了”，since 从句用一般过去时。`},{q:`单项选择：He ______ get up late, but now he is used to ______ up early.  A. used to; get  B. was used to; getting  C. used to; getting  D. is used to; get`,a:`答案 C。第一空后接原形 get 且有 but now 对比，用 used to；第二空 be used to 后接动名词 getting。`}]},{difficulty:"难",title:"综合挑战",questions:[{q:`短文填空：用方框中所给词的适当形式填空，必要时需变换词形（每词限用一次）：silent, deal, dare, absent, pride。Li Wen used to be a good student, but after his parents left for the city, he began to change. He became ___1___ in class and often ___2___ from school. His parents couldn't ___3___ with his problems, so they came back and talked with him in person. Their love and care made a big difference. Now Li Wen ___4___ to answer questions in class and he is even the top student. His parents take ___5___ in everything good that he does.`,a:`答案 1. silent（became 后接形容词，变得沉默）2. was absent（be absent from 缺席；叙述过去用一般过去时，或填 was）3. deal（deal with 处理；couldn't 后接原形）4. dares（dare to do 敢于做；主语为第三人称单数，now 用一般现在时 dares）5. pride（take pride in 为……自豪，名词）。`},{q:`单句改错：① I am used to get up early now. ② Did you used to play the piano? ③ He has used to be short. ④ I used to afraid of the dark.`,a:`答案 ① I am used to getting up early now.（to 是介词，后接动名词）② Did you use to play the piano?（did 后 used 还原为 use）③ He used to be short.（used to 无完成时）④ I used to be afraid of the dark.（afraid 是形容词，须加 be）。`},{q:`翻译句子：① 我过去害怕在公共场合演讲，但现在我敢于在人群前发言。② 即使我仍然有缺点，我也为自己的变化感到自豪。`,a:`答案 ① I used to be afraid of giving a speech in public, but now I dare (to) speak in front of crowds.（be afraid of + 动名词；dare to do）② Even though I still have some weak points, I am proud of my changes. / I take pride in my changes.`},{q:`段落写作：用 5—6 句话写一写你的一位家人或朋友三年来的变化，要求包含 used to、now、变化的原因。`,a:`参考答案：My cousin used to be a shy boy. He seldom talked with others and was always silent at family parties. Three years ago, he took up playing basketball and joined the school team. He had to communicate with his teammates every day, and little by little he became outgoing. Now he is not only good at basketball but also good at making friends. He says sports have changed him a lot.。包含 used to、转折事件、now 现状与总结，体现“过去—转折—现在”的线索。`}]},{difficulty:"综合",title:"中考真题对接",questions:[{q:`（中考真题）My uncle ______ in a factory, but now he has his own company.  A. used to work  B. is used to work  C. used to working  D. is used to working`,a:`答案 A。but now he has his own company 表明“过去在工厂上班、现在不去了”，用 used to work。`},{q:`（中考真题）The old man ______ living alone in the countryside since his wife died.  A. used to  B. is used to  C. has been used to  D. was used to`,a:`答案 C。since 引导的时间状语与现在完成时连用；be used to doing 表示“习惯于”，故用 has been used to living。`},{q:`（中考真题·阅读理解节选）Li Wen is a normal 15-year-old boy who works hard and does well in school. It is hard to believe that he used to have difficulties in school. When his parents moved to the city to work, they could not be at home to take care of him. So he became less interested in studying and was absent from classes. Question: Why did Li Wen have difficulties in school?  A. He was not clever enough.  B. His parents were not at home to look after him.  C. He didn't like his teachers.  D. He moved to a new school.`,a:`答案 B。原文明确指出父母进城务工、无法在家照顾他，于是他对学习失去兴趣并旷课；A、C、D 均属无中生有。`},{q:`（中考真题·书面表达）初中三年，你一定发生了很大的变化。请以“I Have Changed a Lot”为题写一篇短文，谈谈你在性格、学习或生活方面的变化及原因。词数 80 左右。`,a:`参考范文：I Have Changed a Lot
+I have changed a lot in the last three years. I used to be lazy and I seldom did sports. I was weak and often got sick.
+Everything changed after I joined the running club in Grade Eight. My PE teacher encouraged me to keep running every morning. At first it was hard, but I got used to getting up early and running for half an hour. Now I am much stronger and I have won the 800-meter race twice.
+I'm proud of my changes. I have learned that nothing is impossible if I keep trying.`}]}],课后反馈:`**常见错误**：三种 used to 结构混淆，尤其 be used to doing 后误接原形；Did you used to...? 中未还原 use；used to 后直接接形容词（缺 be）；used to 与现在完成时混用（I have used to...）；写作只写结论不写具体事例与转折原因。
+**教学改进建议**：用三栏对照表（结构—to 后形式—含义）与句子接龙强化三种结构；用时间轴（过去—转折事件—现在）指导学生列提纲再成文；精选范文做"过去句"与"现在句"的配对仿写。
+**分层辅导**：学困生掌握 20 个高频词与 used to 的基本句，能写出 3 组"过去 vs 现在"的对比句；中等生要求三种结构辨析与句型转换不失分；学优生要求事例具体、用 even though、no longer、take pride in 等提升表达层次。
+**给家长的建议**：和孩子一起翻看三年前的照片，用英语说说各自的变化；多肯定孩子的点滴进步，少拿孩子与他人比较；鼓励孩子讲清"是哪件事让我改变"，为写作积累真实素材。`},{subject:"英语",stage:"初中",grade:"九年级",chapter:`人教版 Unit 5：What are the shirts made of?`,备课方案:`**教学目标**
+1. 语音与词汇：能正确认读、拼写并运用本单元 36 个课内单词（见讲义单词表），掌握 12 个核心短语。
+2. 语言知识：掌握一般现在时被动语态（am / is / are + 过去分词）的构成与用法，能正确辨析 be made of / from / in / by / into，会做被动语态的否定句与疑问句转换。
+3. 语言技能：能听懂、读懂关于产品材料与产地、中国传统手工艺的对话与短文；能就"某物由什么制成、在哪里生产"进行问答，并连贯地介绍一件手工艺品的制作过程。
+4. 情感态度与文化意识：了解孔明灯、剪纸、陶艺等中国传统手工艺，学会用英语介绍"中国制造"与中华传统技艺，增强文化自信。
+
+**教学重点**：一般现在时被动语态的构成与运用；be made of / from / in / by / into 的辨析；介绍产品材料、产地与工艺流程的表达。
+**教学难点**：主动语态与被动语态的相互转换（时态不变、主谓一致、短语动词不丢词）；be made of 与 be made from 的区别；被动语态中 by 短语的省略。
+**教学方法**：情景导入、任务型教学、小组合作、思维导图归纳、当堂检测。
+**课时安排**：4 课时（Section A 2 课时 + Section B 1 课时 + 复习与写作 1 课时）`,课堂讲义:{核心知识点:`**一、课内单词（Words and Expressions）**
+| 单词 | 音标 | 词性 | 中文释义 | 教材搭配 / 例句 |
+|------|------|------|----------|-----------------|
+| material | /məˈtɪəriəl/ | n. | 材料；原料 | What is the material of the blouse? |
+| chopsticks | /ˈtʃɒpstɪks/ | n. | 筷子 | The chopsticks are made of wood. |
+| coin | /kɔɪn/ | n. | 硬币 | The coins are made of silver. |
+| fork | /fɔːk/ | n. | 叉子；餐叉 | Is this fork made of steel? |
+| blouse | /blaʊz/ | n. | （女式）短上衣；衬衫 | The blouse is made of cotton. |
+| silver | /ˈsɪlvə/ | n. | 银；银器 | a silver ring / be made of silver |
+| glass | /glɑːs/ | n. | 玻璃；玻璃杯 | The window is made of glass. |
+| cotton | /ˈkɒtn/ | n. | 棉；棉花 | These shirts are made of cotton. |
+| steel | /stiːl/ | n. | 钢；钢铁 | Is the fork made of steel? |
+| grass | /grɑːs/ | n. | 草；草地 | The chair is made of grass. |
+| leaf | /liːf/ | n. | 叶子（复数 leaves） | Tea leaves are picked by hand. |
+| produce | /prəˈdjuːs/ | v. | 生产；制造 | Where is tea produced in China? |
+| widely | /ˈwaɪdli/ | adv. | 广泛地；普遍地 | Rice is widely grown in the south. |
+| process | /ˈprəʊses/ | v. & n. | 加工；处理；过程 | The tea is processed before it is packed. |
+| local | /ˈləʊkl/ | adj. | 当地的；本地的 | local shops / local people |
+| brand | /brænd/ | n. | 品牌；牌子 | a famous brand / local brands |
+| avoid | /əˈvɔɪd/ | v. | 避免；回避 | avoid buying products made abroad |
+| product | /ˈprɒdʌkt/ | n. | 产品；制品 | American products / high-tech products |
+| handbag | /ˈhændbæg/ | n. | 手提包；小背包 | Is this handbag made in France? |
+| mobile | /ˈməʊbaɪl/ | adj. | 可移动的；非固定的 | a mobile phone |
+| Germany | /ˈdʒɜːməni/ | n. | 德国 | Is the car made in Germany? |
+| surface | /ˈsɜːfɪs/ | n. | 表面；表层 | the surface of the water |
+| postman | /ˈpəʊstmən/ | n. | 邮递员 | The letters are sent by the postman. |
+| cap | /kæp/ | n. | （尤指有帽舌的）帽子 | a baseball cap |
+| glove | /glʌv/ | n. | （分手指的）手套 | a pair of gloves |
+| international | /ˌɪntəˈnæʃnəl/ | adj. | 国际的 | an international kite festival |
+| competitor | /kəmˈpetɪtə/ | n. | 参赛者；竞争者 | The competitors come from all over the world. |
+| form | /fɔːm/ | n. | 形式；类型 | each different form of art |
+| clay | /kleɪ/ | n. | 黏土；陶土 | The clay pieces are shaped by hand. |
+| balloon | /bəˈluːn/ | n. | 气球 | hot-air balloons |
+| scissors | /ˈsɪzəz/ | n. | 剪刀 | a pair of scissors |
+| lively | /ˈlaɪvli/ | adj. | 生气勃勃的；鲜艳的 | lively characters from Chinese fairy tales |
+| fairy | /ˈfeəri/ | n. | 小精灵；仙子 | a fairy tale |
+| heat | /hiːt/ | n. & v. | 热；高温；加热 | be fired at a very high heat |
+| polish | /ˈpɒlɪʃ/ | v. | 磨光；修改；润色 | They are polished and painted. |
+| complete | /kəmˈpliːt/ | v. & adj. | 完成；完整的 | It takes several weeks to complete everything. |
+
+> 单词表按教材出现顺序排列，优先掌握四会词：material, produce, widely, process, local, avoid, product, international, form, lively, heat, complete。
+
+**二、核心短语**
+- be made of —— 由……制成（制成品中看得出原材料）
+- be made from —— 由……制成（制成品中看不出原材料）
+- be made in —— 在……（地点）制造
+- be made by —— 由……（人）制造；被……制作
+- be made into —— 被制成……（原材料作主语）
+- be known for —— 以……闻名；因……而著称
+- no matter —— 无论；不论（后接 what / where / how 等）
+- as far as I know —— 据我所知
+- by hand —— 用手工（制作）
+- turn...into —— 把……变成……
+- send out —— 发出；放出；发送
+- paper cutting —— 剪纸
+- be good for —— 对……有好处
+- be covered with —— 被……覆盖
+- be used for doing sth. —— 被用来做某事
+
+**三、核心句型**
+1. — What is the model plane made of? — It is made of used wood and glass. —— 询问材料，看得出原材料用 made of。
+2. — Where is tea produced in China? — It is produced in many different areas. —— 询问产地，用 produce 的被动语态。
+3. The paper is made from wood, so we can't see the wood in it. —— 看不出原材料用 made from。
+4. The tea leaves are picked by hand and then sent for processing. —— 并列被动，by hand 强调方式。
+5. No matter what you may buy, you might think those products were made in those countries. —— no matter what 引导让步状语从句。
+6. The sky lanterns are made of bamboo and covered with paper. —— 描述孔明灯的材料与外观。
+7. It takes several weeks to complete everything. —— It takes (sb.) some time to do sth. 花了……时间做……。
+8. These small pieces of clay art show the love that all Chinese people have for life and beauty. —— that 引导定语从句，用于结尾升华。
+
+**四、语法聚焦：一般现在时的被动语态**
+- 构成：主语 + am / is / are + 过去分词 (+ by + 动作执行者)
+- 用法：强调动作的承受者；不知道或不必说明动作执行者时；客观、习惯性地描述生产与制作过程。
+- 句型转换：否定句在 am / is / are 后加 not；一般疑问句把 am / is / are 提到主语前；特殊疑问句用"疑问词 + am / is / are + 主语 + 过去分词"。
+- 例句：
+  - Rice is grown in the south of China.（主动：Farmers grow rice in the south of China.）
+  - These shirts are not made in China.
+  - What are the shirts made of?
+- 易错提示：① 主谓一致，主语是复数或不可数名词（如 tea）看具体情况，tea 用 is；② 只有及物动词（或动词短语）才有被动语态，happen, take place, rise 等不及物动词没有被动；③ look / sound / smell / feel / taste 作系动词时后接形容词，不用被动；④ 主动变被动时时态不变、介词不丢（look after → be looked after）。
+
+**五、话题写作框架（介绍一件中国手工艺品）**
+- 开头：...is a traditional Chinese art form. / It has a history of over...years. / It is famous for...
+- 中间：It is made of / from...; It is made in...; It is made by...; First... Then... After that... Finally...; It is used for.../ It is a symbol of...
+- 结尾：I'm proud of... / I hope more and more people will... / It shows the love for life and beauty.`,重点难点解析:`**重点：一般现在时被动语态的构成与运用**
+当句子的主语是动作的承受者时用被动语态。一般现在时的被动语态为 am / is / are + 过去分词，am 只跟 I，is 跟单数名词或不可数名词，are 跟复数。动作执行者用 by 引出，不明确或不重要时常省略。
+- The shirts are made of cotton.（主语 shirts 是复数，用 are）
+- Tea is grown on the sides of mountains.（tea 不可数，用 is）
+- English is spoken by many people.
+判断标准：句子强调的是"东西怎么样、怎么被加工"，而不是"谁做的"，就用被动语态。
+
+**难点一：be made of / from / in / by / into 的辨析**
+- be made of：制成品中还能看出原材料，物理变化。The chair is made of wood.
+- be made from：制成品中看不出原材料，发生了化学变化。The paper is made from wood. / Bread is made from wheat.
+- be made in + 地点：在……制造。The car is made in Germany.
+- be made by + 人：由谁制造。The model plane was made by my brother.
+- be made into：原材料作主语，"被制成……"。Wood can be made into paper. / Glass is made into bottles.
+学生典型错误：① 只看中文"由……制成"就一律写 of，不看能否看出原材料；② 把 be made in 与 be made by 混用，记成 be made by China；③ 忘记 be made into 时原材料作主语（Wood is made into paper，不是 Paper is made into wood）。
+
+**难点二：主动语态变被动语态的四步法**
+第一步，把原句的宾语提到句首作新主语；第二步，把动词改成 be + 过去分词，be 的形式与新主语保持一致、与原句时态保持一致；第三步，把原句主语放在 by 之后（可省略）；第四步，其余成分照抄，短语动词的介词不能丢。
+- They grow tea in the south. → Tea is grown in the south (by them).
+- People use knives to cut things. → Knives are used to cut things.
+- We look after the old people. → The old people are looked after (by us).
+典型错误：① 时态被改掉，原句是一般现在时却写成 was / were；② 只把动词换成过去分词，漏写 be 动词（写成 Tea grown in the south）；③ 短语动词丢介词（写成 The old people are looked）；④ 主谓不一致（Tea are grown）。
+
+**中考考点提示**
+- 单选与词汇运用：直接考查 be made of / from / in / by 的辨析，以及 be covered with、be used for 等固定搭配，多为 1 分题。
+- 句型转换与完成句子：主动变被动、被动变主动，或对划线部分提问（What is it made of? / Where is it produced?）。
+- 语篇填空：以中国传统手工艺（孔明灯、剪纸、陶艺）为语篇，用所给动词的适当形式填空，重点填一般现在时被动语态。
+- 书面表达：介绍一件中国特产或手工艺品，要求写出材料、产地与制作过程，被动语态的使用是得分亮点。`,典型例题精讲:`**例题 1（be made of 与 be made from 的辨析）**
+题目：The paper is made ______ wood, and the desk is made ______ wood, too.  A. of; from  B. from; of  C. of; of  D. from; from
+解析：纸看不出木头，用 made from；桌子能看出木料，用 made of。判断依据是"制成品里还看不看得出原材料"。
+答案：B
+方法小结：看得见原材料用 of，看不见原材料用 from；同一原材料 wood 出现两次，正是命题人设置的陷阱。
+
+**例题 2（被动语态与主谓一致）**
+题目：Rice ______ in the south of China.  A. grows  B. is grown  C. is growing  D. grew
+解析：rice 是"被种植"，主语是动作的承受者，用被动语态；描述客观情况用一般现在时，rice 不可数，用 is grown。
+答案：B
+方法小结：先看主语与动词的关系确定语态，再看时态和主谓一致确定 be 的形式。
+
+**例题 3（主动变被动）**
+题目：They produce silk in Suzhou.（改为被动语态）Silk ______ ______ in Suzhou.
+解析：原句一般现在时，宾语 silk 提为主语且不可数，因此 be 动词用 is，produce 变过去分词 produced；地点状语照抄，by them 可省略。
+答案：is produced
+方法小结：主动变被动"时态不变、数随新主语、介词不丢"。
+
+**例题 4（be made by / into / in 的选用）**
+题目：用 in / by / into 填空：① The model plane was made ______ my brother. ② Glass can be made ______ bottles. ③ These cars are made ______ Japan.
+解析：① 后接人"我哥哥"，表示"由谁制造"，用 by；② 原材料 glass 作主语，"被制成瓶子"，用 into；③ 后接国家，表示产地，用 in。
+答案：① by ② into ③ in
+方法小结：by 接人、in 接地点、into 接成品（原材料作主语）。
+
+**例题 5（写作：介绍一件中国传统手工艺品）**
+题目：以 Paper Cutting 为题写一篇 80 词左右的短文，介绍剪纸的材料、用途与寓意，至少使用 3 处被动语态。
+解析：先定框架（是什么—怎么做—有什么寓意），再落实被动结构：is made of、is cut with、is put on、is used for、is regarded as。
+答案：Paper cutting is a traditional Chinese art form with a history of more than 1,500 years. The pictures, such as flowers, animals and characters from Chinese fairy tales, are usually cut out of red paper with a pair of scissors. They are made by hand, so no two pieces are exactly the same. During the Spring Festival, paper cuttings are put on windows, doors and walls, because red is a symbol of good luck and happiness. They are also used for decorating gifts. I'm proud of this art form and I hope it will be loved by more people around the world.
+方法小结：介绍类说明文用"总—分—总"结构，被动语态让说明更客观，结尾用 I'm proud of / I hope 升华情感。`},课后作业:[{difficulty:"基础",title:"基础巩固",questions:[{q:`单词拼写：The ring is made of s______（银），and it was made in Thailand.`,a:`答案 silver。be made of silver 由银制成；注意 silver 是不可数名词，不加 s。`},{q:`单词拼写：These c______（筷子）are made of bamboo and they are made b______ hand（手工）。`,a:`答案 chopsticks；by。chopsticks 只有复数形式；by hand 意为"用手工"，是固定短语。`},{q:`短语翻译：① 据我所知 ② 无论什么 ③ 以……闻名 ④ 被……覆盖`,a:`答案 ① as far as I know ② no matter what ③ be known for ④ be covered with。注意 be known for 后接出名的原因，be known as 后接身份。`},{q:`句型转换：People grow tea in the south of China.（改为被动语态）Tea ______ ______ in the south of China.`,a:`答案 is grown。tea 不可数，be 动词用 is；一般现在时被动语态为 is + grown。`}]},{difficulty:"中等",title:"能力提升",questions:[{q:`单项选择：Bread is made ______ wheat, and paper is made ______ wood.  A. of; of  B. from; from  C. of; from  D. from; of`,a:`答案 B。面包里看不出麦粒、纸里看不出木头，两者都发生了根本变化，都用 made from。得分点：看不见原材料一律用 from。`},{q:`单项选择：— Your handbag looks nice. Where ______ it ______? — In Guangzhou.  A. is; made  B. was; made  C. does; make  D. is; making`,a:`答案 A。问产地用 Where is it made?；it 是第三人称单数，be 动词用 is，make 的过去分词是 made。`},{q:`完成句子：这些灯笼是用竹子做的，外面糊着纸。The lanterns are ______ ______ bamboo and ______ ______ paper.`,a:`答案 made of; covered with。be made of 能看出原材料；be covered with 表示"被……覆盖"，是教材原句。`},{q:`完成句子：据我所知，茶叶被手工采摘，然后被送去加工。As far as I know, tea leaves are ______ by hand and then ______ for processing.`,a:`答案 picked; sent。两个并列的被动结构，pick 的过去分词是 picked，send 的过去分词是 sent。`}]},{difficulty:"难",title:"综合挑战",questions:[{q:`语篇填空：用括号内动词的适当形式填空（grow, pick, send）。Tea is one of the most popular drinks in the world. Tea plants ______ (grow) on the sides of mountains. When the leaves are ready, they ______ (pick) by hand and then ______ (send) for processing.`,a:`答案 are grown；are picked；are sent。三处均为一般现在时被动语态；tea plants 与 leaves 都是复数，be 动词用 are。`},{q:`语篇填空（接上题）：After that, the tea ______ (pack) and ______ (sell) to many different countries. It ______ (say) that tea is good for both health and business.`,a:`答案 is packed；sold；is said。the tea 不可数用 is；and 后的 sold 与 is packed 共用 is；It is said that... 意为"据说"，是固定句式。`},{q:`翻译：剪纸是一种中国传统艺术形式，已有一千五百多年的历史。`,a:`答案 Paper cutting is a traditional Chinese art form and it has been around for over 1,500 years.。be around 表示"存在、流传"，用现在完成时强调延续至今。`},{q:`翻译：这些泥塑由手工捏成形，然后被晾干、烧结、抛光和上色。`,a:`答案 The clay pieces are shaped by hand, then allowed to air-dry, fired at a very high heat, polished and painted.。多个并列过去分词共用一个 are，by hand 表示方式。`}]},{difficulty:"综合",title:"中考真题对接",questions:[{q:`（中考真题）— What do you think of the shirt? — It's very comfortable. It ______ in China.  A. makes  B. made  C. is made  D. is making`,a:`答案 C。it 指代衬衫，是被制造的，用一般现在时被动语态 is made；be made in + 地点表示产地。`},{q:`（中考真题）Chinese ______ by more and more foreigners today.  A. learns  B. learned  C. is learned  D. was learned`,a:`答案 C。today 提示一般现在时；汉语是"被学习"，用 is learned。`},{q:`（中考真题·任务型阅读）The passage mainly tells us that many products in the US, even American flags, ______.（用 8 个词以内回答）`,a:`答案 are made in China。文章主旨是"在美国买到的很多商品其实都是中国制造"，用一般现在时被动语态作答最简洁。`},{q:`（中考真题·书面表达）你校将举办"中国传统手工艺品"英语展，请你以 Sky Lanterns 为题写一篇 80—100 词的介绍，包括材料、用途与寓意，至少使用 3 处被动语态。`,a:`参考范文：Sky lanterns are a traditional Chinese art form with a long history. They were first used by Zhuge Kongming, so they are also known as Kongming lanterns. A sky lantern is made of bamboo and covered with paper. When it is lit, hot air rises inside and the lantern slowly goes up into the sky. Today sky lanterns are used at festivals and other celebrations. They are seen as bright symbols of happiness and good wishes. Making a sky lantern is not difficult, but it must be done carefully. I'm proud of this traditional art and I hope it will be passed down forever.。范文含 is made of、is covered with、is lit、are used、are seen as 等多处被动结构，结尾升华情感。`}]}],课后反馈:`**常见错误**：be made of 与 be made from 一律用 of；被动语态漏写 be 动词或 be 动词与主语数不一致；主动变被动时把时态改掉；短语动词变被动时丢掉介词；look / smell 等系动词误用被动。
+**教学改进建议**：用"看得见 / 看不见"两栏对比表强化 made of 与 made from；用四步法口诀（提宾语、变 be + p.p.、by 置后、介词不丢）训练句型转换；以孔明灯、剪纸语篇做语篇填空专项。
+**分层辅导**：学困生先掌握 12 个高频词与 be made of / from / in 三种基本用法，能写 3 句被动句；学优生要求掌握 be made into、be covered with、It is said that 等表达，并在写作中自然使用 5 处以上被动结构。
+**给家长的建议**：和孩子一起找一件中国制造的日用品，用英语说出它的材料与产地；周末可陪孩子观看剪纸或陶艺制作视频，积累写作素材。`},{subject:"英语",stage:"初中",grade:"九年级",chapter:`人教版 Unit 6：When was it invented?`,备课方案:`**教学目标**
+1. 语音与词汇：能正确认读、拼写并运用本单元 36 个课内单词（见讲义单词表），掌握 12 个核心短语。
+2. 语言知识：掌握一般过去时被动语态（was / were + 过去分词）与含情态动词的被动语态（can / must / should + be + 过去分词）的构成与用法，归纳被动语态的时态变化规律。
+3. 语言技能：能听懂、读懂关于发明史的对话与短文（茶、薯片、篮球）；能用 When was it invented? Who was it invented by? What is it used for? 进行问答，并连贯地介绍一项发明。
+4. 情感态度与文化意识：了解中外重要发明及其对人类生活的影响，体会观察、思考与坚持的价值，树立"小发明也能改变生活"的创新意识。
+
+**教学重点**：一般过去时被动语态的构成与运用；invent / discover 的区别；be used for doing 与 be used to do。
+**教学难点**：被动语态不同时态 be 形式的确定；含情态动词的被动语态；by accident、take place 等短语的准确使用。
+**教学方法**：情景导入、任务型教学、小组合作、思维导图归纳、当堂检测。
+**课时安排**：4 课时（Section A 2 课时 + Section B 1 课时 + 复习与写作 1 课时）`,课堂讲义:{核心知识点:`**一、课内单词（Words and Expressions）**
+| 单词 | 音标 | 词性 | 中文释义 | 教材搭配 / 例句 |
+|------|------|------|----------|-----------------|
+| heel | /hiːl/ | n. | 鞋跟；足跟 | shoes with special heels |
+| scoop | /skuːp/ | n. | 勺；铲子 | the hot ice-cream scoop |
+| electricity | /ɪˌlekˈtrɪsəti/ | n. | 电；电能 | shoes with lights run on electricity |
+| style | /staɪl/ | n. | 样式；款式 | the style of the shoes |
+| project | /ˈprɒdʒekt/ | n. | 项目；工程 | work on a school project |
+| pleasure | /ˈpleʒə/ | n. | 高兴；愉快 | — Can you help me? — With pleasure. |
+| zipper | /ˈzɪpə/ | n. | 拉链；拉锁 | The zipper is used in our daily lives. |
+| daily | /ˈdeɪli/ | adj. | 日常的；每日的 | in our daily lives / daily activities |
+| website | /ˈwebsaɪt/ | n. | 网站 | on the website |
+| pioneer | /ˌpaɪəˈnɪə/ | n. | 先锋；先驱 | a pioneer of modern art |
+| list | /lɪst/ | v. & n. | 列表；名单 | Many inventions are listed on the paper. |
+| mention | /ˈmenʃn/ | v. | 提到；说到 | Don't mention it. |
+| nearly | /ˈnɪəli/ | adv. | 几乎；差不多 | It's used nearly everywhere. |
+| boil | /bɔɪl/ | v. | 煮沸；烧开 | boiling water / boil drinking water |
+| smell | /smel/ | n. & v. | 气味；发出……气味 | It produced a nice smell. |
+| doubt | /daʊt/ | n. & v. | 疑惑；怀疑 | without doubt / No doubt about it. |
+| fridge | /frɪdʒ/ | n. | 冰箱 | put the ice-cream in the fridge |
+| low | /ləʊ/ | adj. | 低的；矮的 | at a low price / in a low voice |
+| somebody | /ˈsʌmbədi/ | pron. | 某人；有人 | Somebody stole my camera. |
+| translate | /trænsˈleɪt/ | v. | 翻译 | translate the book into English |
+| lock | /lɒk/ | v. & n. | 锁上；锁 | The door was locked by him. |
+| earthquake | /ˈɜːθkweɪk/ | n. | 地震 | A big earthquake happened last night. |
+| sudden | /ˈsʌdn/ | adj. | 突然（的） | all of a sudden |
+| bell | /bel/ | n. | 钟（声）；铃（声） | the bell rang |
+| biscuit | /ˈbɪskɪt/ | n. | 饼干 | crispy biscuits |
+| cookie | /ˈkʊki/ | n. | 曲奇饼；小甜饼 | chocolate cookies |
+| musical | /ˈmjuːzɪkl/ | adj. | 音乐的；有音乐天赋的 | a musical instrument |
+| instrument | /ˈɪnstrəmənt/ | n. | 器械；乐器 | play a musical instrument |
+| sour | /ˈsaʊə/ | adj. | 酸的；有酸味的 | sour grapes / taste sour |
+| customer | /ˈkʌstəmə/ | n. | 顾客；客户 | The customers were happy. |
+| Canadian | /kəˈneɪdiən/ | adj. & n. | 加拿大的；加拿大人 | a Canadian doctor |
+| divide | /dɪˈvaɪd/ | v. | 分开；分散 | divide the students into two teams |
+| purpose | /ˈpɜːpəs/ | n. | 目的；目标 | the purpose of the game |
+| basket | /ˈbɑːskɪt/ | n. | 篮；筐 | throw the ball into the basket |
+| hero | /ˈhɪərəʊ/ | n. | 英雄；男主角 | Basketball heroes are looked up to. |
+| professional | /prəˈfeʃənl/ | adj. | 职业的；专业的 | professional basketball groups |
+
+> 单词表按教材出现顺序排列，优先掌握四会词：invent（已学）, electricity, style, pleasure, daily, mention, nearly, boil, doubt, translate, divide, purpose, professional。
+
+**二、核心短语**
+- by accident —— 偶然地；意外地
+- take place —— 发生；出现（无被动语态）
+- without doubt —— 毫无疑问；的确
+- all of a sudden —— 突然；猛地
+- fall into —— 落入；陷入
+- look up to —— 钦佩；仰慕
+- divide...into —— 把……分成……
+- at the same time —— 同时
+- stop...from doing sth. —— 阻止……做某事
+- dream of —— 梦想；向往
+- be used for doing sth. —— 被用来做某事
+- by mistake —— 错误地；无意中
+- in the end —— 最后；终于
+- more than —— 超过；多于
+- come up with —— 想出；提出（主意、答案等）
+- the number of —— ……的数量
+
+**三、核心句型**
+1. — When was the telephone invented? — I think it was invented in 1876. —— 询问发明时间，用一般过去时被动语态。
+2. — Who was it invented by? — It was invented by Whitcomb Judson. —— 询问发明者，by 引出动作执行者。
+3. — What are they used for? — They are used for seeing in the dark. —— be used for doing 说明用途。
+4. Tea was discovered by Shen Nong as a drink about 5,000 years ago. —— as 表示"作为"。
+5. It is said that a Chinese ruler called Shen Nong was the first to discover tea as a drink. —— It is said that... 据说……
+6. Some leaves from a tea plant fell into the water and remained there for some time. —— fall into 落入，remain 保持不变。
+7. The potato chips were invented by mistake. —— by mistake 无意中、错误地。
+8. Dr. Naismith divided the men in his class into two teams and taught them to play his new game. —— divide...into 把……分成。
+9. Many young people dream of becoming famous players. —— dream of doing 梦想做某事。
+10. Basketball has not only become a popular sport to play, but it has also become a popular sport to watch. —— not only...but also... 连接两个并列分句。
+
+**四、语法聚焦：一般过去时的被动语态与含情态动词的被动语态**
+- 构成：主语 + was / were + 过去分词（+ by + 执行者）；含情态动词：情态动词 + be + 过去分词。
+- 用法：强调过去某一动作的发生时间与承受者，常用于说明发明的时间、发明者、用途与影响。
+- 时态变化规律（被动语态只变 be 的形式，过去分词不变）：
+  - 一般现在时：am / is / are + p.p.（Tea is grown in the south.）
+  - 一般过去时：was / were + p.p.（The telephone was invented in 1876.）
+  - 一般将来时：will be + p.p.（The work will be finished tomorrow.）
+  - 含情态动词：can / must / should + be + p.p.（The problem must be solved today.）
+  - 现在完成时：have / has been + p.p.（The house has been built.）
+- 例句：
+  - The zipper was invented by Whitcomb Judson in 1893.
+  - When was tea brought to other countries?
+  - The students should be divided into groups of four.
+- 易错提示：① 主语是 I / he / she / it 或单数名词用 was，we / you / they 或复数名词用 were；② 与过去时间状语（in 1876, last year, about 5,000 years ago）连用时用一般过去时被动；③ 含情态动词时 be 用原形，不随人称变化；④ happen、take place、belong to 没有被动语态；⑤ invent 指发明原来不存在的东西，discover 指发现本来就存在的事物。
+
+**五、话题写作框架（介绍一项发明）**
+- 开头：...is one of the most useful inventions in the world. / It was invented by...in... / It is said that...
+- 中间：It was invented by accident / by mistake. At that time... It is used for.../ It is used to... The number of...has risen.
+- 结尾：It has changed our life / Without doubt, it has become... / I think it is the most helpful invention because...`,重点难点解析:`**重点：一般过去时被动语态的构成与运用**
+一般过去时的被动语态由 was / were + 过去分词构成，用来说明过去某个动作发生时，主语是动作的承受者。判断主语单复数决定用 was 还是 were；动作执行者用 by 引出，可省略；时间状语常用 in 1876、about 5,000 years ago、last century 等。
+- The telephone was invented in 1876.（the telephone 单数，用 was）
+- Potato chips were invented by mistake.（chips 复数，用 were）
+- When was the zipper invented? — It was invented in 1893.
+陈述发明史时几乎都要用被动语态，因为重点在"东西被发明、被使用、被传播"，而不在"谁做的"。
+
+**难点一：被动语态的时态变化规律与 be 的形式**
+学生最常犯的错误是"只看时间状语，不看主语"，或者把过去分词当成过去式使用。可记一句口诀：**变被动，只变 be；过去分词不动地**。
+- 一般现在时：The tea is packed.
+- 一般过去时：The tea was packed yesterday.
+- 一般将来时：The tea will be packed tomorrow.
+- 含情态动词：The tea must be packed carefully.
+- 现在完成时：The tea has been packed.
+典型错误：① 写成 The tea was pack / The tea is invent；② 复数主语用 was（The shoes was made...）；③ 含情态动词时写成 can was made（应为 can be made）；④ 把不及物动词用于被动（The accident was happened last night，应为 happened）。
+
+**难点二：invent 与 discover、be used for 与 be used to 的辨析**
+- invent：发明，创造出原本不存在的事物。Edison invented the light bulb.
+- discover：发现，找到本来就存在但未被认识的事物。Shen Nong discovered tea.
+- be used for doing sth. = be used to do sth.：被用来做某事。Knives are used for cutting things. = Knives are used to cut things.
+- used to do sth.：过去常常做某事（与被动无关）。I used to be afraid of the dark.
+- be used to doing sth.：习惯于做某事。He is used to getting up early.
+记忆口诀：**for 接 ing，to 接原形；used to 是过去常常，be used to 是习惯于**。学生典型错误：把 be used to do（被用来）与 be used to doing（习惯于）混为一谈，写成 Knives are used to cutting things。
+
+**中考考点提示**
+- 单选与词汇运用：考查一般过去时被动语态（was / were + p.p.）与含情态动词的被动语态，以及 invent / discover、by accident / by mistake 的辨析，多为 1 分题。
+- 句型转换与完成句子：主动变被动（They built the bridge in 1999. → The bridge was built in 1999.）、对划线部分提问（When was it invented? / Who was it invented by?）。
+- 语篇填空：以发明小故事（茶、薯片、篮球）为语篇，用所给动词的适当形式填空，重点填一般过去时被动语态。
+- 书面表达：介绍一项发明或"我最喜欢的发明"，要求写出发明时间、发明者、用途与影响，被动语态与 It is said that、not only...but also... 是高分句式。`,典型例题精讲:`**例题 1（一般过去时被动语态与主谓一致）**
+题目：The potato chips ______ by mistake in 1853.  A. invented  B. were invented  C. was invented  D. are invented
+解析：chips 是"被发明"，用被动语态；in 1853 是过去时间，用一般过去时；chips 为复数，be 动词用 were。
+答案：B
+方法小结：先看语态（被动），再看时态（过去），最后看主谓一致（复数用 were）。
+
+**例题 2（含情态动词的被动语态）**
+题目：The work must ______ before Friday.  A. finish  B. finished  C. be finished  D. is finished
+解析：工作是"被完成"，用被动；must 是情态动词，后接 be + 过去分词，be 用原形不随人称变化。
+答案：C
+方法小结：情态动词 + be + 过去分词；情态动词后永远接动词原形，这里的原形就是 be。
+
+**例题 3（invent 与 discover 的辨析）**
+题目：用 invent / discover 的适当形式填空：① Tea ______ by Shen Nong about 5,000 years ago. ② The zipper ______ by Whitcomb Judson in 1893.
+解析：茶本来就存在，是被"发现"，用 was discovered；拉链原来没有，是被"发明"，用 was invented。两处都是过去时间，用一般过去时被动语态。
+答案：① was discovered ② was invented
+方法小结：本来就有的用 discover，原来没有的用 invent；两词都常用于被动语态。
+
+**例题 4（主动变被动与对划线部分提问）**
+题目：They built the bridge in 1999. ① 改为被动语态；② 对 in 1999 提问。
+解析：① 宾语 the bridge 提为主语且为单数，一般过去时被动用 was built，by them 可省略：The bridge was built in 1999. ② 对时间提问用 When，句子改为特殊疑问句：When was the bridge built?
+答案：① The bridge was built in 1999. ② When was the bridge built?
+方法小结：陈述句变被动后再变疑问句时，be 动词要提到主语之前，其余照抄。
+
+**例题 5（综合：be used for 与 by accident）**
+题目：完成句子：这种特殊勺子是用来吃冰淇淋的，它是偶然被发明出来的。The special scoop is ______ ______ eating ice-cream and it was invented ______ ______.
+解析：表示"被用来做某事"用 be used for doing，故第一处填 used for；表示"偶然地"用 by accident，是教材原短语。
+答案：used for; by accident
+方法小结：be used for 后接动名词；by accident（偶然）与 by mistake（错误地）都要整体记忆，不要拆开翻译。
+
+**例题 6（写作：介绍一项发明）**
+题目：以 The Most Useful Invention 为题写一篇 80—100 词的短文，介绍你眼中最有用的一项发明，包括发明时间、用途和对生活的影响，至少使用 3 处被动语态。
+答案：I think the mobile phone is one of the most useful inventions in our daily lives. It was invented by Martin Cooper in 1973. At first it was very big and expensive, so it was used only by a few businessmen. Today it is used not only for making calls but also for taking photos, paying bills and searching for information. It is said that more and more people can't live without it. Without doubt, the mobile phone has changed the way we live and work. However, we should be careful not to spend too much time on it. I hope it will be used in a wiser way in the future.
+方法小结：介绍发明按"发明时间与发明者—早期用途—现在用途—影响与建议"的顺序写，被动语态贯穿全文，结尾用 However 转折体现思辨。`},课后作业:[{difficulty:"基础",title:"基础巩固",questions:[{q:`单词拼写：The zipper is used in our d______ lives（日常生活）。`,a:`答案 daily。daily 是形容词，修饰名词 lives；in our daily lives 意为"在我们的日常生活中"。`},{q:`单词拼写：Basketball was invented by a C______ doctor（加拿大的）named James Naismith.`,a:`答案 Canadian。表示国籍的形容词首字母要大写，Canadian 既是形容词也是名词。`},{q:`短语翻译：① 偶然地 ② 毫无疑问 ③ 突然 ④ 把……分成`,a:`答案 ① by accident ② without doubt ③ all of a sudden ④ divide...into。注意 by accident 与 by mistake（错误地）含义不同。`},{q:`句型转换：Bell invented the telephone in 1876.（改为被动语态）The telephone ______ ______ by Bell in 1876.`,a:`答案 was invented。the telephone 为单数、in 1876 为过去时间，用一般过去时被动语态 was invented。`}]},{difficulty:"中等",title:"能力提升",questions:[{q:`单项选择：— When ______ the car ______? — In 1885.  A. did; invent  B. was; invented  C. is; invented  D. does; invented`,a:`答案 B。汽车是"被发明"，用被动语态；in 1885 是过去时间，用 was invented。`},{q:`单项选择：The students ______ into four groups by the teacher yesterday.  A. divide  B. divided  C. are divided  D. were divided`,a:`答案 D。学生是"被分成"，yesterday 提示一般过去时，students 为复数，用 were divided。`},{q:`完成句子：这顶特殊的帽子是用来在黑暗中看东西的。The special hat is ______ ______ seeing in the dark.`,a:`答案 used for。be used for doing sth. 意为"被用来做某事"，for 后接动名词 seeing。`},{q:`完成句子：据说茶是被神农偶然发现的。It ______ ______ that tea was discovered by Shen Nong ______ ______.`,a:`答案 is said; by accident。It is said that... 意为"据说"；by accident 意为"偶然地"，均为教材原句。`}]},{difficulty:"难",title:"综合挑战",questions:[{q:`语篇填空：用括号内动词的适当形式填空（discover, boil, produce, invent）。Tea ______ (discover) as a drink about 5,000 years ago. Some leaves from a tea plant fell into the water that ______ (boil) over the fire. In this way, a nice smell ______ (produce).`,a:`答案 was discovered；was boiling；was produced。第一、三空为一般过去时被动语态；第二空指"正在火上烧的水"，用过去进行时 was boiling。`},{q:`语篇填空（接上题）：Basketball ______ (invent) by a Canadian doctor in 1891. He ______ (divide) the men in his class into two teams. Today the popularity of basketball ______ (rise) around the world.`,a:`答案 was invented；divided；has risen。前两空为一般过去时（被动 / 主动）；第三空强调至今的变化，用现在完成时 has risen。`},{q:`翻译：毫无疑问，篮球已经成为一项深受欢迎的运动，许多年轻人仰慕篮球英雄。`,a:`答案 Without doubt, basketball has become a popular sport and many young people look up to basketball heroes.。without doubt 置于句首，look up to 意为"钦佩、仰慕"。`},{q:`翻译：这些曲奇饼是在错误中被发明的，但它们现在受到顾客的欢迎。`,a:`答案 The cookies were invented by mistake, but now they are liked by customers.。by mistake 意为"无意中、错误地"；be liked by 为一般现在时被动语态。`}]},{difficulty:"综合",title:"中考真题对接",questions:[{q:`（中考真题）The 2022 Winter Olympic Games ______ in Beijing and Zhangjiakou.  A. held  B. was held  C. is held  D. will be held`,a:`答案 B。2022 年是过去时间，赛事是"被举办"，用一般过去时被动语态 was held。`},{q:`（中考真题）— Who ______ the light bulb ______ by? — Edison.  A. did; invent  B. was; invented  C. was; invent  D. did; invented`,a:`答案 B。Who was it invented by? 询问发明者；invent 用过去分词 invented 与 was 构成被动。`},{q:`（中考真题·任务型阅读）The passage is mainly about how tea ______.（用 6 个词以内回答）`,a:`答案 was discovered by accident。文章讲述神农发现茶的故事，核心是"茶被偶然发现"，用一般过去时被动语态作答。`},{q:`（中考真题·书面表达）发明改变生活。请以 The Invention I Like Best 为题写一篇 80—100 词的短文，介绍发明者与发明过程、用途及对你的影响，至少使用 3 处被动语态。`,a:`参考范文：The invention I like best is the light bulb. It was invented by Thomas Edison in 1879. It is said that he tried more than one thousand materials before he succeeded. At first the light was very weak, but it was improved little by little. Today the light bulb is used everywhere in our daily lives. It is used not only for lighting our rooms but also for making our cities beautiful at night. Without doubt, it has changed the world greatly. From Edison's story I have learned that success belongs to those who never give up. I will keep trying until my dream comes true.。范文含 was invented、is used、was improved 等被动结构，结尾由发明谈到个人感悟。`}]}],课后反馈:`**常见错误**：被动语态漏写 be 或 be 的时态、数与主语不一致；把过去分词误当过去式（The car was invent）；含情态动词时写成 can was made；invent 与 discover 混用；be used for doing 与 used to do、be used to doing 三者混淆；happen、take place 误用被动。
+**教学改进建议**：用"时态轴"思维导图归纳被动语态的五种形式，突出"变被动只变 be"；用发明史大事年表做句型转换与提问的限时训练；以茶、薯片、篮球三篇短文做语篇填空专项。
+**分层辅导**：学困生先掌握 was / were + p.p. 的基本结构与 12 个高频词，能就发明时间、发明者问答；学优生要求熟练使用含情态动词的被动语态、It is said that、not only...but also...，并在写作中自然使用 5 处以上被动结构。
+**给家长的建议**：和孩子一起查一件常用物品的发明时间与发明者，用英语做一次"发明小播报"；鼓励孩子观察生活，记录一个"想发明的小东西"，为写作积累素材。`},{subject:"英语",stage:"初中",grade:"九年级",chapter:`人教版 Unit 7：Teenagers should be allowed to choose their own clothes.`,备课方案:`**教学目标**
+1. 语音与词汇：能正确认读、拼写并运用本单元 30 个课内单词（见讲义单词表），掌握 12 个核心短语。
+2. 语言知识：掌握含情态动词的被动语态（should / must / can + be + 过去分词）的构成与用法，熟练运用 should be allowed to do 表达允许，掌握同意与不同意的功能表达。
+3. 语言技能：能听懂、读懂关于家规、校规与青少年成长的对话与短文；能就"青少年是否应该被允许做某事"发表观点、说明理由并进行辩论。
+4. 情感态度与文化意识：正确看待规则与自由的关系，理解父母与老师的良苦用心，学会理性表达诉求、为自己的选择负责。
+
+**教学重点**：含情态动词的被动语态；should be allowed to do 的肯定、否定与疑问形式；agree / disagree 的功能表达。
+**教学难点**：含情态动词被动语态与 be allowed to do 的句型转换；get sth. done 结构；议论文中理由的展开与让步表达。
+**教学方法**：情景导入、任务型教学、小组合作、思维导图归纳、当堂检测。
+**课时安排**：4 课时（Section A 2 课时 + Section B 1 课时 + 复习与写作 1 课时）`,课堂讲义:{核心知识点:`**一、课内单词（Words and Expressions）**
+| 单词 | 音标 | 词性 | 中文释义 | 教材搭配 / 例句 |
+|------|------|------|----------|-----------------|
+| allow | /əˈlaʊ/ | v. | 允许；准许 | allow sb. to do sth. / be allowed to do sth. |
+| pierce | /pɪəs/ | v. | 扎；刺破；穿透 | get one's ears pierced |
+| earring | /ˈɪərɪŋ/ | n. | 耳环；耳饰 | wear that silly earring |
+| flash | /flæʃ/ | n. & v. | 闪光灯；闪光 | use a flash / a flash of light |
+| license | /ˈlaɪsns/ | n. | 证；证件 | a driver's license |
+| safety | /ˈseɪfti/ | n. | 安全；安全性 | for safety / road safety |
+| smoke | /sməʊk/ | v. & n. | 吸烟；冒烟；烟 | No smoking. / smoke a cigarette |
+| teenager | /ˈtiːneɪdʒə/ | n. | 青少年 | Teenagers should be allowed to... |
+| hug | /hʌg/ | n. & v. | 拥抱；搂抱 | give sb. a hug |
+| lift | /lɪft/ | v. & n. | 举起；抬高；电梯 | lift heavy things / give sb. a lift |
+| badly | /ˈbædli/ | adv. | 严重地；差；非常 | be badly hurt |
+| awful | /ˈɔːfl/ | adj. | 很坏的；讨厌的 | an awful dream / feel awful |
+| teen | /tiːn/ | n. | 青少年（13—19 岁） | a teen magazine |
+| regret | /rɪˈgret/ | v. & n. | 感到遗憾；懊悔 | regret doing sth. / to one's regret |
+| poem | /ˈpəʊɪm/ | n. | 诗；韵文 | read a poem / write poems |
+| community | /kəˈmjuːnəti/ | n. | 社区；社团 | do community service / in the community |
+| chance | /tʃɑːns/ | n. | 机会；可能性 | have a chance of doing sth. |
+| manage | /ˈmænɪdʒ/ | v. | 完成（困难的事）；应付 | manage to do sth. |
+| society | /səˈsaɪəti/ | n. | 社会 | in modern society |
+| support | /səˈpɔːt/ | v. & n. | 支持；支撑 | support one's idea / give support to |
+| enter | /ˈentə/ | v. | 进来；进去；参加 | enter a university / enter the room |
+| choice | /tʃɔɪs/ | n. | 选择；挑选 | make one's own choice / have no choice |
+| educate | /ˈedʒukeɪt/ | v. | 教育；教导 | educate sb. to do sth. |
+| achieve | /əˈtʃiːv/ | v. | 达到；完成；成功 | achieve one's dream |
+| race | /reɪs/ | n. & v. | 赛跑；竞争 | run a race / a horse race |
+| importance | /ɪmˈpɔːtns/ | n. | 重要性 | the importance of learning English |
+| succeed | /səkˈsiːd/ | v. | 成功；做成 | succeed in doing sth. |
+| point | /pɔɪnt/ | n. & v. | 观点；要点；指 | have a point / point at |
+| part-time | /ˌpɑːt ˈtaɪm/ | adj. & adv. | 兼职的（地） | a part-time job |
+| professional | /prəˈfeʃənl/ | adj. | 专业的；职业的 | a professional runner |
+
+> 单词表按教材出现顺序排列，优先掌握四会词：allow, safety, smoke, teenager, chance, manage, support, enter, choice, achieve, importance, succeed。
+
+**二、核心短语**
+- be allowed to do sth. —— 被允许做某事
+- should be allowed to do sth. —— 应该被允许做某事
+- get one's ears pierced —— 打耳洞
+- keep...away from —— 使……远离；避免接近
+- make one's own decision —— 自己做决定
+- take care of —— 照顾；照看
+- be strict with sb. —— 对某人要求严格
+- get in the way of —— 挡……的路；妨碍
+- care about —— 关心；在乎
+- achieve one's dream —— 实现梦想
+- be serious about —— 对……认真
+- end up as —— 最终成为
+- have a chance of doing sth. —— 有机会做某事
+- spend time on sth. —— 在某事上花时间
+- agree with sb. —— 同意某人的看法
+- in the end —— 最后；终于
+
+**三、核心句型**
+1. Teenagers should be allowed to choose their own clothes. —— 含情态动词的被动语态，表示"应该被允许"。
+2. — Do you think sixteen-year-olds should be allowed to drive? — No, I don't think so. They aren't serious enough. —— 询问并表明观点，enough 修饰形容词要后置。
+3. I don't think sixteen-year-olds should be allowed to get their ears pierced. —— 否定前移；get sth. done 表示"让别人做某事"。
+4. I agree. / I disagree. / I think so. / I don't think so. / That's a good idea. —— 表达同意与不同意。
+5. He should stop wearing that silly earring. —— stop doing 停止正在做的事。
+6. — What rules do you have at home? — I'm not allowed to go out on school nights. —— 谈论家规。
+7. My parents have always taught me how important it is to work hard at school and enter university. —— how 引导的宾语从句。
+8. I'm serious about running. It's the only thing I've ever wanted to do. —— be serious about 对……认真。
+9. Only then will I have a chance of achieving my dream. —— only 置于句首且修饰状语时，主句用部分倒装。
+10. No matter how difficult it is, I will never give up. —— no matter how 引导让步状语从句。
+
+**四、语法聚焦：含情态动词的被动语态与 should be allowed to do**
+- 构成：情态动词（should / must / can / may）+ be + 过去分词；否定：情态动词 + not + be + 过去分词；疑问：情态动词 + 主语 + be + 过去分词。
+- 用法：表示"应该 / 必须 / 可以被……"，常用于谈论规章制度、权利与义务。
+- 例句：
+  - Teenagers should be allowed to make their own decisions.
+  - Sixteen-year-olds shouldn't be allowed to drive.
+  - Should students be allowed to use mobile phones at school?
+  - The work must be finished today.
+- 易错提示：① 情态动词后永远接 be 原形，不随人称、时态变化，不能写成 should are allowed；② be allowed to do 中 to 不能丢，否定是 be not allowed to do；③ allow 的主动结构是 allow sb. to do sth. / allow doing sth.；④ get one's ears pierced 中 pierced 是过去分词作宾补，表示"耳朵被穿"，要随主语换物主代词（get my / his ears pierced）；⑤ 表示"应该被允许"不用 should allow to do。
+
+**五、话题写作框架（议论规则与自由）**
+- 开头（亮明观点）：I think teenagers should (not) be allowed to... / In my opinion,... / Different people have different ideas about...
+- 中间（理由 + 让步）：First of all,... Besides,... What's more,... / However, I also agree that...（让步）/ For example,...
+- 结尾（总结升华）：In a word, rules help us... / Only in this way can we... / I believe teenagers should be given more chances to...`,重点难点解析:`**重点：含情态动词的被动语态**
+含情态动词的被动语态由"情态动词 + be + 过去分词"构成，是本单元最核心的语法项目，用来谈论允许、义务与可能。无论主语是第几人称、单数还是复数，情态动词后的 be 永远是原形。
+- Teenagers should be allowed to choose their own clothes.
+- The classroom must be cleaned every day.
+- Should students be allowed to bring mobile phones to school?
+- Sixteen-year-olds shouldn't be allowed to get their ears pierced.
+与主动形式的区别：主动强调"谁允许"（Parents should allow teenagers to...），被动强调"青少年该不该被允许"（Teenagers should be allowed to...）。谈论规则时，把焦点放在被管理者身上，自然要用被动。
+
+**难点一：should be allowed to do 的句型变化与 allow 的搭配**
+句型转换只需移动 should：
+- 肯定：Teenagers should be allowed to go out.
+- 否定：Teenagers shouldn't be allowed to go out.
+- 一般疑问：Should teenagers be allowed to go out?
+- 特殊疑问：What should teenagers be allowed to do?
+allow 的三种常见搭配必须分清：
+- allow sb. to do sth.：允许某人做某事。My parents don't allow me to stay out late.
+- allow doing sth.：允许做某事（不接人）。We don't allow smoking here.
+- be allowed to do sth.：被允许做某事。I'm not allowed to watch TV on school nights.
+学生典型错误：① 写成 should be allow to do（漏过去分词）；② 否定句写成 should not allowed to；③ 被动句中多加了宾语（I should be allowed to choose my clothes 写成 I should be allowed choose my clothes）。
+
+**难点二：get sth. done 与 agree / disagree 的准确表达**
+get sth. done 表示"让别人为自己做某事"或"遭遇某事"，过去分词作宾语补足语，含有被动意味。
+- I want to get my ears pierced.
+- She got her bike repaired yesterday.
+注意物主代词要随主语变化：I → my ears, he → his ears, they → their ears。
+表达同意与不同意时，语气与搭配要准确：
+- 同意：I agree (with you). / I think so. / That's a good idea. / I have the same idea.
+- 不同意：I disagree. / I don't think so. / I'm afraid I can't agree with you.
+- 部分同意：That may be true, but... / I see your point, but...
+学生典型错误：① 把 get my ears pierced 写成 get my ears pierce；② agree 后直接接人（I agree you，应为 agree with you）；③ I think... 句型的否定没有前移（应说 I don't think teenagers should...，而不是 I think teenagers shouldn't...）。
+
+**中考考点提示**
+- 单选与词汇运用：考查含情态动词的被动语态（should / must / can + be + p.p.）与 be allowed to do，以及 achieve one's dream、get in the way of、be serious about 等短语，多为 1 分题。
+- 句型转换与完成句子：主动与含情态动词的被动互相转换（Parents should allow teenagers to... → Teenagers should be allowed to...）、根据汉语完成句子。
+- 语篇填空：以家规、校规或"青少年是否应参加兼职"为语篇，考查情态动词被动与词汇运用。
+- 书面表达：以"规则"为话题的议论文（是否应该……），要求观点明确、理由充分、有让步与总结，should be allowed to do、In my opinion、However、Only... 是高分句式。`,典型例题精讲:`**例题 1（含情态动词的被动语态）**
+题目：Teenagers ______ to drive in China.  A. should not allow  B. should not be allowed  C. should be not allowed  D. not should be allowed
+解析：青少年是"被允许"，用被动语态 should be allowed；否定形式是在情态动词 should 后加 not，即 should not be allowed，not 的位置在 should 之后、be 之前。
+答案：B
+方法小结：含情态动词的被动语态否定式为"情态动词 + not + be + 过去分词"。
+
+**例题 2（should be allowed to do 的句型转换）**
+题目：Parents should allow teenagers to choose their own clothes.（改为被动语态）
+解析：把原句宾语 teenagers 提为主语；情态动词 should 保留，后接 be + allowed；to choose 照抄；by their parents 可省略。
+答案：Teenagers should be allowed to choose their own clothes (by their parents).
+方法小结：主动变被动时，"情态动词 + be + 过去分词"三步走，to do 部分原样保留。
+
+**例题 3（allow 与 get sth. done）**
+题目：① My parents don't allow me ______ (stay) out late. ② I want to get my ears ______ (pierce).
+解析：① allow sb. to do sth.，填 to stay；② get sth. done 表示"让别人给我穿耳洞"，pierce 用过去分词 pierced。
+答案：① to stay ② pierced
+方法小结：allow 后接 to do；get sth. done 中 done 是过去分词，含被动意味。
+
+**例题 4（agree / disagree 与否定前移）**
+题目：把"我认为不应该允许学生在校使用手机"译成英文。
+解析：I think... 的否定要前移到主句，即 I don't think...；"应该被允许"用 should be allowed to do。
+答案：I don't think students should be allowed to use mobile phones at school.
+方法小结：I think / believe / suppose 后接宾语从句时，否定通常前移到主句。
+
+**例题 5（写作：规则与自由）**
+题目：你们班就"Should teenagers be allowed to have part-time jobs?"展开辩论。请写一篇 80—100 词的短文，表明你的观点、给出两条理由并做让步。
+答案：Recently our class had a discussion about whether teenagers should be allowed to have part-time jobs. In my opinion, they should be allowed to do so, but only on weekends. First of all, a part-time job helps us learn how to get on with others and how to manage our time. Besides, we can understand how hard our parents work and learn to care about them. However, I also agree that study must come first. If a job gets in the way of our schoolwork, it should be given up at once. In a word, I think teenagers should be given a chance to make their own decisions, but we should also be serious about our study.
+方法小结：议论文用"亮观点—两条理由—However 让步—总结"四段式，should be allowed to、get in the way of、be serious about 等本单元短语是加分点。`},课后作业:[{difficulty:"基础",title:"基础巩固",questions:[{q:`单词拼写：For s______（安全），students shouldn't be allowed to ride too fast.`,a:`答案 safety。safety 是不可数名词；for safety 意为"为了安全"，形近词 safe 是形容词。`},{q:`单词拼写：He wants to be a p______ runner（职业的），but his parents disagree.`,a:`答案 professional。professional 是形容词，修饰名词 runner；注意拼写中只有一个 s。`},{q:`短语翻译：① 自己做决定 ② 妨碍；挡路 ③ 对……认真 ④ 实现梦想`,a:`答案 ① make one's own decision ② get in the way of ③ be serious about ④ achieve one's dream。one's 要随主语换成 my / his / their。`},{q:`句型转换：We should allow students to use the library.（改为被动语态）Students ______ ______ ______ to use the library.`,a:`答案 should be allowed。含情态动词的被动语态为 should + be + 过去分词 allowed；to use 保留不动。`}]},{difficulty:"中等",title:"能力提升",questions:[{q:`单项选择：Sixteen-year-olds ______ to drive in most countries.  A. shouldn't allow  B. shouldn't be allowed  C. shouldn't be allow  D. doesn't allow`,a:`答案 B。青少年是"被允许"，用被动；否定为 shouldn't be allowed，后接 to drive。`},{q:`单项选择：— I think students should be allowed to have part-time jobs. — ______. They should spend more time on their study.  A. I agree  B. I disagree  C. I think so  D. No problem`,a:`答案 B。后句"他们应把更多时间放在学习上"表明不同意，用 I disagree。`},{q:`完成句子：我父母不允许我打耳洞。My parents don't allow me ______ ______ my ears ______.`,a:`答案 to get; pierced。allow sb. to do sth.；get one's ears pierced 意为"打耳洞"，pierced 是过去分词。`},{q:`完成句子：只有那时我才有机会实现我的梦想。Only then ______ I ______ a chance of achieving my dream.`,a:`答案 will; have。only 修饰状语置于句首时主句用部分倒装，把助动词 will 提到主语 I 之前。`}]},{difficulty:"难",title:"综合挑战",questions:[{q:`语篇填空：用括号内动词的适当形式填空（allow, keep, take, make）。In my family there are many rules. I'm not ______ (allow) to go out on school nights. I must be ______ (keep) away from computer games. My little brother has to be ______ (take) care of.`,a:`答案 allowed；kept；taken。三处均为含情态动词或 be 动词的被动结构，注意 keep、take 的过去分词形式为 kept、taken。`},{q:`语篇填空（接上题）：However, I think teenagers should be given a chance ______ (make) their own ______ (decide). My parents are strict ______ me, but I know they care ______ me.`,a:`答案 to make；decision(s)；with；about。a chance to do sth. 用不定式；make one's own decision 中 decide 要变成名词 decision；be strict with sb.；care about。`},{q:`翻译：我认为不应该允许青少年吸烟，那对健康有害。`,a:`答案 I don't think teenagers should be allowed to smoke. It's bad for their health.。否定前移到 I don't think；be allowed to smoke 表示"被允许吸烟"。`},{q:`翻译：我的父母一直教育我努力学习的重要性，我对此非常认真。`,a:`答案 My parents have always taught me the importance of working hard, and I'm serious about it.。the importance of doing sth.；be serious about 对……认真。`}]},{difficulty:"综合",title:"中考真题对接",questions:[{q:`（中考真题）— Do you think teenagers ______ to make their own decisions? — Yes, but they need their parents' advice.  A. should allow  B. should be allowed  C. should be allowing  D. should allowed`,a:`答案 B。青少年是"被允许"，用含情态动词的被动语态 should be allowed，后接 to make。`},{q:`（中考真题）Food safety is very important. Rules ______ to protect people from dangerous food.  A. must make  B. must be made  C. must made  D. must be making`,a:`答案 B。rules 是"被制定"，用 must be made；must 后接 be + 过去分词。`},{q:`（中考真题·任务型阅读）Why does the writer think teenagers should be allowed to choose their own clothes?（用 10 个词以内回答）`,a:`答案 Because it helps them learn to make decisions.。文章观点是"自己选衣服能培养青少年的独立与判断力"，回答时用 because 引导原因，并注意词数限制。`},{q:`（中考真题·书面表达）中学生该不该带手机进校园？请你以 Should Students Be Allowed to Take Mobile Phones to School? 为题写一篇 80—100 词的短文，表明观点、说明理由并给出建议。`,a:`参考范文：Should students be allowed to take mobile phones to school? Different people have different opinions. In my opinion, students shouldn't be allowed to take mobile phones to school. First, mobile phones may get in the way of our study. Some students can't help playing games or chatting in class. Second, they may be stolen or broken, which brings trouble to teachers and parents. However, I also agree that mobile phones are useful when we need to call our parents in an emergency. So I think schools should set up public phones, and students should be allowed to use them if necessary. In a word, rules are made to help us, and we should learn to follow them.。范文观点明确，用 First、Second、However、In a word 衔接，含 should be allowed to、get in the way of 等本单元表达。`}]}],课后反馈:`**常见错误**：should be allowed to 漏写 be 或过去分词；否定词位置错误；allow sb. to do 与 allow doing 混用；get one's ears pierced 中忘记用过去分词或物主代词不随主语变化；I think 从句否定不前移；agree 后漏 with。
+**教学改进建议**：用"主动—被动"对照表训练含情态动词的被动转换；用"班级辩论会"任务操练 agree / disagree 表达；用"观点—理由—让步—总结"四格写作模板训练议论文。
+**分层辅导**：学困生先掌握 should (not) be allowed to do 与 12 个高频词，能就一条校规说三句话；学优生要求掌握 get sth. done、only 引导的倒装与否定前移，并在辩论与写作中使用让步句式。
+**给家长的建议**：和孩子一起讨论一条家规，听听孩子的理由；允许孩子在安全范围内自己做选择，并让他为自己的选择承担结果。`},{subject:"英语",stage:"初中",grade:"九年级",chapter:`人教版 Unit 8：It must belong to Carla.`,备课方案:`**教学目标**
+1. 语音与词汇：能正确认读、拼写并运用本单元 36 个课内单词（见讲义单词表），掌握 12 个核心短语。
+2. 语言知识：掌握情态动词表推测的用法（must / might / could / may 表肯定推测，can't 表否定推测），掌握 belong to 与 whose 引导的特殊疑问句。
+3. 语言技能：能听懂、读懂关于物品归属、推理判断与神秘现象的对话与短文；能根据线索对人物、物品与事件作出推测并说明理由。
+4. 情感态度与文化意识：培养观察、推理与求证的思维习惯，了解巨石阵等世界未解之谜，保持对未知世界的好奇心，同时学会"大胆假设、小心求证"。
+
+**教学重点**：must / might / could / may / can't 表推测的语气强弱与用法；belong to 与名词性物主代词、whose 问句的转换。
+**教学难点**：must 的两种含义（必须 vs 一定）区分；对正在发生与已发生事情的推测（must be doing / must have done）；belong to 无被动、无进行时。
+**教学方法**：情景导入、任务型教学、小组合作、思维导图归纳、当堂检测。
+**课时安排**：4 课时（Section A 2 课时 + Section B 1 课时 + 复习与写作 1 课时）`,课堂讲义:{核心知识点:`**一、课内单词（Words and Expressions）**
+| 单词 | 音标 | 词性 | 中文释义 | 教材搭配 / 例句 |
+|------|------|------|----------|-----------------|
+| belong | /bɪˈlɒŋ/ | v. | 属于；归属 | belong to sb. |
+| author | /ˈɔːθə/ | n. | 作者；作家 | my favorite author |
+| picnic | /ˈpɪknɪk/ | n. | 野餐 | at the picnic / have a picnic |
+| possibly | /ˈpɒsəbli/ | adv. | 可能地；也许 | It can't possibly be a dog. |
+| concert | /ˈkɒnsət/ | n. | 音乐会；演唱会 | attend a concert / go to the concert |
+| ticket | /ˈtɪkɪt/ | n. | 票；入场券 | a concert ticket / a ticket to the game |
+| rabbit | /ˈræbɪt/ | n. | 兔；野兔 | Whose rabbit is this? |
+| valuable | /ˈvæljuəbl/ | adj. | 贵重的；很有用的 | something valuable |
+| pink | /pɪŋk/ | adj. & n. | 粉红色的；粉红色 | a pink hair band |
+| anybody | /ˈenibɒdi/ | pron. | 任何人 | Is there anybody in the room? |
+| happening | /ˈhæpənɪŋ/ | n. | 事件；发生的事情 | strange happenings in the neighborhood |
+| noise | /nɔɪz/ | n. | 声音；噪音 | make a noise / strange noises |
+| policeman | /pəˈliːsmən/ | n. | 男警察 | The policemen came at once. |
+| wolf | /wʊlf/ | n. | 狼（复数 wolves） | It might be a wolf. |
+| uneasy | /ʌnˈiːzi/ | adj. | 担心的；不安的 | feel uneasy about sth. |
+| laboratory | /ləˈbɒrətri/ | n. | 实验室 | in the laboratory |
+| coat | /kəʊt/ | n. | 外套；外衣 | a school coat / put on a coat |
+| sleepy | /ˈsliːpi/ | adj. | 困倦的；瞌睡的 | feel sleepy / a sleepy boy |
+| pocket | /ˈpɒkɪt/ | n. | 衣袋；口袋 | in one's pocket |
+| alien | /ˈeɪliən/ | n. | 外星人；外来的 | see an alien / an alien culture |
+| suit | /suːt/ | n. & v. | 西服；套装；适合 | wear a suit / suit sb. fine |
+| express | /ɪkˈspres/ | v. | 表示；表达 | express one's ideas / express thanks |
+| circle | /ˈsɜːkl/ | n. & v. | 圆圈；圈出；环绕 | draw a circle / circle the answers |
+| Britain | /ˈbrɪtn/ | n. | 英国；不列颠 | in Britain |
+| mystery | /ˈmɪstri/ | n. | 奥秘；神秘的事物 | solve the mystery / a great mystery |
+| receive | /rɪˈsiːv/ | v. | 接受；收到 | receive a letter / receive visitors |
+| historian | /hɪˈstɔːriən/ | n. | 历史学家；史学工作者 | Most historians believe... |
+| leader | /ˈliːdə/ | n. | 领导；领袖 | a great leader |
+| medical | /ˈmedɪkl/ | adj. | 医疗的；医学的 | medical care / medical research |
+| purpose | /ˈpɜːpəs/ | n. | 目的；目标 | the purpose of the visit |
+| prevent | /prɪˈvent/ | v. | 阻止；阻挠 | prevent sb. from doing sth. |
+| energy | /ˈenədʒi/ | n. | 能量；活力 | full of energy / save energy |
+| position | /pəˈzɪʃn/ | n. | 位置；地方 | the position of the stones |
+| honor | /ˈɒnə/ | v. & n. | 尊重；表示敬意；荣幸 | honor ancestors / It's a great honor. |
+| ancestor | /ˈænsestə/ | n. | 祖宗；祖先 | honor one's ancestors |
+| victory | /ˈvɪktəri/ | n. | 胜利；成功 | celebrate a victory over the enemy |
+
+> 单词表按教材出现顺序排列，优先掌握四会词：belong, picnic, valuable, noise, express, receive, purpose, prevent, energy, position, honor, victory。
+
+**二、核心短语**
+- belong to —— 属于
+- at the picnic —— 在野餐时
+- pick up —— 捡起；拾起；接（人）
+- run away —— 逃跑；跑开
+- at first —— 起初；起先
+- too...to —— 太……而不能……
+- prevent...from —— 阻止……做……
+- be unsure about —— 对……不确定
+- go away —— 离开；消失
+- in the neighborhood —— 在社区；在附近
+- have no idea —— 不知道
+- communicate with —— 与……交流
+- point out —— 指出
+- a long period of time —— 很长一段时间
+- for a special purpose —— 出于特殊目的
+- not only...but also... —— 不但……而且……
+
+**三、核心句型**
+1. — Whose volleyball is this? — It must be Carla's. She loves volleyball. —— 对物品归属作肯定推测，must 后接 be。
+2. — It could be Mei's hair band. Or it might belong to Linda. —— could / might 表示把握不大的推测。
+3. It can't be a dog. It might be a bear or a wolf. —— can't 表示"不可能"，用于否定推测。
+4. — Whose jacket is this? — It can't be John's. It's much too small for him. —— much too 修饰形容词原级。
+5. The book must belong to Jim. = The book must be Jim's. —— belong to + 宾格 / be + 名词性物主代词。
+6. I think somebody must have picked it up. —— 对过去发生的事作肯定推测，用 must have + 过去分词。
+7. There must be something visiting the homes in our neighborhood. —— There must be + 名词 + doing，表示"一定有……在做……"。
+8. He might be running to catch a bus. —— 对正在发生的事作推测，用 might be doing。
+9. Stonehenge was built slowly over a long period of time. —— 一般过去时被动语态，描述巨石阵的建造。
+10. They think the stones can prevent illness and keep people healthy. —— prevent 后接名词，keep sb. + adj. 表示"使某人保持……"。
+
+**四、语法聚焦：情态动词表推测**
+- 构成：主语 + must / might / could / may + 动词原形（对现在或将来推测）；主语 + must / might / could / may + be doing（对正在发生的事推测）；主语 + must / might / could / may + have + 过去分词（对过去发生的事推测）。
+- 语气强弱：must（一定，把握最大，约 90%）> may（可能，约 50%）> might / could（也许，把握最小，约 30%）；否定推测只用 can't（不可能），不可用 mustn't。
+- 例句：
+  - The notebook must be Ming's. It has her name on it.
+  - He might be late for school because of the rain.
+  - She can't be at home. I saw her in the library just now.
+  - They must have missed the early bus.
+- 易错提示：① 表示"不可能"用 can't，不是 mustn't（mustn't 表示"禁止"）；② 推测句的反意疑问句与情态动词无关，要看句子真正的时间，如 He must be at home, isn't he? ③ belong to 后接名词或代词宾格，不接名词性物主代词，也无被动语态和进行时态；④ must 表推测时译为"一定"，表义务时译为"必须"，要根据语境判断；⑤ 回答 Must I...? 的否定用 needn't / don't have to。
+
+**五、话题写作框架（描述神秘事件并作推测）**
+- 开头（交代事件）：Something strange happened in our neighborhood. / I found a/an...on the playground yesterday.
+- 中间（线索 + 推测）：At first I thought it might be... But... It can't be... because... It could / might be... It must be...
+- 结尾（得出结论或悬念）：Finally, I found out that... / I still have no idea who... / The mystery remains unsolved.`,重点难点解析:`**重点：情态动词表推测的语气与形式**
+本单元用情态动词表示说话人对某事的判断与把握程度，必须记住"语气阶梯"：
+- must：一定、准是，把握最大，常用于有确凿证据时。The pen must be Tom's. His name is on it.
+- may：可能，把握一般。It may rain tomorrow.
+- could / might：也许、或许，把握最小，语气更委婉。It might be a plane.
+- can't：不可能，用于否定推测。The book can't be Lily's. She doesn't like reading.
+推测三种时间的形式：
+- 对现在 / 将来：情态动词 + 动词原形。He must be at home.
+- 对正在发生：情态动词 + be doing。He must be sleeping now.
+- 对过去：情态动词 + have + 过去分词。He must have missed the bus.
+学生典型错误：① 否定推测写成 mustn't be（应为 can't be）；② 对过去推测写成 must be finished yesterday（应为 must have finished）；③ 语气与证据不符，明明证据充分却用 might。
+
+**难点一：belong to 与 be + 名词性物主代词 / whose 问句的转换**
+belong to 意为"属于"，后接名词或人称代词宾格，其主语是被归属的物品。它有两个重要限制：没有被动语态、没有进行时态，也不能接名词性物主代词。
+- The volleyball belongs to Carla. = The volleyball is Carla's.
+- It must belong to Carla. = It must be Carla's.
+- Whose book is this? = Whose is this book? = Who does this book belong to?
+典型错误：① The book is belonged to Jim.（belong to 无被动）；② The book belongs to mine.（应改为 belongs to me 或 is mine）；③ The book is belonging to Jim.（无进行时）；④ 把 whose 与 who's（= who is）混淆。
+记忆口诀：**belong to 三无——无被动、无进行、无物代（名词性物主代词）**。
+
+**难点二：must 的两种含义与情态动词表推测的反意疑问句**
+must 有两副面孔：表"必须"（义务）时，反意疑问句用 mustn't / needn't；表"一定"（推测）时，反意疑问句与 must 无关，要看句子的真正时间与主语。
+- You must finish your homework today, mustn't you?（必须）
+- He must be at home, isn't he?（推测，be 动词是 is）
+- They must have arrived there, haven't they?（对过去推测，助动词用 haven't）
+辨析示例：
+- You mustn't smoke here.（禁止，不是"不可能"）
+- He can't be a teacher.（不可能，不是"不能"）
+- You needn't come so early.（不必）
+学生典型错误：① 把 mustn't 当成"不可能"；② 推测句的反意疑问句写成 mustn't he / must he；③ 混淆 can't（不可能）与 needn't（不必）。
+
+**中考考点提示**
+- 单选与词汇运用：考查 must / might / could / may / can't 表推测的选用，以及 belong to、pick up、prevent...from 等短语，多为 1 分题。
+- 句型转换与完成句子：whose 问句与 belong to 的互换（Whose bag is this? = Who does this bag belong to?）、根据汉语完成推测句。
+- 语篇填空：以丢失物品、社区怪事或巨石阵为语篇，考查情态动词表推测与词汇运用。
+- 书面表达：以"神秘事件"或"失物招领"为话题，要求根据线索进行推测并给出判断依据，must / might / could / can't 的准确使用是最大得分点。`,典型例题精讲:`**例题 1（情态动词表推测的语气选择）**
+题目：— Whose book is this? — It ______ be Lucy's. Look! Her name is on the cover.  A. might  B. could  C. must  D. can't
+解析：封面上有露西的名字，证据确凿，把握最大，用 must 表示"一定是"。
+答案：C
+方法小结：有确凿证据用 must；只有一点可能用 might / could；完全不可能用 can't。
+
+**例题 2（否定推测与 mustn't 的区别）**
+题目：The girl in red ______ be Mary. Mary has gone to Beijing.  A. mustn't  B. can't  C. needn't  D. shouldn't
+解析：玛丽去了北京，所以"不可能是她"，表示否定推测用 can't；mustn't 意为"禁止"，needn't 意为"不必"，都不合语境。
+答案：B
+方法小结：否定推测只能用 can't，"不可能"≠"禁止"。
+
+**例题 3（belong to 的用法与句型转换）**
+题目：The dictionary must be Carla's.（改为同义句）The dictionary must ______ ______ Carla.
+解析：be Carla's（名词性物主代词 / 名词所有格）可转换为 belong to Carla（宾格）；belong to 无被动、无进行时。
+答案：belong to
+方法小结：be sb.'s = belong to sb.，转换时注意后面人称形式的改变。
+
+**例题 4（对正在发生与对过去的推测）**
+题目：用括号内动词的适当形式填空：① He might be ______ (run) to catch a bus. ② I think somebody must have ______ (pick) it up.
+解析：① might 后接 be doing 表示"也许正在跑步赶车"，填 running；② 对过去发生的事作肯定推测用 must have + 过去分词，pick 的过去分词是 picked。
+答案：① running ② picked
+方法小结：推测现在进行用 be doing，推测过去用 have done，两种结构常在同一语篇中交替出现。
+
+**例题 5（写作：神秘事件）**
+题目：昨天放学后你在操场捡到一个书包，请根据线索（里面有一本九年级英语书、一个发带、一本漫画书）写一篇 80—100 词的短文，推测失主并说明理由。
+答案：Yesterday afternoon I found a schoolbag on the playground. There was a Grade 9 English book, a hair band and a cartoon book in it. At first I thought it might belong to a boy, because boys often play football there. But when I saw the hair band, I changed my mind. It can't be a boy's, because boys in our class never wear hair bands. It could be Linda's, since she is the only girl who loves cartoon books. Finally, I found her name inside the English book. So it must be Linda's. I gave it back to her and she thanked me with a big smile. Helping others makes me happy.
+方法小结：推测类短文按"线索—初步推测—推翻—再推测—确认"推进，用 might、can't、could、must 逐层收束语气，结尾可点一句感受。`},课后作业:[{difficulty:"基础",title:"基础巩固",questions:[{q:`单词拼写：The dictionary must b______ to（属于）Carla. It has her name on it.`,a:`答案 belong。belong to 意为"属于"，后接名词或代词宾格；must 是情态动词，后接动词原形。`},{q:`单词拼写：Something v______（贵重的）was lost at the p______（野餐）。`,a:`答案 valuable；picnic。valuable 作后置定语修饰 something；at the picnic 意为"在野餐时"。`},{q:`短语翻译：① 捡起 ② 逃跑 ③ 起初 ④ 阻止……做……`,a:`答案 ① pick up ② run away ③ at first ④ prevent...from。prevent sb. from doing sth. 中 from 可省略，但后接动名词。`},{q:`句型转换：This volleyball is Carla's.（改为同义句）This volleyball ______ ______ Carla.`,a:`答案 belongs to。be sb.'s 转换为 belong to sb.；主语是第三人称单数，belong 加 s；belong to 无被动。`}]},{difficulty:"中等",title:"能力提升",questions:[{q:`单项选择：— Whose guitar is this? — It ______ belong to Alice. She plays the guitar.  A. must  B. can't  C. mustn't  D. needn't`,a:`答案 A。"她会弹吉他"是有力证据，故判断"一定是她的"，用 must；空后是动词原形 belong，不能用 be 动词。`},{q:`单项选择：The hair band ______ be John's. Boys don't wear hair bands.  A. must  B. might  C. could  D. can't`,a:`答案 D。男孩不戴发带，故"不可能是约翰的"，否定推测用 can't。`},{q:`完成句子：他一定正在操场上打篮球。He ______ ______ ______ basketball on the playground.`,a:`答案 must be playing。对正在发生的事作肯定推测，用 must + be + 动词-ing。`},{q:`完成句子：一定有人在社区里制造噪音。There ______ ______ someone ______ noises in the neighborhood.`,a:`答案 must be; making。There must be + 名词 + doing 表示"一定有……正在做……"。`}]},{difficulty:"难",title:"综合挑战",questions:[{q:`语篇填空：用 must, might, can't 填空。— Look! There's a red bike at the gate. Whose is it? — It ___1___ be Tom's. His bike is blue. It ___2___ be Lily's. She rides a red bike to school every day. — I agree. It ___3___ be hers.`,a:`答案 1. can't（汤姆的车是蓝色的，不可能）；2. might / could（可能是莉莉的，把握不大）；3. must（表示同意并确定）。`},{q:`语篇填空：用括号内动词的适当形式填空。Stonehenge, a rock ___1___ (circle), is one of Britain's greatest ___2___ (mystery). It ___3___ (build) slowly over a long period of time. Most historians believe it must ___4___ (have) a special purpose.`,a:`答案 1. circle（名词"圆形、圆圈"）；2. mysteries（one of 后接复数名词）；3. was built（一般过去时被动语态）；4. have（情态动词后接动词原形）。`},{q:`翻译：这个书包不可能是迈克的，他根本不喜欢漫画书。`,a:`答案 The schoolbag can't be Mike's. He doesn't like cartoon books at all.。否定推测用 can't be；not...at all 意为"根本不"。`},{q:`翻译：我认为一定有人捡到了它，我会尽力把它找回来。`,a:`答案 I think somebody must have picked it up, and I'll try my best to get it back.。对过去推测用 must have picked；try one's best to do 尽最大努力做。`}]},{difficulty:"综合",title:"中考真题对接",questions:[{q:`（中考真题）— Whose notebook is this? — It ______ be Li Ming's. His name is on the first page.  A. must  B. might  C. could  D. can't`,a:`答案 A。首页有名字，证据充分，用 must 表肯定推测，意为"一定是"。`},{q:`（中考真题）— Is that girl under the tree Mary? — No, it ______ be her. She has gone to Shanghai.  A. can't  B. mustn't  C. needn't  D. shouldn't`,a:`答案 A。玛丽去了上海，所以"不可能是她"；否定推测用 can't，mustn't 表示"禁止"。`},{q:`（中考真题·任务型阅读）Why do people think Stonehenge was built for a special purpose?（用 12 个词以内回答）`,a:`答案 Because it may be built to honor ancestors.。文章提到巨石阵可能是祭祀祖先、庆祝胜利或治病之地，回答时给出一条即可，注意词数限制。`},{q:`（中考真题·书面表达）今天早上你在教室的角落发现一只钱包，里面有一张音乐会的票和一张女孩的照片。请你写一篇 80—100 词的短文，描述发现过程、作出推测并说明该怎么做。`,a:`参考范文：This morning I found a wallet in the corner of our classroom. Inside it there was a concert ticket and a photo of a girl with long hair. At first I thought it might belong to a teacher, but teachers never put their photos in wallets like that. It can't be a boy's either, because there is a pink hair band in it. It could be Anna's, since she is the only girl in our class who loves music. Then I noticed the name on the concert ticket. It must be Anna's! I took the wallet to her at once. She was so thankful that she gave me a big hug. Helping others makes me happy.。范文用 might、can't、could、must 逐层推进，情节完整，结尾点题。`}]}],课后反馈:`**常见错误**：把否定推测写成 mustn't be；belong to 后误接名词性物主代词或误用被动、进行时；对正在发生和已发生的事情误用"情态动词 + 原形"；对过去推测漏写 have；whose 与 who's 混淆；语气与证据不匹配。
+**教学改进建议**：用"语气阶梯"图（must—may—might/could—can't）配合证据卡片做推测操练；用失物招领实景任务操练 whose 问句与 belong to 转换；用巨石阵语篇做语篇填空与推理表达专项。
+**分层辅导**：学困生先掌握 must / can't 两种最常用推测与 12 个高频词，能就一件物品说两句话推测；学优生要求掌握 must be doing、must have done 与反意疑问句，并在写作中形成"线索—推测—推翻—确认"的推理链。
+**给家长的建议**：和孩子一起玩"猜猜这是谁的"小游戏，用英语说出判断依据；鼓励孩子遇到事情先列证据再下结论，养成理性思考的习惯。`},{subject:"英语",stage:"初中",grade:"九年级",chapter:`人教版 Unit 9：I like music that I can dance to.`,备课方案:`**教学目标**
+1. 语音与词汇：能正确认读、拼写并运用本单元 36 个课内单词（见讲义单词表），掌握 15 个核心短语。
+2. 语言知识：掌握由 that / which / who 引导的定语从句的构成与用法，能在语境中正确运用；掌握 prefer...to...、prefer to do...rather than do... 的用法，以及关系代词省略的条件。
+3. 语言技能：能听懂/读懂关于音乐与电影偏好、个人喜好表达的对话与短文，能就"我最喜欢的音乐与电影"这一话题进行口头与书面表达。
+4. 情感态度与文化意识：尊重他人的艺术偏好，学会倾听不同意见；通过了解不同国家的音乐与电影类型，拓宽文化视野，初步形成健康的审美情趣。
+
+**教学重点**：定语从句中关系代词 that / which / who 的选择；关系代词作宾语时的省略；prefer 系列句型的搭配与介词用法。
+**教学难点**：只用 that 不用 which 的几种情况；从句谓语动词与先行词保持一致；从句句末介词的处理；prefer doing...to doing... 与 prefer to do...rather than do... 的区分。
+**教学方法**：情景导入、任务型教学、小组合作、思维导图归纳、当堂检测。
+**课时安排**：4 课时（Section A 2 课时 + Section B 1 课时 + 复习与写作 1 课时）`,课堂讲义:{核心知识点:`**一、课内单词（Words and Expressions）**
+| 单词 | 音标 | 词性 | 中文释义 | 教材搭配 / 例句 |
+|------|------|------|----------|-----------------|
+| prefer | /prɪˈfɜː(r)/ | v. | 更喜欢 | prefer...to... 比起……更喜欢…… |
+| lyrics | /ˈlɪrɪks/ | n. (pl.) | 歌词 | music that has great lyrics |
+| Australian | /ɒˈstreɪliən/ | adj. / n. | 澳大利亚（人）的；澳大利亚人 | an Australian singer |
+| electronic | /ɪˌlekˈtrɒnɪk/ | adj. | 电子的；电子设备的 | electronic music |
+| suppose | /səˈpəʊz/ | v. | 推断；料想 | I suppose I'll just listen to this new CD. |
+| smooth | /smuːð/ | adj. | 平滑的；悦耳的 | smooth music that helps me relax |
+| spare | /speə(r)/ | adj. / v. | 空闲的；不用的；抽出 | in one's spare time |
+| director | /dəˈrektə(r)/ | n. | 导演；部门负责人 | the director of the movie |
+| case | /keɪs/ | n. | 情况；实情 | in that case 既然那样；假使那样的话 |
+| war | /wɔː(r)/ | n. | 战争；战争状态 | a movie about war |
+| stick | /stɪk/ | v. | 粘贴；将……刺入（stuck, stuck） | stick to 坚持；固守 |
+| down | /daʊn/ | adj. | 悲哀；沮丧 | feel down about the result |
+| dialog | /ˈdaɪəlɒɡ/ | n. | 对话；对白 | the dialog in the movie |
+| ending | /ˈendɪŋ/ | n. | （故事、电影等的）结尾；结局 | a happy ending |
+| documentary | /ˌdɒkjuˈmentri/ | n. | 纪录片 | watch a documentary about pandas |
+| drama | /ˈdrɑːmə/ | n. | 戏；剧 | a TV drama |
+| plenty | /ˈplenti/ | pron. | 大量；众多 | plenty of information |
+| shut | /ʃʌt/ | v. | 关闭；关上（shut, shut） | shut off my brain |
+| superhero | /ˈsuːpəhɪərəʊ/ | n. | 超级英雄 | a movie about a superhero |
+| intelligent | /ɪnˈtelɪdʒənt/ | adj. | 有才智的；聪明的 | an intelligent student |
+| scary | /ˈskeəri/ | adj. | 吓人的；恐怖的 | scary movies |
+| sense | /sens/ | v. / n. | 感觉到；意识到 / 感觉；意识 | sense a strong sadness and pain |
+| pain | /peɪn/ | n. | 痛苦；疼痛；苦恼 | the pain in his heart |
+| reflect | /rɪˈflekt/ | v. | 反映；映出 | reflect the life of common people |
+| perform | /pəˈfɔː(r)m/ | v. | 表演；执行 | perform on the stage |
+| moving | /ˈmuːvɪŋ/ | adj. | 动人的；令人感动的 | a moving story |
+| pity | /ˈpɪti/ | n. / v. | 遗憾；怜悯 / 同情；怜悯 | It's a pity that you missed it. |
+| total | /ˈtəʊtl/ | n. / adj. | 总数；合计 / 总的；全体的 | in total 总共；合计 |
+| master | /ˈmɑːstə(r)/ | n. / v. | 大师；能手；主人 / 掌握 | a master of Chinese folk music |
+| praise | /preɪz/ | v. / n. | 表扬；赞扬 | be praised by the teacher |
+| recall | /rɪˈkɔːl/ | v. | 回忆起；回想起 | recall the old days |
+| wound | /wuːnd/ | n. / v. | 伤；伤口；创伤 / 使（身体）受伤 | a deep wound |
+| painful | /ˈpeɪnfl/ | adj. | 令人痛苦的；令人疼痛的 | a painful experience |
+| lifetime | /ˈlaɪftaɪm/ | n. | 一生；有生之年 | during one's lifetime |
+| marry | /ˈmæri/ | v. | 结婚 | get married (to sb.) |
+| cheer | /tʃɪə(r)/ | v. / n. | 欢呼；喝彩 | cheer sb. up 使某人高兴起来 |
+
+> 单词表按教材出现顺序排列，共 36 个词。音标为英式发音，全文统一。
+
+**二、核心短语**
+- prefer...to... —— 比起……更喜欢……（to 是介词，后接名词或动名词）
+- prefer to do... rather than do... —— 宁愿做……而不愿做……
+- in that case —— 既然那样；假使那样的话
+- stick to —— 坚持；固守（to 是介词）
+- plenty of —— 大量；充足（既可修饰可数也可修饰不可数名词）
+- shut off —— 关闭；停止运转
+- once in a while —— 偶尔地；间或
+- in total —— 总共；合计
+- look up —— 查阅（词典）；抬头看
+- get married (to sb.) —— 结婚；与某人结婚
+- by the end of —— 到……结束时；到……为止（常与完成时连用）
+- cheer up —— （使）变得更高兴；振奋起来
+- try one's best (to do) —— 尽某人最大的努力（做某事）
+- dance to —— 随着……跳舞
+- sing along with —— 跟着……一起唱
+
+**三、核心句型**
+1. —What kind of music do you like? —I like music that I can dance to. —— 询问与表达音乐偏好，that 引导定语从句修饰 music。
+2. I prefer music that has great lyrics. —— prefer + 名词，意为"更喜欢……"。
+3. I prefer staying at home to going out on rainy days. —— prefer doing A to doing B，注意 to 后接动名词。
+4. I prefer to read a book rather than watch TV. —— prefer to do... rather than do...，rather than 后接动词原形。
+5. I like musicians who can write their own songs. —— 先行词 musicians 指人，用 who / that 引导。
+6. The movie that we watched yesterday was moving. —— 关系代词在从句中作宾语（watched 的宾语），可以省略。
+7. By the end of last term, we had learned 300 English songs. —— by the end of + 过去时间，主句用过去完成时。
+
+**四、语法聚焦：定语从句（that / which / who）**
+- 构成：**先行词（被修饰的名词或代词）+ 关系代词（that / which / who）+ 定语从句**。先行词指物时用 **that / which**，指人时用 **who / that**。
+- 用法：
+  1. 关系代词在从句中可作**主语**（不可省略）：I like music **that is** quiet and slow.
+  2. 关系代词在从句中作**宾语**时**可以省略**：The song (**that**) he wrote is popular.
+  3. 关系代词作主语时，从句谓语动词的**单复数与先行词保持一致**：He likes singers **who write** their own lyrics.
+  4. 从句末尾的**介词不能丢**：I like music that I can dance **to**. / a pen that he writes **with**
+- 例句：
+  1. I like movies **that** are about Chinese history.
+  2. She is the singer **who** won the first prize last year.
+  3. The book (**which**) you lent me is very useful.
+- 易错提示：
+  1. **只用 that 不用 which** 的情况：先行词是 all, everything, nothing, something, anything 等不定代词；先行词被 the only, the very, the last 或序数词、形容词最高级修饰时。如：This is the **best** movie **that** I have ever seen.
+  2. 从句中**不能重复**先行词：错句 The music **that it** is playing is nice. 应删去 it。
+  3. **that 与 who 指人**时一般可互换，但先行词为 those、one、people 或拟人以外的集体时更常用 who；先行词同时含人和物时只能用 that。
+  4. whose 也可以引导定语从句表示所属关系：the boy **whose** father is a doctor。
+
+**五、话题写作框架（My Favorite Music / Movie）**
+- 开头点明喜好：
+  - Different people like different kinds of music. As for me, I like...
+  - I prefer... to..., because...
+- 中间说明理由（用定语从句展开）：
+  - I like music **that I can sing along with**.
+  - I like movies **that have a happy ending**.
+  - The singer **who** sings it has a beautiful voice.
+  - When I feel down, it helps me cheer up.
+- 介绍一个具体作品或一次经历：
+  - By the end of the movie, I was deeply moved.
+  - It was so moving that I couldn't help crying.
+- 结尾升华：
+  - In my opinion, music / movies are like a good friend...
+  - It's a pity that... / I will try my best to...`,重点难点解析:`**重点一：定语从句中关系词的选择**
+选关系词只看两件事：一看先行词是"人"还是"物"，二看关系词在从句里充当什么成分。先行词指物用 that / which，指人用 who / that；在从句中作主语时不能省略，作宾语时可以省略。
+- I like music **that** I can dance to.（music 是物，that 作 to 的宾语，口语中可省）
+- She likes musicians **who** play different kinds of music.（musicians 是人，who 作主语，不可省）
+- The movie (**which**) we saw last night was moving.（movie 是物，which 作 saw 的宾语，可省）
+小结口诀：**看先行词定关系词，看成分定省不省**。
+
+**难点一：只用 that 不用 which 的情况**
+学生最常犯的错误是不分情况乱用 which。以下情况只用 that：
+1. 先行词是 all, everything, nothing, something, anything, little, much 等不定代词：Is there anything **that** I can do for you?
+2. 先行词被序数词或形容词最高级修饰：This is the **most moving** movie **that** I have ever seen.
+3. 先行词被 the only, the very, the last, all, no 等修饰：He is the **only** student **that** can write such lyrics.
+4. 先行词同时包含人和物：They talked about the singers and songs **that** they liked.
+5. 主句以 who / which 开头的特殊疑问句：Who is the girl **that** is standing there?
+学生典型错误：This is the best book **which** I have read.（应改为 that）
+
+**难点二：prefer 的三种句型**
+prefer 是本单元最有"中考味"的词，三种搭配务必分清：
+1. **prefer A to B** —— 比起 B 更喜欢 A，to 是介词，后接名词或动名词：I prefer **tea to coffee**. / I prefer **reading to watching** TV.
+2. **prefer to do sth.** —— 更愿意做某事：I prefer **to stay** at home on rainy days.
+3. **prefer to do... rather than do...** —— 宁愿做……而不愿做……，rather than 后接动词原形：I prefer **to walk** there rather than **take** a bus.
+记忆口诀：**to 前 to 后形式要一致，rather than 后面用原形**。
+典型错误：I prefer staying at home to **watch** TV.（应改为 watching）
+
+**难点三：从句中的"两个一致"与"两个不能"**
+- **主谓一致**：关系代词作主语时，从句谓语的人称和数与先行词一致。He is one of the students who **are** good at singing.（先行词 students 是复数）
+- **不能重复宾语**：从句里不能再出现指代先行词的代词。错：The song that **it** is popular is mine. 去掉 it。
+- **不能丢介词**：I like music that I can dance **to**. 中的 to 不能漏，否则句子成分残缺。这是中考完成句子题的高频失分点。
+- **不能乱加宾语**：The movie that we watched **it** yesterday... 中的 it 必须删去。
+
+**中考考点提示**
+- 单项选择：直接考关系代词 that / which / who 的辨析，或考只用 that 的特殊情况，每年各地市中考约 1 分。
+- 完成句子 / 句型转换：考查 prefer...to...、prefer to do...rather than do... 以及 by the end of 的用法，通常 2 分一空。
+- 完形填空与阅读理解：音乐、电影、艺术类话题常选用本单元词汇（documentary, perform, praise, moving, sense 等）。
+- 书面表达：以"My Favorite Music / Movie"为题的喜好类短文，定语从句是拿高分的关键句型，用对一处可加 1–2 分。`,典型例题精讲:`**例题 1（关系代词的选择）**
+题目：I like singers ______ write their own songs.  A. which  B. who  C. whose  D. whom
+解析：先行词 singers 指人，排除 which；空格处在从句中作主语，所以用主格 who；whom 只能作宾语，whose 表示所属关系，均不合题意。
+答案：B
+方法小结：先看先行词是人是物，再看关系词在从句中充当的成分，两步即可锁定答案。
+
+**例题 2（只用 that 的特殊情况）**
+题目：This is the most interesting book ______ I have ever read.  A. which  B. that  C. who  D. what
+解析：先行词 book 被形容词最高级 the most interesting 修饰，只能用 that 引导；which 不能用于最高级修饰的先行词之后；who 指人；what 不能引导定语从句。
+答案：B
+方法小结：看到 all, everything, the only, the very 以及序数词、最高级修饰先行词，第一时间选 that。
+
+**例题 3（prefer 的用法）**
+题目：— How do you usually spend your weekends? — I prefer ______ books at home to ______ out.
+A. reading; going  B. to read; go  C. reading; go  D. to read; going
+解析：prefer doing A to doing B 结构中，to 是介词，前后都接动名词，形式必须一致，因此两空都用动名词。
+答案：A
+方法小结：prefer A to B 中的 to 是介词，前后词性保持一致；若用 rather than，则后接动词原形。
+
+**例题 4（关系代词的省略与句末介词）**
+题目：把两句合并为一句：I like music. I can dance to the music.
+解析：先行词是 music（物），关系词用 that 或 which；关系词在从句中作介词 to 的宾语，可以省略；句末介词 to 必须保留，否则句子成分残缺。正确答案有两种：I like music **that** I can dance to. 或 I like music I can dance to.
+答案：I like music (that / which) I can dance to.
+方法小结：合并句子先找"重复的那个名词"，再用关系词替换并提到从句句首，最后检查句末介词是否保留。
+
+**例题 5（中考风格综合题）**
+题目：The movie ______ we watched yesterday is based on a true story. It was so ______ that many people cried.
+A. who; moved  B. which; moving  C. what; moving  D. that; moved
+解析：第一空先行词 the movie 是物，用 which 或 that；第二空主语 it 指电影，"令人感动的"用 -ing 形容词 moving，moved 表示"被感动的"，修饰人。综合来看只有 B 项两空都对。
+答案：B
+方法小结：-ing 形容词修饰物、-ed 形容词修饰人，是中考形容词考点的固定套路，可与定语从句合起来综合考查。`},课后作业:[{difficulty:"基础",title:"基础巩固",questions:[{q:`根据汉语提示写单词：I ______ (更喜欢) music that has great lyrics.`,a:`答案 prefer。prefer 意为“更喜欢”，后接名词 music，注意拼写 p-r-e-f-e-r，重音在第二音节。`},{q:`根据汉语提示写单词：The ______ (导演) of this movie won an international prize last year.`,a:`答案 director。director 意为“导演”，由 direct + 后缀 -or 构成，注意与 doctor 区分。`},{q:`短语翻译：① in that case ② stick to ③ plenty of ④ once in a while`,a:`答案 ① 既然那样；假使那样的话 ② 坚持；固守 ③ 大量；充足 ④ 偶尔地；间或。四个短语中的 to 与 of 均为介词，后接名词或动名词。`},{q:`用所给词的适当形式填空：I like movies that ______ (be) scary. / He is one of the students who ______ (like) documentaries.`,a:`答案 are；like。关系代词作主语时，从句谓语动词与先行词保持数的一致：movies 是复数用 are，students 是复数用 like。`}]},{difficulty:"中等",title:"能力提升",questions:[{q:`单项选择：The book ______ cover is red was written by a famous writer.  A. that  B. which  C. who  D. whose`,a:`答案 D。表示“书的封面”这种所属关系，用 whose 引导定语从句，whose 既可指人也可指物。`},{q:`单项选择：I prefer ______ to ______ in my spare time.  A. reading; write  B. read; writing  C. reading; writing  D. to read; writing`,a:`答案 C。prefer doing A to doing B 中 to 是介词，前后都用动名词，形式须一致。`},{q:`句型转换（合并为定语从句）：The movie is very moving. We watched it last night.`,a:`答案 The movie (that / which) we watched last night is very moving.。先行词 movie 指物，关系词作 watched 的宾语，可省略。`},{q:`完成句子：到上学期末，我们已经学了 300 首英文歌。By the end of last term, we ______ 300 English songs.`,a:`答案 had learned / had learnt。by the end of + 过去时间，主句用过去完成时，表示“到……为止已经……”。`}]},{difficulty:"难",title:"综合挑战",questions:[{q:`短文填空（每空一词）：I like music that I can dance ______. My friend Mary ______ reading to watching TV in her ______ time. She also likes movies ______ have a happy ______ (结尾).`,a:`答案 to；prefers；spare；that / which；ending。dance to 随……跳舞；prefer...to... 用第三人称单数 prefers；in one's spare time 在空闲时间；先行词 movies 指物用 that / which；ending 结尾。`},{q:`改错：This is the best movie which I have ever seen. It was so moved that I cried.`,a:`答案 把 which 改为 that，把 moved 改为 moving。先行词被最高级 the best 修饰时只能用 that；修饰“电影”用 -ing 形容词 moving，moved 用于修饰人。`},{q:`翻译：我更喜欢那些能自己写歌的音乐人，而不是只长得好看的歌手。`,a:`答案 I prefer musicians who can write their own songs to singers who are just good-looking.。两个 who 引导的定语从句分别修饰 musicians 与 singers，prefer A to B 结构把两者对比起来。`},{q:`书面表达：以 My Favorite Movie 为题写一篇短文。要求：1. 你最喜欢什么类型的电影，为什么；2. 用至少两个定语从句；3. 词数 80 左右。`,a:`参考范文：I like different kinds of movies, but my favorite kind is documentaries that show the real life of animals. I prefer them to scary movies which make me feel uncomfortable. Last month I watched a documentary called Born in China. It tells stories about pandas and snow leopards that live in the mountains of China. The pictures are beautiful and the music is amazing. By the end of the movie, I was deeply moved. I have learned that we should try our best to protect wild animals. In my opinion, a good movie is like a good teacher that helps us understand the world better.。全文 100 余词，含 4 个定语从句，用 prefer...to...、by the end of、try one's best 等本单元短语，结构与情感完整。`}]},{difficulty:"综合",title:"中考真题对接",questions:[{q:`（中考真题）— What kind of teachers do you like? — I like teachers ______ are patient with their students.  A. which  B. who  C. whose  D. whom`,a:`答案 B。先行词 teachers 指人，且关系词在从句中作主语，用 who；whom 只能作宾语。`},{q:`（中考真题）I prefer ______ my homework first rather than ______ computer games.  A. to do; play  B. doing; playing  C. to do; playing  D. do; play`,a:`答案 A。prefer to do... rather than do... 结构，rather than 后接动词原形 play。`},{q:`（中考真题）阅读理解细节题：Why does the writer like the movie? 原文相关句：The movie reflects the life of common people and it makes me think about my own life.`,a:`答案 Because it reflects the life of common people and makes the writer think about his / her own life.。细节题直接从原文定位关键词 reflect 与 make sb. do，摘取信息作答即可。`},{q:`（中考真题）书面表达：你校英语社团正在举办以 “My Favorite Music” 为题的征文活动，请写一篇短文介绍你最喜欢的音乐及原因。要求：词数 80 左右，文中不得出现真实姓名。`,a:`参考范文：Different people like different kinds of music. As for me, I prefer light music that I can sing along with. When I feel down or tired after a long day of study, it helps me cheer up and forget my worries. I also like songs that have great lyrics, because the words often give me courage. My favorite singer is the one who writes his own songs and performs with a guitar. His voice is smooth and his music is full of energy. In total, I have collected more than fifty of his songs. I think music is like a good friend that stays with us through our lifetime.。使用 prefer、cheer up、smooth、perform、in total、lifetime 等词汇，含 3 个定语从句，符合中考书面表达高分标准。`}]}],课后反馈:`**常见错误**：定语从句中关系代词与先行词错配（人用 which、物用 who）；先行词被最高级修饰时仍用 which；关系词作宾语时从句里多写 it；句末介词 to / with 遗漏；prefer...to... 后误接动词原形；moving 与 moved、scary 与 scared 混用。
+**教学改进建议**：用"选关系词两步法"（看先行词、看成分）做专项训练；把 prefer 三种句型做成对照卡片，当堂听写；用"合并句子"练习强化句末介词与省略规则；收集学生作文中的定语从句错误做集中讲评。
+**分层辅导**：学困生先掌握 that / which / who 的基本选择与 prefer...to... 的固定搭配，能写出 1–2 句含定语从句的简单句；学优生要求熟练运用只用 that 的特殊情况、whose 引导的定语从句，并在写作中使用 3 个以上定语从句与高级短语。
+**给家长的建议**：周末与孩子一起看一部英文原声电影并讨论剧情，引导孩子用英语说说"我喜欢什么样的音乐/电影"；鼓励孩子建立英文歌词摘抄本，在语境中记忆本单元词汇。`},{subject:"英语",stage:"初中",grade:"九年级",chapter:`人教版 Unit 10：You're supposed to shake hands.`,备课方案:`**教学目标**
+1. 语音与词汇：能正确认读、拼写并运用本单元 30 个课内单词（见讲义单词表），掌握 16 个核心短语。
+2. 语言知识：掌握 be supposed to do / be expected to do 与 It's + adj. + (for sb.) to do 的构成与用法，能在语境中正确运用；能辨析 be / get used to doing 与 be supposed to do。
+3. 语言技能：能听懂/读懂关于中外风俗礼仪、餐桌礼仪与文化差异的对话与短文，能就"给外国友人的礼仪建议"进行口头与书面表达。
+4. 情感态度与文化意识：理解并尊重不同国家的风俗习惯，树立"入乡随俗"的跨文化交际意识；在了解西方礼仪的同时，能用英语介绍中国传统礼仪，增强文化自信。
+
+**教学重点**：be supposed to do / be expected to do 的肯定、否定与疑问形式；It's + adj. + (for / of sb.) to do 中 for 与 of 的选择；餐桌礼仪类词汇与表达。
+**教学难点**：be supposed to do 与 be / get used to doing 的辨析；It is + adj. + for / of sb. to do 的介词选择；写作中礼仪建议的表达是否得体、连贯。
+**教学方法**：情景导入、任务型教学、小组合作、思维导图归纳、当堂检测。
+**课时安排**：4 课时（Section A 2 课时 + Section B 1 课时 + 复习与写作 1 课时）`,课堂讲义:{核心知识点:`**一、课内单词（Words and Expressions）**
+| 单词 | 音标 | 词性 | 中文释义 | 教材搭配 / 例句 |
+|------|------|------|----------|-----------------|
+| custom | /ˈkʌstəm/ | n. | 风俗；习俗 | different customs in different countries |
+| bow | /baʊ/ | v. / n. | 鞠躬 | bow to each other |
+| kiss | /kɪs/ | v. / n. | 亲吻；接吻 | kiss on the cheek |
+| greet | /ɡriːt/ | v. | 和……打招呼；迎接 | greet sb. with a smile |
+| relaxed | /rɪˈlækst/ | adj. | 放松的；自在的 | feel relaxed about time |
+| value | /ˈvæljuː/ | v. / n. | 重视；珍视 / 价值 | value the time we spend with family |
+| capital | /ˈkæpɪtl/ | n. | 首都；国都 | the capital of France |
+| noon | /nuːn/ | n. | 正午；中午 | at noon |
+| mad | /mæd/ | adj. | 很生气；疯的 | get mad 大动肝火；气愤 |
+| effort | /ˈefə(r)t/ | n. | 努力；尽力 | make an effort to be on time |
+| passport | /ˈpɑːspɔːt/ | n. | 护照 | show your passport |
+| chalk | /tʃɔːk/ | n. | 粉笔 | a piece of chalk |
+| blackboard | /ˈblækbɔːd/ | n. | 黑板 | write on the blackboard |
+| northern | /ˈnɔː(r)ðən/ | adj. | 北方的；北部的 | northern China |
+| coast | /kəʊst/ | n. | 海岸；海滨 | on the north coast |
+| season | /ˈsiːzn/ | n. | 季；季节 | the rainy season |
+| knock | /nɒk/ | v. / n. | 敲；击 / 敲击声 | knock at / on the door |
+| eastern | /ˈiːstən/ | adj. | 东方的；东部的 | eastern culture |
+| worth | /wɜːθ/ | adj. | 值得；有……价值（的） | be worth doing 值得做 |
+| manner | /ˈmænə(r)/ | n. | 方式；方法；（pl.）礼貌；礼仪 | table manners |
+| empty | /ˈempti/ | adj. | 空的；空洞的 | an empty bowl |
+| basic | /ˈbeɪsɪk/ | adj. | 基本的；基础的 | basic table manners |
+| exchange | /ɪksˈtʃeɪndʒ/ | n. / v. | 交换 | an exchange student |
+| teenage | /ˈtiːneɪdʒ/ | adj. | 十几岁的；青少年的 | a teenage girl |
+| granddaughter | /ˈɡrændɔːtə(r)/ | n. | （外）孙女 | my host granddaughter |
+| behave | /bɪˈheɪv/ | v. | 表现；举止 | behave well at table |
+| except | /ɪkˈsept/ | prep. / conj. | 除……之外；除了 | except for dinner |
+| elbow | /ˈelbəʊ/ | n. | 肘；胳膊 | keep your elbows off the table |
+| gradually | /ˈɡrædʒuəli/ | adv. | 逐步地；渐进地 | get used to it gradually |
+| suggestion | /səˈdʒestʃən/ | n. | 建议 | give sb. some suggestions |
+
+> 单词表按教材出现顺序排列，共 30 个词。音标为英式发音，全文统一。
+
+**二、核心短语**
+- be supposed to do sth. —— 应该做某事；被期望做某事
+- be expected to do sth. —— 被期望做某事；理应做某事
+- shake hands (with sb.) —— （与某人）握手
+- for the first time —— 第一次
+- drop by —— 顺便访问；随便进入
+- make an effort (to do) —— 作出努力（做某事）
+- after all —— 毕竟；终归
+- get mad —— 大动肝火；气愤
+- take off —— 脱下（衣服）；（飞机等）起飞
+- go out of one's way —— 特地；格外努力
+- make...feel at home —— 使（某人）感到宾至如归
+- cut up —— 切碎
+- be different from —— 与……不同
+- look forward to (doing) —— 盼望；期待（做）
+- get / be used to doing —— 习惯于做某事
+- clean...off —— 把……擦掉
+
+**三、核心句型**
+1. You're supposed to shake hands. —— 你应该握手。be supposed to do 表示按规定、习俗或惯例"应该"做某事。
+2. In the United States, they're expected to shake hands. —— be expected to do 与 be supposed to do 近义，更强调"别人期待你这么做"。
+3. It's polite to wait for everyone to start eating. —— It's + adj. + (for sb.) to do sth. 表示"（对某人来说）做某事是……的"。
+4. It's very important to be on time. —— 用 It 作形式主语，真正的主语是不定式短语。
+5. I was supposed to arrive at 7:00, but I arrived at 8:00. —— be supposed to 的过去式表示"本应该做而实际上没做"。
+6. I'm gradually getting used to the life here. —— get / be used to doing 表示"逐渐习惯于做某事"，to 是介词。
+7. They go out of their way to make me feel at home. —— go out of one's way to do 表示"格外努力、特地去做"。
+
+**四、语法聚焦：be supposed to do / be expected to do / It's + adj. + (for sb.) to do**
+- 构成：
+  1. 肯定：主语 + **be (am / is / are / was / were) supposed / expected to do**
+  2. 否定：主语 + be **not** supposed / expected to do（意为"不应该/不应当"）
+  3. 疑问：**Be** + 主语 + supposed / expected to do...?
+  4. It's + adj. + **(for sb.)** to do sth.，for sb. 是动词不定式的逻辑主语。
+- 用法：
+  1. **be supposed to do** 强调按规则、习俗、约定"应该做"，语气比 should 更客观。
+  2. **be expected to do** 侧重"别人期望你做"，常用于正式场合。
+  3. 二者都可表示"本应该做而实际没做"，此时用过去式 was / were supposed / expected to do。
+  4. **It's + adj. + for sb. to do** 中，形容词描述"事情"的性质（difficult, important, necessary）；若形容词描述"人"的品质（kind, polite, clever, rude），介词要用 **of**：It's very **kind of** you to help me.
+- 例句：
+  1. You're **supposed to** take off your shoes before entering.
+  2. We are **expected to** arrive a little earlier.
+  3. **It's important for us to** learn about different customs.
+- 易错提示：
+  1. **be supposed to do** 后接动词**原形**，不要写成 doing 或 to doing。
+  2. **be / get used to doing** 中的 to 是介词，后接名词、代词或动名词，与 be supposed to do 完全不同。比较：I'm **supposed to get** up early.（我应该早起）/ I'm **used to getting** up early.（我习惯早起）
+  3. **for 与 of 的选择**：It's necessary **for** us to be on time. / It's polite **of** you to say so.
+  4. be supposed to 的否定在 be 动词后加 not：You're **not supposed to** talk loudly at table.
+
+**五、话题写作框架（介绍中外礼仪／给外国友人的建议信）**
+- 开头说明背景：
+  - I'm glad to hear that you are coming to China as an exchange student.
+  - Different countries have different customs. Here is some advice for you.
+- 中间介绍礼仪（用 be supposed to / It's + adj. + to do）：
+  - You are **supposed to** shake hands when you meet someone **for the first time**.
+  - **It's polite to** bring a small gift when you **drop by** someone's home.
+  - You are **not expected to** start eating before the host does.
+  - You'd better keep your **elbows** off the table.
+  - Don't **stick** your chopsticks into the food. **It's** really **impolite to** do that.
+- 结尾表达祝愿：
+  - I hope these suggestions will help you. **After all**, when in Rome, do as the Romans do.
+  - I'm **looking forward to** your reply / seeing you soon.`,重点难点解析:`**重点一：be supposed to do 与 be expected to do**
+两者都表示"应该／被期望做某事"，be supposed to 更强调按规定、习俗或约定应当如此，语气比 should 客观；be expected to 更强调"他人期待你这么做"，常用于正式场合。
+- You **are supposed to** shake hands when you meet someone for the first time.（按习俗应该握手）
+- We **are expected to** wear school uniforms at school.（按规定/期望应当穿校服）
+- You **are not supposed to** talk loudly in the library.（不应该大声说话）
+- I **was supposed to** arrive at 7:00, but I was late.（本该七点到，实际没做到）
+小结：这类表达的核心在 **be 动词的变化**，to 后一律接动词原形，否定在 be 后加 not。
+
+**难点一：be supposed to do 与 be / get used to doing 的辨析**
+这是本单元最容易混淆、也是中考最爱考的一组结构。判断方法：**看 to 后面跟的是动词原形还是动名词**。
+- **be supposed to do**：to 是不定式符号，后接**动词原形**，意为"应该做"。I'm supposed to **knock** at the door first.
+- **be / get used to doing**：to 是介词，后接**动名词**，意为"习惯于做"。I'm gradually getting used to **living** here.
+- **used to do**（to 是原形符号）：过去常常做。I used to **hate** spicy food.
+记忆口诀：**supposed to 跟原形，used to 跟 ing**；先看 to 后的形式，再定含义。
+学生典型错误：I am used to **get** up early.（应为 getting）/ I'm supposed to **getting** there on time.（应为 get）
+
+**难点二：It's + adj. + for / of sb. to do 中介词的选择**
+判断的关键不是主语，而是**形容词修饰的对象**：
+1. 形容词描述**事情的性质**（difficult, easy, important, necessary, hard, possible, dangerous）时用 **for**：It's **important for** us to be on time.
+2. 形容词描述**人的品质或性格**（kind, nice, polite, rude, clever, foolish, brave, careless）时用 **of**：It's very **kind of** you to help me. / It's **polite of** you to say thanks.
+3. 若把 sb. 与 adj. 直接连起来说得通（You are kind. / He is clever.），就用 of；说不通就用 for。
+学生典型错误：It's very kind **for** you to help me.（应为 of）
+
+**难点三：餐桌礼仪类表达的得体性**
+写作中建议别人"该做什么、不该做什么"时，语气要委婉，中考作文里用 be supposed to / be expected to / It's polite (impolite) to do 明显比直接用 must / can't 得分高。
+- 得体说法：You **are not supposed to** stick your chopsticks into your food.
+- 生硬说法：You **can't** stick your chopsticks into your food.
+同时要注意"入乡随俗"的文化表达，结尾用 After all, when in Rome, do as the Romans do. 或 It's worth learning about local customs before you go. 会让文章更有亮点。
+学生典型错误：把"值得做"写成 be worth **to do**，正确形式是 **be worth doing**（主动形式表被动含义）。
+
+**中考考点提示**
+- 单项选择：be supposed to do 与 be / get used to doing、used to do 的同台辨析，以及 for / of 的选择，几乎每年必考 1 分。
+- 完成句子：考查 be supposed to do、make an effort to do、look forward to doing 等固定搭配，通常 2 分一空。
+- 完形填空与阅读理解：跨文化交际、餐桌礼仪是高频语篇话题，常出现 custom, greet, behave, manner, exchange 等本单元词汇。
+- 书面表达：以"给外国交换生的建议信""介绍中国传统礼仪"为常考体裁，格式为书信，时态以一般现在时为主。`,典型例题精讲:`**例题 1（be supposed to 的基本用法）**
+题目：You ______ take off your shoes before you enter a Japanese house.  A. are supposed to  B. are supposed  C. supposed to  D. are suppose to
+解析：be supposed to do 结构中，be 动词必须随主语变化，且 suppose 要用过去分词 supposed，to 后接动词原形 take off。主语 You 用 are，故选 A。D 项 suppose 未变分词，形式错误。
+答案：A
+方法小结：记住固定形式 be + supposed + to do，先查 be 动词，再查 supposed 的拼写，最后看 to 后的动词是否用原形。
+
+**例题 2（be supposed to do 与 be used to doing 的辨析）**
+题目：I ______ up early when I was a child, so now I ______ up early, and I ______ arrive at school before 7:30 every day.
+A. used to get; am used to getting; am supposed to
+B. used to getting; am used to get; am supposed to
+C. used to get; used to getting; supposed to
+D. am used to getting; used to get; am supposed to
+解析：第一空 used to do 表示"过去常常"，用 used to get；第二空 be used to doing 表示"习惯于"，用 am used to getting；第三空 be supposed to do 表示"应该"，用 am supposed to。三项顺序完全对应，选 A。
+答案：A
+方法小结：一句话里同时出现三个"to"，先看每个 to 后面的形式：原形→supposed to 或 used to do；动名词→be / get used to doing。
+
+**例题 3（for 与 of 的选择）**
+题目：It's very nice ______ you to help me with my English.  A. for  B. of  C. with  D. to
+解析：nice 是描述"人"的品质的形容词，且"you are nice"说得通，因此用 of；若形容词是 important、difficult 等描述事情性质的词，才用 for。
+答案：B
+方法小结：把 sb. 提到形容词前造个简单句，说得通用 of，说不通就用 for。
+
+**例题 4（It's + adj. + to do 与礼仪表达）**
+题目：用括号内提示完成句子：在中国，用筷子指着别人是不礼貌的。______ impolite ______ point at others with your chopsticks in China.
+解析：考查 It's + adj. + to do sth. 结构，It 作形式主语，真正主语是不定式 to point at others with your chopsticks。
+答案：It's; to
+方法小结：汉译英遇到"做某事是……的"，一律套用 It's + adj. + (for sb.) to do，不要按中文语序生搬硬套。
+
+**例题 5（中考风格综合题）**
+题目：— I don't know how to behave at the dinner table in France. — Don't worry. ______, you should learn some table manners before you go. I'll give you some ______.
+A. After all; suggestions  B. In total; suggestion  C. After all; suggestion  D. In all; suggestions
+解析：第一空 after all 意为"毕竟"，用于说明理由，符合语境；第二空 some 后接可数名词复数 suggestions。两者都正确的是 A。
+答案：A
+方法小结：some 后接可数名词必用复数，这是中考词汇运用题的固定陷阱，与语境辨析结合考查。`},课后作业:[{difficulty:"基础",title:"基础巩固",questions:[{q:`根据汉语提示写单词：Different countries have different ______ (风俗).`,a:`答案 customs。custom 意为“风俗；习俗”，different 后接可数名词复数 customs。`},{q:`根据汉语提示写单词：It's important to have good table ______ (礼仪) when you eat out.  A. manner  B. manners`,a:`答案 B（manners）。manner 表示“礼貌；礼仪”时必须用复数形式 manners，table manners 餐桌礼仪。`},{q:`短语翻译：① drop by ② make an effort ③ go out of one's way ④ make...feel at home`,a:`答案 ① 顺便访问；随便进入 ② 作出努力 ③ 特地；格外努力 ④ 使（某人）感到宾至如归。四个短语均为本单元高频短语，写作中常用于建议信。`},{q:`用所给词的适当形式填空：You're supposed ______ (shake) hands. / I'm gradually getting used to ______ (live) here.`,a:`答案 to shake；living。be supposed to 后接动词原形；get used to 中的 to 是介词，后接动名词。`}]},{difficulty:"中等",title:"能力提升",questions:[{q:`单项选择：I ______ to arrive at 7:00, but I ______ at 8:00. I felt sorry for being late.  A. was supposed; arrived  B. am supposed; arrive  C. supposed; arrived  D. was supposed; arrive`,a:`答案 A。“本该七点到却八点才到”用 was supposed to do，后一分句陈述过去事实，用一般过去时 arrived。`},{q:`单项选择：It's necessary ______ us ______ about different customs before going abroad.  A. for; learning  B. of; to learn  C. for; to learn  D. of; learning`,a:`答案 C。necessary 描述事情性质用 for；It's + adj. + for sb. + to do sth. 结构中真正的主语是不定式 to learn。`},{q:`句型转换：You should bow when you meet Japanese people for the first time.（用 be supposed to 改写）`,a:`答案 You are supposed to bow when you meet Japanese people for the first time.。be supposed to do 与 should 同义替换，后接动词原形。`},{q:`完成句子：你会逐渐习惯这里的生活。You'll gradually ______ ______ ______ the life here.`,a:`答案 get used to。get / be used to (doing) sth. 表示“习惯于……”，to 是介词；gradually 意为“逐步地”，修饰 get used to。`}]},{difficulty:"难",title:"综合挑战",questions:[{q:`短文填空（每空一词）：When you meet someone for the first time in China, you are ______ to shake hands. It's ______ to bring a small gift when you ______ by someone's home. At table, you are not expected to start eating ______ the host does, and you'd better keep your ______ (肘) off the table.`,a:`答案 supposed；polite；drop；before；elbows。be supposed to 应该；It's polite to do 做某事是有礼貌的；drop by 顺便访问；before 在……之前；elbow 用复数 elbows。`},{q:`改错：It's very kind for you to make me feel at home. I'm gradually getting used to live here, and I'm supposed to arriving on time every day.`,a:`答案 for 改为 of；live 改为 living；arriving 改为 arrive。kind 描述人的品质用 of；get used to 后接动名词 living；be supposed to 后接动词原形 arrive。`},{q:`翻译：他们格外努力地让我感到宾至如归，我很期待再次见到他们。`,a:`答案 They go out of their way to make me feel at home, and I'm looking forward to seeing them again.。go out of one's way to do 特地做；look forward to 中的 to 是介词，后接动名词 seeing。`},{q:`书面表达：你的美国朋友 John 要来中国做交换生，请给他写一封 80 词左右的信，介绍 2–3 条中国的见面与餐桌礼仪，并给出建议。`,a:`参考范文：Dear John, I'm glad to hear that you're coming to China as an exchange student. I'd like to give you some advice on Chinese customs. When you meet Chinese people for the first time, you are supposed to shake hands and smile. It's polite to call them by their family names. When you are invited to a Chinese home, you are expected to bring a small gift, such as some fruit or flowers. At table, you are not supposed to start eating before the host does. It's also impolite to stick your chopsticks into your food or point at others with them. After all, when in Rome, do as the Romans do. I hope these suggestions will help you. I'm looking forward to seeing you soon. Yours, Li Hua。书信格式完整，含 5 处 be supposed / expected to 与 It's + adj. + to do 结构，用了 for the first time、after all、look forward to 等短语。`}]},{difficulty:"综合",title:"中考真题对接",questions:[{q:`（中考真题）You ______ to return the book to the library on time.  A. are supposed  B. are suppose  C. supposed  D. suppose`,a:`答案 A。be supposed to do 意为“应该做”，主语 You 用 are，suppose 用过去分词 supposed。`},{q:`（中考真题）My grandpa ______ in the village, so he ______ quiet life there now.  A. used to live; is used to living  B. is used to live; used to living  C. used to living; is used to live  D. is used to living; used to live`,a:`答案 A。used to do 过去常常住在村里；be used to doing 习惯于那里的宁静生活，to 后接动名词 living。`},{q:`（中考真题）阅读理解细节题：Why did the host family go out of their way? 原文相关句：My host family went out of their way to cook Chinese food for me, which made me feel at home.`,a:`答案 Because they wanted to make the writer feel at home.。go out of one's way to do 意为“特地／格外努力做某事”，由 which 引导的定语从句说明了目的。`},{q:`（中考真题）书面表达：某英语报社正在以 “Chinese Table Manners” 为题征文，请你写一篇短文，向外国友人介绍中国的餐桌礼仪并提出建议。要求：词数 80 左右。`,a:`参考范文：China is a country with a long history, so it has many special table manners. When you have dinner with a Chinese family, you are supposed to let the old people and guests sit down and start eating first. It's impolite to speak loudly with your mouth full of food. You are not expected to stick your chopsticks into your rice, because it is believed to bring bad luck. If you want to take food from a far dish, it's polite to ask others for help. It's worth remembering these basic rules before you go to a Chinese dinner. After all, good manners show your respect for the local culture, and they will surely make you popular with your Chinese friends.。使用 be supposed to、be expected to、It's + adj. + to do、be worth doing、basic、manner 等本单元核心结构，内容完整、语气得体。`}]}],课后反馈:`**常见错误**：be supposed to 后写成 doing 或漏掉 be 动词；be supposed to do 与 be / get used to doing、used to do 三者混淆；It's + adj. 后的 for 与 of 选错；manner 表"礼仪"未用复数；be worth to do 未改为 be worth doing；look forward to 后接动词原形。
+**教学改进建议**：把三组"to"结构做成三栏对比表，用"看 to 后的形式"这一条规则统一训练；设计"礼仪建议信"写作清单，要求学生每篇至少用 4 处 be supposed to / It's + adj. + to do；用中西礼仪对照视频创设情境，再做口头输出。
+**分层辅导**：学困生先记牢 be supposed to do 的肯定与否定形式，能写出 3 条礼仪建议句；学优生要求熟练区分三种 to 结构，在写作中运用 go out of one's way、after all、be worth doing 等高级表达，并注意书信格式与衔接词。
+**给家长的建议**：在家用餐时有意识地与孩子聊一聊中西餐桌礼仪的差异，鼓励孩子用英语介绍一次家庭聚餐的规矩；带孩子观看介绍外国文化的纪录片，拓宽跨文化视野。`},{subject:"英语",stage:"初中",grade:"九年级",chapter:`人教版 Unit 11：Sad movies make me cry.`,备课方案:`**教学目标**
+1. 语音与词汇：能正确认读、拼写并运用本单元 34 个课内单词（见讲义单词表），掌握 17 个核心短语。
+2. 语言知识：掌握 make + 宾语 + 宾语补足语（形容词／省略 to 的动词原形）的构成与用法；掌握 would rather do... (than do...) 与 "the + 比较级, the + 比较级" 的用法，能在语境中正确运用。
+3. 语言技能：能听懂/读懂关于情绪与情感、外界事物对人的影响的对话与短文（含 The Shirt of a Happy Man 故事与足球队经历），能就"一次影响我的经历"进行口头与书面表达。
+4. 情感态度与文化意识：学会识别并恰当表达自己的情绪，理解"快乐源于内心而非外在的名利"；面对挫折时不互相指责，学会团队合作与自我调节，形成积极乐观的人生态度。
+
+**教学重点**：make + 宾语 + 宾补的三种形式；make 用于被动语态时 to 的还原；would rather (not) do 与 rather than 的用法。
+**教学难点**："the + 比较级, the + 比较级"结构的语序与省略；let...down、be hard on、kick...off 等短语动词的语境运用；情绪描写的细节化与语言丰富度。
+**教学方法**：情景导入、任务型教学、小组合作、思维导图归纳、当堂检测。
+**课时安排**：4 课时（Section A 2 课时 + Section B 1 课时 + 复习与写作 1 课时）`,课堂讲义:{核心知识点:`**一、课内单词（Words and Expressions）**
+| 单词 | 音标 | 词性 | 中文释义 | 教材搭配 / 例句 |
+|------|------|------|----------|-----------------|
+| rather | /ˈrɑːðə(r)/ | adv. | 相当；相反 | would rather (not) do 宁愿（不）做 |
+| drive | /draɪv/ | v. | 迫使（drove, driven） | drive sb. crazy / mad 使人发疯 |
+| lately | /ˈleɪtli/ | adv. | 最近；不久前 | I haven't slept well lately. |
+| friendship | /ˈfrendʃɪp/ | n. | 友谊；友情 | a true friendship |
+| king | /kɪŋ/ | n. | 国王；君主 | an unhappy king |
+| power | /ˈpaʊə(r)/ | n. | 权力；力量 | have a lot of power |
+| prime | /praɪm/ | adj. | 首要的；基本的 | prime minister 首相；大臣 |
+| minister | /ˈmɪnɪstə(r)/ | n. | 大臣；部长 | the prime minister |
+| banker | /ˈbæŋkə(r)/ | n. | 银行家 | a rich banker |
+| fame | /feɪm/ | n. | 名声；声誉 | fame and wealth |
+| pale | /peɪl/ | adj. | 苍白的；灰白的 | look pale as chalk |
+| queen | /kwiːn/ | n. | 王后；女王 | the queen of the country |
+| examine | /ɪɡˈzæmɪn/ | v. | （仔细地）检查；检验 | examine the king |
+| nor | /nɔː(r)/ | conj. / adv. | 也不 | neither...nor... 既不……也不…… |
+| palace | /ˈpæləs/ | n. | 王宫；宫殿 | in the palace |
+| wealth | /welθ/ | n. | 财富 | a man of great wealth |
+| grey | /ɡreɪ/ | adj. | 阴沉的；昏暗的；灰色的 | grey skies |
+| lemon | /ˈlemən/ | n. | 柠檬 | a cup of lemon tea |
+| uncomfortable | /ʌnˈkʌmftəbl/ | adj. | 使人不舒服的；令人不舒适的 | feel uncomfortable |
+| weight | /weɪt/ | n. | 重量；分量 | lose weight 减肥 |
+| shoulder | /ˈʃəʊldə(r)/ | n. | 肩；肩膀 | on one's shoulder |
+| goal | /ɡəʊl/ | n. | 球门；射门；目标 | score a goal |
+| coach | /kəʊtʃ/ | n. | 教练；私人教师 | the coach of the team |
+| kick | /kɪk/ | v. | 踢；踹 | kick sb. off 开除某人 |
+| courage | /ˈkʌrɪdʒ/ | n. | 勇敢；勇气 | have the courage to do sth. |
+| pull | /pʊl/ | v. | 拉；拖 | pull together 齐心协力 |
+| nod | /nɒd/ | v. | 点头 | nod in agreement 点头同意 |
+| agreement | /əˈɡriːmənt/ | n. | （意见或看法）一致；同意 | in agreement 意见一致 |
+| fault | /fɔːlt/ | n. | 过失；缺点 | It's not my fault. |
+| disappoint | /ˌdɪsəˈpɔɪnt/ | v. | 使失望 | disappoint my parents |
+| besides | /bɪˈsaɪdz/ | adv. / prep. | 而且 / 除……之外（还） | Besides, winning or losing is only half the game. |
+| guy | /ɡaɪ/ | n. | （非正式）家伙；伙计们 | You guys |
+| relief | /rɪˈliːf/ | n. | 轻松；解脱 | to one's relief 令某人欣慰的是 |
+| teammate | /ˈtiːmmeɪt/ | n. | 同队队员；队友 | work with your teammates |
+
+> 单词表按教材出现顺序排列，共 34 个词。音标为英式发音，全文统一。
+
+**二、核心短语**
+- would rather (not) do sth. —— 宁愿（不）做某事
+- would rather do... than do... —— 宁愿做……而不愿做……
+- drive sb. crazy / mad —— 使人发疯／发狂
+- the more... the more... —— 越……越……
+- be friends with sb. —— 成为某人的朋友；与某人友好
+- leave out —— 忽略；不提及；不包括
+- to start with —— 起初；开始时
+- let...down —— 使失望
+- kick sb. off —— 开除某人
+- be hard on sb. —— 对某人苛刻；对某人要求严厉
+- rather than —— 而不是
+- pull together —— 齐心协力；通力合作
+- in agreement —— 意见一致；同意
+- neither...nor... —— 既不……也不……
+- to one's relief —— 令某人欣慰的是
+- call in —— 召来；叫来
+- lose weight —— 减肥
+
+**三、核心句型**
+1. Sad movies make me cry. —— 悲伤的电影让我哭。make + 宾语 + 动词原形（省略 to 的不定式）作宾补。
+2. Loud music makes me uncomfortable. —— 吵闹的音乐让我不舒服。make + 宾语 + 形容词作宾补。
+3. I'd rather go to the Blue Ocean because I like to listen to quiet music while I'm eating. —— would rather do 表示"宁愿做"，后接动词原形。
+4. I'd rather stay at home than go to the movies. —— would rather do... than do...，than 后接动词原形。
+5. The more I get to know Julie, the more I realize that we have a lot in common. —— "the + 比较级, the + 比较级"表示"越……越……"。
+6. The harder you work, the greater progress you will make. —— 前半句相当于条件状语从句，用一般现在时表将来。
+7. He was made to wait for two hours. —— make 用于被动语态时，宾补的不定式要**带上 to**。
+
+**四、语法聚焦：make + 宾语 + 宾语补足语**
+- 构成：**make + 宾语 + 宾补**，宾补可由**形容词**、**省略 to 的动词原形**或**名词**充当。
+  1. make + 宾语 + **形容词**：Sad movies **make me sad**.
+  2. make + 宾语 + **动词原形（不带 to）**：Funny movies **make me laugh**.
+  3. make + 宾语 + **名词**：They **made him their leader**.
+- 用法：
+  1. make 是使役动词，主动语态中宾补若为动词，必须用**原形**（不加 to）。
+  2. 变为**被动语态**时，省略的 to 要补回来：He **was made to work** ten hours a day.
+  3. 常用结构 **make + 宾语 + do** 中，宾语可以是人也可以是物；**make it + adj. + to do** 中 it 是形式宾语：The noise **makes it hard for me to** sleep.
+- 例句：
+  1. The good news **made her happy**.
+  2. Waiting for her **made me angry**.
+  3. The teacher **made the boy stand** outside.
+- 易错提示：
+  1. make sb. **do** 而不是 make sb. **to do**：错句 The movie made me **to cry**.
+  2. make sb. **+ 形容词**而不是副词：错句 It makes me **happily**. 应改为 happy。
+  3. 被动语态中 to 必须还原：They were made **to clean** the classroom.
+  4. **make it + adj. + to do / that 从句** 中的 it 不可省略，这是中考完成句子题的常客。
+
+**五、话题写作框架（An Experience That Changed Me / 情绪类短文）**
+- 开头交代事件与情绪：
+  - I still remember the day when... It made me feel...
+  - Something unhappy happened to me last week.
+  - Lately I have been feeling nervous / worried because...
+- 中间展开（用 make 与情绪词汇）：
+  - The bad result **made me** so sad that I couldn't sleep well.
+  - Waiting for the result **drove me crazy**.
+  - **To start with**, I thought it was all my **fault** and I **let** my parents **down**.
+  - My friend's words **made me** feel much better.
+  - **The harder** I practiced, **the more** confident I became.
+- 结尾写感悟与行动：
+  - **To my relief**, my teammates didn't blame me. We decided to **pull together**.
+  - From this experience, I have learned that...
+  - It's important to have the **courage** to face difficulties **rather than** give up.`,重点难点解析:`**重点一：make + 宾语 + 宾语补足语**
+make 作使役动词时，宾补有三种常见形式，中考最爱考第二种。
+- **make + 宾语 + 形容词**：Sad movies **make me sad**. / The news **made her happy**.
+- **make + 宾语 + 动词原形（不带 to）**：Funny stories **make me laugh**. / Don't **make me wait** too long.
+- **make + 宾语 + 名词**：They **made him captain** of the team.
+小结：主动语态"一原形"，即 make sb. do；形容词直接放，副词不能上。
+
+**难点一：被动语态中 to 的还原**
+主动句里 make 后的动词原形不带 to，但变成被动语态时必须把 to 补回来，这是本单元最高频的失分点。
+- 主动：The boss **made the workers work** ten hours a day.
+- 被动：The workers **were made to work** ten hours a day.
+同类使役动词还有 let, have（let sb. do / have sb. do），但 **let 一般不用于被动语态**；**have sb. doing** 表示"让某人一直做"。
+学生典型错误：He was made **clean** the classroom.（应改为 to clean）
+记忆口诀：**主动省 to，被动补 to**。
+
+**难点二：would rather (not) do 与 rather than**
+- **would rather (not) do**：宁愿（不）做，后接动词原形，否定在 rather 后加 not：I'd rather **not talk** about it.
+- **would rather do A than do B**：宁愿做 A 而不愿做 B，than 前后都用动词原形：I'd rather **stay** at home than **go** out.
+- **rather than**：而不是，连接两个并列成分，前后形式一致：I prefer to walk **rather than take** a bus. / He is a writer **rather than** a teacher.
+- 与 prefer 的呼应：**prefer to do... rather than do...** = **would rather do... than do...**
+学生典型错误：I would rather **to stay** at home.（应去掉 to）/ I'd rather staying than going.（两处都应用原形）
+
+**难点三："the + 比较级, the + 比较级"结构**
+意为"越……越……"，前半句相当于条件状语从句，后半句是主句。
+- **The more** I read, **the more** I understand.
+- **The harder** you work, **the greater** progress you will make.
+- **The earlier** you start, **the sooner** you'll finish.
+使用要点：
+1. 两个 the 后都跟**比较级**（形容词或副词），两个分句用逗号隔开。
+2. 前后分句的**主语和谓语可以省略**（当意思清楚时）：**The sooner, the better**.（越快越好）
+3. 后半句表将来时，前半句用**一般现在时**代替将来时（主将从现）。
+4. 比较级为 much、many 时用 more；注意 the more... 中的 more 是 much / many 的比较级，后面可接名词：The more **friends** you have, the happier you'll be.
+学生典型错误：The more **harder** you work...（harder 前不能再加 more）
+
+**中考考点提示**
+- 单项选择：make sb. do / make sb. + adj. 的用法，以及被动语态中 to 的还原，几乎每年 1 分。
+- 完成句子：考查 would rather do... than do...、the + 比较级, the + 比较级、make it + adj. + to do 等，多为 2 分一空。
+- 完形填空与阅读理解：情绪与人际关系类语篇常出现 lately, relief, courage, disappoint, pull together 等本单元词汇。
+- 书面表达：以"一次难忘的经历／一次挫折与成长"为常考体裁，用 make sb. do、to one's relief 等表达情绪变化，是拉开差距的关键。`,典型例题精讲:`**例题 1（make + 宾语 + 宾补）**
+题目：The funny movie made all of us ______ loudly.  A. laugh  B. to laugh  C. laughing  D. laughed
+解析：make 作使役动词，主动语态中宾补若为动词，必须用不带 to 的动词原形，因此选 laugh。to laugh 是被动语态才用的形式；laughing 与 laughed 均不符合结构。
+答案：A
+方法小结：看到 make sb. ___，先看语态：主动填动词原形，被动填 to do。
+
+**例题 2（被动语态中 to 的还原）**
+题目：The little boy was made ______ his homework again.  A. do  B. to do  C. doing  D. done
+解析：make 用于被动语态时，原来省略的 to 必须补回来，构成 be made to do sth.，故填 to do。若用主动语态，则为 They made the boy do his homework again.
+答案：B
+方法小结：一句话判断——主语是不是"被要求做"的？是，就用 to do。
+
+**例题 3（would rather 的用法）**
+题目：I'd rather ______ at home than ______ to the crowded mall on weekends.  A. stay; go  B. to stay; to go  C. staying; going  D. stay; going
+解析：would rather do... than do... 结构中，than 前后都用动词原形，两空均为原形，故选 A。
+答案：A
+方法小结：would rather 与 than 后一律接动词原形，若出现 to 或 -ing，直接排除。
+
+**例题 4（the + 比较级, the + 比较级）**
+题目：______ you practice, ______ progress you will make.  A. The more; the more  B. More; more  C. The much; the much  D. The more; more
+解析：该结构要求两个分句都以 the + 比较级开头；practice 与 progress 前都用 much 的比较级 more，且两个 the 都不能漏，故选 A。
+答案：A
+方法小结：牢记公式 The + 比较级 + 主谓, the + 比较级 + 主谓，两个 the 缺一不可。
+
+**例题 5（中考风格综合题）**
+题目：— Why do you look so ______ lately? — I failed the exam and I think I ______ my parents ______.  A. pale; let; down  B. pale; let; off  C. grey; let; down  D. grey; let; off
+解析：第一空 look pale 表示"脸色苍白"，grey 多形容天空阴沉；第二、三空 let sb. down 是固定短语，意为"使某人失望"，let off 意为"放过、排放"，不合语境。故选 A。
+答案：A
+方法小结：教材原句 pale as chalk 与 let...down 常成对出现，复习时要按"话题块"记忆，而不是孤立背单词。`},课后作业:[{difficulty:"基础",title:"基础巩固",questions:[{q:`根据汉语提示写单词：True ______ (友谊) is more important than money.`,a:`答案 friendship。friendship 是不可数名词，由 friend + 后缀 -ship 构成，意为“友谊；友情”。`},{q:`根据汉语提示写单词：The bad news ______ (使失望) all of us. 用括号内词的适当形式填空：disappoint`,a:`答案 disappointed。由语境“坏消息使我们失望”可知用一般过去时 disappointed；disappoint 是动词“使失望”，其形容词为 disappointed / disappointing。`},{q:`短语翻译：① drive sb. crazy ② let...down ③ pull together ④ to one's relief`,a:`答案 ① 使某人发疯／发狂 ② 使失望 ③ 齐心协力；通力合作 ④ 令某人欣慰的是。四个短语都是本单元情绪类写作的高分表达。`},{q:`用所给词的适当形式填空：Sad movies make me ______ (cry). / Rainy days make her ______ (uncomfortable).`,a:`答案 cry；uncomfortable。make sb. do 用动词原形；make sb. + 形容词，uncomfortable 本身是形容词，无需变化。`}]},{difficulty:"中等",title:"能力提升",questions:[{q:`单项选择：The workers were made ______ twelve hours a day in the past.  A. work  B. working  C. to work  D. worked`,a:`答案 C。make 用于被动语态时，宾补的动词原形前要补回 to，构成 be made to do sth.。`},{q:`单项选择：I ______ stay at home ______ go to the noisy party.  A. prefer; rather than  B. would rather; than  C. would rather; to  D. prefer to; to`,a:`答案 B。would rather do... than do... 结构中，rather 后与 than 后都接动词原形；prefer 的搭配是 prefer to do... rather than do...（A、D 缺少 to），C 项 than 的位置用了 to，形式错误。`},{q:`句型转换（改为被动语态）：The coach made the players run for an hour.`,a:`答案 The players were made to run for an hour (by the coach).。主动变被动时，make 后的动词原形要补回 to，用 be made to do 结构。`},{q:`完成句子：你练习得越多，进步就越大。______ ______ you practice, ______ ______ progress you will make.`,a:`答案 The more；the greater。“the + 比较级, the + 比较级”表示“越……越……”；progress 是不可数名词，用 greater 修饰。`}]},{difficulty:"难",title:"综合挑战",questions:[{q:`短文填空（每空一词）：Lately I've been feeling ______ (不舒服的) because of the coming exam. The noise outside ______ me crazy. To start ______, I was afraid of ______ my parents ______ (使失望). But my best friend told me to have the ______ (勇气) to face it. We decided to pull ______.`,a:`答案 uncomfortable；drives；with；letting；down；courage；together。feel uncomfortable 感觉不舒服；drive sb. crazy 使人发疯，主语 noise 用第三人称单数 drives；to start with 起初；be afraid of + 动名词 letting；let sb. down 使失望；have the courage to do 有勇气做；pull together 齐心协力。`},{q:`改错：The sad movie made me to cry. I'd rather to stay at home than going out. The more harder you try, the more better you'll do.`,a:`答案 改为 The sad movie made me cry. / I'd rather stay at home than go out. / The harder you try, the better you'll do.。make sb. do 用原形；would rather...than 后都用原形；比较级不能与 more 连用。`},{q:`翻译：令我们欣慰的是，队友们没有责怪我，而是齐心协力赢得了比赛。（用 to one's relief, rather than, pull together）`,a:`答案 To our relief, my teammates didn't blame me. Instead of blaming me, they pulled together rather than complain, and we won the game.。to one's relief 令某人欣慰的是；rather than 而不是，连接并列动词 pull 与 complain；pull together 齐心协力。`},{q:`书面表达：以 An Experience That Made Me Grow Up 为题写一篇 80 词左右的短文，写一次让你情绪波动并从中成长的经历。`,a:`参考范文：Last term, I lost an important football match because I missed a goal. It made me so sad that I even wanted to leave the team. To start with, I thought it was all my fault and I had let my teammates down. However, my coach didn't kick me off the team. Instead, he encouraged me to practice harder and never be hard on myself. His words made me feel much better. From then on, the harder I practiced, the more confident I became. To my relief, we pulled together and won the next match. This experience has taught me that courage and teamwork matter more than winning or losing.。全文使用 make sb. do、to start with、let...down、kick...off、be hard on、the + 比较级、to one's relief、pull together 等本单元核心表达，情节完整、情绪变化清晰。`}]},{difficulty:"综合",title:"中考真题对接",questions:[{q:`（中考真题）The soft music makes me ______. I really enjoy it.  A. relaxed  B. to relax  C. relaxing  D. relax`,a:`答案 A。make sb. + 形容词，此处表示“让我感到放松”，修饰人用 -ed 形容词 relaxed；relaxing 修饰事物。`},{q:`（中考真题）The students in this school are made ______ school uniforms on weekdays.  A. wear  B. to wear  C. wearing  D. worn`,a:`答案 B。be made to do sth. 被迫／被要求做某事，被动语态中 to 必须补回。`},{q:`（中考真题）阅读理解细节题：What made the king unhappy? 原文相关句：The king slept badly and didn't feel like eating. Neither medicine nor rest could help him.`,a:`答案 Neither medicine nor rest could help him — he slept badly and didn't feel like eating.。neither...nor... 既不……也不……，连接两个并列主语，谓语与 nor 后的名词保持一致（就近原则）。`},{q:`（中考真题）书面表达：生活中总有一些人或事影响着我们的情绪。请以 “______ Make(s) Me ______” 为题写一篇短文，谈谈什么影响你的情绪以及你是如何调整的。要求：词数 80 左右。`,a:`参考范文：Music Makes Me Happy. I have been under a lot of pressure lately, and the endless exams almost drive me crazy. Whenever I feel down, I turn on my favorite music. The smooth music makes me forget my worries and makes me feel relaxed. It also makes me want to sing along with it. Besides, my best friend always tells me that I should have the courage to face difficulties rather than give up. To my relief, I am gradually getting used to the busy school life. The busier I am, the happier I feel. I have learned that a positive attitude makes everything easier.。标题补全为 Music Makes Me Happy，通篇使用 make sb. do / + adj.、late、besides、to one's relief、the + 比较级等本单元句型，结构完整、语言地道。`}]}],课后反馈:`**常见错误**：make sb. 后误加 to 或误用 -ing／-ed 形式；被动语态中忘记补回 to；would rather 后误加 to；than 前后形式不一致；"the + 比较级"中漏掉 the 或叠加 more；-ing 与 -ed 形容词（relaxed / relaxing、disappointed / disappointing）混用。
+**教学改进建议**：用"主动省 to、被动补 to"的对照训练强化 make 的用法；把 would rather、prefer to...rather than...、rather than 做成一组对比句当堂背诵；用情绪词汇思维导图丰富写作语料；让学生互评作文中的情绪描写是否具体。
+**分层辅导**：学困生掌握 make sb. do、make sb. + adj. 与 would rather do 的基本结构，能写出 5 句情绪表达句；学优生要求熟练使用被动语态还原 to、the + 比较级结构以及 to one's relief、pull together 等高分短语，写作时做到情节具体、心理描写细腻。
+**给家长的建议**：多关注孩子的情绪变化，鼓励孩子用英语说说"今天什么事情让我开心／难过"；与孩子一起观看《快乐的衬衫》相关故事改编的短剧，讨论"快乐来自哪里"。`},{subject:"英语",stage:"初中",grade:"九年级",chapter:`人教版 Unit 12：Life is full of the unexpected.`,备课方案:`**教学目标**
+1. 语音与词汇：能正确认读、拼写并运用本单元 35 个课内单词（见讲义单词表），掌握 12 个核心短语（by the time、give ... a lift、in line with、show up、by the end of、sell out、run out of、take place、hundreds of、end up、get married、lose weight）。
+2. 语言知识：掌握过去完成时（had + 过去分词）的构成与用法，能在 by the time、before、when 引导的时间状语从句中正确运用，并能区分过去完成时与一般过去时。
+3. 语言技能：能听懂并读懂关于意外事件、倒霉的一天、愚人节故事的对话与短文，能按时间顺序讲述并写出一次难忘的经历。
+4. 情感态度与文化意识：了解英语国家愚人节（April Fool's Day）的文化习俗，学会以幽默、乐观的态度面对生活中的意外与尴尬。
+
+**教学重点**：过去完成时的构成与用法；by the time 引导的时间状语从句中主、从句时态的搭配；叙事类词汇（oversleep、ring、block、burn、fool、announce 等）在语境中的运用。
+**教学难点**：过去完成时与一般过去时的区别（"过去的过去"）；不规则动词过去分词的记忆；叙事语篇中的时间顺序与逻辑衔接。
+**教学方法**：情景导入、任务型教学、小组合作、思维导图归纳、当堂检测。
+**课时安排**：4 课时（Section A 2 课时 + Section B 1 课时 + 复习与写作 1 课时）`,课堂讲义:{核心知识点:`**一、课内单词（Words and Expressions）**
+| 单词 | 音标 | 词性 | 中文释义 | 教材搭配 / 例句 |
+|------|------|------|----------|-----------------|
+| unexpected | /ˌʌnɪkˈspektɪd/ | adj. | 出乎意料的；始料不及的 | Life is full of the unexpected. |
+| backpack | /ˈbækpæk/ | n. | 背包；旅行包 | I had left my backpack at home. |
+| oversleep | /ˌəʊvəˈsliːp/ | v. | 睡过头；睡得太久 | I overslept because my alarm clock didn't go off. |
+| ring | /rɪŋ/ | v. | （钟、铃等）鸣；响 | By the time I got up, the bell had rung. |
+| block | /blɒk/ | n. | 街区 | I ran three blocks to the bus stop. |
+| worker | /ˈwɜːkə(r)/ | n. | 工作者；工人 | a coffee worker / an office worker |
+| stare | /steə(r)/ | v. | 盯着看；凝视 | We stared in disbelief at the black smoke. |
+| disbelief | /ˌdɪsbɪˈliːf/ | n. | 不信；怀疑 | in disbelief 难以置信地 |
+| above | /əˈbʌv/ | prep. / adv. | 在……上面；在上面 | the burning building above the street |
+| burn | /bɜːn/ | v. | 着火；燃烧 | The building was burning. |
+| alive | /əˈlaɪv/ | adj. | 活着；有生气的 | I felt lucky to be alive. |
+| airport | /ˈeəpɔːt/ | n. | 机场 | By the time I got to the airport, the plane had taken off. |
+| till | /tɪl/ | conj. / prep. | 直到；直到……为止 | I waited till / until he came back. |
+| west | /west/ | adv. / adj. / n. | 向西；朝西的；西，西方 | The plane was flying west. |
+| cream | /kriːm/ | n. | 奶油；乳脂 | an apple pie with cream |
+| workday | /ˈwɜːkdeɪ/ | n. | 工作日 | after a long workday |
+| pie | /paɪ/ | n. | 果馅饼；果馅派 | an apple pie |
+| bean | /biːn/ | n. | 豆；豆荚 | green beans / a bean market |
+| market | /ˈmɑːkɪt/ | n. | 市场；集市 | at the market / go to the market |
+| fool | /fuːl/ | n. / v. | 蠢人，傻瓜；愚弄 | He was fooled by his friends. / April fool! |
+| costume | /ˈkɒstjuːm/ | n. | （特定场合穿的）服装；装束 | a costume party 化装舞会 |
+| embarrassed | /ɪmˈbærəst/ | adj. | 窘迫的；害羞的 | I was really embarrassed at the party. |
+| announce | /əˈnaʊns/ | v. | 宣布；宣告 | He announced that the spaghetti had been sold out. |
+| spaghetti | /spəˈɡeti/ | n. | 意大利面条 | The spaghetti was sold out. |
+| hoax | /həʊks/ | n. | 骗局；恶作剧 | One of the world's most famous tricks / hoaxes |
+| discovery | /dɪˈskʌvəri/ | n. | 发现；发觉 | the discovery of a new planet |
+| lady | /ˈleɪdi/ | n. | 女士；女子 | a young lady / Ladies and gentlemen |
+| cancel | /ˈkænsl/ | v. | 取消；终止 | The show was canceled. / cancel the trip |
+| officer | /ˈɒfɪsə(r)/ | n. | 军官；官员；警察 | a police officer / an army officer |
+| believable | /bɪˈliːvəbl/ | adj. | 可相信的；可信任的 | His story didn't sound believable. |
+| disappear | /ˌdɪsəˈpɪə(r)/ | v. | 消失；不见 | The aliens had disappeared before the police arrived. |
+| embarrassing | /ɪmˈbærəsɪŋ/ | adj. | 使人害羞的（难堪的或惭愧的） | an embarrassing situation / an embarrassing joke |
+| New Zealand | /ˌnjuː ˈziːlənd/ | （专有名词） | 新西兰 | the discovery in New Zealand |
+| Italy | /ˈɪtəli/ | （专有名词） | 意大利 | The spaghetti came from Italy. |
+| Mars | /mɑːz/ | n. | 火星 | aliens from Mars 来自火星的外星人 |
+
+> 单词表按教材出现顺序排列，共 **35** 词；加 \\* 的为四会词，要求会读、会写、会用。
+
+**二、核心短语**
+- by the time ... —— 在……以前；到……的时候（引导时间状语从句，主句常用过去完成时）
+- give ... a lift —— 捎（某人）一程
+- in line with —— 与……成一排；与……一致
+- show up —— 赶到；露面
+- by the end of —— 在（某时间点）以前
+- sell out —— 卖光；售完
+- run out of —— 用完；耗尽
+- take place —— 发生；举行（无被动语态）
+- hundreds of —— 数以百计的；许多
+- end up —— 最终成为；最后处于（end up doing sth.）
+- get married —— 结婚（get married to sb.）
+- lose weight —— 减肥；减轻体重
+- costume party —— 化装舞会
+- April Fool's Day —— 愚人节
+- go off —— （闹钟）响；（灯）熄灭
+- be about to do sth. —— 正要做某事
+- in disbelief —— 难以置信地；怀疑地
+
+**三、核心句型**
+1. By the time I got up, my brother had already gotten in the shower. —— 到我起床的时候，我哥哥已经在洗澡了。by the time 引导时间状语从句，从句用一般过去时，主句用过去完成时。
+2. When I got to school, I realized I had left my backpack at home. —— 当我到学校时，我意识到我把背包落在家里了。realized 后接宾语从句，从句动作先于 realized 发生，用过去完成时。
+3. I was about to go up when I decided to get a coffee first. —— 我正要上楼，这时我决定先买杯咖啡。be about to do ... when ... 表示"正要做某事，这时……"。
+4. Before I could join the others outside, the first plane had already hit my office building. —— 我还没来得及和外面的其他人会合，第一架飞机就已经撞上了我的办公楼。before 在此含"还没来得及……就……"之意。
+5. By the end of the day, more than 10,000 people had called the TV station to find out how to get this water. —— 到那天结束前，已有一万多人给电视台打电话询问如何得到这种水。by the end of + 过去时间，主句用过去完成时。
+6. Many April Fool's jokes may end up being not very funny. —— 许多愚人节玩笑最终可能并不那么好笑。end up doing sth. 最终成为、结果是。
+7. Welles made it sound so real that hundreds of people believed the story. —— 韦尔斯把它说得如此真实，以至于数百人相信了这个故事。so ... that 引导结果状语从句。
+8. The TV star lost his girlfriend and his show was canceled. —— 那位电视明星失去了女友，他的节目也被取消了。一般过去时的被动语态与一般过去时交错使用。
+
+**四、语法聚焦：过去完成时（the Past Perfect Tense）**
+- 构成：had + 过去分词。否定式 had not / hadn't + 过去分词；疑问式 Had + 主语 + 过去分词？规则动词的过去分词与过去式同形，不规则动词需单独记忆（leave—left—left，take—taken，get—got—got / gotten，go—gone，ring—rung，oversleep—overslept）。
+- 用法：表示在过去某一时间或动作**之前**已经发生或完成的动作，即"过去的过去"；也可表示从过去某一时间开始、持续到过去另一时间的状态（常与 for、since 连用）；还可用于宾语从句中表示先于主句谓语的动作。
+- 例句：① By the time I got outside, the bus had already left. ② I had finished my homework before my mother came back. ③ He said he had seen the film twice.
+- 易错提示：① 过去完成时是"相对的时态"，句中必须有一个过去时间作参照（by the time、before、when、by the end of 等），不能孤立使用；② 与一般过去时的区别：一般过去时只说明"过去发生"，过去完成时强调"在另一个过去动作之前"；两个动作按时间顺序接连发生且不强调先后时，可用 and / then 连接，都用一般过去时；③ 现在完成时不能与表示过去的具体时间状语连用，"before he came"这类过去时间要用过去完成时；④ 常搭配 already、yet、just、never、ever、by then、by the time、by the end of 等。
+
+**五、话题写作框架：An Unlucky / Unforgettable Day**
+- 开头（点明时间与感受）：Last ... was the unluckiest / most unforgettable day of my life. / I will never forget what happened on ... / Something unexpected happened to me ...
+- 中间（按时间顺序叙述，穿插过去完成时）：First of all, my alarm clock didn't go off, so I overslept. By the time I got up, my parents had left for work. When I got to the bus stop, the bus had already gone. What was worse / To make things worse, I found I had left my backpack at home. Luckily / Fortunately, a kind driver gave me a lift and ...
+- 结尾（结果与感悟）：What an unlucky day it was! / From this experience, I learned that ... / Life is full of the unexpected, so we should always be prepared.`,重点难点解析:`**重点：过去完成时在时间状语从句中的运用**
+过去完成时的核心是"过去的过去"：句中一定有一个过去的时间点或过去动作作参照，被描述的动作发生在这个参照点之前。参照点通常由 by the time、before、when、by the end of、by then 引出，也可以由上下文暗示。
+- By the time I got to the airport, the plane had already taken off.（"到机场"是参照点，"起飞"在其之前）
+- Before I could say a word, he had left the room.（"我还没来得及说话"是参照点）
+- When I got home, I realized I had left my keys in the office.（"到家、意识到"用一般过去时，"落钥匙"用过去完成时）
+教学时可在黑板上画一条横向时间轴，把两个过去动作分别标在前后两点上，让学生先看图说时态，再落笔写句子，效果远好于单纯讲解规则。
+
+**难点一：过去完成时与一般过去时的辨析**
+学生典型错误：
+1. By the time he arrived, we finished the work.（应为 had finished）—— 只看到"过去"，忽略了两个动作的先后。
+2. I have finished my homework before he came back.（应为 had finished）—— 现在完成时不能与表示过去的具体时间状语连用。
+3. The bus had left when I got there, so I had to wait.（此处两个动作一前一后、按时间顺序叙述，可用 had left；若改用 before 或 by the time，则必须用过去完成时）
+辨析要点：看句中是否有"过去参照点"。有两个过去动作且需要强调先后——先发生的用过去完成时，后用一般过去时；只讲过去一件事——一律用一般过去时。并列句由 and、then 连接、仅按时间顺序罗列时，两处都可用一般过去时。
+
+**难点二：by the time / when / before 的时态搭配与记忆口诀**
+三个连词都能引导时间状语从句，但搭配不同，学生极易混淆，可用口诀与表格区分：
+- by the time："到……时候为止"，强调到从句动作发生时主句动作已完成，从句用一般过去时，主句用过去完成时。By the time I got up, my brother had already left.
+- before："在……之前"，主句动作先于从句，主句用过去完成时，从句用一般过去时。The film had begun before I got to the cinema.
+- when："当……时"，两个动作同时或先后发生，若强调先后，先发生的用过去完成时；若不强调，可用一般过去时。When I got to school, the bell had rung.
+口诀：**by the time 从句 did，主句 had done；before 之前已发生，先做的用 had done；when 看先后，先者用 had done。**
+补充提醒：take place、happen 是不及物（短语）动词，没有被动语态；hundreds of 表约数时 hundred 加 -s 且后接 of，而具体数字后 hundred 用单数（two hundred people）。
+
+**中考考点提示**
+- 单项选择：by the time、before、when 引导的从句与过去完成时，常与一般过去时、现在完成时混在一起设置干扰项，1 分。
+- 词汇运用 / 短文填空：叙事类语篇中判断动词形式（had done / did / was doing），考查不规则动词过去分词（leave—left、take—taken、get—got / gotten）。
+- 完形填空：以"意外经历、倒霉的一天"为题材的记叙文，考查逻辑衔接词（however、what was worse、luckily）与固定搭配（give sb. a lift、show up）。
+- 书面表达：以 An Unlucky Day、An Unforgettable Experience 为题的记叙文，80–100 词，要求时态以一般过去时为主并至少使用两处过去完成时。`,典型例题精讲:`**例题 1（by the time 与过去完成时）**
+题目：By the time I ______ to the station, the train ______.
+A. got; had left  B. had got; left  C. got; left  D. had got; had left
+解析：by the time 引导的时间状语从句用一般过去时，第一空用 got；主句"火车开走"发生在"我到达车站"之前，即"过去的过去"，用过去完成时 had left。
+答案：A
+方法小结：记住口诀"by the time 从句 did，主句 had done"。
+
+**例题 2（过去完成时与一般过去时的辨析）**
+题目：— Why didn't you go to the movie with us yesterday? — Because I ______ it twice.
+A. have seen  B. had seen  C. saw  D. was seeing
+解析：yesterday 表明整句话处于过去语境；答语说明"没去的原因"，"看过两次"发生在"昨天没去"之前，属于"过去的过去"，用过去完成时。A 项现在完成时不能与 yesterday 暗示的过去时间连用，C 项一般过去时无法体现先后。
+答案：B
+方法小结：先在句中找出"过去参照点"，再看动作先后，先发生者用 had done。
+
+**例题 3（语境中的动词形式判断）**
+题目：用括号内动词的适当形式填空：When I ______ (wake) up this morning, the rain ______ (stop) and the sun ______ (shine).
+解析：this morning 说明叙述昨天/今早的过去事件，"醒来"用一般过去时 woke；"雨停"发生在"醒来"之前，用过去完成时 had stopped；"阳光照耀"是醒来那一刻正在进行的动作，用过去进行时 was shining。
+答案：woke; had stopped; was shining
+方法小结：同一句中出现多个动作时，先排时间顺序，再对应"一般过去时 / 过去完成时 / 过去进行时"。
+
+**例题 4（话题写作）**
+题目：书面表达。以 An Unlucky Day 为题，写一篇 80 词左右的短文，讲述你倒霉的一天。要求：1. 按时间顺序写清经过；2. 至少用两处过去完成时；3. 写出你的感受。
+解析：写前先用四格表列出"时间—发生了什么—感受"，再按 first、then、what was worse、luckily 的顺序连句成文；时态以一般过去时为主，把"在某动作之前已发生"的动作改为过去完成时。
+答案（参考范文）：
+Last Friday was the unluckiest day of my life. I overslept because my alarm clock didn't go off. By the time I got up, my parents had left for work and there was no breakfast on the table. I rushed to the bus stop, but when I got there, the bus had already gone. I had to run all the way to school. What was worse, when I got to the classroom, I found I had left my backpack at home. My teacher was a little angry. At noon, I found I had run out of money, so I couldn't buy lunch. Luckily, my best friend shared her food with me. What an unlucky day! But I have learned that I should go to bed early and get everything ready the night before.
+方法小结：倒霉的一天 = 连环意外（3–4 件事）+ 转折（Luckily ...）+ 一句感悟，叙事顺序词与过去完成时是得分点。`},课后作业:[{difficulty:"基础",title:"基础巩固",questions:[{q:`单词拼写：根据句意及首字母提示填空：I o______ this morning because my alarm clock didn't go off, so I was late for school.`,a:`答案 overslept。由"闹钟没响、上学迟到"可知是"睡过头"，讲述今早的事用过去式，oversleep—overslept—overslept。`},{q:`单词拼写：用括号内单词的适当形式填空：Look! The building is ______ (burn). Let's call 119 at once.`,a:`答案 burning。Look 提示动作正在进行，用现在进行时 be + v.-ing，burn 的现在分词为 burning。`},{q:`短语翻译：把下列短语译成汉语。① by the time ② give ... a lift ③ show up ④ sell out`,a:`答案 ①在……以前；到……的时候 ②捎（某人）一程 ③赶到；露面 ④卖光；售完。give sb. a lift 中 lift 作"搭便车"讲，为可数名词。`},{q:`句型转换：I had finished my homework before my mother came back.（改为否定句）`,a:`答案 I hadn't finished my homework before my mother came back.。过去完成时的否定直接在 had 后加 not（hadn't），过去分词保持不变。`}]},{difficulty:"中等",title:"能力提升",questions:[{q:`单项选择：By the time he ______ back, we ______ all the work.  A. came; had finished  B. had come; finished  C. comes; will finish  D. came; finished`,a:`答案 A。by the time 从句用一般过去时 came；主句"完成所有工作"发生在"回来"之前，用过去完成时 had finished。`},{q:`单项选择：— Why were you late for the meeting? — Because the bus ______ when I got to the stop.  A. leaves  B. has left  C. had left  D. was leaving`,a:`答案 C。when I got to the stop 是过去参照点，"车开走"在此之前已发生，用过去完成时；leave 的过去分词为 left。`},{q:`用括号内动词的适当形式填空：When I ______ (get) to the cinema, the film ______ (be) on for ten minutes.`,a:`答案 got; had been。从句用一般过去时 got；主句与 for ten minutes 连用，表示"到我到达时已放映十分钟"，用过去完成时 had been（be on 表示"上映"，可与时间段连用）。`},{q:`完成句子：到我赶到机场时，飞机已经起飞了。By the time I ______ at the airport, the plane ______ off.`,a:`答案 arrived; had taken。arrive at 后接小地点 airport；take off 起飞，过去分词为 taken，故用 had taken off。`}]},{difficulty:"难",title:"综合挑战",questions:[{q:`短文填空（1、2 空）：用方框中所给词的适当形式填空，每词限用一次（oversleep, ring, realize, leave）：Yesterday morning I ___1___ because my alarm clock didn't ___2___.`,a:`答案 1. overslept；2. ring。讲述昨天早上的事，第一空用一般过去时 overslept；第二空在 didn't 之后，须用动词原形 ring。`},{q:`短文填空（3、4 空，接上题）：When I got to the classroom, I ___3___ that I ___4___ my English book at home.`,a:`答案 3. realized；4. had left。"意识到"用一般过去时 realized；"把书落在家里"发生在"意识到"之前，用过去完成时 had left（leave—left—left）。`},{q:`语段翻译：把下面这段话译成英语：当我到达车站时，我才发现我把钱包忘在家里了。更糟糕的是，天开始下雨了。幸运的是，一位好心的司机捎了我一程。`,a:`答案 When I got to the station, I found I had left my wallet at home. What was worse, it began to rain. Luckily, a kind driver gave me a lift.。found 后接宾语从句，从句用过去完成时；What was worse 更糟糕的是；give sb. a lift 捎某人一程。`},{q:`书面表达：以 An Unforgettable Day 为题写一篇短文，讲述你经历的一次意外事件。要求：1. 写清起因、经过与结果；2. 至少用两处过去完成时；3. 词数 80 左右。`,a:`参考范文：I will never forget last April 1st. That morning my deskmate told me that our math teacher had asked me to go to her office. I ran there at once, but by the time I arrived, she had already gone to a meeting. When I came back to the classroom, all my classmates laughed and shouted, "April fool!" I felt a little embarrassed, but I didn't get angry. Later I learned that my best friend had planned the joke. In the afternoon I played a joke on him, too — I told him the school trip had been canceled. He believed it and looked worried for a while. We all laughed together. It was really an unforgettable day.。以时间顺序推进，两次使用过去完成时（had asked、had gone），并用 April fool、embarrassed 等本单元词汇，结尾点题。`}]},{difficulty:"综合",title:"中考真题对接",questions:[{q:`（中考真题）By the time I got to the cinema, the movie ______ for ten minutes.  A. had begun  B. had been on  C. has been on  D. began`,a:`答案 B。by the time 从句为一般过去时，主句用过去完成时；begin 是短暂性动词，不能与 for ten minutes 连用，须换为延续性的 be on。`},{q:`（中考真题）— Did you see Tom at the party? — No, he ______ by the time I ______ there.  A. left; got  B. had left; got  C. has left; get  D. was leaving; got`,a:`答案 B。"我到那儿"是过去参照点，用一般过去时 got；"他离开"在此之前已发生，用过去完成时 had left。`},{q:`（中考真题）阅读理解题：根据短文判断正（T）误（F）。“April Fool's Day is a day when people play jokes on each other. One of the most famous hoaxes happened in 1938. Orson Welles announced on the radio that aliens from Mars had landed on the earth. Hundreds of people believed the story and ran out of their homes in fear.” 判断：In the hoax, Orson Welles announced that aliens from Mars had landed on the earth.`,a:`答案 T。原文 announced on the radio that aliens from Mars had landed on the earth，与题干表述完全一致。hoax 骗局；announce 宣布；hundreds of 数以百计的。`},{q:`（中考真题）书面表达：生活中充满了意外。请以 Life Is Full of the Unexpected 为题，结合你的一次经历谈谈你的感受。要求：1. 简述事件经过；2. 写出你的收获；3. 词数 80 左右。`,a:`参考范文：Life is full of the unexpected. Last term, something unexpected happened to me. I took part in the English speech contest and I had prepared for it for a whole month, so I was quite confident. However, on the morning of the contest I overslept. By the time I got to the hall, the contest had begun and my name had been called twice. I was so nervous that I forgot my first sentence. But I took a deep breath, kept my cool and finished the speech. To my surprise, I won the third prize. This experience tells me that we should never give up when something unexpected happens.。句式丰富（过去完成时、so ... that、keep one's cool），先抑后扬，结尾升华主题。`}]}],课后反馈:`**常见错误**：过去完成时孤立使用，句中没有过去时间作参照；by the time 主、从句时态错位；have been to 与 had been to 混用；叙事时时间顺序混乱，缺少 first、then、what was worse、luckily 等衔接词；不规则动词过去分词写错（leave—left、take—taken、get—got / gotten）；hundreds of 与具体数字后的 hundred 用法混淆。
+**教学改进建议**：用"时间轴"把两个过去动作画成一前一后两点，帮助学生建立"过去的过去"概念；设计"句子接龙"活动巩固 by the time 句型；收集学生真实的"倒霉经历"作为写作素材，提高表达欲。
+**分层辅导**：学困生先掌握规则动词过去分词与 10 个高频不规则动词，能造出 3 句正确的过去完成时句子；学优生要求在叙事语篇中准确交替使用一般过去时、过去完成时与过去进行时，并运用 end up、what was worse、keep one's cool 等地道表达。
+**给家长的建议**：和孩子用英语聊一聊"最倒霉 / 最难忘的一天"，鼓励按时间顺序讲述；提醒孩子睡前整理好第二天要带的物品、给闹钟设两个闹铃，减少真实的"忘带东西"烦恼。`},{subject:"英语",stage:"初中",grade:"九年级",chapter:`人教版 Unit 13：We're trying to save the earth!`,备课方案:`**教学目标**
+1. 语音与词汇：能正确认读、拼写并运用本单元 34 个课内单词（见讲义单词表），掌握 15 个核心短语（be harmful to、at the top of、take part in、turn off、pay for、take action、throw away、put ... to good use、pull ... down、bring back、cut down、instead of、make a difference、lead to、hear of）。
+2. 语言知识：综合运用现在进行时、used to、被动语态、现在完成时与情态动词，能在环保话题中正确区分时态与语态。
+3. 语言技能：能听懂并读懂关于环境污染、污染治理与废物利用的对话、说明文与倡议类短文，能就环境问题口头发表看法并写出倡议书或建议信。
+4. 情感态度与文化意识：认识污染的危害，树立"低碳生活、循环利用"的环保意识，懂得保护环境要从我做起、从小事做起。
+
+**教学重点**：环保话题词汇（litter、harmful、recycle、reusable、law 等）的运用；被动语态在不同时态中的构成（am/is/are done、was/were done、should be done）；用 used to 与一般现在时对比描写环境变化。
+**教学难点**：时态与语态的综合判断，尤其"情态动词 + be + 过去分词"与"现在完成时 + 被动"；写作中用具体做法与事例支撑观点，避免空喊口号。
+**教学方法**：情景导入、任务型教学、小组合作、思维导图归纳、当堂检测。
+**课时安排**：4 课时（Section A 2 课时 + Section B 1 课时 + 复习与写作 1 课时）`,课堂讲义:{核心知识点:`**一、课内单词（Words and Expressions）**
+| 单词 | 音标 | 词性 | 中文释义 | 教材搭配 / 例句 |
+|------|------|------|----------|-----------------|
+| litter | /ˈlɪtə(r)/ | v. / n. | 乱扔；垃圾，废弃物 | Don't litter. / pick up the litter |
+| bottom | /ˈbɒtəm/ | n. | 底部；最下部 | at the bottom of the river |
+| fisherman | /ˈfɪʃəmən/ | n. | 渔民；钓鱼的人 | The fishermen are catching fish. |
+| coal | /kəʊl/ | n. | 煤；煤块 | burn coal to make energy |
+| public | /ˈpʌblɪk/ | adj. / n. | 公共的，公众的；民众 | in public places / the public |
+| ugly | /ˈʌɡli/ | adj. | 丑陋的；难看的 | an ugly building / ugly rubbish |
+| advantage | /ədˈvɑːntɪdʒ/ | n. | 优点；有利条件 | the advantages of riding a bike |
+| cost | /kɒst/ | v. / n. | 花费；价钱，成本 | It costs nothing. / the cost of living |
+| wooden | /ˈwʊdn/ | adj. | 木制的；木头的 | wooden chopsticks / a wooden box |
+| plastic | /ˈplæstɪk/ | adj. / n. | 塑料的；塑料，塑胶 | plastic bags / a plastic bottle |
+| takeaway | /ˈteɪkəweɪ/ | n. | 外卖食品；外卖 | takeaway food / a takeaway box |
+| bin | /bɪn/ | n. | 垃圾箱 | put the rubbish into the bin |
+| shark | /ʃɑːk/ | n. | 鲨鱼 | save the sharks / a shark fin |
+| fin | /fɪn/ | n. | （鱼的）鳍 | shark fin soup 鱼翅汤 |
+| cruel | /ˈkruːəl/ | adj. | 残酷的；残忍的 | a cruel way to kill sharks |
+| harmful | /ˈhɑːmfl/ | adj. | 有害的 | be harmful to the environment |
+| chain | /tʃeɪn/ | n. | 链子；链条 | the food chain 食物链 |
+| ecosystem | /ˈiːkəʊsɪstəm/ | n. | 生态系统 | keep the ecosystem balanced |
+| industry | /ˈɪndəstri/ | n. | 工业；行业 | the fishing industry |
+| law | /lɔː/ | n. | 法律；法规 | make laws to stop pollution |
+| scientific | /ˌsaɪənˈtɪfɪk/ | adj. | 科学（上）的；科学的 | scientific studies / research |
+| afford | /əˈfɔːd/ | v. | 承担得起（后果）；买得起 | can't afford to buy a car |
+| reusable | /riːˈjuːzəbl/ | adj. | 可重复使用的；可再次使用的 | reusable bags / a reusable cup |
+| transportation | /ˌtrænspɔːˈteɪʃn/ | n. | 运输业；交通运输 | public transportation |
+| recycle | /ˌriːˈsaɪkl/ | v. | 回收利用；再利用 | recycle paper and bottles |
+| napkin | /ˈnæpkɪn/ | n. | 餐巾；餐巾纸 | paper napkins |
+| gate | /ɡeɪt/ | n. | 大门 | at the school gate / the front gate |
+| bottle | /ˈbɒtl/ | n. | 瓶子 | a plastic bottle / glass bottles |
+| president | /ˈprezɪdənt/ | n. | 负责人；主席；总统 | the president of the club |
+| inspiration | /ˌɪnspəˈreɪʃn/ | n. | 灵感；鼓舞人心的人（或事物） | an inspiration to us all |
+| iron | /ˈaɪən/ | n. | 铁 | iron and other metals |
+| work | /wɜːk/ | n. / v. | （音乐、艺术）作品；工作 | a work of art / works of art |
+| metal | /ˈmetl/ | n. | 金属 | old metal / a metal gate |
+| creativity | /ˌkriːeɪˈtɪvəti/ | n. | 创造力；独创性 | with a little creativity |
+
+> 单词表按教材出现顺序排列，共 **34** 词，其中 litter、harmful、law、afford、recycle、plastic、metal、creativity 等为中考高频四会词。
+
+**二、核心短语**
+- be harmful to —— 对……有害
+- at the top of —— 在……顶部或顶端
+- take part in —— 参加（take an active part in 积极参加）
+- turn off —— 关掉（turn on 打开）
+- pay for —— 付费；付出代价
+- take action —— 采取行动（take action to do sth.）
+- throw away —— 扔掉；抛弃
+- put ... to good use —— 好好利用；物尽其用
+- pull ... down —— 拆下；摧毁
+- bring back —— 恢复；使想起；归还
+- cut down —— 砍倒；减少（cut down air pollution）
+- instead of —— 代替；而不是（后接名词、代词或动名词）
+- make a difference —— 起作用；有影响
+- lead to —— 导致；通向（后接名词或动名词）
+- hear of —— 听说；得知
+- play a part in —— 参与；在……中起作用
+
+**三、核心句型**
+1. We're trying to save the earth! —— 我们正在努力拯救地球！try to do sth. 努力做某事；现在进行时表示现阶段正在进行的动作。
+2. The river used to be so clean. —— 这条河过去是那么干净。used to + 动词原形，表示过去的状态或习惯（暗含现在不再如此）。
+3. Everyone in this town should play a part in cleaning it up! —— 这个镇上的每一个人都应该参与清理它。play a part in doing sth. 参与做某事；in 后接动名词。
+4. To cut down air pollution, we should take the bus or subway instead of driving. —— 为了减少空气污染，我们应该乘公交或地铁，而不是开车。动词不定式作目的状语；instead of 后接动名词。
+5. So together, our actions can make a difference and lead to a better future! —— 因此，我们共同的努力能起作用，并带来更美好的未来。make a difference 有影响；lead to 导致。
+6. The windows and doors come from old buildings around her town that were pulled down. —— 门窗来自她镇上那些被拆除的老建筑。that 引导定语从句，从句用一般过去时的被动语态 were pulled down。
+7. Not only can the art bring happiness to others, but it also shows that even cold, hard iron can be brought back to life with a little creativity. —— 这些艺术品不仅能给别人带来快乐，也表明只要有一点创造力，冰冷坚硬的铁也能被赋予生命。not only 置于句首时该分句用部分倒装；can be brought back 为含情态动词的被动语态。
+8. Nothing is a waste if you have a creative mind. —— 如果你有富有创造力的头脑，就没有废物。if 引导条件状语从句，遵循"主将从现"。
+
+**四、语法聚焦：时态与语态的综合运用**
+- 构成：① 现在进行时 am / is / are + doing，描写正在发生的污染行为或当前正在进行的环保行动；② used to + 动词原形，描写环境"过去的样子"，与现在形成对比；③ 被动语态 be + 过去分词（一般现在时 am/is/are done；一般过去时 was/were done；一般将来时 will be done；现在完成时 have/has been done；含情态动词 can/should/must be done）；④ 现在完成时 have/has + 过去分词，强调污染或治理造成的结果与影响；⑤ 情态动词 should / must / can / have to + 动词原形，提出建议或表达必要性。
+- 用法：讲"谁做的"用主动语态；强调"被怎么样"、动作执行者不重要或显而易见时用被动语态。环保话题中"污染、砍伐、回收、处理"多用被动，提建议多用情态动词的被动（should be done / must be done）。
+- 例句：① The air is badly polluted because there are more cars on the road these days. ② Every year, millions of trees are cut down. ③ We should turn off the lights when we leave a room. ④ Something must be done to stop the pollution. ⑤ Great changes have taken place in my hometown.
+- 易错提示：① 被动语态的时态由 be 动词体现，过去分词永远不变；② 只有及物动词（短语）才有被动语态，happen、take place、appear、disappear 等不及物动词（短语）没有被动；③ used to 的否定与疑问形式为 didn't use to ... 与 Did ... use to ...?；④ instead of 后接名词、代词或动名词，不能接动词原形；⑤ make a difference、take action、pay for 后如需接动词，须用动名词或不定式（take action to do sth.）。
+
+**五、话题写作框架：How to Save the Earth（环保倡议 / 建议信）**
+- 开头（提出问题）：Nowadays, the environment is becoming worse and worse. / As we all know, pollution has become a serious problem. / It's our duty to protect the environment.
+- 中间（分析原因 + 2–3 条建议）：First, the river used to be clean, but now it is badly polluted because factories pour waste water into it. Second, we should take the bus or ride a bike instead of driving. Besides, old things shouldn't be thrown away — they can be put to good use. What's more, laws must be made and everyone should play a part in ...
+- 结尾（发出号召）：Let's take action from now on! / I believe our actions can make a difference and lead to a better future. / If everyone plays a part in protecting the earth, the world will become greener.`,重点难点解析:`**重点：被动语态在环保话题中的综合运用**
+英语中强调动作的承受者，或动作执行者不明确、显而易见时，用被动语态。环保话题大量出现"被污染、被砍伐、被扔掉、被回收"，因此被动语态是本单元的表达主线。变换口诀：**宾变主，主变 by，be 随新主变，分词跟着 be。**
+- The river is polluted by the factory.（一般现在时的被动：is + 过去分词）
+- Many old houses were pulled down last year.（一般过去时的被动：were + 过去分词）
+- The waste must be recycled and put to good use.（含情态动词的被动：must be + 过去分词）
+- Great changes have been made in our city since 2010.（现在完成时的被动：have been + 过去分词）
+教学时让学生把同一句话在主、被动之间来回转换，并观察"be 动词体现时态"这一核心规律，比单纯背诵六张表格更有效。
+
+**难点一：五种时态被动语态的构成与辨析**
+学生典型错误：
+1. The pollution is caused by factories every day.（应为 The pollution is caused ...，若强调"每天持续造成"用 is caused 正确；但学生常写成 is causing 或 caused 漏 be）
+2. Something must do to stop the pollution.（应为 must be done）—— 含情态动词的被动漏掉 be。
+3. The accident was happened last night.（应为 happened）—— happen、take place 是不及物（短语）动词，没有被动语态。
+4. Every year millions of trees cut down.（应为 are cut down）—— 忽略主语与动词的被动关系。
+辨析方法：先看主语是"做动作的"还是"被怎么样"，确定语态；再看时间状语（every day / last year / since / tomorrow）确定 be 的时态；最后检查动词过去分词形式是否正确。
+
+**难点二：used to 与 be used to doing 的辨析及记忆口诀**
+本单元用 used to 描写环境"过去的样子"（The river used to be clean.），与现在形成强烈对比。学生常与 be used to doing 混淆，可用口诀区分：
+口诀：**used to 后接原形，过去常常今不见；be used to 接动名词，习惯于某事不变；be used to do 被用来做，被动含义记心间。**
+- The river used to be clean, but now it is badly polluted.（过去常常 / 过去是）
+- I am used to taking a reusable bag when shopping.（习惯于）
+- Old bottles are used to make beautiful works of art.（被用来做）
+补充：used to 的否定为 didn't use to，疑问为 Did ... use to ...?；cut down、turn off、throw away、pull down 均为"动词 + 副词"型短语，代词作宾语须放在中间（throw it away），变被动时副词不能丢。
+
+**中考考点提示**
+- 单项选择：被动语态的时态判断、含情态动词的被动（should be done）、used to 与 be used to doing 的辨析，1 分。
+- 词汇运用 / 短文填空：环保话题语篇中判断动词的时态与语态（is/are done、were pulled down、be recycled）。
+- 完形填空：环保类记叙文或说明文，考查上下文逻辑与固定搭配（make a difference、instead of、take action）。
+- 书面表达：以"保护环境 / 低碳生活 / 废物利用"为题的倡议书或建议信，80–100 词，常用 should / must + 被动语态与 make a difference、put ... to good use 等短语。`,典型例题精讲:`**例题 1（被动语态的时态判断）**
+题目：Every year, millions of trees ______ down in that area.
+A. are cut  B. cut  C. were cut  D. have cut
+解析：主语 trees 是 cut down 的承受者，用被动语态，排除 B、D；every year 表示经常性、习惯性的动作，用一般现在时。cut 的过去分词仍为 cut。
+答案：A
+方法小结：先判语态（主被动），再定时态（看时间状语），最后查过去分词；every day / usually 对应 am/is/are done。
+
+**例题 2（含情态动词的被动语态）**
+题目：Something must ______ to stop people from polluting the river.
+A. do  B. did  C. be done  D. be doing
+解析：主语 Something 是动作 do 的承受者，用被动语态；含情态动词的被动结构为"情态动词 + be + 过去分词"，be 永远用原形，故选 be done。
+答案：C
+方法小结：情态动词被动 = 情态动词 + be + 过去分词，be 不随时态和人称变化。
+
+**例题 3（used to 与 be used to doing 的辨析）**
+题目：The river near my village ______ clean, but now it is badly polluted.
+A. used to be  B. is used to be  C. used to being  D. is used to being
+解析：由 but now 可知前后形成今昔对比，表示"过去是干净的（现在不是了）"，用 used to + 动词原形 be。B 项结构本身错误；C 项 used to 后不能接动名词；D 项意为"习惯于是……"，语义不通。
+答案：A
+方法小结：used to do 过去常常；be used to doing 习惯于；be used to do 被用来做。
+
+**例题 4（话题写作）**
+题目：书面表达。假定你是李华，学校英语社团举办以 Save the Earth 为主题的演讲比赛。请根据提示写一篇 80 词左右的演讲稿：1. 环境现状；2. 造成污染的两点原因；3. 你的两条建议。
+解析：演讲稿结构为"问候 + 现状（used to ... but now ...）+ 原因 + 建议（should / must be done）+ 号召"。建议部分尽量用被动语态与 instead of、put ... to good use 等本单元短语，避免只写 We should protect the environment 这类空话。
+答案（参考范文）：
+Good morning, everyone! I'm glad to speak here. As we all know, our environment is becoming worse and worse. The river near my home used to be clean, but now it is badly polluted and smells terrible. There are two main reasons. Factories pour waste water into rivers, and people throw away rubbish everywhere. What should we do? First, we should take the bus or ride a bike instead of driving. Second, rubbish shouldn't be thrown away at will — it can be put to good use. For example, old bottles can be turned into beautiful works of art. Let's take action from now on. I believe our actions can make a difference and lead to a better future. Thank you!
+方法小结：环保演讲 = 今昔对比 + 两点原因 + 两条具体做法 + 一句号召，被动语态与 instead of 是提分点。`},课后作业:[{difficulty:"基础",title:"基础巩固",questions:[{q:`单词拼写：根据句意及首字母提示填空：Don't l______ waste paper everywhere. Please put it into the bin.`,a:`答案 litter。Don't 后接动词原形，litter 在此作动词，意为"乱扔"。`},{q:`单词拼写：用括号内单词的适当形式填空：Smoking is ______ (harm) to our health, so we should give it up.`,a:`答案 harmful。be harmful to 对……有害，名词 harm 的形容词形式为 harmful（harm—harmful—harmless）。`},{q:`短语翻译：把下列短语译成汉语。① take part in ② throw away ③ instead of ④ make a difference`,a:`答案 ①参加 ②扔掉；抛弃 ③代替；而不是 ④起作用；有影响。instead of 后接名词、代词或动名词，不能接动词原形。`},{q:`句型转换：We should turn off the lights when we leave the classroom.（改为被动语态）`,a:`答案 The lights should be turned off when we leave the classroom.。含情态动词的被动结构为"情态动词 + be + 过去分词"；turn off 是"动词 + 副词"短语，变被动时副词 off 不能丢。`}]},{difficulty:"中等",title:"能力提升",questions:[{q:`单项选择：A lot of trees ______ on the hill every spring.  A. plant  B. are planted  C. planted  D. were planted`,a:`答案 B。trees 与 plant 为被动关系，用被动语态；every spring 表示经常性动作，用一般现在时的被动 are planted。`},{q:`单项选择：The old building ______ last month and a new park will be built there.  A. pulls down  B. was pulled down  C. has pulled down  D. will be pulled down`,a:`答案 B。主语 The old building 是 pull down 的承受者，用被动语态；last month 表示过去时间，用一般过去时的被动 was pulled down。`},{q:`用括号内动词的适当形式填空：The air ______ (pollute) badly since the factory ______ (open) two years ago.`,a:`答案 has been polluted; opened。since 引导的时间状语从句用一般过去时 opened；主句表示从两年前持续到现在的影响，且 air 与 pollute 为被动关系，用现在完成时的被动 has been polluted。`},{q:`完成句子：这个村子的空气过去很清新，但现在到处都是垃圾。The air in the village ______ clean, but now there is rubbish ______.`,a:`答案 used to be; everywhere。used to + 动词原形表示"过去……（现在不再如此）"；everywhere 到处，作地点副词。`}]},{difficulty:"难",title:"综合挑战",questions:[{q:`短文填空（1、2 空）：用方框中所给词的适当形式填空（pull, bottle, use）：Amy Hayes is an inspiration to us all. She built her house out of rubbish. The windows and doors come from old buildings around her town that were ___1___ down. The gate is made of rocks and old glass ___2___.`,a:`答案 1. pulled；2. bottles。that 引导定语从句，先行词 buildings 与 pull down 为被动关系，用 were pulled down；glass bottles 玻璃瓶，与 rocks 并列，用复数 bottles。`},{q:`短文填空（第 3 空，接上题）：She also ___3___ old clothes to make bags.`,a:`答案 uses / recycles。主语 She 为第三人称单数，讲述现在的一贯做法用一般现在时，故动词加 -s；use ... to do 用……来做，recycle old clothes 回收利用旧衣服，两者均可。`},{q:`语段翻译：把下面这段话译成英语：为了减少空气污染，我们上学应该骑自行车或乘公交车，而不是坐小汽车。我们离开房间时也应该关灯。`,a:`答案 To cut down air pollution, we should ride a bike or take the bus to school instead of taking a car. We should also turn off the lights when we leave a room.。To cut down 是动词不定式作目的状语；instead of 后接动名词 taking。`},{q:`书面表达：以 How to Protect the Environment 为题写一篇短文。要求：1. 列举两种污染现象；2. 提出三条建议；3. 词数 80 左右。`,a:`参考范文：The environment around us is getting worse and worse. In my city, the sky is often grey, and the river smells terrible because factories pour waste water into it. What's more, people throw away too much plastic, which is harmful to the earth. What can we do? First, we should take public transportation instead of driving. Second, don't throw away things that can be recycled, such as paper, glass and metal. Third, more trees should be planted every year, and laws must be made to stop pollution. Nothing is a waste if we have a creative mind. Let's take action now. I'm sure our actions can make a difference and lead to a better future.。三段式结构清晰，使用了被动语态、定语从句与 put ... to good use 之外的多个本单元短语。`}]},{difficulty:"综合",title:"中考真题对接",questions:[{q:`（中考真题）— The environment is terrible. — I think it will be even worse ______ the government takes action.  A. until  B. when  C. unless  D. if`,a:`答案 C。主句"会更糟"与从句"政府采取行动"之间语义为"除非"，用 unless（= if ... not）。`},{q:`（中考真题）Every day, too much water ______ in our school. We should save it.  A. is wasted  B. wastes  C. was wasted  D. wasted`,a:`答案 A。water 与 waste 为被动关系，用被动语态；every day 表示经常性动作，用一般现在时的被动 is wasted。`},{q:`（中考真题）阅读理解题：根据短文内容回答问题。“Wang Tao set up a small business in Shanghai four years ago. He is known for using iron and other materials from old cars to make beautiful art pieces. Some are large pieces that look like animals; others are smaller ones you can put at home. Wang hopes his works will show people the importance of environmental protection.” Question: What does Wang Tao use to make his art pieces?`,a:`答案 He uses iron and other materials from old cars.。由 using iron and other materials from old cars to make beautiful art pieces 可得出；be known for 因……而出名；art pieces 艺术品。`},{q:`（中考真题）书面表达：假如你是李华，你校将举办"低碳生活"主题活动。请你给全校同学写一封 80 词左右的倡议信，内容包括：低碳生活的重要性；两条具体做法；发出号召。`,a:`参考范文：Dear schoolmates, Our earth is in danger. The air is badly polluted and the temperature is rising, so it's time for us to live a low-carbon life. Here is what we can do. First, we should walk, ride a bike or take public transportation instead of taking a car. Second, we should save water and electricity. Remember to turn off the lights and the tap when we don't use them. Third, we'd better not use plastic bags or paper napkins. Bring a reusable bag when shopping. If everyone plays a part in protecting the earth, our actions will make a difference. Let's take action from now on! Yours, Li Hua。书信格式完整，三条做法具体可行，运用 instead of、remember to do、reusable 等本单元语言点。`}]}],课后反馈:`**常见错误**：被动语态中漏掉 be 或 be 的时态判断错误；把 happen、take place 误用被动；used to 与 be used to doing 混淆；instead of 后误接动词原形；throw it away 写成 throw away it；写作只喊口号，缺少具体做法与事例。
+**教学改进建议**：用"时态 × 语态"对照表归纳六种被动结构，一节课只攻克两种；用"过去 vs 现在"图片对比训练 used to；用 3R（Reduce, Reuse, Recycle）思维导图搭建建议类作文框架。
+**分层辅导**：学困生掌握 should be done、be harmful to、turn off、take part in 等基础表达，能写出 3 条可行的环保建议；学优生要求在写作中交替使用被动语态、定语从句与 not only 倒装，提升语言档次。
+**给家长的建议**：和孩子一起做垃圾分类，用英语标注可回收物（paper、glass、metal、plastic）；鼓励孩子记录一周家庭减塑行动，作为写作素材。`},{subject:"英语",stage:"初中",grade:"九年级",chapter:`人教版 Unit 14：I remember meeting all of you in Grade 7.`,备课方案:`**教学目标**
+1. 语音与词汇：能正确认读、拼写并运用本单元 29 个课内单词（见讲义单词表），掌握 15 个核心短语（in a row、look back at、keep one's cool、set out、believe in、first of all、be thirsty for、be thankful to、ahead of、along with、be responsible for、separate from、be proud of、go by、grow up）。
+2. 语言知识：掌握 remember doing / remember to do 的区别，复习宾语从句的语序与时态呼应、定语从句关系词的选择、used to 的用法以及初中阶段主要时态的综合运用。
+3. 语言技能：能听懂并读懂关于初中回忆、感恩与展望的对话、诗歌与毕业演讲，能写一篇 80 词左右的毕业演讲稿或感谢信。
+4. 情感态度与文化意识：回顾初中三年的成长与收获，学会感恩父母、老师与同学，树立对高中生活与未来的信心。
+
+**教学重点**：remember doing 与 remember to do 的辨析；宾语从句的陈述语序；定语从句关系词 who / which / that 的选择；回忆、感恩、展望类语篇的时态运用。
+**教学难点**：宾语从句与定语从句的综合判断与正确使用；毕业演讲与书信中时态的前后一致与情感表达。
+**教学方法**：情景导入、任务型教学、小组合作、思维导图归纳、当堂检测。
+**课时安排**：4 课时（Section A 2 课时 + Section B 1 课时 + 复习与写作 1 课时）`,课堂讲义:{核心知识点:`**一、课内单词（Words and Expressions）**
+| 单词 | 音标 | 词性 | 中文释义 | 教材搭配 / 例句 |
+|------|------|------|----------|-----------------|
+| survey | /ˈsɜːveɪ/ | n. | 调查 | do a school survey 做一项学校调查 |
+| standard | /ˈstændəd/ | n. | 标准；水平 | meet the standards of a strict teacher |
+| row | /rəʊ/ | n. | 一排；一列；一行 | in a row 连续几次地 |
+| keyboard | /ˈkiːbɔːd/ | n. | 键盘式电子乐器；键盘 | play the keyboard in the music class |
+| method | /ˈmeθəd/ | n. | 方法；措施 | a good method of learning English |
+| instruction | /ɪnˈstrʌkʃn/ | n. | 指示；命令 | follow the instructions 按照说明 |
+| double | /ˈdʌbl/ | v. / adj. | 加倍；是……的两倍；两倍的 | double my reading speed |
+| shall | /ʃæl/ | modal v. | 将要；将会 | Shall we meet at the school gate? |
+| overcome | /ˌəʊvəˈkʌm/ | v. | （overcame, overcome）克服；战胜 | overcome fear / difficulties |
+| graduate | /ˈɡrædʒueɪt/ | v. | 毕业；获得学位 | graduate from junior high school |
+| caring | /ˈkeərɪŋ/ | adj. | 体贴人的；关心他人的 | a caring teacher / a caring friend |
+| ours | /ˈaʊəz/ | pron. | 我们的 | The future is ours. / a friend of ours |
+| senior | /ˈsiːniə(r)/ | adj. | 级别（或地位）高的 | senior high (school) 高中 |
+| text | /tekst/ | n. | 课文；文本 | read the text aloud / a long text |
+| level | /ˈlevl/ | n. | 水平；等级 | improve my English level |
+| degree | /dɪˈɡriː/ | n. | （大学）学位；度数；程度 | get a business degree |
+| manager | /ˈmænɪdʒə(r)/ | n. | 经理；经营者 | become a manager of a company |
+| gentleman | /ˈdʒentlmən/ | n. | 先生；绅士 | Ladies and gentlemen 女士们，先生们 |
+| graduation | /ˌɡrædʒuˈeɪʃn/ | n. | 毕业 | the graduation ceremony 毕业典礼 |
+| ceremony | /ˈserəməni/ | n. | 典礼；仪式 | attend the graduation ceremony |
+| congratulate | /kənˈɡrætʃuleɪt/ | v. | 祝贺 | congratulate sb. on sth. 因某事祝贺某人 |
+| thirsty | /ˈθɜːsti/ | adj. | 渴望的；口渴的 | be thirsty for knowledge 渴求知识 |
+| thankful | /ˈθæŋkfl/ | adj. | 感谢；感激 | be thankful to sb. 对某人心存感激 |
+| lastly | /ˈlɑːstli/ | adv. | 最后 | Lastly, I want to say thanks to ... |
+| task | /tɑːsk/ | n. | 任务；工作 | a difficult task / complete the task |
+| ahead | /əˈhed/ | adv. | 向前面；在前面 | go ahead / ahead of 在……前面 |
+| responsible | /rɪˈspɒnsəbl/ | adj. | 有责任心的 | be responsible for 对……有责任 |
+| separate | /ˈseprət/ | adj. / v. | 单独的，分离的；分开，分离 | separate from 分离；隔开 |
+| wing | /wɪŋ/ | n. | 翅膀；翼 | The bird spread its wings and flew away. |
+
+> 单词表按教材出现顺序排列，共 **29** 词，其中 overcome、caring、congratulate、thankful、responsible、separate、graduate 等为中考高频四会词。
+
+**二、核心短语**
+- in a row —— 连续几次地
+- look back at —— 回首（往事）；回忆；回顾
+- make a mess —— 弄得一团糟，一塌糊涂
+- keep one's cool —— 沉住气；保持冷静
+- senior high (school) —— 高中
+- go by —— （时间）逝去；过去
+- believe in —— 信任；信赖
+- first of all —— 首先
+- be thirsty for —— 渴望；渴求
+- be thankful to sb. —— 对某人心存感激
+- ahead of —— 在……前面
+- along with —— 连同；除……以外还
+- be responsible for —— 对……有责任；负责任
+- set out —— 出发；启程
+- separate from —— 分离；隔开
+- be proud of —— 为……骄傲；感到自豪
+- grow up —— 长大；成熟；成长
+- at the end of —— 在……末尾；在……尽头
+
+**三、核心句型**
+1. I remember meeting all of you in Grade 7. —— 我记得在七年级时与你们大家相识。remember doing sth. 记得做过某事（动作已完成）。
+2. I remember scoring two goals in a row during a soccer competition. —— 我记得在一场足球比赛中连续进了两个球。in a row 连续几次地。
+3. I have learned to overcome fear and to keep my cool when things go wrong. —— 我学会了战胜恐惧，并在事情不顺利时保持冷静。learn to do sth.；keep one's cool 沉住气。
+4. I used to be the shyest student in my class, but now I can speak in front of the whole school. —— 我过去是班上最害羞的学生，但现在我能在全校师生面前讲话了。used to + 动词原形，表示过去的状态或习惯。
+5. Thank you for coming today to attend the graduation ceremony at No. 3 Junior High School. —— 感谢各位今天前来参加第三初级中学的毕业典礼。Thank you for doing sth.；attend the ceremony 出席典礼。
+6. You were all so full of energy and thirsty for knowledge. —— 你们都如此充满活力，渴求知识。be thirsty for 渴望、渴求。
+7. I hope you'll remember the important people in your lives who helped and supported you. —— 我希望你们会记住生命中那些帮助过、支持过你们的重要的人。who 引导定语从句，修饰 people。
+8. As you set out on your new journey, you shouldn't forget where you came from. —— 当你们踏上新的旅程时，不要忘记你们来自哪里。as 引导时间状语从句；where you came from 为宾语从句，用陈述语序。
+9. The end of junior high school is the beginning of a new life, and the future is ours. —— 初中的结束是新生活的开始，未来属于我们。平行结构增强气势，适合演讲结尾。
+
+**四、语法聚焦：综合复习——remember doing / remember to do、宾语从句、定语从句、时态综合与 used to**
+- 构成：① remember doing sth. 记得做过某事（已做）；remember to do sth. 记住去做某事（未做）。同类结构：forget doing / to do，stop doing / to do，try doing / to do，regret doing / to do；② 宾语从句由 that、if / whether 或特殊疑问词引导，从句一律用陈述语序，主句为过去时时从句用相应过去时态（客观真理仍用一般现在时）；③ 定语从句由 who（指人）、which / that（指物）引导，关系词在从句中作宾语时可省略；④ 时态综合：回忆三年往事用一般过去时，强调收获与影响用现在完成时，描述变化用 used to，展望未来用一般将来时；⑤ used to + 动词原形，表过去的状态或习惯（现在已不如此）。
+- 用法：毕业话题语篇以回顾、感恩、展望为主线，叙事用一般过去时，感受与收获用现在完成时（I have learned ... / I have made great progress），变化用 used to，祝福与决心用一般将来时（I will ...）。
+- 例句：① I remember being a volunteer in Grade 8. ② I didn't use to be good at English, but now I am. ③ Never fail to be thankful to the people around you. ④ I will never forget what you have done for me.
+- 易错提示：① remember doing 与 remember to do 意义相反，判断关键是"动作是否已发生"；② 宾语从句必须用陈述语序，where you came from 不能写成 where did you come from；③ 定语从句先看先行词是人还是物，再看关系词在从句中作主语还是宾语；④ 一篇演讲稿内时态要前后一致，回忆段不要混用一般现在时；⑤ be proud of、be thankful to、be responsible for 中的介词固定，不可替换；congratulate 的搭配是 congratulate sb. on sth.。
+
+**五、话题写作框架：毕业演讲 / 感谢信**
+- 开头（问候与点题）：Good morning / afternoon, everyone. It's a great honor for me to speak here. / How time flies! Three years has gone by. / I'm writing to express my thanks to ...
+- 中间（回忆 + 变化 + 感恩）：Looking back at the past three years, I still remember the days when ...。I used to be poor at ..., but with your help, I have made great progress. Thank you for your patience and love. / I'm really thankful to ... for ...
+- 结尾（展望与祝福）：As I set out on my new journey, I will never forget ...。I'm proud of my school and I will work harder in senior high school. / Congratulations and best wishes to you all! / I hope our friendship will last forever.`,重点难点解析:`**重点：remember doing 与 remember to do 的辨析**
+remember 后面既能接动名词也能接不定式，但意思完全相反，判断标准只有一条：**看动作是否已经发生。**
+- I remember meeting all of you in Grade 7.（记得**见过**你们——动作已发生，用 doing）
+- Remember to turn off the lights when you leave.（记得**去关**灯——动作未发生，用 to do）
+同类结构一并归纳：
+- forget doing sth. 忘记做过某事（已做）/ forget to do sth. 忘记去做某事（未做）
+- stop doing sth. 停止正在做的事 / stop to do sth. 停下来去做另一件事
+- try doing sth. 试着做某事 / try to do sth. 努力去做某事
+- regret doing sth. 后悔做过某事 / regret to do sth. 遗憾地要做某事（常接 to say / to tell）
+教学时让学生用"已做 / 未做"两栏分类造句，比死记搭配表更容易内化。
+
+**难点一：宾语从句的语序与时态呼应**
+学生典型错误：
+1. Could you tell me where did you buy the gift?（应为 where you bought the gift）—— 宾语从句误用疑问语序。
+2. He said he will go to senior high school next year.（应为 would go）—— 主句为过去时，从句未用相应过去时态。
+3. I don't know what should I do next.（应为 what I should do next）
+三条规则：**连接词（that / if / whether / 疑问词）+ 陈述语序 + 时态呼应。** 注意 Could you tell me ... 中的 could 是委婉语气，不是过去时，从句时态不受影响；从句表述客观真理时永远用一般现在时（The teacher told us that the earth moves around the sun.）。
+
+**难点二：定语从句关系词 who / which / that 的选择与省略**
+选择分两步：**先看先行词是人还是物，再看关系词在从句中充当什么成分。**
+- The teachers **who** taught us here will always be remembered.（先行词是人，作主语，用 who / that）
+- The days **that / which** we spent together will never be forgotten.（先行词是物，作宾语，用 that / which，也可省略）
+- This is the school **where** I studied three years ago.（先行词是地点，从句不缺主语或宾语，用关系副词 where）
+- The girl **whom** you met yesterday is my deskmate.（先行词是人，作宾语，可用 who / whom / that，也可省略）
+三条补充：① 先行词既有人又有物、或被 all、everything、the only、序数词、最高级修饰时，关系词只用 that；② 关系词在从句中作宾语时可以省略，作主语时不可省；③ 关系词后谓语动词的数要与先行词保持一致（He is one of the students who **are** ...）。
+
+**中考考点提示**
+- 单项选择：remember doing / to do 的辨析、宾语从句的语序、定语从句关系词、used to 的用法，各 1 分。
+- 词汇运用 / 短文填空：回忆类语篇中判断 remember 后的非谓语形式、动词时态（used to be、have learned、will miss）。
+- 完形填空：以师生情、同学情、成长感悟为题材的记叙文，考查情感线索与固定搭配。
+- 书面表达：以毕业演讲、感谢信、My Unforgettable School Life 为题的短文，80–100 词，要求叙事有细节、情感真实、时态正确。`,典型例题精讲:`**例题 1（remember doing 与 remember to do）**
+题目：— Remember ______ the lights when you leave the classroom. — OK, I will.
+A. to turn off  B. turning off  C. turn off  D. turned off
+解析：此处是提醒对方"离开时记得关灯"，关灯这一动作尚未发生，用 remember to do sth.（记住去做某事）。答语 OK, I will 也证明动作在将来。
+答案：A
+方法小结：remember to do 记得去做（未做）；remember doing 记得做过（已做）。
+
+**例题 2（宾语从句的语序与时态）**
+题目：— Your English is so good. Could you tell me ______? — By reading aloud every morning.
+A. how do you improve it  B. how you improve it  C. how did you improve it  D. how you improved it
+解析：宾语从句一律用陈述语序，排除 A、C 两项；答语 By reading aloud 回答的是"方式"，且询问的是现在的习惯做法，用一般现在时 how you improve it。D 项虽为陈述语序，但过去时与答语不符。
+答案：B
+方法小结：宾语从句三要素——连接词、陈述语序、时态呼应，缺一不可。
+
+**例题 3（定语从句关系词的选择）**
+题目：The teachers ______ taught us in junior high school will always be remembered by us.
+A. which  B. who  C. whose  D. whom
+解析：先行词 The teachers 指人，且关系词在从句中作主语（______ taught us），用 who（也可用 that）；which 指物，whose 表所属，whom 只作宾语。
+答案：B
+方法小结：先行词指人作主语用 who / that；作宾语用 who / whom / that，可省略；指物用 which / that。
+
+**例题 4（话题写作：毕业演讲）**
+题目：书面表达。初中生活即将结束，学校将举行毕业典礼。请你以 Thank You, My Dear Teachers 为题写一篇 80 词左右的演讲稿。要求：1. 回忆一件难忘的事；2. 说明自己的变化；3. 表达感谢与决心。
+解析：演讲稿按"问候致意 — 回忆往事（used to ... but ...）— 表达感谢（be thankful to ... for ...）— 展望未来（As I set out ..., I will ...）"四步展开。回忆部分用一般过去时，变化与收获用现在完成时，决心与祝福用一般将来时。
+答案（参考范文）：
+Dear teachers and classmates,
+How time flies! Three years has gone by and it's time to say goodbye. Looking back at the past three years, I have many sweet memories. I used to be poor at English and I was even afraid to speak in class. It was my English teacher, Miss Li, who encouraged me again and again. She told me to read aloud every morning and never to be afraid of making mistakes. With her help, I have made great progress and even won the first prize in the English speech contest. I'm really thankful to all my teachers for their patience and love. As I set out on my new journey, I will never forget what you have done for me. I will work harder in senior high school. Thank you, everyone!
+方法小结：毕业演讲 = 一句开场 + 一件往事（含变化）+ 一句感谢 + 一句展望，时态分层清楚，情感真实。`},课后作业:[{difficulty:"基础",title:"基础巩固",questions:[{q:`单词拼写：根据句意及首字母提示填空：I'm very t______ to my parents for everything they have done for me.`,a:`答案 thankful。be thankful to sb. 对某人心存感激，thank 的形容词形式为 thankful。`},{q:`单词拼写：用括号内单词的适当形式填空：We should be ______ (responsibility) for our own decisions.`,a:`答案 responsible。be responsible for 对……有责任；名词 responsibility 去掉 -ity 后加 -ible 构成形容词 responsible。`},{q:`短语翻译：把下列短语译成汉语。① in a row ② look back at ③ keep one's cool ④ set out`,a:`答案 ①连续几次地 ②回首（往事）；回忆；回顾 ③沉住气；保持冷静 ④出发；启程。keep one's cool 中的 one's 须随主语变化，如 keep my cool / keep our cool。`},{q:`句型转换：I remember that I met you in Grade 7.（改为简单句）`,a:`答案 I remember meeting you in Grade 7.。remember 后可把宾语从句改为动名词短语，表示"记得做过某事"。`}]},{difficulty:"中等",title:"能力提升",questions:[{q:`单项选择：— Do you still remember ______ with me three years ago? — Of course. We were in the same class.  A. study  B. to study  C. studying  D. studied`,a:`答案 C。由 three years ago 与 Of course 可知"一起学习"这件事已经发生过，用 remember doing sth. 记得做过某事。`},{q:`单项选择：Remember ______ the door when you leave the classroom.  A. lock  B. to lock  C. locking  D. locked`,a:`答案 B。此处提醒"离开时记得锁门"，动作尚未发生，用 remember to do sth. 记住去做某事。`},{q:`单项选择：I'll never forget the teachers and the days ______ I spent in this school.  A. who  B. which  C. that  D. what`,a:`答案 C。先行词既有人（the teachers）又有物（the days），关系词只能用 that；what 不能引导定语从句。`},{q:`完成句子：当你踏上新的旅程时，不要忘记你来自哪里。As you ______ on your new journey, you shouldn't forget ______.`,a:`答案 set out; where you came from。set out 出发、启程；where you came from 是宾语从句，须用陈述语序，不能写成 where did you come from。`}]},{difficulty:"难",title:"综合挑战",questions:[{q:`短文填空（1、2 空）：用方框中所给词的适当形式填空（be, overcome, congratulate）：Looking back at the past three years, I remember many things. I remember ___1___ a volunteer and ___2___ my fear to give a speech in public.`,a:`答案 1. being；2. overcoming。remember doing sth. 记得做过某事，be 的动名词为 being；overcome 的动名词直接加 -ing，为 overcoming。`},{q:`短文填空（第 3 空，接上题）：I also remember that we ___3___ all so full of energy and thirsty for knowledge.`,a:`答案 were。that 引导宾语从句，讲述三年前的状态，用一般过去时；主语 we 后的 be 动词用 were。`},{q:`语段翻译：把下面这段话译成英语：我过去很害羞，不敢在全班同学面前讲话。是我的英语老师帮助我克服了恐惧。我对她感激不尽。`,a:`答案 I used to be shy and was afraid to speak in front of the whole class. It was my English teacher who helped me overcome my fear. I'm very thankful to her.。used to do 过去常常；It was ... who ... 为强调句型；be thankful to sb. 对某人心存感激。`},{q:`书面表达：以 My Unforgettable Junior High School Life 为题写一篇短文。要求：1. 回忆一件难忘的事；2. 说明你发生的变化；3. 词数 80 左右。`,a:`参考范文：How time flies! My junior high school life is coming to an end. Looking back at the past three years, I have so many unforgettable memories. I still remember the first day I came to this school. I used to be too shy to talk with others. Once, my class teacher asked me to take part in an English play. I was so nervous that I wanted to give up, but she told me to believe in myself. With her help, I practiced hard and finally did a good job. From then on, I became more and more confident. I'm thankful to my teachers and classmates. I will work harder in senior high school and make them proud of me.。叙事有细节、变化有对比，用上 look back at、used to、believe in、be thankful to、be proud of 等本单元短语。`}]},{difficulty:"综合",title:"中考真题对接",questions:[{q:`（中考真题）— I'm sorry I left my homework at home. — Remember ______ it to school tomorrow.  A. bring  B. to bring  C. bringing  D. brought`,a:`答案 B。由 tomorrow 可知"把作业带来"尚未发生，用 remember to do sth. 记住去做某事。`},{q:`（中考真题）— Could you tell me ______? — Sure. In the school hall next Friday afternoon.  A. when we will have the graduation ceremony  B. when will we have the graduation ceremony  C. where we will have the graduation ceremony  D. where will we have the graduation ceremony`,a:`答案 C。宾语从句用陈述语序，排除 B、D；答语 In the school hall 回答的是地点，用 where 引导。`},{q:`（中考真题）阅读理解题：根据短文内容判断正（T）误（F）。“Graduation is a time to say goodbye and to look ahead. At the ceremony, students listen to speeches, get their diplomas and take photos with teachers and friends. Many students feel both happy and sad: happy because they have grown up, sad because they will separate from their good friends.” 判断：Students feel happy because they will separate from their friends.`,a:`答案 F。原文为 happy because they have grown up, sad because they will separate from their good friends，题干把两种情绪的原因对调了。separate from 与……分离；look ahead 向前看。`},{q:`（中考真题）书面表达：初中三年，你一定有许多感谢的话要说。请以 Thank You, ______ 为题，写一篇 80 词左右的短文，表达你对某个人（老师、父母或同学）的感激之情，并说明感谢的原因。`,a:`参考范文：Thank You, My English Teacher Among all the people who have helped me, I'm most thankful to my English teacher, Miss Wang. I still remember the day when I failed the English exam. I was so sad that I even wanted to give up. Miss Wang talked with me patiently and helped me find the right method of learning. She told me to read aloud every morning and never to be afraid of making mistakes. With her help, I have made great progress and I am now good at English. She is not only a good teacher but also a caring friend. Thank you, Miss Wang! I will remember you forever.。使用定语从句、not only ... but also ... 与本单元感恩表达，事例具体、情感真挚。`}]}],课后反馈:`**常见错误**：remember doing 与 remember to do 混用；宾语从句写成疑问语序；定语从句关系词选错（指人误用 which，或先行词人物混用时未用 that）；毕业演讲中时态前后不一致；be proud of / be thankful to / be responsible for 的介词写错；congratulate sb. on sth. 漏掉 on。
+**教学改进建议**：用"已做 / 未做"两栏对比表集中训练非谓语动词；用"宾从三要素"口诀强化语序意识；开展"三分钟毕业演讲"活动，先列提纲再成文，写完互评时态与情感表达。
+**分层辅导**：学困生掌握 remember doing / used to / be thankful to / set out 等基础表达，能写出 5 句回忆与感谢；学优生要求运用定语从句、强调句与 not only 倒装，让语言更有感染力。
+**给家长的建议**：和孩子一起翻看初中三年的照片与作业本，用英语聊聊这几年的变化；鼓励孩子给老师或同学写一封英文感谢信，并在合适的时候当面读出。`}],t=i=>i.map(a=>{const r=n[e(a)];return r?{...a,openClass:r}:a}),_=[...t($),...t(s),...t(g),...t(o),...t(w),...t(l),...t(c),...t(S),...t(h),...t(u),...t(q),...t(f),...t(d)];export{_ as JUNIOR_LESSONS};
