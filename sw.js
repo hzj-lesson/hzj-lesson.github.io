@@ -4,7 +4,7 @@
  *   静态资源（带 hash 的 assets）→ cache-first + 后台更新（hash 不可变，缓存命中率高）
  * 版本号：每次发布内容/代码升级时 +1，激活后通知页面"发现新版本"
  */
-const CACHE = 'wb-lesson-v7'   // v6：首屏改为元数据驱动，清理旧缓存中的学段全文大块
+const CACHE = 'wb-lesson-v8'   // v6：首屏改为元数据驱动，清理旧缓存中的学段全文大块
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
