@@ -81,5 +81,63 @@
   });
 
   document.addEventListener('keydown', function(e){ if (e.key === 'Escape') hide(); });
+
+  // ===== 单词表：给"单词"列的每个单词旁插入 🔊 朗读按钮 =====
+  // 单击 = 正常速度朗读；双击 = 慢速跟读（0.6x）。仅处理表头含"单词"的表格，且只认纯英文单词列。
+  function enhanceWordTables(){
+    var tables = document.querySelectorAll('table');
+    for (var ti = 0; ti < tables.length; ti++){
+      var tb = tables[ti];
+      var ths = tb.querySelectorAll('th');
+      var wordCol = -1;
+      for (var i = 0; i < ths.length; i++){
+        var h = (ths[i].textContent || '').trim();
+        if (h === '单词' || h.indexOf('单词') >= 0 || /^words?$/i.test(h)) { wordCol = i; break; }
+      }
+      if (wordCol < 0) continue;
+      var rows = tb.querySelectorAll('tbody tr');
+      for (var r = 0; r < rows.length; r++){
+        var tds = rows[r].querySelectorAll('td');
+        if (tds.length <= wordCol) continue;
+        var td = tds[wordCol];
+        var w = (td.textContent || '').trim();
+        if (!WORD_RE.test(w)) continue;                    // 只处理纯英文单词（短语/音标列自动跳过）
+        if (td.querySelector('.mb-tts-inline')) continue;   // 已注入 → 幂等，避免重复插入
+        var b = document.createElement('button');
+        b.className = 'mb-tts-inline';
+        b.type = 'button';
+        b.textContent = '\uD83D\uDD0A';                     // 🔊
+        b.title = '点击朗读（双击慢速跟读）';
+        b.setAttribute('aria-label', '朗读 ' + w);
+        b.style.cssText = 'border:0;background:transparent;cursor:pointer;font-size:12px;padding:0 2px;margin-left:4px;line-height:1;vertical-align:middle;opacity:.6';
+        b.addEventListener('click', (function(word){
+          return function(e){ e.stopPropagation(); e.preventDefault(); speak(word, 1); };
+        })(w));
+        td.appendChild(b);
+      }
+    }
+  }
+  // 双击喇叭 = 慢速跟读
+  document.addEventListener('dblclick', function(e){
+    var t = e.target;
+    if (t && t.className === 'mb-tts-inline'){
+      var td = t.parentNode;
+      var w = (td.textContent || '').replace(/\uD83D\uDD0A/g, '').trim();
+      e.stopPropagation(); e.preventDefault();
+      speak(w, 0.6);
+    }
+  }, true);
+
+  // 首次执行 + SPA 动态渲染后补注入（MutationObserver 防抖 250ms）
+  enhanceWordTables();
+  if (window.MutationObserver) {
+    var _wt = null;
+    new MutationObserver(function(){
+      if (_wt) clearTimeout(_wt);
+      _wt = setTimeout(enhanceWordTables, 250);
+    }).observe(document.body, { childList: true, subtree: true });
+  }
+  window.addEventListener('DOMContentLoaded', enhanceWordTables);
+
   try { speechSynthesis.getVoices(); speechSynthesis.onvoiceschanged = function(){}; } catch(e){}
 })();
