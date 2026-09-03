@@ -1,4 +1,4 @@
-import{O as i,o}from"./lesson-data-vGP48tLq.js";import"./open-class-DWvDJRO9.js";const s=[{subject:"数学",stage:"小学",grade:"一年级",chapter:"认识人民币",备课方案:`**教学目标**
+import{O as i,o}from"./lesson-data-CBK5tMDe.js";import"./open-class-nBrgG5Pj.js";const s=[{subject:"数学",stage:"小学",grade:"一年级",chapter:"认识人民币",备课方案:`**教学目标**
 1. 认识人民币的单位元、角、分，知道 1 元 = 10 角、1 角 = 10 分。
 2. 认识各种面值的人民币（纸币和硬币），能正确区分和说出面值。
 3. 会进行简单的元、角、分换算，能解决简单的购物付钱、找钱问题。
