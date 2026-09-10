@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
 <meta name="theme-color" content="#e8467c">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<title>给她点奶茶 · 她点单你下单</title>
+<title>给她点外卖 · 她点单你下单</title>
 <style>
 :root{
   --primary:#e8467c; --primary-d:#c72f63; --primary-l:#ffd9e6;
@@ -80,6 +80,8 @@ textarea.inp{resize:vertical;min-height:70px}
 .tab{flex:0 0 auto;background:#fff;border:1.5px solid var(--line);border-radius:20px;padding:7px 13px;font-size:13px;color:#7d6b72;white-space:nowrap;display:flex;align-items:center;gap:5px}
 .tab.on{background:var(--grad);color:#fff;border-color:transparent;box-shadow:0 4px 10px rgba(232,70,124,.3);font-weight:600}
 .tab.off{opacity:.45}
+#catTabs .tab{background:linear-gradient(135deg,#fff5f8,#ffe9f1);border-color:#f9ccdd;color:#8d6b78}
+#catTabs .tab.on{background:var(--grad);border-color:transparent;color:#fff}
 
 .dish{display:flex;align-items:center;gap:11px;background:#fff;border-radius:14px;padding:11px 12px;margin-bottom:9px;box-shadow:0 3px 12px rgba(232,70,124,.07)}
 .dish .emo{width:42px;height:42px;flex:0 0 42px;border-radius:12px;background:linear-gradient(135deg,#fff0f5,#ffe0ec);display:flex;align-items:center;justify-content:center;font-size:21px}
@@ -200,6 +202,7 @@ textarea.inp{resize:vertical;min-height:70px}
       <div style="font-size:12.5px;color:#7d6b72;line-height:1.75" id="tipBox"></div>
     </div>
 
+    <div class="tabs" id="catTabs"></div>
     <div class="tabs" id="brandTabs"></div>
     <div id="dishList"></div>
   </section>
@@ -275,8 +278,9 @@ textarea.inp{resize:vertical;min-height:70px}
       <div id="brandMgr"></div>
       <div class="row2" style="margin-top:10px">
         <input class="inp" id="nbName" placeholder="新品牌名">
-        <input class="inp" id="nbEmoji" placeholder="图标 🧋" maxlength="4">
+        <input class="inp" id="nbEmoji" placeholder="图标 🍔" maxlength="4">
       </div>
+      <select class="inp" id="nbCat" style="margin-top:8px"></select>
       <button class="btn ghost block sm" style="margin-top:8px" onclick="addBrand()">＋ 添加品牌</button>
     </div>
 
@@ -320,61 +324,120 @@ textarea.inp{resize:vertical;min-height:70px}
 <div class="toast" id="toast"></div>
 
 <script>
-/* ═══════════ 品牌预设（价格为全国参考价，以门店实际为准） ═══════════ */
-var PRESET = [
- ['mxbc','蜜雪冰城','🍦',[
-   ['冰鲜柠檬水',4,'解暑第一'],['珍珠奶茶',6,'经典中的经典'],['摇摇奶昔',7,'摇一摇更好喝'],
-   ['摩天脆脆圣代',6,''],['杨枝甘露',8,'芒果控必点'],['蜜桃四季春',7,''],
-   ['满杯百香果',7,'酸甜'],['华夫甜筒',3,'两块多快乐']]],
- ['bwch','霸王茶姬','🐎',[
-   ['伯牙绝弦',16,'招牌 · 茉莉雪芽'],['花田乌龙',17,''],['声声乌龙',18,''],
-   ['万般皆苦',18,'回甘'],['清沫观音',16,'清爽'],['万象春和',20,'季节限定']]],
- ['cbd','茶百道','🐼',[
-   ['冰乌龙',12,'低卡首选'],['杨枝甘露',16,''],['白桃乌龙',14,''],
-   ['桂花酒酿圆子',16,'秋冬限定'],['冻顶鸭屎香',15,''],['芋圆奶茶',14,'']]],
- ['guming','古茗','🌿',[
-   ['茉莉奶绿',11,'性价比之王'],['芝士葡萄',17,''],['冰摇柠檬茶',10,''],
-   ['芋泥啵啵奶茶',14,''],['云雾栀子青',13,''],['超纤轻体果蔬瓶',15,'']]],
- ['hsay','沪上阿姨','👩',[
-   ['血糯米奶茶',13,'招牌'],['芋泥波波奶茶',14,''],['杨枝甘露',16,''],
-   ['五谷奶茶',13,'饱腹'],['轻乳茶 · 白桃',15,'']]],
- ['coco','CoCo都可','🥤',[
-   ['奶茶三兄弟',12,'珍珠+布丁+椰果'],['百香双响炮',11,''],['焦糖奶茶',12,''],
-   ['芋头奶茶',14,''],['青柠水果茶',13,'']]],
- ['heytea','喜茶','🍇',[
-   ['多肉葡萄',29,'人气王'],['芝芝芒芒',27,''],['烤黑糖波波牛乳',22,''],
-   ['满杯红柚',25,''],['轻乳茶 · 初露',19,'']]],
- ['naixue','奈雪的茶','🍓',[
-   ['霸气草莓',29,''],['杨枝甘露',26,''],['芝士葡萄',28,''],
-   ['鸭屎香宝藏茶',22,''],['蜜桃乌龙',20,'']]],
- ['shuyi','书亦烧仙草','🍮',[
-   ['烧仙草奶茶',12,'半杯都是料'],['芋泥烧仙草',15,''],['杨枝甘露',15,''],
-   ['芝芝莓莓',16,''],['葡萄芋圆冻',15,'']]],
- ['yidiandian','一点点','🧋',[
-   ['四季奶青',13,'点单率最高'],['红茶玛奇朵',15,''],['波霸奶茶',14,''],
-   ['冰淇淋红茶',16,''],['珍珠奶绿',13,'']]],
- ['yihetang','益禾堂','🌾',[
-   ['益禾烤奶',9,'招牌'],['禾风奶绿',8,''],['杨枝甘露',12,''],
-   ['芋泥啵啵',11,''],['薄荷奶绿',9,'']]],
- ['tianlala','甜啦啦','🍧',[
-   ['杨枝甘露',10,''],['珍珠奶茶',7,''],['满杯水果茶',9,''],
-   ['芋泥啵啵奶茶',10,''],['摇摇奶昔',8,'']]],
- ['qifentian','7分甜','🍊',[
-   ['杨枝甘露',18,'招牌'],['芒芒甘露',18,''],['招牌水果茶',15,''],
-   ['芋泥波波',16,''],['轻乳茶',14,'']]],
- ['luckin','瑞幸咖啡','☕',[
-   ['生椰拿铁',17,'常年销冠'],['丝绒拿铁',17,''],['陨石拿铁',19,''],
-   ['冰吸生椰',19,''],['橙C美式',15,'']]],
- ['starbucks','星巴克','⭐',[
-   ['抹茶星冰乐',38,''],['拿铁',31,''],['浓缩美式',28,''],
-   ['焦糖玛奇朵',34,''],['燕麦丝绒拿铁',36,'']]]
+/* ═══════════ 品类定义（点击单页一级 tab 顺序） ═══════════ */
+var CATS = [
+  {id:'tea', n:'奶茶饮品', e:'🧋'},
+  {id:'burger', n:'炸鸡汉堡', e:'🍔'},
+  {id:'snack', n:'小吃炸物', e:'🍟'},
+  {id:'rice', n:'米饭快餐', e:'🍚'},
+  {id:'noodle', n:'粉面汤品', e:'🍜'},
+  {id:'sweet', n:'甜品烘焙', e:'🍰'},
+  {id:'bbq', n:'烧烤夜宵', e:'🍢'},
+  {id:'store', n:'便利店', e:'🏪'}
 ];
 
-var SPEC = [
- {k:'sweet', t:'甜度', o:[['标准糖',0],['七分糖',0],['五分糖',0],['三分糖',0],['无糖',0]]},
- {k:'temp',  t:'温度', o:[['常温',0],['去冰',0],['少冰',0],['多冰',0],['热',0]]},
- {k:'size',  t:'杯型', o:[['中杯',0],['大杯',3]]},
- {k:'addon', t:'加料', o:[['不加料',0],['珍珠',2],['椰果',2],['布丁',3],['芋圆',4],['奶盖',5],['燕麦',3]]}
+/* ═══════════ 各品类的规格选项（不同品类用不同规格，[名称, 加价]） ═══════════ */
+var SPECS = {
+  tea: [
+    {k:'a', t:'甜度', o:[['标准糖',0],['七分糖',0],['五分糖',0],['三分糖',0],['无糖',0]]},
+    {k:'b', t:'温度', o:[['常温',0],['去冰',0],['少冰',0],['多冰',0],['热',0]]},
+    {k:'c', t:'杯型', o:[['中杯',0],['大杯',3]]},
+    {k:'d', t:'加料', o:[['不加料',0],['珍珠',2],['椰果',2],['布丁',3],['芋圆',4],['奶盖',5],['燕麦',3]]}
+  ],
+  burger: [
+    {k:'a', t:'规格', o:[['单点',0],['套餐(含薯条+可乐)',12],['双人餐',25]]},
+    {k:'b', t:'口味', o:[['原味',0],['微辣',0],['中辣',0],['特辣',0]]},
+    {k:'c', t:'加配', o:[['不加',0],['加薯条',8],['加可乐',6],['加鸡块',10],['加蛋挞',8],['加鸡米花',9]]},
+    {k:'d', t:'不要', o:[['都要',0],['不要洋葱',0],['不要生菜',0],['不要酱',0]]}
+  ],
+  snack: [
+    {k:'a', t:'份量', o:[['小份',0],['标准份',4],['大份',9]]},
+    {k:'b', t:'口味', o:[['原味',0],['微辣',0],['中辣',0],['特辣',0],['五香',0]]},
+    {k:'c', t:'加配', o:[['不加',0],['加年糕',5],['加藕片',5],['加饮料',6]]}
+  ],
+  rice: [
+    {k:'a', t:'份量', o:[['标准份',0],['大份',5]]},
+    {k:'b', t:'口味', o:[['不辣',0],['微辣',0],['中辣',0],['特辣',0]]},
+    {k:'c', t:'加饭', o:[['不加',0],['加米饭',2],['加汤',5],['加卤蛋',3]]}
+  ],
+  noodle: [
+    {k:'a', t:'份量', o:[['标准份',0],['大份',5]]},
+    {k:'b', t:'口味', o:[['不辣',0],['微辣',0],['中辣',0],['特辣',0],['番茄',0]]},
+    {k:'c', t:'加料', o:[['不加',0],['加面',4],['加蛋',2],['加肉',9],['加腐竹',3],['加青菜',3]]}
+  ],
+  sweet: [
+    {k:'a', t:'份量', o:[['小份',0],['标准份',0],['大份',8]]},
+    {k:'b', t:'甜度', o:[['标准糖',0],['少糖',0],['无糖',0]]},
+    {k:'c', t:'温度', o:[['常温',0],['冰',0],['热',0]]}
+  ],
+  bbq: [
+    {k:'a', t:'份量', o:[['小份',0],['标准份',15],['大份',30]]},
+    {k:'b', t:'口味', o:[['微辣',0],['中辣',0],['特辣',0],['不辣',0]]},
+    {k:'c', t:'加配', o:[['不加',0],['加啤酒',8],['加饮料',6],['加烤饼',4]]}
+  ],
+  store: [
+    {k:'a', t:'份量', o:[['单份',0],['双份',6]]},
+    {k:'b', t:'温度', o:[['常温',0],['加热',0],['冰',0]]}
+  ]
+};
+
+/* ═══════════ 品牌预设：[id, 名称, emoji, 品类, [[品名,价格,备注],…]]（价格为全国参考价，以门店为准） ═══════════ */
+var PRESET = [
+  ['mxbc','蜜雪冰城','🍦','tea',[['冰鲜柠檬水',4,'解暑第一'],['珍珠奶茶',6,'经典中的经典'],['摇摇奶昔',7,'摇一摇更好喝'],['摩天脆脆圣代',6,''],['杨枝甘露',8,'芒果控必点'],['蜜桃四季春',7,''],['满杯百香果',7,'酸甜'],['华夫甜筒',3,'两块多快乐']]],
+  ['bwch','霸王茶姬','🐎','tea',[['伯牙绝弦',16,'招牌·茉莉雪芽'],['花田乌龙',17,''],['声声乌龙',18,''],['万般皆苦',18,'回甘'],['清沫观音',16,'清爽'],['万象春和',20,'季节限定']]],
+  ['cbd','茶百道','🐼','tea',[['冰乌龙',12,'低卡首选'],['杨枝甘露',16,''],['白桃乌龙',14,''],['桂花酒酿圆子',16,'秋冬限定'],['冻顶鸭屎香',15,''],['芋圆奶茶',14,'']]],
+  ['guming','古茗','🌿','tea',[['茉莉奶绿',11,'性价比之王'],['芝士葡萄',17,''],['冰摇柠檬茶',10,''],['芋泥啵啵奶茶',14,''],['云雾栀子青',13,''],['超纤轻体果蔬瓶',15,'']]],
+  ['hsay','沪上阿姨','👩','tea',[['血糯米奶茶',13,'招牌'],['芋泥波波奶茶',14,''],['杨枝甘露',16,''],['五谷奶茶',13,'饱腹'],['轻乳茶·白桃',15,'']]],
+  ['coco','CoCo都可','🥤','tea',[['奶茶三兄弟',12,'珍珠+布丁+椰果'],['百香双响炮',11,''],['焦糖奶茶',12,''],['芋头奶茶',14,''],['青柠水果茶',13,'']]],
+  ['heytea','喜茶','🍇','tea',[['多肉葡萄',29,'人气王'],['芝芝芒芒',27,''],['烤黑糖波波牛乳',22,''],['满杯红柚',25,''],['轻乳茶·初露',19,'']]],
+  ['naixue','奈雪的茶','🍓','tea',[['霸气草莓',29,''],['杨枝甘露',26,''],['芝士葡萄',28,''],['鸭屎香宝藏茶',22,''],['蜜桃乌龙',20,'']]],
+  ['shuyi','书亦烧仙草','🍮','tea',[['烧仙草奶茶',12,'半杯都是料'],['芋泥烧仙草',15,''],['杨枝甘露',15,''],['芝芝莓莓',16,''],['葡萄芋圆冻',15,'']]],
+  ['yidiandian','一点点','🧋','tea',[['四季奶青',13,'点单率最高'],['红茶玛奇朵',15,''],['波霸奶茶',14,''],['冰淇淋红茶',16,''],['珍珠奶绿',13,'']]],
+  ['yihetang','益禾堂','🌾','tea',[['益禾烤奶',9,'招牌'],['禾风奶绿',8,''],['杨枝甘露',12,''],['芋泥啵啵',11,''],['薄荷奶绿',9,'']]],
+  ['tianlala','甜啦啦','🍧','tea',[['杨枝甘露',10,''],['珍珠奶茶',7,''],['满杯水果茶',9,''],['芋泥啵啵奶茶',10,''],['摇摇奶昔',8,'']]],
+  ['qifentian','7分甜','🍊','tea',[['杨枝甘露',18,'招牌'],['芒芒甘露',18,''],['招牌水果茶',15,''],['芋泥波波',16,''],['轻乳茶',14,'']]],
+  ['luckin','瑞幸咖啡','☕','tea',[['生椰拿铁',17,'常年销冠'],['丝绒拿铁',17,''],['陨石拿铁',19,''],['冰吸生椰',19,''],['橙C美式',15,'']]],
+  ['starbucks','星巴克','⭐','tea',[['抹茶星冰乐',38,''],['拿铁',31,''],['浓缩美式',28,''],['焦糖玛奇朵',34,''],['燕麦丝绒拿铁',36,'']]],
+  ['kfc','肯德基','🍗','burger',[['香辣鸡腿堡',22,'经典'],['新奥尔良烤鸡腿堡',24,''],['劲爆鸡米花(大)',15,''],['吮指原味鸡',13,''],['土豆泥',7,''],['葡式蛋挞',8,'一盒更划算'],['九珍果汁',12,''],['全家桶',109,'够3-4人']]],
+  ['mcd','麦当劳','🍟','burger',[['巨无霸',24,'招牌'],['麦辣鸡腿堡',22,''],['板烧鸡腿堡',23,''],['麦乐鸡(5块)',12,''],['薯条(大)',13,''],['麦旋风',9,''],['可乐(中)',9,''],['1+1随心配',14,'性价比']]],
+  ['bk','汉堡王','👑','burger',[['皇堡',27,'招牌'],['狠霸王牛堡',34,''],['香辣鸡腿堡',22,''],['果木鸡腿堡',25,''],['霸王鸡块(9块)',15,''],['薯霸王(大)',14,'']]],
+  ['dks','德克士','🌶','burger',[['脆皮炸鸡',20,'招牌'],['双层鸡腿堡',23,''],['魔法鸡块',13,''],['手枪腿',16,''],['菠萝冰茶',9,'']]],
+  ['hls','华莱士','🐔','burger',[['全鸡汉堡',12,'便宜大碗'],['香辣鸡腿堡',13,''],['炸鸡(2块)',15,''],['鸡米花',10,''],['可乐',6,'']]],
+  ['tst','塔斯汀','🥯','burger',[['现烤鸡腿堡',14,'手擀现烤堡'],['麻酱麻辣鸡腿堡',17,''],['北京烤鸭堡',22,'网红'],['藤椒鸡腿堡',15,''],['手作米汉堡',12,'']]],
+  ['popeyes','Popeyes','🍗','burger',[['酪乳鸡腿堡',28,'招牌'],['招牌炸鸡(2块)',26,''],['卡真薯条',14,''],['炸鸡桶(6块)',69,'']]],
+  ['zxjp','正新鸡排','🍗','burger',[['大鸡排',12,'比脸大'],['盐酥鸡',12,''],['鸡米花',10,''],['烤翅(2只)',10,''],['地瓜条',8,'']]],
+  ['shake','Shake Shack','🍔','burger',[['招牌牛肉堡',48,''],['芝士蘑菇堡',52,''],['波浪薯条',22,''],['奶昔',32,'']]],
+  ['plaile','派乐汉堡','🍔','burger',[['香辣鸡腿堡',12,''],['牛肉堡',15,''],['鸡米花',10,''],['薯条',8,'']]],
+  ['jlzzj','叫了只炸鸡','🐓','snack',[['整只炸鸡',39,''],['半只炸鸡',22,''],['鸡米花',13,''],['炸鸡翅(4只)',20,'']]],
+  ['juewei','绝味鸭脖','🦆','snack',[['鸭脖(半斤)',25,'招牌'],['鸭架',15,''],['藕片',12,''],['毛豆',10,''],['鸭翅(半斤)',20,'']]],
+  ['hsh','煌上煌','🍖','snack',[['酱鸭脖',25,''],['卤藕片',12,''],['鸭锁骨',18,''],['卤鸭掌',20,'']]],
+  ['xlzz','降龙爪爪','🐾','snack',[['卤鸡爪(4只)',16,'招牌'],['卤猪蹄',28,''],['卤鸭头',15,'']]],
+  ['rlj','蓉李记','🥟','snack',[['钟水饺',16,''],['龙抄手',16,''],['担担面',18,''],['赖汤圆',12,'']]],
+  ['xxss','喜姐炸串','🍢','snack',[['炸串拼盘',25,''],['炸鸡柳',12,''],['炸年糕',10,''],['炸蘑菇',12,'']]],
+  ['laoxiangji','老乡鸡','🐔','rice',[['肥西老母鸡汤',16,'招牌'],['梅干菜蒸肉',15,''],['香菇滑鸡',15,''],['农家土豆片',9,''],['米饭',3,'']]],
+  ['xcj','乡村基','🍚','rice',[['宫保鸡丁饭',22,''],['香菇滑鸡饭',22,''],['麻婆豆腐饭',18,''],['酸菜鱼饭',28,'']]],
+  ['dmxs','大米先生','🍚','rice',[['一荤两素',22,''],['两荤一素',26,''],['土豆烧鸡',20,'']]],
+  ['zgf','真功夫','🍲','rice',[['香汁排骨饭',26,'招牌'],['香菇滑鸡饭',25,''],['鲜辣排骨饭',27,'']]],
+  ['yoshinoya','吉野家','🍛','rice',[['肥牛饭',26,'招牌'],['照烧鸡腿饭',25,''],['鳗鱼饭',38,'']]],
+  ['sukiya','食其家','🍛','rice',[['牛丼(中)',23,''],['咖喱牛肉饭',26,''],['温泉蛋牛丼',26,'']]],
+  ['hefu','和府捞面','🍜','noodle',[['草本猪软骨汤面',38,'招牌'],['番茄肥牛面',36,''],['麻辣牛肉面',39,'']]],
+  ['mjy','马记永','🍜','noodle',[['兰州牛肉面',26,'招牌'],['加肉',12,''],['牛肉小炒',32,'']]],
+  ['cxg','陈香贵','🍜','noodle',[['兰州牛肉面',26,''],['牛肉串',8,''],['酿皮',14,'']]],
+  ['luosifen','螺蛳粉','🦞','noodle',[['原味螺蛳粉',20,'臭香上头'],['加腐竹',3,''],['加鸭脚',6,''],['炸蛋',3,'']]],
+  ['wgyf','五谷渔粉','🐟','noodle',[['招牌鱼粉',22,''],['酸辣鱼粉',23,''],['番茄鱼粉',23,'']]],
+  ['ajisen','味千拉面','🍜','noodle',[['味千拉面',38,'招牌'],['豚骨拉面',42,''],['煎饺',18,'']]],
+  ['ygf','杨国福麻辣烫','🍲','noodle',[['麻辣烫(荤素自选)',28,''],['番茄麻辣烫',30,''],['麻酱麻辣烫',30,'']]],
+  ['hll','好利来','🍰','sweet',[['半熟芝士(4枚)',36,'网红'],['蜂蜜蛋糕',22,''],['蛋挞(4只)',20,''],['玫瑰汤圆',18,'']]],
+  ['xfxb','幸福西饼','🎂','sweet',[['6寸水果蛋糕',128,''],['提拉米苏',88,''],['四拼蛋糕',108,'']]],
+  ['mj','满记甜品','🍮','sweet',[['杨枝甘露',32,'招牌'],['双皮奶',22,''],['芒果班戟',26,''],['芝麻糊',20,'']]],
+  ['xls','许留山','🥭','sweet',[['芒果西米露',30,'招牌'],['多芒小丸子',32,''],['芒椰奶昔',28,'']]],
+  ['dq','DQ冰雪皇后','🍨','sweet',[['暴风雪(中)',24,'倒杯不洒'],['香蕉船',30,''],['华夫甜筒',12,'']]],
+  ['mwsk','木屋烧烤','🍢','bbq',[['羊肉串(10串)',45,'招牌'],['烤生蚝(6只)',48,''],['烤茄子',15,''],['烤韭菜',12,''],['烤玉米',10,'']]],
+  ['fmkc','丰茂烤串','🍢','bbq',[['羊肉大串',12,''],['板筋',10,''],['烤金针菇',15,'']]],
+  ['hjyq','很久以前','🍢','bbq',[['羊肉串(10串)',52,'招牌'],['现穿羊肉',15,''],['烤面包',8,'']]],
+  ['familymart','全家','🏪','store',[['关东煮(5串)',25,''],['便当',22,''],['三明治',15,''],['饭团',8,'']]],
+  ['lawson','罗森','🏪','store',[['冰皮月亮蛋糕',12,'网红'],['便当',22,''],['饭团',8,'']]],
+  ['hema','盒马','🛒','store',[['日日鲜便当',25,''],['水果捞',18,''],['烤鸡',39,'']]]
 ];
 
 var TIPS_ME = [
@@ -385,9 +448,9 @@ var TIPS_ME = [
  '💰 <b>价格仅供参考</b>：单品价为全国常见参考价，以门店菜单为准，可在设置里改。'
 ];
 var TIPS_HER = [
- '🧋 想喝什么随便挑，<b>甜度冰度加料都写上</b>，TA 照着点就行。',
+ '🧋🍔 想吃什么随便挑，<b>规格口味都选好</b>，TA 照着买就行。',
  '📍 地址写清楚了 TA 才能送到楼下，去「设置」里填一下楼栋门牌和电话。',
- '💬 点完按「💕 告诉 TA 我想喝」，TA 那边就收到了。',
+ '💬 点完按「💕 告诉 TA 我想吃」，TA 那边就收到了。',
  '⏰ 上课/睡觉时别点哦，奶茶做好了没人拿会凉～'
 ];
 
@@ -402,13 +465,13 @@ var PUSH_HELP = {
 var KEY = 'naicha_order_v4';
 var DEF = {
   role:'me',
-  hero:{title:'宝贝今天想喝点什么？', sub:'挑好 → 选甜度冰度 → 一键复制发给她 🥤'},
+  hero:{title:'宝贝今天想吃点什么？', sub:'奶茶 🧋 炸鸡 🍔 米饭 🍚 甜品 🍰 · 挑好告诉 TA'},
   addr:{campus:'西华师范大学华凤校区二期', detail:'', name:'', phone:''},
   push:{type:'', key:'', uid:''},
   brands:[], cart:[], orders:[], inbox:[]
 };
 
-var D = null, curBrand = '', curItem = null, curSpec = null, editBrand = '';
+var D = null, curBrand = '', curCat = 'tea', curItem = null, curSpec = null, editBrand = '';
 
 /* ═══════════ 存储 ═══════════ */
 function load(){
@@ -418,12 +481,16 @@ function load(){
 function save(){ try{ localStorage.setItem(KEY, JSON.stringify(D)); }catch(e){ toast('存储空间不足'); } }
 function defBrands(){
   return PRESET.map(function(b){
-    return {id:b[0], name:b[1], emoji:b[2], on:true,
-      items:b[3].map(function(it,i){ return {id:b[0]+i, name:it[0], price:it[1], note:it[2]}; })};
+    return {id:b[0], name:b[1], emoji:b[2], c:b[3], on:true,
+      items:b[4].map(function(it,i){ return {id:b[0]+i, name:it[0], price:it[1], note:it[2]}; })};
   });
 }
 function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
 function isHer(){ return D.role === 'her'; }
+function catOf(b){ return (b && b.c) || 'tea'; }
+function specOf(c){ return SPECS[c] || SPECS.tea; }
+function catName(c){ for(var i=0;i<CATS.length;i++) if(CATS[i].id===c) return CATS[i].n; return '其他'; }
+function catEmoji(c){ for(var i=0;i<CATS.length;i++) if(CATS[i].id===c) return CATS[i].e; return '🍽'; }
 
 /* ═══════════ 提示 / 动画 ═══════════ */
 var tt;
@@ -462,10 +529,10 @@ function openCart(){ go('pgCart'); }
 
 /* ═══════════ 渲染 ═══════════ */
 function renderAll(){
-  renderTop(); renderHero(); renderAddr(); renderTips(); renderTabs(); renderDishes(); renderBar(); renderMode();
+  renderTop(); renderHero(); renderAddr(); renderTips(); renderCatTabs(); renderTabs(); renderDishes(); renderBar(); renderMode();
 }
 function renderTop(){
-  document.getElementById('topTitle').textContent = isHer()? '宝贝的点单页' : '给她点奶茶';
+  document.getElementById('topTitle').textContent = isHer()? '宝贝的点单页' : '给她点外卖';
   document.getElementById('topSub').textContent   = isHer()? '挑好告诉 TA，TA 去下单' : '她点单 · 你下单';
   document.getElementById('whoBtn').textContent   = isHer()? '👩 我是宝贝' : '🧑 我是TA';
   document.getElementById('nb2t').textContent     = isHer()? '我点过的' : '收单箱';
@@ -475,7 +542,7 @@ function renderMode(){
   document.getElementById('pushCard').classList.toggle('hide', her);
   document.getElementById('linkCard').classList.toggle('hide', her);
   document.getElementById('inboxCard').classList.toggle('hide', her);
-  document.getElementById('submitBtn').innerHTML = her? '💕 告诉 TA 我想喝' : '💕 生成订单 · 一键复制';
+  document.getElementById('submitBtn').innerHTML = her? '💕 告诉 TA 我想吃' : '💕 生成订单 · 一键复制';
   document.getElementById('coTitle').textContent = her? '想对 TA 说' : '备注 & 送达';
   document.getElementById('coExtra').innerHTML = her? '' :
     '<div class="row2" style="margin-top:8px">'+
@@ -501,12 +568,27 @@ function renderTips(){
   document.getElementById('tipTitle').textContent = isHer()? '点单小提示' : '外卖小提示';
   document.getElementById('tipBox').innerHTML = (isHer()? TIPS_HER : TIPS_ME).map(function(t){ return '· '+t; }).join('<br>');
 }
+function renderCatTabs(){
+  var used={}; D.brands.forEach(function(b){ used[catOf(b)]=1; });
+  var h='';
+  CATS.forEach(function(c){
+    if(!used[c.id]) return;
+    h+='<button class="tab'+(c.id===curCat?' on':'')+'" onclick="pickCat(\''+c.id+'\')">'+c.e+' '+c.n+'</button>';
+  });
+  document.getElementById('catTabs').innerHTML=h;
+}
+function pickCat(id){
+  curCat=id;
+  var f=D.brands.filter(function(b){ return catOf(b)===id; });
+  curBrand = f.length? f[0].id : '';
+  renderCatTabs(); renderTabs(); renderDishes();
+}
 function renderTabs(){
   var h='';
-  D.brands.forEach(function(b){
+  D.brands.filter(function(b){ return catOf(b)===curCat; }).forEach(function(b){
     h+='<button class="tab'+(b.id===curBrand?' on':'')+(b.on?'':' off')+'" onclick="pickBrand(\''+b.id+'\')">'+b.emoji+' '+esc(b.name)+(b.on?'':'（不送）')+'</button>';
   });
-  document.getElementById('brandTabs').innerHTML=h;
+  document.getElementById('brandTabs').innerHTML=h || '<span class="muted" style="padding:6px 4px">这个品类还没有品牌</span>';
 }
 function pickBrand(id){ curBrand=id; renderTabs(); renderDishes(); }
 function renderDishes(){
@@ -526,7 +608,7 @@ function renderDishes(){
 function renderBar(){
   var n=0,t=0; D.cart.forEach(function(c){ n+=c.qty; t+=c.qty*c.unit; });
   document.getElementById('barTotal').textContent='¥'+t;
-  document.getElementById('barCount').textContent = n? ('共 '+n+' 杯 · '+D.cart.length+' 种') : '购物车还是空的';
+  document.getElementById('barCount').textContent = n? ('共 '+n+' 件 · '+D.cart.length+' 种') : '购物车还是空的';
   var d=document.getElementById('cartDot');
   if(n){ d.textContent=n; d.classList.remove('hide'); } else d.classList.add('hide');
 }
@@ -539,16 +621,16 @@ function openSpec(bid, iid, ev){
   for(var j=0;j<b.items.length;j++) if(b.items[j].id===iid) it=b.items[j];
   if(!it) return;
   curItem={b:b, it:it};
-  curSpec={}; SPEC.forEach(function(g){ curSpec[g.k]=g.o[0][0]; });
+  curSpec={}; specOf(catOf(b)).forEach(function(g){ curSpec[g.k]=g.o[0][0]; });
   drawSpec();
   document.getElementById('mask').classList.add('on');
   document.getElementById('specSheet').classList.add('on');
   if(ev) flyHeart(ev.clientX, ev.clientY);
 }
 function drawSpec(){
-  var it=curItem.it, b=curItem.b, extra=specExtra();
+  var it=curItem.it, b=curItem.b, ct=catOf(b), extra=specExtra(ct);
   var h='<div class="sh"><div class="m"><b>'+esc(b.name)+' · '+esc(it.name)+'</b><div class="p">¥'+(it.price+extra)+'</div></div><button class="x" onclick="closeSheet()">✕</button></div>';
-  SPEC.forEach(function(g){
+  specOf(ct).forEach(function(g){
     h+='<div class="grp"><div class="g">'+g.t+'</div><div class="opts">';
     g.o.forEach(function(o){
       var d=o[1]? '<span class="d">+'+o[1]+'</span>':'';
@@ -566,9 +648,9 @@ function pickSpec(k,v){
   var n=document.getElementById('specNote'); if(n) curSpec.note=n.value;
   drawSpec();
 }
-function specExtra(){
+function specExtra(cat){
   var e=0;
-  SPEC.forEach(function(g){
+  specOf(cat).forEach(function(g){
     for(var i=0;i<g.o.length;i++) if(g.o[i][0]===curSpec[g.k]) e+=g.o[i][1]||0;
   });
   return e;
@@ -579,15 +661,15 @@ function closeSheet(){
 }
 
 /* ═══════════ 购物车 ═══════════ */
-function specKey(s){ return SPEC.map(function(g){ return s[g.k]||''; }).join('|')+'|'+(s.note||''); }
+function specKey(cat,s){ return cat+'|'+specOf(cat).map(function(g){ return s[g.k]||''; }).join('|')+'|'+(s.note||''); }
 function addToCart(){
   var n=document.getElementById('specNote'); if(n) curSpec.note=n.value||'';
-  var it=curItem.it, b=curItem.b, unit=it.price+specExtra();
-  var key=b.id+'#'+it.id+'#'+specKey(curSpec);
+  var it=curItem.it, b=curItem.b, ct=catOf(b), unit=it.price+specExtra(ct);
+  var key=b.id+'#'+it.id+'#'+specKey(ct,curSpec);
   var hit=null;
   for(var i=0;i<D.cart.length;i++) if(D.cart[i].key===key) hit=D.cart[i];
   if(hit) hit.qty++;
-  else D.cart.push({key:key, brand:b.name, emoji:b.emoji, name:it.name, unit:unit,
+  else D.cart.push({key:key, cat:ct, brand:b.name, emoji:b.emoji, name:it.name, unit:unit,
                     spec:JSON.parse(JSON.stringify(curSpec)), qty:1});
   save(); closeSheet(); renderBar(); toast('加好啦：'+it.name+' 💕');
 }
@@ -612,14 +694,14 @@ function renderCart(){
   D.cart.forEach(function(c){
     n+=c.qty; t+=c.qty*c.unit;
     var sp='';
-    SPEC.forEach(function(g){ if(c.spec[g.k]) sp+='<em>'+esc(c.spec[g.k])+'</em>'; });
+    specOf(c.cat||'tea').forEach(function(g){ if(c.spec[g.k]) sp+='<em>'+esc(c.spec[g.k])+'</em>'; });
     if(c.spec.note) sp+='<em>💬 '+esc(c.spec.note)+'</em>';
     h+='<div class="ci"><div class="m"><b>'+c.emoji+' '+esc(c.brand)+' · '+esc(c.name)+'</b>'+
        '<div class="sp">'+sp+'</div><div class="pr">¥'+c.unit+' × '+c.qty+' = ¥'+(c.unit*c.qty)+'</div></div>'+
        '<div class="r"><div class="qty"><button onclick="chg(\''+c.key+'\',-1)">－</button><b>'+c.qty+'</b><button onclick="chg(\''+c.key+'\',1)">＋</button></div>'+
        '<button class="del" onclick="chg(\''+c.key+'\',-999)">删除</button></div></div>';
   });
-  h='<div class="card" style="padding:12px"><div class="ttl">购物车（'+n+' 杯）</div>'+h+
+  h='<div class="card" style="padding:12px"><div class="ttl">购物车（'+n+' 件）</div>'+h+
     '<div style="display:flex;justify-content:space-between;align-items:center;margin-top:6px;padding-top:9px;border-top:1px dashed var(--line)">'+
     '<span class="muted">合计</span><b style="color:var(--primary);font-size:20px">¥'+t+'</b></div>'+
     '<button class="btn gray block sm" style="margin-top:10px" onclick="clearCart()">清空购物车</button></div>';
@@ -629,20 +711,20 @@ function renderCart(){
 /* ═══════════ 订单文本 ═══════════ */
 function orderText(o){
   var a=o.addr, L=[];
-  L.push((o.her? '🧋 宝贝想喝 · 新订单' : '🧋 奶茶订单 · 来自「给她点奶茶」'));
+  L.push((o.her? '🍱 宝贝想吃 · 新订单' : '🍱 外卖订单 · 来自「给她点外卖」'));
   L.push('────────────');
   L.push('📍 '+(a.campus||'')+(a.detail? ' '+a.detail : ''));
   if(a.name||a.phone) L.push('👤 '+(a.name||'她')+(a.phone? '  '+a.phone : ''));
   if(o.ship) L.push('🚚 '+o.ship+'　💳 '+o.pay);
   L.push('────────────');
   o.items.forEach(function(c,i){
-    L.push((i+1)+'. '+c.brand+' · '+c.name+'  ×'+c.qty+'  ¥'+(c.unit*c.qty));
-    var s=[]; SPEC.forEach(function(g){ if(c.spec[g.k]) s.push(c.spec[g.k]); });
+    L.push((i+1)+'. '+catEmoji(c.cat)+' '+c.brand+' · '+c.name+'  ×'+c.qty+'  ¥'+(c.unit*c.qty));
+    var s=[]; specOf(c.cat||'tea').forEach(function(g){ if(c.spec[g.k]) s.push(c.spec[g.k]); });
     if(s.length) L.push('   └ '+s.join(' / '));
     if(c.spec.note) L.push('   └ 💬 '+c.spec.note);
   });
   L.push('────────────');
-  L.push('🧾 共 '+o.count+' 杯　合计 ¥'+o.total);
+  L.push('🧾 共 '+o.count+' 件　合计 ¥'+o.total);
   if(o.note) L.push('📝 备注：'+o.note);
   L.push('⏰ '+o.ts);
   return L.join('\n');
@@ -696,7 +778,7 @@ function submitOrder(){
 
   if(isHer() && pushReady()){
     toast('正在通知 TA…');
-    sendPush('🧋 宝贝想喝：'+o.items[0].name+' 等 '+o.count+' 杯（¥'+o.total+'）', o.text)
+    sendPush('🍱 宝贝想吃：'+o.items[0].name+' 等 '+o.count+' 份（¥'+o.total+'）', o.text)
       .then(function(ok){
         if(ok){
           o.status='已通知TA'; save();
@@ -816,6 +898,9 @@ function renderManage(){
   document.getElementById('fPhone').value=D.addr.phone||'';
   document.getElementById('fTitle').value=D.hero.title||'';
   document.getElementById('fSub').value=D.hero.sub||'';
+  var co='';
+  CATS.forEach(function(c){ co+='<option value="'+c.id+'">'+c.e+' '+c.n+'</option>'; });
+  var nc=document.getElementById('nbCat'); if(nc) nc.innerHTML=co;
   var p=D.push||{};
   document.getElementById('fPushType').value=p.type||'';
   document.getElementById('fPushKey').value=p.key||'';
@@ -823,7 +908,7 @@ function renderManage(){
   onPushType();
   var h='';
   D.brands.forEach(function(b){
-    h+='<div class="mb"><div class="l"><b>'+b.emoji+' '+esc(b.name)+'</b><span>'+b.items.length+' 款</span></div>'+
+    h+='<div class="mb"><div class="l"><b>'+b.emoji+' '+esc(b.name)+'</b><span>'+b.items.length+' 款 · '+catEmoji(b.c)+catName(b.c)+'</span></div>'+
        '<div class="sw'+(b.on?' on':'')+'" onclick="toggleBrand(\''+b.id+'\')"><i></i></div>'+
        '<button class="btn gray sm" style="margin-left:8px" onclick="editItems(\''+b.id+'\')">'+(editBrand===b.id?'收起':'编辑')+'</button>'+
        '<button class="btn gray sm" style="margin-left:6px" onclick="delBrand(\''+b.id+'\')">删</button></div>';
@@ -871,7 +956,7 @@ function saveAddr(){
   save(); renderAddr(); toast('收货信息已保存 💕');
 }
 function saveText(){
-  D.hero.title=document.getElementById('fTitle').value.trim()||'宝贝今天想喝点什么？';
+  D.hero.title=document.getElementById('fTitle').value.trim()||'宝贝今天想吃点什么？';
   D.hero.sub=document.getElementById('fSub').value.trim();
   save(); renderHero(); toast('文案已更新');
 }
@@ -884,7 +969,8 @@ function addBrand(){
   var n=document.getElementById('nbName').value.trim();
   var e=document.getElementById('nbEmoji').value.trim()||'🧋';
   if(!n){ toast('先填品牌名'); return; }
-  D.brands.push({id:'b'+Date.now(), name:n, emoji:e, on:true, items:[]});
+  var c=document.getElementById('nbCat');
+  D.brands.push({id:'b'+Date.now(), name:n, emoji:e, c:(c? c.value:'tea'), on:true, items:[]});
   document.getElementById('nbName').value=''; document.getElementById('nbEmoji').value='';
   save(); renderManage(); renderTabs(); toast('已添加 '+n);
 }
@@ -910,7 +996,7 @@ function exportData(){
   var blob=new Blob([JSON.stringify(D,null,2)],{type:'application/json'});
   var a=document.createElement('a');
   a.href=URL.createObjectURL(blob);
-  a.download='给她点奶茶_备份_'+new Date().toISOString().slice(0,10)+'.json';
+  a.download='给她点外卖_备份_'+new Date().toISOString().slice(0,10)+'.json';
   a.click(); setTimeout(function(){ URL.revokeObjectURL(a.href); },1500);
   toast('备份已导出');
 }
@@ -966,17 +1052,32 @@ function readCfg(){
     if(cfg.n) D.addr.name=cfg.n;
     if(cfg.h) D.addr.phone=cfg.h;
     if(cfg.t) D.hero.title=cfg.t;
-    D.hero.sub='挑好 → 点「告诉 TA 我想喝」→ TA 就去给你点 🥤';
+    D.hero.sub='奶茶 🧋 炸鸡 🍔 米饭 🍚 甜品 🍰 · 挑好点「告诉 TA 我想吃」→ TA 就去给你买';
     save();
   }catch(e){}
 }
 
 /* ═══════════ 启动 ═══════════ */
 function boot(){
+  // 旧数据迁移：v4 及更早的品牌没有品类字段，补默认品类并补上全量新品类
+  if(D.brands.length && !D.brands.some(function(b){ return b.c; })){
+    var ids={}; PRESET.forEach(function(p){ ids[p[0]]=1; });
+    var custom=D.brands.filter(function(b){ return !ids[b.id]; });
+    custom.forEach(function(b){ b.c='tea'; });
+    D.brands=defBrands().concat(custom);
+    save();
+  }
+  D.brands.forEach(function(b){ if(!b.c) b.c='tea'; });
   if(!D.brands.length){ D.brands=defBrands(); save(); }
   if(!D.inbox) D.inbox=[];
   if(!D.push) D.push={type:'',key:'',uid:''};
-  if(!curBrand || !D.brands.some(function(b){ return b.id===curBrand; })) curBrand=D.brands[0].id;
+  if(!curCat || !D.brands.some(function(b){ return catOf(b)===curCat; }))
+    curCat = catOf(D.brands[0]);
+  if(!curBrand || !D.brands.some(function(b){ return b.id===curBrand; })){
+    var f=D.brands.filter(function(b){ return catOf(b)===curCat; });
+    curBrand = f.length? f[0].id : D.brands[0].id;
+    curCat = f.length? curCat : catOf(D.brands[0]);
+  }
   renderAll(); renderCart(); renderOrders();
 }
 D=load();
